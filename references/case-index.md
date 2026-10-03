@@ -1,7 +1,7 @@
 # 264 场经验索引（Case Index）
 
-> 共 264 场；`assets/case_index.csv` 是同一数据的机器可读版，用 `scripts/case_search.py` 检索。
-> 用法：面对新比赛先按 主题/指标/标签 找到 3–5 个类比场次，读它们的 `analysis/deep/<slug>.md`，提取机制而不是照抄参数。
+> 共 264 场；`assets/case_index.csv` 是机器可读版，用 `scripts/case_search.py` 检索；深读原文见 KStarter 仓库 `analysis/deep/<slug>.md`。
+> 用法：面对新比赛先按 主题/指标/标签 找 3–5 个类比场次，提取机制而不是照抄参数。
 
 ## tabular（107 场）
 
@@ -15,17 +15,17 @@
 - `foursquare-location-matching`（Featured｜Jaccard｜tabular,retrieval）：题面是"判断哪些记录指向同一个 POI 并把它们聚类（Jaccard）"——多语言名称/地址/经纬度/类别/电话/URL 的实体匹配，实际被考的是三段工程 + 一次泄漏事件：
 - `g-research-crypto-forecasting`（Featured｜Weighted Correlation Coefficient｜tabular,time-series,finance,retrieval,review）：预测 14 种加密货币 15 分钟残差收益（加权相关，按时间滚动更新 6 次）。真正的考点是滚动评测下的稳健 CV 与不泄漏 + 目标工程（残差/beta 分解）+ 概率性名次管理。
 - `godaddy-microbusiness-density-forecasting`（Featured｜SMAPE｜tabular,time-series）：题面是"预测 3135 个县未来 3 个月的微型企业密度"，实际被考的是三件与模型无关的事：
-- `h-and-m-personalized-fashion-recommendations`（Featured｜MAP@{K}｜tabular,ranking）：题面是"给每位顾客推荐 12 件商品"，实际被考的是"下一篮预测（next basket）"的候选构造学。降解为 5 步：
+- `h-and-m-personalized-fashion-recommendations`（Featured｜MAP@{K}｜tabular,ranking,ecommerce）：题面是"给每位顾客推荐 12 件商品"，实际被考的是"下一篮预测（next basket）"的候选构造学。降解为 5 步：
 - `hms-harmful-brain-activity-classification`（Research｜Kullback Leibler Divergence｜tabular,classification,science,medical）：任务：由 EEG 预测 6 类有害脑活动的概率分布（KL 散度）。 但两处隐藏结构决定成败：
 - `home-credit-credit-risk-model-stability`（Featured｜Home Credit 2023 - Gini Stability｜tabular,finance）：题面是"预测客户违约概率，并让模型表现随时间稳定（Gini Stability）"——真正的考题是在一个可被操纵的复合指标下做风险下注。比赛被 1st 直接切分为两段：
 - `hull-tactical-market-prediction`（Featured｜Hull Competition Sharpe｜tabular,time-series,finance）：预测单个市场指数的仓位（杠杆 0–2），指标是 Sharpe。真正的考点是组合构建与风险管理 >> 预测精度：第 4 名完全不用 ML——一个赛前就有的短期反转 alpha + 逆波动率加权 + 波动率目标控制；而大量堆特征/模型的选手被"随机噪音"打平甚至打败。
 - `icr-identify-age-related-conditions`（Featured｜Weighted Multiclass Loss｜tabular,classification）：极小的医疗表格数据（~600 行、三分类、大量匿名特征）预测年龄相关状况。真正的考题是与过拟合/噪声作斗争：时间漂移、后处理（阈值/置零）的公榜红利与私榜反噬、以及"到底该信什么验证"。
 - `jane-street-real-time-market-data-forecasting`（Featured｜Jane Street Zero-Mean R2｜tabular,time-series,finance）：在评测期实时预测匿名化金融标的收益：notebook 每周/每日接收新数据、必须现场训练与推理（约 1 分钟/日 的时限）。真正的考点是非平稳数据下的在线自适应学习 + 推理时延工程 + 验证窗口对齐，而不是模型结构本身。
 - `jpx-tokyo-stock-exchange-prediction`（Featured｜JPXSharpe｜tabular,time-series,finance）：预测东京证交所股票的横截面收益并排序（Sharpe 型指标）。真正的考点是"随机性与泄漏都极强的金融赛"：随机模型得分近似 N(0, 0.13785)，所以 0.3 以内的分数无法区分能力；同时股价是公开数据，用历史价格可"完美预测"（host 因此周期性清理榜单提交）。第 4 名公开承认"主要是运气"——用两条互为反号的规则提交保证分数 > 0。
-- `learning-equality-curriculum-recommendations`（Featured｜F-Score Beta (Micro)｜tabular）：为课程"主题"（topic tree 节点）检索匹配的"内容"（content），多语言、一对多、且"无匹配"也合法。真正的考点是主题树上下文注入（召回质量）+ 阈值/后处理（把排序变成集合）+ 训练期的负样本设计。
-- `march-machine-learning-mania-2023`（Featured｜Mean Squared Error｜tabular,sports）：预测 NCAA 锦标赛每场胜负概率（提供历史结果，锦标赛结果作为评测）。真正的考点在本届变成了"公开代码的复用与增量"：冠军自述"基本是几年前 raddar 的 Python 代码，只改了两处"，亚军则把独特精力投在分区效应（conference effects）上；5th 抱怨"前 100 名里约 60% 是同一个 notebook 的无改动 fork"。
-- `march-machine-learning-mania-2024`（Featured｜March Mania 2024 Metric｜tabular,sports）：预测 NCAA 男女篮锦标赛的结果（概率型评分）。真正的考点在本届仍是"比赛结构 + 敢不敢下重注"：冠军直接拿 Nate Silver 的评分做底，再把南卡女篮与 UConn 男篮设为"超级球队"（模拟中全胜）；亚军则用岭回归/混合效应评分 + XGBoost 两级模型 + 10 万次模拟，并在第二份提交里把 UConn 男篮的胜率直接置为 100%（未改
-- `march-machine-learning-mania-2025`（Featured｜Mean Squared Error｜tabular,sports）：NCAA 淘汰赛胜负概率预测（Brier）。真正考点与此前一致：筛子先验 + 简单模型 + LOSO 验证；2025 的独特之处是手动覆写/加注与纯模型路线同台竞技，且赛程中榜单噪声极大。
+- `learning-equality-curriculum-recommendations`（Featured｜F-Score Beta (Micro)｜tabular,education）：为课程"主题"（topic tree 节点）检索匹配的"内容"（content），多语言、一对多、且"无匹配"也合法。真正的考点是主题树上下文注入（召回质量）+ 阈值/后处理（把排序变成集合）+ 训练期的负样本设计。
+- `march-machine-learning-mania-2023`（Featured｜Mean Squared Error｜tabular,sports,education）：预测 NCAA 锦标赛每场胜负概率（提供历史结果，锦标赛结果作为评测）。真正的考点在本届变成了"公开代码的复用与增量"：冠军自述"基本是几年前 raddar 的 Python 代码，只改了两处"，亚军则把独特精力投在分区效应（conference effects）上；5th 抱怨"前 100 名里约 60% 是同一个 notebook 的无改动 fork"。
+- `march-machine-learning-mania-2024`（Featured｜March Mania 2024 Metric｜tabular,sports,education）：预测 NCAA 男女篮锦标赛的结果（概率型评分）。真正的考点在本届仍是"比赛结构 + 敢不敢下重注"：冠军直接拿 Nate Silver 的评分做底，再把南卡女篮与 UConn 男篮设为"超级球队"（模拟中全胜）；亚军则用岭回归/混合效应评分 + XGBoost 两级模型 + 10 万次模拟，并在第二份提交里把 UConn 男篮的胜率直接置为 100%（未改
+- `march-machine-learning-mania-2025`（Featured｜Mean Squared Error｜tabular,sports,education）：NCAA 淘汰赛胜负概率预测（Brier）。真正考点与此前一致：筛子先验 + 简单模型 + LOSO 验证；2025 的独特之处是手动覆写/加注与纯模型路线同台竞技，且赛程中榜单噪声极大。
 - `mens-march-mania-2022`（Featured｜Log Loss｜tabular,sports）：预测 NCAA 男篮锦标赛每场比赛的胜负概率（log loss）。真正的考点是"锦标赛结果的巨大方差 vs 模型的边际收益"——本场冠军是一个照搬 2018 年女篮方案、连 Season=2018 都没改的"幸运 bug"；其余名次则给出可复制的建模路径（回归评分、CatBoost、队伍嵌入）。
 - `mitsui-commodity-prediction-challenge`（Featured｜MITSUI&CO. Commodity Prediction Metric｜tabular）：预测 400+ 个"收益率型价差"目标、按排名类指标评分，且要求每个时间步在 1 分钟内完成全流程推理（含特征与预处理）。本届最反直觉的结论是"越简单越强"：5th 只用 4 天窗 RNN + 单日 MLP 的平均；10th 用"正则化 naive"（标准化排名 + 正则化协方差，类 Kelly 组合）拿到 0.479；89th 直接提交训练标签的排名均值（
 - `optiver-realized-volatility-prediction`（Featured｜Root Mean Square Percentage Error｜tabular）：用订单簿 + 成交数据预测 10 分钟后已实现波动率（RMSPE）。数据把 time_id 顺序打乱、价格被归一化，但两条隐藏线索让它可解：
@@ -91,7 +91,7 @@
 - `playground-series-s6e8`（Playground｜Roc Auc Score｜tabular,ranking,synthetic）：用手机使用行为预测成瘾标签（AUC）。本场是"agentic data science"的里程碑：1st 用 Codex GPT-5.6 Sol 自主跑了 4 天建成 380 模型集成，再让 GPT-5.6 与 Claude Fable 5 互相对战/分享，产生一个单独就夺冠的模型（18 个月来首次单模夺冠）；随后又把 ChatGPT Pro 与 NVIDI
 - `playground-series-s6e9`（Playground｜Roc Auc Score｜tabular,ranking,synthetic）：预测个人是否购买电动车（AUC，规模 66.8 万训练 / 28.7 万测试行、13 列特征、17.5% 正例、训练/测试无分布漂移（对抗 AUC 0.50006））。真正的考点分两层：技术上——原始 1 万行数据可反推出生成公式、且合成行带有 LLM 生成痕迹（数字以 token 形式输出）；协作上——本场冠军是"人类教练 + 5 个 AI agent 接
 - `predict-energy-behavior-of-prosumers`（Featured｜Mean Absolute Error｜tabular,time-series）：题面是"预测产消者（光伏家庭/企业）未来两天的逐小时用电与发电（MAE）"——真正的考题是在容量持续增长、数据语义不断修补的非平稳系统里，让模型保持"新鲜"。拆开来是四件事：
-- `predict-student-performance-from-game-play`（Featured｜F-Score (Macro)｜tabular,agent）：题面是"用游戏操作日志预测 18 个二分类问题"，实际被考的是三件事：
+- `predict-student-performance-from-game-play`（Featured｜F-Score (Macro)｜tabular,agent,education）：题面是"用游戏操作日志预测 18 个二分类问题"，实际被考的是三件事：
 - `scrabble-player-rating`（Playground｜Root Mean Squared Error｜tabular）：用 woogles.io 上的对局数据预测人类玩家评分（RMSE）：场景是"你在熟悉联赛里认识这些玩家与他们的评分，现在去另一个联赛观察同一批 bot 对局，能猜出人类玩家评分吗"。数据的关键结构是同一玩家的全部历史只出现在 train 或 test 之一——这直接决定了验证方案：赛后复盘者发现普通 KFold 偏乐观，改用按昵称的 GroupKFold 后
 - `smartphone-decimeter-2022`（Research｜SmartphoneDecimeter｜tabular）：从手机原始 GNSS 观测（伪距/多普勒/载波相位 ADR）估计分米级轨迹。真正的考点是物理优化（因子图/最小二乘）而不是 ML：基站差分、精确星历、鲁棒损失、以及手机型号/数据质量细节。
 - `tabular-playground-series-apr-2022`（Playground｜Area Under Receiver Operating Characteristic Curve｜tabular,synthetic）：每个 subject 有 13 路传感器 × 60 步的序列，预测二分类（AUC），train/test 的 subject 完全不相交。本场是"序列深度学习 vs 特征工程 GBDT"的分水岭：1st 用 LSTM 去噪自编码器（DAE）+ 预测网络 + 大混合 拿到私榜 0.99249；2nd 的单个 4×2D-CNN+GRU 模型就有私榜 0.989（
@@ -115,52 +115,52 @@
 
 ## cv（52 场）
 
-- `UBC-OCEAN`（Research｜Balanced Accuracy Score｜）：卵巢癌病理切片（WSI/TMA）五亚型 + Other 分类。真正的考点是病理基础模型（Phikon/CTransPath/LUNIT）特征 + MIL 聚合 + 离群检测；数据工程（PNG/分辨率/放大倍率）与 "Other 类" 是最大障碍。
-- `asl-fingerspelling`（Research｜PostProcessorKernelDesc｜）：从 MediaPipe 关键点序列（双手+姿态+面部）解码手语拼写短语。真正的考点是"语音识别范式迁移"：encoder-decoder/CTC、序列增广、效率与部署约束（tf-lite 40MB）；1st 的 242 票方案把"每个效率改进都换成更深模型"写成方法论。
-- `benetech-making-graphs-accessible`（Featured｜Benetech Mixed Data Type Matching Score｜retrieval）：从图表图片里抽出结构化的 (x, y) 数据序列。真正的考点是"没有单一模型能覆盖所有图表类型"：scatter/dot 用目标检测更稳、line/bar 用图表转文本模型（DePlot/Matcha）更强；顶配解法都是"图表类型分类 + 按类型分支的混合管线"，并把大量精力投在合成数据与外部图表数据的清洗/重标注上。
-- `biohub-cell-tracking-during-development`（Research｜CZI Biohub Zebrafish 133605｜cv）：在斑马鱼胚胎的 3D 时序影像里追踪细胞并识别分裂。真正的考点是"标注极稀疏（仅约 2.8% 的细胞被标）下，把检测、分裂识别与连线评分都学出来"：1st 用"检测器 + Soon Net（分裂状态 + 占用图） + 学习式 linker + 贪心解码"；3rd/5th 走"检测 + 光流 + 图优化/ILP"；同时全场用规则/图修复兜底，并互相印证"训练数
+- `UBC-OCEAN`（Research｜Balanced Accuracy Score｜cv,）：卵巢癌病理切片（WSI/TMA）五亚型 + Other 分类。真正的考点是病理基础模型（Phikon/CTransPath/LUNIT）特征 + MIL 聚合 + 离群检测；数据工程（PNG/分辨率/放大倍率）与 "Other 类" 是最大障碍。
+- `asl-fingerspelling`（Research｜PostProcessorKernelDesc｜cv,）：从 MediaPipe 关键点序列（双手+姿态+面部）解码手语拼写短语。真正的考点是"语音识别范式迁移"：encoder-decoder/CTC、序列增广、效率与部署约束（tf-lite 40MB）；1st 的 242 票方案把"每个效率改进都换成更深模型"写成方法论。
+- `benetech-making-graphs-accessible`（Featured｜Benetech Mixed Data Type Matching Score｜cv,retrieval）：从图表图片里抽出结构化的 (x, y) 数据序列。真正的考点是"没有单一模型能覆盖所有图表类型"：scatter/dot 用目标检测更稳、line/bar 用图表转文本模型（DePlot/Matcha）更强；顶配解法都是"图表类型分类 + 按类型分支的混合管线"，并把大量精力投在合成数据与外部图表数据的清洗/重标注上。
+- `biohub-cell-tracking-during-development`（Research｜CZI Biohub Zebrafish 133605｜cv,wildlife）：在斑马鱼胚胎的 3D 时序影像里追踪细胞并识别分裂。真正的考点是"标注极稀疏（仅约 2.8% 的细胞被标）下，把检测、分裂识别与连线评分都学出来"：1st 用"检测器 + Soon Net（分裂状态 + 占用图） + 学习式 linker + 贪心解码"；3rd/5th 走"检测 + 光流 + 图优化/ILP"；同时全场用规则/图修复兜底，并互相印证"训练数
 - `blood-vessel-segmentation`（Research｜Surface Dice Metric｜cv,segmentation）：肾脏 3D 血管分割（Surface Dice）。本场的真正考点是评测集的隐藏分辨率/成像域偏移：训练与公开测试均为 50 µm/voxel，私有测试为 63 µm/voxel（官方披露），且公私测试切片分布不同——按公开榜优化 = 私榜赌博。
-- `byu-locating-bacterial-flagellar-motors-2025`（Research｜BYU_BioPhysics_91249｜science）：在冷冻电子断层扫描（CryoET）体数据里找细菌鞭毛马达的位置。指标对定位误差宽容、对"有无"敏感——于是全场的核心结论是"别把力气花在精确坐标上"：有人干脆把解码器删掉只做 3D 分类，有人把热图降采样 8–16 倍，有人用分位数阈值决定"这张 tomogram 有没有马达"。
-- `czii-cryo-et-object-identification`（Featured｜CZI_CryoET_ 84969｜）：在 3D CryoET 体数据里找五类粒子（apo-ferritin/beta-galactosidase/ribosome/thyroglobulin/VLP）。真正的考点是"分割 vs 点检测的路线选择 + 推理时延工程"：1st 的冠军是分割模型 + 点检测模型两条路线合并（单独各只到 Top-5），而点检测路线的关键收益来自"降低输出分辨率 + Te
-- `fathomnet-out-of-sample-detection`（Research｜FathomNet 2023｜cv,detection）：海洋生物图像任务：既要把样本分到已知类别，又要判断它是否超出已知类别（Out-of-Sample Detection）。数据极端长尾且标签噪声大（290 个类别中 157 个没有对应图像，同族/属/目名称混乱）；4th 的方案非常"轻"：把少于 10 张图的类别并入 zero class，用 EfficientNetV2B0 + label smoothin
+- `byu-locating-bacterial-flagellar-motors-2025`（Research｜BYU_BioPhysics_91249｜cv,science）：在冷冻电子断层扫描（CryoET）体数据里找细菌鞭毛马达的位置。指标对定位误差宽容、对"有无"敏感——于是全场的核心结论是"别把力气花在精确坐标上"：有人干脆把解码器删掉只做 3D 分类，有人把热图降采样 8–16 倍，有人用分位数阈值决定"这张 tomogram 有没有马达"。
+- `czii-cryo-et-object-identification`（Featured｜CZI_CryoET_ 84969｜cv,）：在 3D CryoET 体数据里找五类粒子（apo-ferritin/beta-galactosidase/ribosome/thyroglobulin/VLP）。真正的考点是"分割 vs 点检测的路线选择 + 推理时延工程"：1st 的冠军是分割模型 + 点检测模型两条路线合并（单独各只到 Top-5），而点检测路线的关键收益来自"降低输出分辨率 + Te
+- `fathomnet-out-of-sample-detection`（Research｜FathomNet 2023｜cv,detection,wildlife）：海洋生物图像任务：既要把样本分到已知类别，又要判断它是否超出已知类别（Out-of-Sample Detection）。数据极端长尾且标签噪声大（290 个类别中 157 个没有对应图像，同族/属/目名称混乱）；4th 的方案非常"轻"：把少于 10 张图的类别并入 zero class，用 EfficientNetV2B0 + label smoothin
 - `gan-getting-started`（Getting Started｜PostProcessorKernel｜cv,generative）：Kaggle 首个生成式 Getting Started 赛：生成 Monet 风格画作（可从零生成或做照片风格迁移），官方明确这是学习资源——无奖励、无截止、无私有排行，重点是 CV/生成模型/TPU/TFRecords 四件事；官方提供 CycleGAN 教程，允许加入外部数据，但提交真实 Monet 画作或其变换被禁止。材料几乎全是"GAN 学习地图"
-- `geolifeclef-2022-lifeclef-2022-fgvc9`（Research｜MeanBestErrorAtK｜geospatial）：给定位置 + 遥感影像 + 环境协变量，预测该处最可能出现的 30 个物种（17,034 类，presence-only 单标签）。两条获奖路线互补：1st 走多模态集成——两条 CNN（NIR+RGB / RGB+NIR，ResNet34 与 MobileNetV3）接环境向量 + 坐标 + 土地覆盖编码，再加一个 Random Forest（81 特征）
-- `geolifeclef-2024`（Research｜F-Score Beta (Micro)｜geospatial）：GeoLifeCLEF 2024：用卫星时序 + 气候/环境栅格 + 图像预测物种分布（F-Score Beta Micro），属于 FGVC11 + LifeCLEF（CVPR/CLEF）研究赛。材料的两条主线非常清晰：① 研究赛的第二交付物是 working note——6/7 截稿、6/21 通知、7/8 camera-ready，收入 CEUR-WS
+- `geolifeclef-2022-lifeclef-2022-fgvc9`（Research｜MeanBestErrorAtK｜cv,geospatial）：给定位置 + 遥感影像 + 环境协变量，预测该处最可能出现的 30 个物种（17,034 类，presence-only 单标签）。两条获奖路线互补：1st 走多模态集成——两条 CNN（NIR+RGB / RGB+NIR，ResNet34 与 MobileNetV3）接环境向量 + 坐标 + 土地覆盖编码，再加一个 Random Forest（81 特征）
+- `geolifeclef-2024`（Research｜F-Score Beta (Micro)｜cv,geospatial）：GeoLifeCLEF 2024：用卫星时序 + 气候/环境栅格 + 图像预测物种分布（F-Score Beta Micro），属于 FGVC11 + LifeCLEF（CVPR/CLEF）研究赛。材料的两条主线非常清晰：① 研究赛的第二交付物是 working note——6/7 截稿、6/21 通知、7/8 camera-ready，收入 CEUR-WS
 - `google-research-identify-contrails-reduce-global-warming`（Research｜contrails_global_dice｜cv,retrieval,review）：在卫星红外假彩图上分割凝结尾迹（contrails），类像素占比 ~0.18%，细线状（数像素宽）→ 像素级精度 + 噪声标注 + 硬标签评测三重叠加。真正的考点是标签错位（0.5 像素平移）这个数据缺陷：识别它的队伍解锁了 flip/rot90 增强与 TTA（+0.005~0.01），没识别的队伍被它锁死。
 - `google-universal-image-embedding`（Research｜PostProcessorKernelDesc｜cv,retrieval）：训练一个通用 64 维图像嵌入并在隐藏检索基准上评测，主办方不提供任何训练数据——所有队伍必须自己找数据（且受商用许可约束，后来放宽为"论坛提到的公开数据集即可"）。真正的考点是"预训练权重选择 + 数据组合 + 头部/骨干的训练顺序 + 嵌入空间对齐式集成"。
-- `happy-whale-and-dolphin`（Research｜MAP@{K}｜audio,ranking）：从任意角度/光照的鲸豚照片识别个体（长尾 + 开集）。真正的考点是裁剪策略（多来源 bbox 混合）+ ArcFace 系度量学习 + knn/logit 双路后处理 + 伪标签——本场是"伪标签改变名次"的标志性案例。
-- `herbarium-2022-fgvc9`（Research｜F-Score (Macro)｜）：83.9 万张植物标本图的超细粒度分类（Macro F1，长尾极重）。1st 方案把增益拆得非常干净：多级分类损失（family/genus/species）→ 更高学习率 → 5-crop 多尺度 → subcenter-ArcFace 动态 margin → 额外 CE 头 → Swin 增强 → 384 分辨率 → 冻结层渐进解冻 → SwinV2，单
-- `hotel-id-to-combat-human-trafficking-2022-fgvc9`（Research｜MAP@{K}｜ranking）：用房间/酒店照片做同一酒店检索（反人口贩卖取证），FGVC9/CVPR workshop 赛。核心难点是测试/查询图有大面积遮挡掩码，而训练图没有；三条获奖路线分别用三种方式处理这个域差：1st 造了 BlendFlip 遮挡增强（+0.03–0.04 mAP）+ 5 模型嵌入集成；2nd 用统计掩码生成 + 50K 外部数据 + 子中心 ArcFace；3
+- `happy-whale-and-dolphin`（Research｜MAP@{K}｜cv,audio,ranking,wildlife）：从任意角度/光照的鲸豚照片识别个体（长尾 + 开集）。真正的考点是裁剪策略（多来源 bbox 混合）+ ArcFace 系度量学习 + knn/logit 双路后处理 + 伪标签——本场是"伪标签改变名次"的标志性案例。
+- `herbarium-2022-fgvc9`（Research｜F-Score (Macro)｜cv,agriculture）：83.9 万张植物标本图的超细粒度分类（Macro F1，长尾极重）。1st 方案把增益拆得非常干净：多级分类损失（family/genus/species）→ 更高学习率 → 5-crop 多尺度 → subcenter-ArcFace 动态 margin → 额外 CE 头 → Swin 增强 → 384 分辨率 → 冻结层渐进解冻 → SwinV2，单
+- `hotel-id-to-combat-human-trafficking-2022-fgvc9`（Research｜MAP@{K}｜cv,ranking）：用房间/酒店照片做同一酒店检索（反人口贩卖取证），FGVC9/CVPR workshop 赛。核心难点是测试/查询图有大面积遮挡掩码，而训练图没有；三条获奖路线分别用三种方式处理这个域差：1st 造了 BlendFlip 遮挡增强（+0.03–0.04 mAP）+ 5 模型嵌入集成；2nd 用统计掩码生成 + 50K 外部数据 + 子中心 ArcFace；3
 - `hubmap-hacking-the-human-vasculature`（Research｜OpenImagesObjDetectionSegmentationAP｜cv,segmentation,detection）：题面是"肾活检 WSI 中检测并分割血管（blood_vessel / glomerulus / 其他）"，实际被考的是三件与模型无关的事：
 - `hubmap-organ-segmentation`（Research｜Dice｜cv,segmentation,generative）：在 5 个器官（肾/大肠/肺/前列腺/脾）的 H&E 病理切片上分割组织结构的实例。真正的考点是域偏移（domain shift）：测试用 HuBMAP 的 H&E 染色，训练大量来自 HPA 的 DAB 染色；host 明说"用不同协议准备的数据也能工作，是本届的核心挑战"。因此顶级方案围绕染色归一化/直方图匹配 + 多分辨率重采样 + 器官专属建模展开。
 - `image-matching-challenge-2022`（Research｜Image Matching Challenge pose mAA｜cv,retrieval）：给定同一场景的多张照片，估计相机位姿（mAA）；每对图像要算基础矩阵 F。真正的考点是"后处理与集成"而不是训练：主办方明说目标是发现更好的后处理技术（9th 转述），前列队伍全部使用预训练模型 + 多分辨率集成 + 关键点筛选/裁剪，只有少数尝试微调 LoFTR。
 - `image-matching-challenge-2023`（Research｜imc2023｜cv,retrieval）：从多视角照片重建相机位姿。2023 届的战场从"配对匹配质量"转向SfM 系统本身：1st 解决"检测器无关（detector-free）匹配器的多视角不一致"，2nd 与"COLMAP 结果的随机性"搏斗，5th 用 kNN 短名单 + 旋转纠正。旋转图片（如 cyprus 场景）是本届最大的公共坑。
 - `image-matching-challenge-2024`（Research｜mAA-on-camera-centers-with-registration｜cv,retrieval）：IMC 2024 在 2022 版基础上引入了两个新难点：透明/反光物体场景与被旋转的图片。真正的新考点是"分场景处理"：常规场景继续卷特征匹配与 SfM 工程，透明场景则靠"图像排序 + 把相机摆到圆周上"这种几何先验直接拿分。
 - `image-matching-challenge-2025`（Research｜IMC 2025 Metric｜cv,retrieval）：IMC 2025 的技术分水岭是3D 几何基础模型（MASt3R/VGGT）：1st 用 MASt3R 的半稠密匹配直接替换 ALIKED+LightGlue 类检测器方案，并指出"在本场上，MASt3R 的局部特征头显著优于检测器系"；其余队伍的主战场转向图像对选择（短名单/聚类分类器/动态 top-k）——因为错误的图像对会把不同场景混进同一次重建。
-- `isic-2024-challenge`（Research｜ISIC pAUC-aboveTPR｜ranking）：题面是"3D-TBP 皮肤病变裁剪图 + 元数据 → 恶性二分类"，实际被考的是极端不平衡下的表格-图像融合排序赛：
-- `iwildcam2022-fgvc9`（Research｜Mean Absolute Error｜）：从相机陷阱序列里数动物（MAE 越低越好），官方提供 MegaDetector V4 检测与 DeepMAC 实例掩码，但没有训练所需的 GT 计数。1st 的答案出人意料地"反工程"：不训练、不跟踪，只做检测过滤 + 每序列取最大计数——按物体密度分两类图片分别调阈值/NMS，把 public MAE 做到 0.247；9th 走"检测器 + 融合 + 帧
-- `mayo-clinic-strip-ai`（Research｜Weighted Multiclass Loss｜classification）：从脑卒中血栓的全切片图像（WSI）判断病因类型（CE/LAA/Other）。这是个信号极弱的比赛：多数队伍打不过 sample submission，公榜只有 20 个样本。真正的考点是"承认低信号 + 用正确 CV 与正确的分数尺度去对齐 log-loss 型指标"。
-- `neurips-2023-machine-unlearning`（Research｜56167-unlearn-metric｜）：给一个预训练图像分类模型（及 retain/forget 子集定义），产出"已遗忘"的模型：既要让 forget 集不再是成员（抗 MIA 检查），又要保住 retain 集性能。本届的实践结论是"简单重置/蒸馏/微调"打败论文里的 SOTA 遗忘算法——6th 重置首末层 + KL 蒸馏 + 三损失微调（最保守的一版私榜 0.07831）；2nd 用"1 
-- `nfl-big-data-bowl-2023`（Community｜—｜sports）：第五届 BDB，主题是锋线球员（OL/DL）评估：用 2021 赛季第 1–8 周的 dropback pass plays 追踪数据（snap 到出手）+ PFF 球探数据，讲清楚传球保护/冲传表现。赛道从两条扩到三条：Metric、Undergrad、以及新增的 Coaching；近 300 份提交、400+ 参与者创纪录，8 名 finalist 在印
-- `nfl-big-data-bowl-2024`（Community｜—｜sports）：第六届 Big Data Bowl，主题是擒抱（tackling）：用 NGS 追踪数据 + tackles 数据研究"防守方如何把持球人放倒"。延续系列传统：先补领域知识（阵型/位置/统计口径/擒抱技术），再谈分析；同时本场给足了"指标体系"素材——nflWAR 论文的 EP/WP/EPA/WPA 建模、Next Gen Stats 的 xRY/RYOE、
-- `nfl-big-data-bowl-2025`（Community｜—｜sports）：第七届 Big Data Bowl，主题是 pre-snap（开球前）：用追踪 + 事件数据研究开球前的阵型、运动/换位（motion/shift）、audible 等如何预示开球后的结果。官方建议非常直接：别试图一次解决整个橄榄球——选一个小切口（一个位置/一类战术/一种阵型）做深；足球语境 + 编码能力的组合最容易出成果。本场数据比 2024 版新增 6
-- `nfl-big-data-bowl-2026-analytics`（Featured｜—｜review,sports）：第八届 BDB 的 Analytics 赛道：主题是球在空中这段时间里球员怎么移动（从 snap 到出手决策的传球进攻演化），官方希望产出新的进攻/防守球员指标。系列赛的"就业管线"在本场被再次验证：2025 冠军 Vishakh Sandwar 借比赛进入 SumerSports，并开源生产数据补充（帧级防守覆盖 + 球员级覆盖细节）与 man/zone 
-- `nfl-big-data-bowl-2026-prediction`（Featured｜NFL_2025｜sports）：给定一次传球进攻的追踪数据，预测指定球员未来 48 帧的位置。真正的考点是"小数据下的增强 + 损失函数设计 + 时空架构"：1st 只用竞赛数据就夺冠（靠高斯 NLL 损失与强增强）；3rd 则把官方允许的 2018 追踪数据（NFL BDB 2021）按"事件链"重构成同构任务做预训练，再用双路径（球员交互 + 个体运动）+ 时空注意力微调。
-- `nfl-health-and-safety-helmet-assignment`（Featured｜NFL Helmet Identification｜science,medical,sports）：题面是"从比赛转播视频中检测头盔并把它分配到官方追踪数据里的具体球员"，实际被考的是几何配准 + 跟踪工程：
+- `isic-2024-challenge`（Research｜ISIC pAUC-aboveTPR｜cv,ranking）：题面是"3D-TBP 皮肤病变裁剪图 + 元数据 → 恶性二分类"，实际被考的是极端不平衡下的表格-图像融合排序赛：
+- `iwildcam2022-fgvc9`（Research｜Mean Absolute Error｜cv,wildlife）：从相机陷阱序列里数动物（MAE 越低越好），官方提供 MegaDetector V4 检测与 DeepMAC 实例掩码，但没有训练所需的 GT 计数。1st 的答案出人意料地"反工程"：不训练、不跟踪，只做检测过滤 + 每序列取最大计数——按物体密度分两类图片分别调阈值/NMS，把 public MAE 做到 0.247；9th 走"检测器 + 融合 + 帧
+- `mayo-clinic-strip-ai`（Research｜Weighted Multiclass Loss｜cv,classification）：从脑卒中血栓的全切片图像（WSI）判断病因类型（CE/LAA/Other）。这是个信号极弱的比赛：多数队伍打不过 sample submission，公榜只有 20 个样本。真正的考点是"承认低信号 + 用正确 CV 与正确的分数尺度去对齐 log-loss 型指标"。
+- `neurips-2023-machine-unlearning`（Research｜56167-unlearn-metric｜cv,education）：给一个预训练图像分类模型（及 retain/forget 子集定义），产出"已遗忘"的模型：既要让 forget 集不再是成员（抗 MIA 检查），又要保住 retain 集性能。本届的实践结论是"简单重置/蒸馏/微调"打败论文里的 SOTA 遗忘算法——6th 重置首末层 + KL 蒸馏 + 三损失微调（最保守的一版私榜 0.07831）；2nd 用"1 
+- `nfl-big-data-bowl-2023`（Community｜—｜cv,sports）：第五届 BDB，主题是锋线球员（OL/DL）评估：用 2021 赛季第 1–8 周的 dropback pass plays 追踪数据（snap 到出手）+ PFF 球探数据，讲清楚传球保护/冲传表现。赛道从两条扩到三条：Metric、Undergrad、以及新增的 Coaching；近 300 份提交、400+ 参与者创纪录，8 名 finalist 在印
+- `nfl-big-data-bowl-2024`（Community｜—｜cv,sports）：第六届 Big Data Bowl，主题是擒抱（tackling）：用 NGS 追踪数据 + tackles 数据研究"防守方如何把持球人放倒"。延续系列传统：先补领域知识（阵型/位置/统计口径/擒抱技术），再谈分析；同时本场给足了"指标体系"素材——nflWAR 论文的 EP/WP/EPA/WPA 建模、Next Gen Stats 的 xRY/RYOE、
+- `nfl-big-data-bowl-2025`（Community｜—｜cv,sports）：第七届 Big Data Bowl，主题是 pre-snap（开球前）：用追踪 + 事件数据研究开球前的阵型、运动/换位（motion/shift）、audible 等如何预示开球后的结果。官方建议非常直接：别试图一次解决整个橄榄球——选一个小切口（一个位置/一类战术/一种阵型）做深；足球语境 + 编码能力的组合最容易出成果。本场数据比 2024 版新增 6
+- `nfl-big-data-bowl-2026-analytics`（Featured｜—｜cv,review,sports）：第八届 BDB 的 Analytics 赛道：主题是球在空中这段时间里球员怎么移动（从 snap 到出手决策的传球进攻演化），官方希望产出新的进攻/防守球员指标。系列赛的"就业管线"在本场被再次验证：2025 冠军 Vishakh Sandwar 借比赛进入 SumerSports，并开源生产数据补充（帧级防守覆盖 + 球员级覆盖细节）与 man/zone 
+- `nfl-big-data-bowl-2026-prediction`（Featured｜NFL_2025｜cv,sports）：给定一次传球进攻的追踪数据，预测指定球员未来 48 帧的位置。真正的考点是"小数据下的增强 + 损失函数设计 + 时空架构"：1st 只用竞赛数据就夺冠（靠高斯 NLL 损失与强增强）；3rd 则把官方允许的 2018 追踪数据（NFL BDB 2021）按"事件链"重构成同构任务做预训练，再用双路径（球员交互 + 个体运动）+ 时空注意力微调。
+- `nfl-health-and-safety-helmet-assignment`（Featured｜NFL Helmet Identification｜cv,science,medical,sports）：题面是"从比赛转播视频中检测头盔并把它分配到官方追踪数据里的具体球员"，实际被考的是几何配准 + 跟踪工程：
 - `nfl-player-contact-detection`（Featured｜Matthews correlation coefficient｜cv,detection,sports）：从端区+边线视频与追踪数据判断"球员-球员（PP）/球员-地面（PG）接触"（MCC）。真正考的是视频时序表示 + 追踪特征编码进 CNN + 邻域时序后处理；测试只有 61 个 play，验证要按 game_key 分组。
-- `openai-to-z-challenge`（Featured｜—｜）：用 OpenAI 模型（o3/o4-mini、GPT-4.1 等）+ 公开遥感数据，协助发现亚马逊雨林中可能被植被掩藏的考古遗址；Kaggle 首届 hackathon（评审制、无排行榜）。归档材料把本场的真实矛盾暴露得很清楚：技术主线是开放地理数据（LiDAR→DTM、DEM、NDVI、高光谱）＋ 文献推理，但社区最大热帖是"API 谁付钱"——检查点与早
-- `petfinder-pawpularity-score`（Research｜Root Mean Squared Error｜）：预测宠物照片的"可爱度"（1–100，RMSE）。目标主观、元数据弱、信号小（可学区间约 17–18）。先立锚：全预测 38.04（训练均值）的 RMSE=20.59——任何低于它的模型才算有预测力。
+- `openai-to-z-challenge`（Featured｜—｜cv,）：用 OpenAI 模型（o3/o4-mini、GPT-4.1 等）+ 公开遥感数据，协助发现亚马逊雨林中可能被植被掩藏的考古遗址；Kaggle 首届 hackathon（评审制、无排行榜）。归档材料把本场的真实矛盾暴露得很清楚：技术主线是开放地理数据（LiDAR→DTM、DEM、NDVI、高光谱）＋ 文献推理，但社区最大热帖是"API 谁付钱"——检查点与早
+- `petfinder-pawpularity-score`（Research｜Root Mean Squared Error｜cv,）：预测宠物照片的"可爱度"（1–100，RMSE）。目标主观、元数据弱、信号小（可学区间约 17–18）。先立锚：全预测 38.04（训练均值）的 RMSE=20.59——任何低于它的模型才算有预测力。
 - `physionet-ecg-image-digitization`（Research｜Physionet ECG Signal Extraction Metric｜cv）：从心电图扫描图重建数值波形，评测只看重建信号 SNR。真正的考点是几何标定（校正/重映射）+ 坐标精度（子像素）+ 后处理（导联定律/重采样）——模型只负责"轨道"，分数由管线两端决定。
-- `planttraits2024`（Research｜R2 Score｜cv）：从植物照片 + 气候/土壤元数据预测 6 个性状均值（R²）。三条获奖路线共同指向一句话："物种身份"是隐藏变量——1st 把训练集按性状聚成 17,396 个"物种"，用回归 + 硬分类 + 软分类三个头融合；6th 用 AutoGluon 的多模态栈 + 标签链；9th 用 DINOv2 embedding + CatBoost。本场还有一次重大赛事事故
+- `planttraits2024`（Research｜R2 Score｜cv,agriculture）：从植物照片 + 气候/土壤元数据预测 6 个性状均值（R²）。三条获奖路线共同指向一句话："物种身份"是隐藏变量——1st 把训练集按性状聚成 17,396 个"物种"，用回归 + 硬分类 + 软分类三个头融合；6th 用 AutoGluon 的多模态栈 + 标签链；9th 用 DINOv2 embedding + CatBoost。本场还有一次重大赛事事故
 - `recodai-luc-scientific-image-forgery-detection`（Research｜RecodAI F1｜cv,detection）：检测科研论文图像（Western blot、显微/宏观照片等）中的 copy-move 伪造：authentic 图预测对得 1.0、预测成伪造得 0；伪造图按匈牙利匹配的实例 F1 计分，且多预测实例会被惩罚。本场的核心结论是"把检测重构成检索"：前三名都是"面板切分 + 相似检索/特征匹配 + 几何验证"路线（1st 是嵌入检索 + 条带级匹配，2nd/
 - `rsna-2022-cervical-spine-fracture-detection`（Featured｜Weighted Mean Columnwise Log Loss｜cv,detection,geospatial）：题面是"颈椎 CT 逐椎骨 C1–C7 骨折二分类 + patient_overall"，实际被考的是用极少分割掩码撬动大量粗标签的标签工程：
 - `rsna-2023-abdominal-trauma-detection`（Featured｜RSNA Trauma Metric｜cv,detection,geospatial）：腹部 CT 多器官损伤检测（肝/脾/肾/肠/造影剂外渗，多标签 + 患者级）。真正的考点是两段式：3D 分割 → 器官裁剪 → 2.5D+RNN 分类，以及用器官可见性做软标签/帧采样来压制标签噪声。
-- `rsna-2024-lumbar-spine-degenerative-classification`（Featured｜RSNA Lumbar Metric 71549｜classification,generative,geospatial）：题面是"腰椎 MRI 每个椎间盘层面、每类病变的严重度三分类"，实际被考的是一条级联流水线的系统工程：
+- `rsna-2024-lumbar-spine-degenerative-classification`（Featured｜RSNA Lumbar Metric 71549｜cv,classification,generative,geospatial）：题面是"腰椎 MRI 每个椎间盘层面、每类病变的严重度三分类"，实际被考的是一条级联流水线的系统工程：
 - `rsna-breast-cancer-detection`（Featured｜Probabilistic F-Score Beta (Micro)｜cv,detection,medical,geospatial）：题面是"由乳腺 X 光预测癌症"，实际被考的是在极端不平衡 + 不稳定的概率化指标下，把"数据侧工程 + 阈值/选择"做对。降解为 5 步：
 - `rsna-intracranial-aneurysm-detection`（Featured｜Mean Weighted Columnwise AUCROC｜cv,detection,ranking,geospatial）：从头部 CTA/MRA/MRI 体数据中判断"是否存在颅内动脉瘤"并给出 13 个解剖位置的概率（14 个独立二分类，指标是按列加权的 AUC）。真正的考点是"用血管结构当先验，把巨大体数据压成一个位置感知的小 ROI 分类问题"——血管分割/检测决定下限，ROI 分类器的位置建模决定上限。
-- `rsna-miccai-brain-tumor-radiogenomic-classification`（Featured｜Area Under Receiver Operating Characteristic Curve｜classification,science,medical,geospatial）：从脑 MRI 预测 MGMT 启动子甲基化（AUC）。样本极少、信号极弱，本场真正的考题是与验证/提交噪声作斗争：同一模型重跑分数几乎随机，公榜大量高分是运气/作弊。
+- `rsna-miccai-brain-tumor-radiogenomic-classification`（Featured｜Area Under Receiver Operating Characteristic Curve｜cv,classification,science,medical,geospatial）：从脑 MRI 预测 MGMT 启动子甲基化（AUC）。样本极少、信号极弱，本场真正的考题是与验证/提交噪声作斗争：同一模型重跑分数几乎随机，公榜大量高分是运气/作弊。
 - `sartorius-cell-instance-segmentation`（Featured｜IntersectionOverUnionObjectSegmentation｜cv,segmentation）：在显微图像上做三分类细胞的实例分割（shsy5y/astro/cort），细胞只有 ~10×10 像素。真正的考点是"先检测、后分割"的工程拆分 + 对标注噪声与指标缺陷的清醒认识：高 IoU 阈值段（0.8–0.95）对这么小的细胞基本是抽签，因此检测框质量与阈值/后处理比"更花哨的 mask head"更值钱。
-- `sorghum-id-fgvc-9`（Research｜Categorization Accuracy｜）：高粱品种的细粒度分类（FGVC9/CVPR workshop）。本场难点被 3rd 总结得非常清楚：类间相似度高、光照/曝光差异大、训练与测试来自两块不同田块（域适应）、植株随生长期变化。三队不约而同给出同一条主线：高分辨率 + 域适应/直方图均衡 + 伪标签/外部数据 + 集成；其中分辨率与伪标签是最大的两个单项增益（2nd 从 512→960 私榜 84
+- `sorghum-id-fgvc-9`（Research｜Categorization Accuracy｜cv,agriculture）：高粱品种的细粒度分类（FGVC9/CVPR workshop）。本场难点被 3rd 总结得非常清楚：类间相似度高、光照/曝光差异大、训练与测试来自两块不同田块（域适应）、植株随生长期变化。三队不约而同给出同一条主线：高分辨率 + 域适应/直方图均衡 + 伪标签/外部数据 + 集成；其中分辨率与伪标签是最大的两个单项增益（2nd 从 512→960 私榜 84
 - `stable-diffusion-image-to-prompts`（Featured｜MeanCosineSimilarity｜cv,nlp,llm,retrieval,generative）：给一张 Stable Diffusion 生成的图，预测它对应的提示词——但由于指标只比较句子嵌入的余弦相似度，任务实际退化成"预测句向量"（预测文本的语法/顺序几乎不重要）。真正的考点是自造大规模"提示词-图像"对 + 加速生成 + 用多 backbone 回归句向量。
 - `tensorflow-great-barrier-reef`（Research｜CSIROObjectDetectionFBeta｜cv,detection）：水下视频中的海星（COTS）检测（F2，IoU 0.8 阈值对框的松紧极敏感）。真正考的是：检测集成 + 二阶段重打分/多家族融合 + 跟踪/后处理；而本场最著名的教训是"训练框松、公榜框紧、私榜又不同"的标注松紧域偏移。
 - `uw-madison-gi-tract-image-segmentation`（Research｜Dice3DHausdorff｜cv,segmentation）：题面是"MRI 逐切片分割胃/小肠/大肠（3 类语义分割）"，实际被考的是部分标注与空切片下的工程分层：
@@ -171,7 +171,7 @@
 ## nlp（47 场）
 
 - `AI4Code`（Featured｜AI4CodeKendallTau｜nlp,code,ranking）：Jupyter notebook 中 code 单元顺序已知，要把 markdown 单元排序并放进正确的 code 槽位（Kendall tau 衡量）。真正的考点：Learning-to-Rank（pointwise/pairwise/listwise）× 长文本上下文 × 排序后处理；榜单由"长 notebook 的排序质量"主导。
-- `ai-agent-security-multi-step-tool-attacks`（Featured｜Agents Security Metric｜nlp,agent,rl）：题面是"对带工具的 AI agent 做多步红队攻击"，实际被考的是在评分器有一半不可见时，如何测量不可见部分并设计"可迁移"的攻击：
+- `ai-agent-security-multi-step-tool-attacks`（Featured｜Agents Security Metric｜nlp,agent,rl,security）：题面是"对带工具的 AI agent 做多步红队攻击"，实际被考的是在评分器有一半不可见时，如何测量不可见部分并设计"可迁移"的攻击：
 - `ai-mathematical-olympiad-prize`（Featured｜Accuracy Score｜nlp）：在 Kaggle 有限算力（T4×2、限时）内解 50 道奥数题（整数答案）。真正的考点是"让小开源模型学会用 Python 当计算器"（工具集成推理 TIR）+ 少样本条件下的解码/投票策略 + 抗方差的内部验证。1st 靠两阶段全参微调把 DeepSeekMath-7B 变成"推理 agent"；3rd 甚至完全不微调、只靠 vLLM 大候选 + 自研打
 - `ai-mathematical-olympiad-progress-prize-2`（Featured｜Accuracy Score｜nlp）：在 Kaggle Notebook（L4x4、严格时限）里离线跑 LLM 解 50 道 AIME/HMMT 级数学题。真正的考点是"推理能力 × 推理效率 × 测试时策略"三角：模型几乎全是 DeepSeek-R1-Distill-Qwen-14B 系，胜负在量化/加速/早停/采样预算。
 - `ai-mathematical-olympiad-progress-prize-3`（Featured｜118448 AIMO 3 Multirun-Accuracy｜nlp）：给 50 道 IMO 级数学题在 5 小时内提交整数答案（[0, 99999]）。AIMO3 与 AIMO2 的最大区别是"微调时代 → 推理工程时代"：本届没有主流微调方案，榜单被一份 GPT-OSS-120B + Python 工具 + 自洽投票的公开 notebook 血洗（官方总结直言"main competition ended up being 
@@ -179,14 +179,14 @@
 - `arc-prize-2025`（Featured｜Abstraction and Reasoning Challenge｜nlp）：ARC-AGI-2 抽象推理：给几对输入/输出网格、推出变换并预测测试输出，一个像素错就整题失败。本届的核心结论是"预训练规模 + 测试时自适应 + 候选重打分"三件套——NVARC 用 LLM 生成 10 万+ 合成谜题（320 万增强样本）并做逐题 LoRA + 批量 DFS，赛内公榜最好 27.64%；MindsAI&Tufa（私榜 3rd，15.42
 - `bigquery-ai-hackathon`（Featured｜—｜nlp,review）：用 BigQuery AI（AI.GENERATE / 向量搜索 / 多模态）做一个真实业务应用，按 Generative AI / Vector Search / Multimodal 三类评审。最值得复用的是官方公开的评审流程：每一份都人工读、必须用三大类之一、必须公开可访问、每个获奖作品都被评委实际复现；缺 artifact 或无法访问直接过滤。另一条
 - `chaii-hindi-and-tamil-question-answering`（Research｜Jaccard｜nlp）：印地语/泰米尔语的抽取式问答。真正的考点是"训练集小而脏、公开榜大而干净"的反常结构：1st/2nd 都干脆完全放弃本地 CV、只用公榜调参；而 36th 的对照（最佳公榜提交私榜第 728）说明这条路的双刃性。核心涨分手段是跨语言外部数据（TyDi 孟加拉语/泰卢固语 + MLQA）+ 多分词器模型集成 + 图像式增强。
-- `commonlit-evaluate-student-summaries`（Featured｜Mean Weighted Columnwise Root Mean Squared Error｜nlp）：题面是"给学生的摘要按 content 与 wording 两维打分（加权列 RMSE）"，实际被考的是主题分布漂移下的鲁棒性与输入工程：
+- `commonlit-evaluate-student-summaries`（Featured｜Mean Weighted Columnwise Root Mean Squared Error｜nlp,education）：题面是"给学生的摘要按 content 与 wording 两维打分（加权列 RMSE）"，实际被考的是主题分布漂移下的鲁棒性与输入工程：
 - `data-assistants-with-gemma`（Community｜—｜nlp,llm）：用 Gemma 2B/7B 构建"数据任务助手"（总结/讲解 Kaggle 解法、数据科学答疑、Python 助手等）。赛制亮点是中期公开 notebook 奖：开赛前 5 周评出 5 个优秀公开 notebook，另有 25 份 Kaggle swag 奖励上传 Gemma 变体模型的人。归档材料完整保留了这 5 个中期获奖作品的技术配方（Transfor
 - `deep-past-initiative-machine-translation`（Featured｜DPI BLEU / chrF++｜nlp）：题面是"把古亚述楔形文字的阿卡德语转写翻译成英文"，实际被考的是语料工程——模型几乎原封不动：
-- `drawing-with-llms`（Featured｜SVG Image Fidelity｜cv,nlp,llm）：按文本描述生成 ≤6000 字节的 SVG，评分 = VQA（问答式保真）+ 美学分的组合，并对图中可被 OCR 读出的多余文字罚分。真正的考点是"指标管线本身"：1st/2nd 都在利用"OCR 只跑部分处理流程、VQA/美学跑全流程"的缝隙，把文本对 OCR 隐藏、对评分可见；而 3rd/4th 走的是"真·生成式"路线（Flux/SD3.5M + 矢量
+- `drawing-with-llms`（Featured｜SVG Image Fidelity｜nlp,cv,llm）：按文本描述生成 ≤6000 字节的 SVG，评分 = VQA（问答式保真）+ 美学分的组合，并对图中可被 OCR 读出的多余文字罚分。真正的考点是"指标管线本身"：1st/2nd 都在利用"OCR 只跑部分处理流程、VQA/美学跑全流程"的缝隙，把文本对 OCR 隐藏、对评分可见；而 3rd/4th 走的是"真·生成式"路线（Flux/SD3.5M + 矢量
 - `eedi-mining-misconceptions-in-mathematics`（Featured｜MAP@{K}｜nlp,ranking）：题面是"给诊断性数学题 + 正确答案 + 错误答案，从 2.5k+ 误区池里推荐最相关的 25 个误区"，实际被考的是长尾标签空间的覆盖 + 测试分布修复：
 - `feedback-prize-2021`（Featured｜TextOverlapFBeta｜nlp,agent）：题面是"在学生作文里圈出 7 类论述要素"，实际被考的是把跨度抽取拆成"局部 token 模型 + 非局部跨度决策"的两级系统，并用跨领域（目标检测）的融合技术把多个异质模型拼起来。降解为 5 步：
-- `feedback-prize-effectiveness`（Featured｜Multiclass Loss｜classification,nlp）：预测学生论述中每个 discourse 要素（Lead/Position/Claim/Evidence/…）的"有效程度"（三分类 log loss）。真正考的是：整篇输入 + 逐 span 池化的表示方式、前届比赛数据的无泄漏伪标、以及两级集成 + 均值校准；另有独立 Efficiency Track 考"单模蒸馏 + 推理优化"。
-- `feedback-prize-english-language-learning`（Featured｜Mean Weighted Columnwise Root Mean Squared Error｜nlp）：题面是"给 ESL 作文的 6 个维度打分"，实际被考的是在 ~3,900 篇的小数据上，把"模型多样性 × 元优化器 × 伪标签转移"三件事做对。降解为 6 步：
+- `feedback-prize-effectiveness`（Featured｜Multiclass Loss｜nlp,classification）：预测学生论述中每个 discourse 要素（Lead/Position/Claim/Evidence/…）的"有效程度"（三分类 log loss）。真正考的是：整篇输入 + 逐 span 池化的表示方式、前届比赛数据的无泄漏伪标、以及两级集成 + 均值校准；另有独立 Efficiency Track 考"单模蒸馏 + 推理优化"。
+- `feedback-prize-english-language-learning`（Featured｜Mean Weighted Columnwise Root Mean Squared Error｜nlp,education）：题面是"给 ESL 作文的 6 个维度打分"，实际被考的是在 ~3,900 篇的小数据上，把"模型多样性 × 元优化器 × 伪标签转移"三件事做对。降解为 6 步：
 - `gemini-3`（Featured｜—｜nlp,llm,code,review）：用 Gemini 3 Pro + AI Studio 免费额度，在一周内做出一个"有 wow 因子"的应用并提交 write-up，6 名评委从 ~4100 份提交里选出 50 个获奖者。本场的归档材料几乎没有技术方案，全部是赛制与评审运作：评审因体量延期、社区模拟 AI 评审、以及对提交规则（能否多份 write-up、提交后能否改 app/视频、提交按钮
 - `gemini-long-context`（Community｜—｜nlp,llm）：用 Gemini 1.5 Flash/Pro 的长上下文能力做创新应用（评审制）。4 个最终获奖作品全部是视频/多模态长内容处理：自然语言视频剪辑（FrameCut）、体育转播广告品牌曝光分析、家庭视频自动盘点（KeepTrack）、视频流程文档生成；8 个 HM 里也以视频/YouTube/代码库题材为主。工程侧的两个硬教训：必须 "Save & Run 
 - `gemma-4-good-hackathon`（Featured｜—｜nlp,llm,review）：用 Gemma 4 系列做"对社会有益"的应用，由主办方人工评审：技术深度 + 社会影响 + 表达，其中视频 Pitch & Storytelling 占 30% 评分（官方明示）。本场延续 Gemma 3n 的模式，但规模更大（1506+ 份提交、1606 队）：讨论区主线仍是平台/规则风险——提交 "Internal Error"、状态不同步、迟到数秒、
@@ -198,46 +198,46 @@
 - `kaggle-llm-science-exam`（Featured｜MAP@{K}｜nlp,llm,science,ranking）：题面是"回答约 4000 道科学多选题（MAP@3）"，实际被考的是检索侧工程 + 社区数据生态 + 9 小时推理预算的分配：
 - `kaggle-measuring-agi`（Featured｜—｜nlp）：不是做题，而是设计评测基准：围绕 5 条认知赛道（Executive Functions / Learning / Metacognition / Social Cognition / Attention）构建 benchmark，由人类评审团选出最能"超越记忆、衡量推理/行动/判断"的作品。奖池 $200k（4 个 $25k 大奖 + 10 个 $10k 
 - `konwinski-prize`（Featured｜K Prize Metric｜nlp）：$1M 奖金、单人主办的"SWE-bench+"式比赛：给定真实 GitHub issue 与仓库，产出修复补丁。答错重罚、跳过几乎无损，因此本场的核心不是"多解题"而是"只交有把握的补丁"。全体参赛者建立在 @huikang 的 select-patch-verify starter 与 Agentless 范式之上；1st 的私榜结果只有 9 对 2 错
-- `learning-agency-lab-automated-essay-scoring-2`（Featured｜Cohen Kappa Score｜nlp,review）：题面是"给 6–12 年级学生作文打 1–6 分（QWK）"，实际被考的是两个数据来源的分布对齐：
+- `learning-agency-lab-automated-essay-scoring-2`（Featured｜Cohen Kappa Score｜nlp,review,education）：题面是"给 6–12 年级学生作文打 1–6 分（QWK）"，实际被考的是两个数据来源的分布对齐：
 - `linking-writing-processes-to-writing-quality`（Featured｜Mean Squared Error｜nlp）：从击键日志预测作文质量分（MSE，训练集极小）。真正考的是"从日志重建作文文本" + 大规模特征工程 + 外部作文评分数据迁移 + 异构集成；且发生了一次冠军被取消资格、名次递补的治理事件。
 - `llm-20-questions`（Featured｜llm_20_questions｜nlp,llm）：两个 agent 玩 20 问（一个猜关键词、一个回答 yes/no）。真正的考点是策略协调（Agent Alpha 握手）+ 关键词概率建模 + LLM 问答工程；社区还经历了一次"榜单重置+换关键词"与私有关键词泄漏事件。
-- `llm-detect-ai-generated-text`（Featured｜Roc Auc Score｜cv,detection,nlp,llm,ranking,generative,synthetic）：题面是"判断作文是否 AI 生成"，实际被考的是当隐藏测试的生成器分布未知时，如何用"数据多样性 + 域适应 + 生成器无关特征"覆盖它：
+- `llm-detect-ai-generated-text`（Featured｜Roc Auc Score｜nlp,cv,detection,llm,ranking,generative,synthetic）：题面是"判断作文是否 AI 生成"，实际被考的是当隐藏测试的生成器分布未知时，如何用"数据多样性 + 域适应 + 生成器无关特征"覆盖它：
 - `llm-prompt-recovery`（Featured｜LLM Nerd-Off Sharpened Cosine Similarity｜nlp,llm,retrieval）：题面是"从改写后的文本反推提示词"，实际被考的是对一个有缺陷的评测指标做逆向工程：
 - `llm-prompting-with-makersuite`（Community｜—｜nlp,llm）：Google × Kaggle 的提示词设计赛：用 MakerSuite（后并入 Google AI Studio）为 LLM 写文本/数据/对话 prompt，按 7 个应用类别评审。归档材料给出的可迁移结论非常集中："system prompt 定角色 + 多组 input/output 示例"是让输出稳定的最小范式；教育类获奖者进一步用 JSON（题目
 - `llms-you-cant-please-them-all`（Featured｜LLMYCPTA metric 20241120｜nlp,llm）：提交一篇"作文"由 3 个匿名 LLM 评委打分，指标混合评委分、英文置信度（avg_e）、相似度（avg_s）。真正的考题是：用 prompt injection/多语言攻击让不同评委输出指定分数（0 或 9），再用公榜探针确定 1000 个测试索引的公私划分——一场"指标逆向 + 攻击工程 + 分区数学"的比赛。
 - `lmsys-chatbot-arena`（Research｜Log Loss｜nlp,agent）：题面是"预测人类更喜欢哪个模型回答"，实际被考的是在 Kaggle 2×T4 16GB 的推理约束下，把 70B 级判断力压缩进 9B 模型。降解为 6 步：
 - `make-data-count-finding-data-references`（Research｜82370_MDC_Global_F1｜nlp）：从论文 PDF/XML 中找出数据引用（两种形态：数据集 DOI 与 accession ID），并判断每个引用是 Primary（本文产生）还是 Secondary（复用）。真正的考点是"跟着标注产线走"：标签由 MDC 数据引用语料 + Europe PMC NER 生成，所以直接复用同源上游语料（DCC/DataCite/EUPMC）远胜自训 NER/
-- `map-charting-student-math-misunderstandings`（Featured｜MAP@{K}｜nlp,ranking）：题面是"判断学生解释属于哪种数学误解（65 类）"，实际被考的是在一个结构化的窄标签空间里做工程：
+- `map-charting-student-math-misunderstandings`（Featured｜MAP@{K}｜nlp,ranking,education）：题面是"判断学生解释属于哪种数学误解（65 类）"，实际被考的是在一个结构化的窄标签空间里做工程：
 - `med-gemma-impact-challenge`（Featured｜—｜nlp,llm,medical）：用 MedGemma + Google HAI-DEF 医疗基础模型（CXR / Path / Derm / HeAR / CT Foundation）构建"以人为中心"的医疗 AI 应用，评审制。归档材料给出三类最有价值的信息：① HAI-DEF 五个模型族的定位与局限（分类优先、暂不支持分割/生成、端侧需蒸馏）；② 部署是真门槛——MedGemma 27
 - `meta-kaggle-hackathon`（Featured｜—｜nlp,review）：用 Meta Kaggle 数据集（历年竞赛/用户/讨论/代码元数据）做洞察分析的评审制 hackathon，分 Main Track 与 Trends Over Time 两条赛道。获奖作品的共性很清楚：端到端分析 + 可落地的平台建议——数据集相似度推荐器（用投票语义）、用户流失与召回（5 Days of GenAI 召回效应）、讨论协作与竞赛成绩的关系
 - `nbme-score-clinical-patient-notes`（Featured｜Medical Board F-Beta｜nlp,science,medical）：从病历文本里抽取"病例特征"对应的 span（F-beta）。真正的考点是token 分类 + 标注噪声处理 + 迭代伪标 + 逐 case 阈值/后处理；1 万倍无标注数据让半监督成为主战场。
 - `nvidia-nemotron-model-reasoning-challenge`（Featured｜NVIDIA Nemotron Metric｜nlp）：题面是"提升 Nemotron-3-Nano-30B（30B MoE，3B 激活参数）的推理能力"——每题给若干输入-输出示例，推断隐藏变换并应用到 query；只能提交 rank≤32 的 LoRA；评测 vLLM、temp=0、max_tokens=7680、答案在 \boxed{}，评测时不能运行程序。实际被考的是把确定性程序翻译成模型可模仿的 CoT
-- `openai-gpt-oss-20b-red-teaming`（Featured｜—｜nlp,llm）：对 OpenAI 开源的 gpt-oss-20b 做红队：提交此前未知的缺陷/漏洞（越狱、CoT 伪造、工具与通道滥用、欺骗与评估意识等），由跨机构评委团评审。本场不是排行榜赛，而是"发现质量 + 可复现证据"的评审赛：官方先做高召回初筛，再对 145 份深度复核（复现 + 访问链接产物），最后评委集中讨论。官方结论可概括为三句：没有验证到灾难性风险；最有价
-- `pii-detection-removal-from-educational-data`（Featured｜TLAL_F_beta｜cv,detection,nlp）：题面是"在学生写作中检测 13 类 PII（token 分类，F-beta 偏向召回）"，实际被考的是合成数据引擎 + 对齐细节 + 规则后处理：
+- `openai-gpt-oss-20b-red-teaming`（Featured｜—｜nlp,llm,security）：对 OpenAI 开源的 gpt-oss-20b 做红队：提交此前未知的缺陷/漏洞（越狱、CoT 伪造、工具与通道滥用、欺骗与评估意识等），由跨机构评委团评审。本场不是排行榜赛，而是"发现质量 + 可复现证据"的评审赛：官方先做高召回初筛，再对 145 份深度复核（复现 + 访问链接产物），最后评委集中讨论。官方结论可概括为三句：没有验证到灾难性风险；最有价
+- `pii-detection-removal-from-educational-data`（Featured｜TLAL_F_beta｜nlp,cv,detection,education）：题面是"在学生写作中检测 13 类 PII（token 分类，F-beta 偏向召回）"，实际被考的是合成数据引擎 + 对齐细节 + 规则后处理：
 - `us-patent-phrase-to-phrase-matching`（Featured｜PearsonCorrelationCoefficient｜nlp,retrieval）：判断专利短语对（anchor,target）的相似度（Pearson）。真正的考点是"同一 anchor 下 targets 之间的相关性"这个结构性泄漏（magic）：把同组 targets（甚至带 OOF 分数）拼进输入上下文，把 pairwise 任务变成"带近邻证据"的预测。
 - `uspto-explainable-ai`（Featured｜USPTO 59575｜nlp）：给 50 个目标专利，构造一个 Whoosh 查询（token 数受限）把它们检出来——本质是在检索语法与计分规则的缝隙里做"查询合成"。本场的头号变量不是模型，而是一个计数与解析不一致的规则漏洞（"Magic"）：用它能把 0.90 直接抬到 0.998。
 - `wsdm-cup-multilingual-chatbot-arena`（Featured｜Accuracy Score｜nlp,agent）：预测用户在两条 LLM 回复中更偏好哪一条（多语言）。真正的考点是"在推理时延约束下，怎么把有限算力花在最不确定的样本上"：前列方案都是"小模型全量打分 + 大模型只复查不确定样本"的级联结构，训练侧则围绕只算 A/B 两个 token 的损失、软标签蒸馏/自蒸馏、伪标签展开。
 
 ## science（25 场）
 
-- `MABe-mouse-behavior-detection`（Research｜MABe F Beta｜cv,detection,science）：从多实验室的小鼠追踪数据识别 37 种行为（F-beta）。真正的考点是跨实验室的域不变表示（transfer learning）+ 逐 lab×action 阈值 + 多时间尺度网络；阈值与后处理占分数的大头。
+- `MABe-mouse-behavior-detection`（Research｜MABe F Beta｜science,cv,detection）：从多实验室的小鼠追踪数据识别 37 种行为（F-beta）。真正的考点是跨实验室的域不变表示（transfer learning）+ 逐 lab×action 阈值 + 多时间尺度网络；阈值与后处理占分数的大头。
 - `amp-parkinsons-disease-progression-prediction`（Featured｜smape_plus_1｜science）：用仅 248 名患者的临床数据预测未来 UPDRS 评分（SMAPE+1）。真正的考点是"识别唯一可靠信号 = 就诊日期结构，然后抵抗住把它用成过拟合源"：蛋白/肽段（1195 维）在本样本量下与随机数列的增益无法区分；顶端 18 名与其余队伍的分界线正是"有没有用就诊日期信号"。
 - `ariel-data-challenge-2024`（Featured｜Ariel Gaussian Log Likelihood｜science）：题面是"由 Ariel 卫星模拟的原始光谱信号（AIRS-CH0 光谱仪 + FGS1 制导）反演每个波长的凌星深度与置信区间"，实际被考的是物理结构建模与仿真代码逆向：
 - `ariel-data-challenge-2025`（Featured｜Ariel Gaussian Log Likelihood｜science）：从 Ariel 卫星模拟原始光谱（计数）反演行星凌星深度 D(λ) 及其不确定度 σ(λ)（高斯似然指标）。真正的考点是预处理/校准的物理工程 + "均值+方差"双输出；2025 数据更真实，1st 坚持了贝叶斯反演路线。
-- `birdclef-2024`（Research｜Birdclef ROC AUC｜audio,science,ranking）：声景中的鸟类/两栖类识别（ROC AUC）。真正的考点是简单 log-mel CNN + 伪标 soundscape + CPU 推理约束下的后处理；"额外数据是否使用"与"CE vs BCE"在本场出现明显分歧。
-- `cafa-5-protein-function-prediction`（Research｜PostProcessorKernelDesc｜science）：给蛋白序列预测其 GO 功能标签（13k+ 标签的极端多标签，且需满足本体层级传播）。真正的考点是"多源信息的组件化 + 学习排序集成"：1st 的 GOCurator 把序列/结构/文本/文献/网络各做一个组件方法，再用 learning-to-rank 融合；文本与结构组件的单点强度甚至超过经典 BLAST/InterPro 基线（图 1），而"是否把网
-- `cafa-6-protein-function-prediction`（Research｜cafa6_metric_final｜science）：延续 CAFA5 的 GO 功能预测（极端多标签 + IA 加权）。本场的技术脉络高度"世袭"：1st 是 CAFA5 冠军团队的下一代系统 GOAlpha（仍是"多源组件 + Learning-to-Rank"），2nd 是 CAFA5 亚军的升级版（新增文献 TF-IDF），3rd 干脆是复现 CAFA5 亚军开源代码（并因此拿到第 3）。真正的考点变成
+- `birdclef-2024`（Research｜Birdclef ROC AUC｜science,audio,ranking,wildlife）：声景中的鸟类/两栖类识别（ROC AUC）。真正的考点是简单 log-mel CNN + 伪标 soundscape + CPU 推理约束下的后处理；"额外数据是否使用"与"CE vs BCE"在本场出现明显分歧。
+- `cafa-5-protein-function-prediction`（Research｜PostProcessorKernelDesc｜science,drug-discovery）：给蛋白序列预测其 GO 功能标签（13k+ 标签的极端多标签，且需满足本体层级传播）。真正的考点是"多源信息的组件化 + 学习排序集成"：1st 的 GOCurator 把序列/结构/文本/文献/网络各做一个组件方法，再用 learning-to-rank 融合；文本与结构组件的单点强度甚至超过经典 BLAST/InterPro 基线（图 1），而"是否把网
+- `cafa-6-protein-function-prediction`（Research｜cafa6_metric_final｜science,drug-discovery）：延续 CAFA5 的 GO 功能预测（极端多标签 + IA 加权）。本场的技术脉络高度"世袭"：1st 是 CAFA5 冠军团队的下一代系统 GOAlpha（仍是"多源组件 + Learning-to-Rank"），2nd 是 CAFA5 亚军的升级版（新增文献 TF-IDF），3rd 干脆是复现 CAFA5 亚军开源代码（并因此拿到第 3）。真正的考点变成
 - `csiro-biomass`（Research｜R2 Score｜science）：从牧场照片回归五个生物量分量（Green/Dead/Clover/GDM/Total）。真正的考点是"小样本 + 显著分布漂移"下的验证设计与先验利用：按 Sampling_Date 分组 CV 才能让 CV 逼近 LB；DINOv3 特征 + 左右视角 + 区间分类辅助头 + 物理一致性后处理是主要增益。
 - `equity-post-HCT-survival-predictions`（Research｜eefs_concordance_index｜science）：异体造血干细胞移植后的无事件生存排序（按种族分层的 C-index）。真正的考点是把"生存排序"分解为两件事并合并：P(事件=0) 分类 + 事件样本的条件时间/排名回归；同时处理删失与公平性分组。
-- `g2net-detecting-continuous-gravitational-waves`（Research｜Area Under Receiver Operating Characteristic Curve｜cv,detection,science）：题面是"由 L1/H1 两台探测器的 STFT 频谱图（360 频率 × 时间）判断连续引力波信号是否存在（AUC）"，实际被考的是域适应、相位敏感度与生成痕迹审计：
+- `g2net-detecting-continuous-gravitational-waves`（Research｜Area Under Receiver Operating Characteristic Curve｜science,cv,detection）：题面是"由 L1/H1 两台探测器的 STFT 频谱图（360 频率 × 时间）判断连续引力波信号是否存在（AUC）"，实际被考的是域适应、相位敏感度与生成痕迹审计：
 - `icecube-neutrinos-in-deep-ice`（Research｜MeanAngularError｜science）：从冰下光传感器的光子命中（变长点云：x,y,z,t,charge,aux）回归中微子轨迹方向（角度误差）。真正的考点是点云序列的编码与注意力设计 + 长度分桶/打包的效率工程 + 角度专用损失；"GNN vs Transformer"是本场的路线之争。
 - `leap-atmospheric-physics-ai-climsim`（Research｜R2 Score｜science）：题面是"1D→1D 回归：由 60 层大气柱状态预测 368 个物理倾向/标量（加热倾向 ptend×6 + 8 标量）"，实际被考的是数据规模、损失函数与数值保真，并附带一场教科书级的泄漏治理事件：
 - `leash-BELKA`（Featured｜Leash Average mAP｜science）：对 ~9800 万个 DEL 分子（由 BB1/BB2/BB3 三块构建）预测对三种蛋白的结合概率（mAP）。真正的考点是"共享/非共享构建块要分开打"+"预训练任务比模型结构重要"+"验证窗口极窄（一个 epoch 内就会过拟合）"。
-- `march-machine-learning-mania-2026`（Featured｜Mean Squared Error｜science,sports）：预测 NCAA 男女篮锦标赛每场胜负（Brier/MSE，仅 ~63 场/性别被评分）：筛子（seed diff）已是强先验，真正的增量在"委员会没建模的东西"——连续实力评分、伤病、预测市场；小样本要求重度正则、概率校准与（可选）极端值后处理。
+- `march-machine-learning-mania-2026`（Featured｜Mean Squared Error｜science,sports,education）：预测 NCAA 男女篮锦标赛每场胜负（Brier/MSE，仅 ~63 场/性别被评分）：筛子（seed diff）已是强先验，真正的增量在"委员会没建模的东西"——连续实力评分、伤病、预测市场；小样本要求重度正则、概率校准与（可选）极端值后处理。
 - `neurips-open-polymer-prediction-2025`（Featured｜open_polymer_2025｜science）：题面是"由聚合物 SMILES 预测 5 个性质（Tg、FFV、Tc、Density、Rg）"，实际被考的是一场数据质量事故中的排名博弈：
-- `novozymes-enzyme-stability-prediction`（Featured｜SpearmanR｜science,ranking）：预测酶的单点突变稳定性（Spearman）。本场是"榜单污染 + 巨大洗牌"的教科书案例：训练集里本就含有与测试同类的突变（122 票帖），有人用 3 个月时间通过数学优化反推公开测试标签把公榜刷到 0.865，结果私榜掉到 967；而按分数记的"1st"方案自己承认训练代码有致命 bug 反而夺冠——作者们自己都说"这不一定是更好的解法"。
+- `novozymes-enzyme-stability-prediction`（Featured｜SpearmanR｜science,ranking,drug-discovery）：预测酶的单点突变稳定性（Spearman）。本场是"榜单污染 + 巨大洗牌"的教科书案例：训练集里本就含有与测试同类的突变（122 票帖），有人用 3 个月时间通过数学优化反推公开测试标签把公榜刷到 0.865，结果私榜掉到 967；而按分数记的"1st"方案自己承认训练代码有致命 bug 反而夺冠——作者们自己都说"这不一定是更好的解法"。
 - `open-problems-multimodal`（Featured｜MeanPearsonOld｜science）：题面是"两个逐细胞向量回归：Multiome（染色质可及性 DNA → RNA 表达）与 CITEseq（RNA → 蛋白）"，实际被考的是稀疏计数数据的表示工程 + 域偏移下的验证设计：
-- `open-problems-single-cell-perturbations`（Featured｜Weighted Rowwise Root Mean Squared Error｜cv,science）：题面是"输入只有 (cell_type, sm_name) 两个短关键词，输出 18211 个基因的差分表达（DE，Limma log-p 预处理）"，实际被考的是在信息极弱的输入端做特征富集、在超高维输出端做降维/多目标建模、在不可靠的 CV 下做选择：
+- `open-problems-single-cell-perturbations`（Featured｜Weighted Rowwise Root Mean Squared Error｜science,cv）：题面是"输入只有 (cell_type, sm_name) 两个短关键词，输出 18211 个基因的差分表达（DE，Limma log-p 预处理）"，实际被考的是在信息极弱的输入端做特征富集、在超高维输出端做降维/多目标建模、在不可靠的 CV 下做选择：
 - `phase-ii-widsdatathon2022`（Community｜—｜science）：WiDS Datathon 的第二阶段研究型赛道：没有常规提交、没有排行榜，参赛者围绕气候变化（并延伸到健康/能源）做分析并提交研究论文（6/30 截止），由合作方（MIT Critical Data、EPA、CCAI）提供数据与 Office Hours，最终评"Excellence in Research Award"。归档材料证明这类比赛的入口不是调参
 - `rogii-wellbore-geology-prediction`（Featured｜Mean Squared Error｜science）：题面是"预测钻头在岩层柱中的高度 TVT（一条隐藏曲线）"，本质是在重复地层导致的 GR 匹配多模态下做状态估计。降解为 6 步：
 - `stanford-ribonanza-rna-folding`（Research｜Mean Absolute Error｜science）：题面是"由 RNA 序列预测每个碱基的化学位移反应性（两通道）"，实际被考的是结构先验注入 + 长度外推 + 相似性感知验证：
@@ -249,7 +249,7 @@
 ## sim-agent（22 场）
 
 - `ai-village-capture-the-flag-defcon31`（Featured｜Flag_Metric｜agent,rl）：27 道 ML 安全关卡的夺旗赛：模型逆向、黑箱对抗、数据探测、LLM 提示注入、反序列化 RCE、音频/OCR 侧信道。真正的考点是对"判定管线最弱环"的定位能力 + 长期时间投入 + 情报共享（Discord）；拿分靠的是"每关用最省时的攻击方式"，而不是 ML 技术本身。
-- `ai-village-ctf`（Research｜Nvidia Defcon｜agent,rl）：题面是"在 22 道 ML 攻击/逆向题（hotdog、math、WAF、token、sloth…）上拿 flag 换分"——真正的考题是在分数会饱和的竞速赛里，用最廉价的探测/暴力手段最快拿分：
+- `ai-village-ctf`（Research｜Nvidia Defcon｜agent,rl,security）：题面是"在 22 道 ML 攻击/逆向题（hotdog、math、WAF、token、sloth…）上拿 flag 换分"——真正的考题是在分数会饱和的竞速赛里，用最廉价的探测/暴力手段最快拿分：
 - `autonomous-agent-prediction-beta`（Playground｜Autonomous Agent Prediction Beta Metric｜agent,rl）：一场"元比赛"：提交的不是模型，而是一个自主 agent 的配置（agent.yaml 等），由评测系统把它编译成 Google ADK agent，让它在每 session 60 分钟与 $2.00 LLM token 预算内自己读数据、写代码、训模型并产出预测。3rd（首次参赛）的方案证明了最稳的路线：预算感知的工作流（先定向数据集 → 正规 CV → 
 - `fide-google-efficiency-chess-ai-challenge`（Featured｜Chess｜agent,rl）：在 64 KiB 二进制 + 5 MiB 内存 + 单核的嵌入式式约束下造一个国际象棋引擎。本场的结论是"数据与压缩工程 > 搜索花活"：1st 把 NNUE 压到约 20kb（tiny 网络），靠 Leela T77/T79 数据 + 两阶段训练 + 数据过滤（piece-count 平坦化、跳前 28 步、弃子局面）与"16-bit 权重无损压到 8-b
 - `google-code-golf-2025`（Research｜Code Golf Metric｜agent,rl,code）：用最短的 Python 源码解 400 道 ARC-AGI 任务（按字节数计分）。真正的考点是"agent 流水线 + 压缩/语言特性套利"：有人把 98% 的产出交给 LLM（并行采样 + AST 规则提示），有人手写高尔夫并自研比 Zopfli 更强的压缩器，还有人两者混用。
@@ -273,17 +273,17 @@
 
 ## other（6 场）
 
-- `2023-kaggle-ai-report`（Community｜Mean Absolute Error｜code,review）：Kaggle 官方征文赛：写"过去两年 ML 社区学到了什么"的综述，按 7 类（Text / Image&Video / Tabular&TimeSeries / Kaggle Competitions / Generative AI / AI Ethics / Other）各评 1 名冠军，另有 15 个 Honorable Mention，并集结为 2
-- `5-day-ai-agents-intensive-vibecoding-course-with-google`（Featured｜—｜agent,rl）：5-Day AI Agents Intensive (Vibe Coding with Google) 轻量深读（Tier B）
-- `kaggle-survey-2021`（Community｜—｜code）：第五届 Kaggle 年度调查的"最佳分析 notebook"赛：用问卷数据讲一个具体的数据故事，由 Kaggle 评审发奖。本场的最大价值是社区沉淀出的方法论 checklist（上届得主的 7 条建议，94 票）与获奖作品画像：冠军用多源外部数据构造 AI 采用指数，亚军们分别做 5 年性别对比（D3 主题化可视化）、Analyst vs Scienti
-- `kaggle-survey-2022`（Community｜—｜code）：Kaggle 第六届年度调查的"最佳分析 notebook"赛：用当年问卷（几乎全是定性/哑变量字段）写出一篇有叙事、有洞见的分析报告，由评审选出获奖者——比的是选题、叙事与可视化，不是模型精度。本届冠军的"把定性变连续"（按国家分组算占比，构造 15 个"因子"）是核心方法论；他自述开发约 70–80 小时，且把大量时间花在开工前的选题与草图设计上。
-- `nfl-big-data-bowl-2022`（Community｜—｜sports）：第四届 Big Data Bowl（特勤组主题）：用 2018–2020 三个赛季的 NFL Next Gen Stats 追踪数据（位置/速度/加速度/朝向）+ PFF 球探数据，分析 punts / kickoffs / field goals & extra points 三类战术，评审制、无目标指标，提交必须在截止时公开；另设高校组别。材料的最大价值
-- `predict-ai-model-runtime`（Research｜58266_TpuGraphsEval｜）：给 TPU 编译器（XLA）预测配置优劣：tile 子任务给融合子图挑 tile 尺寸（按 top-5 slowdown 排序），layout 子任务给张量维度排布挑 layout 配置（按 Kendall tau 排序）。真正的考点是大图（10^4 节点）× 海量候选配置（1000+/图）的排序学习 + 内存/显存压缩 + 极小评测集下的抗震。
+- `2023-kaggle-ai-report`（Community｜Mean Absolute Error｜other,code,review）：Kaggle 官方征文赛：写"过去两年 ML 社区学到了什么"的综述，按 7 类（Text / Image&Video / Tabular&TimeSeries / Kaggle Competitions / Generative AI / AI Ethics / Other）各评 1 名冠军，另有 15 个 Honorable Mention，并集结为 2
+- `5-day-ai-agents-intensive-vibecoding-course-with-google`（Featured｜—｜other,agent,rl）：5-Day AI Agents Intensive (Vibe Coding with Google) 轻量深读（Tier B）
+- `kaggle-survey-2021`（Community｜—｜other,code）：第五届 Kaggle 年度调查的"最佳分析 notebook"赛：用问卷数据讲一个具体的数据故事，由 Kaggle 评审发奖。本场的最大价值是社区沉淀出的方法论 checklist（上届得主的 7 条建议，94 票）与获奖作品画像：冠军用多源外部数据构造 AI 采用指数，亚军们分别做 5 年性别对比（D3 主题化可视化）、Analyst vs Scienti
+- `kaggle-survey-2022`（Community｜—｜other,code）：Kaggle 第六届年度调查的"最佳分析 notebook"赛：用当年问卷（几乎全是定性/哑变量字段）写出一篇有叙事、有洞见的分析报告，由评审选出获奖者——比的是选题、叙事与可视化，不是模型精度。本届冠军的"把定性变连续"（按国家分组算占比，构造 15 个"因子"）是核心方法论；他自述开发约 70–80 小时，且把大量时间花在开工前的选题与草图设计上。
+- `nfl-big-data-bowl-2022`（Community｜—｜other,sports）：第四届 Big Data Bowl（特勤组主题）：用 2018–2020 三个赛季的 NFL Next Gen Stats 追踪数据（位置/速度/加速度/朝向）+ PFF 球探数据，分析 punts / kickoffs / field goals & extra points 三类战术，评审制、无目标指标，提交必须在截止时公开；另设高校组别。材料的最大价值
+- `predict-ai-model-runtime`（Research｜58266_TpuGraphsEval｜other,）：给 TPU 编译器（XLA）预测配置优劣：tile 子任务给融合子图挑 tile 尺寸（按 top-5 slowdown 排序），layout 子任务给张量维度排布挑 layout 配置（按 Kendall tau 排序）。真正的考点是大图（10^4 节点）× 海量候选配置（1000+/图）的排序学习 + 内存/显存压缩 + 极小评测集下的抗震。
 
 ## audio（5 场）
 
 - `bengaliai-speech`（Research｜Word Error Rate｜audio）：孟加拉语语音识别（低资源 + 未验证的噪声标注）。真正的考点是"标注噪声治理"：Whisper/Wav2Vec 系模型对错误转写极其敏感，会去学"错误音频-文本对"——因此数据清洗（MOS/WER 过滤）、外部数据、伪标签与"用 LM/标点模型补上下文"是主线；模型结构本身几乎不创新。
-- `birdclef-2022`（Research｜Weighted Categorization Accuracy｜audio）：题面是"识别声景中的鸟鸣，但只对 21 个 scored birds 计分"，实际被考的是稀有类分工 + 阈值校准：
-- `birdclef-2023`（Research｜buffered_cmAP｜audio）：从声景录音识别鸟种（padded cmAP）。真正考的是数据侧审计与整理（含 API bug 发现）+ 弱标签/无鸟段处理 + 知识蒸馏/预训练 + 推理加速。
-- `birdclef-2025`（Research｜Birdclef ROC AUC｜audio,ranking）：题面是"声景中 206 类鸟类（含两栖/昆虫）多标签识别，ROC AUC"，实际被考的是半监督自训练工程：
-- `birdclef-2026`（Research｜Birdclef ROC AUC｜audio,ranking）：鸟/两栖/昆虫声景识别（ROC AUC）。2026 的两大主题："Perch 蒸馏 → 微调 → 多轮 Noisy Student 自训练"成为标准配方，以及 AI 编码代理（Claude Code）引发的参赛方式与合规争议。
+- `birdclef-2022`（Research｜Weighted Categorization Accuracy｜audio,wildlife）：题面是"识别声景中的鸟鸣，但只对 21 个 scored birds 计分"，实际被考的是稀有类分工 + 阈值校准：
+- `birdclef-2023`（Research｜buffered_cmAP｜audio,wildlife）：从声景录音识别鸟种（padded cmAP）。真正考的是数据侧审计与整理（含 API bug 发现）+ 弱标签/无鸟段处理 + 知识蒸馏/预训练 + 推理加速。
+- `birdclef-2025`（Research｜Birdclef ROC AUC｜audio,ranking,wildlife,education）：题面是"声景中 206 类鸟类（含两栖/昆虫）多标签识别，ROC AUC"，实际被考的是半监督自训练工程：
+- `birdclef-2026`（Research｜Birdclef ROC AUC｜audio,ranking,wildlife）：鸟/两栖/昆虫声景识别（ROC AUC）。2026 的两大主题："Perch 蒸馏 → 微调 → 多轮 Noisy Student 自训练"成为标准配方，以及 AI 编码代理（Claude Code）引发的参赛方式与合规争议。

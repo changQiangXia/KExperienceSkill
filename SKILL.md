@@ -15,9 +15,9 @@ description: Kaggle 上分决策与经验迁移。面对新比赛时，从 264 �
 ## 核心循环（每个新比赛都走一遍）
 
 1. **建事实底座**：任务/指标实现/数据结构/评测约束/平台规则 → Competition Card（`references/improvement-plan-protocol.md` 阶段 1）。
-2. **检索经验**：用 `scripts/case_search.py` 与 `references/case-index.md` 找 3–5 个结构类比场次；读 `references/experience-book.md` 对应章节，以及在 KStarter 仓库（https://github.com/changQiangXia/KStarter）中的 `analysis/deep/<slug>.md` 原文。
+2. **检索经验**：用 `scripts/case_search.py --deep`、`scripts/case_card.py` 与 `references/case-index.md` 找 3–5 个结构类比场次；读 `references/experience-book.md`（领域总结）、`references/case-deep-dives.md`（深案例），以及在 KStarter 仓库（https://github.com/changQiangXia/KStarter）中的 `analysis/deep/<slug>.md` 原文。
 3. **诊断现状**：指标数学结构（`references/metric-arbitrage.md`）、验证可信度（`references/validation-to-lb.md`）、当前 baseline 与 CV-LB 关系；先修测量，再做模型。
-4. **生成假设**：3–7 条候选，每条 = 机制 + 类比证据（slug+数字+证据等级）+ 证伪实验 + 期望收益 + 成本 + 风险 + kill 标准。
+4. **生成假设**：从 `references/idea-playbook.md` 按症状（S1–S28）取 3–7 条候选，每条 = 机制 + 类比证据（slug+数字+证据等级）+ 证伪实验 + 期望收益 + 成本 + 风险 + kill 标准；可参考 `references/worked-plans.md` 的五个完整样例。
 5. **排序执行**：按 expected gain / hour 排序（`references/score-gain-ladder.md`），一次一个变量，台账记录（`assets/experiment_ledger_template.csv`）。
 6. **输出 Improvement Plan**：按 `references/improvement-plan-protocol.md` 阶段 5 的模板交付；多 agent 协作按阶段 6 的角色与交接物执行。
 7. **收官保护**：提交组合/对冲、格式体检、冻结协议（`references/submission-portfolio.md`、`assets/endgame_checklist.md`、`scripts/submission_guard.py`）。
@@ -54,9 +54,12 @@ description: Kaggle 上分决策与经验迁移。面对新比赛时，从 264 �
 
 ## 资源路由
 
-- 经验书（领域化总结） → `references/experience-book.md`
-- 264 场经验索引 → `references/case-index.md`；检索脚本 → `scripts/case_search.py`
+- 经验书（领域化总结，10 章） → `references/experience-book.md`
+- 深案例库（~40 场，场景/机制/数字/配方/失效条件） → `references/case-deep-dives.md`
+- 264 场经验索引 → `references/case-index.md`；检索脚本 → `scripts/case_search.py --deep`；案例卡 → `scripts/case_card.py`
+- 思路库（28 类症状 → 可执行思路） → `references/idea-playbook.md`
 - 改进方案生成协议（含输出模板与 agent 分工） → `references/improvement-plan-protocol.md`
+- 完整样例（5 个赛型） → `references/worked-plans.md`；按赛型模板 → `references/plan-templates.md`；计划骨架生成 → `scripts/plan_builder.py`
 - 指标结构套利与合法后处理 → `references/metric-arbitrage.md`
 - 验证设计、CV↔LB 关系、探榜纪律 → `references/validation-to-lb.md`
 - 实验阶梯、台账与 kill 标准 → `references/score-gain-ladder.md`
