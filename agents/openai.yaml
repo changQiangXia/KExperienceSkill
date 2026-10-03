@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kaggle Score Climb"
+  short_description: "Score-first Kaggle leaderboard climbing"
+  default_prompt: "Use $kaggle-score-climb to build a score model, prioritize experiments by expected rank gain, and protect the final submission."

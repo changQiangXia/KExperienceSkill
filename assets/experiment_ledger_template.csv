@@ -1,0 +1,3 @@
+id,date,stage,hypothesis,change,cv_before,cv_after,delta_cv,lb_before,lb_after,delta_lb,cost_min,decision,notes
+001,,L1-验证,官方metric口径与CV一致,下载metric实现并单测,,,,,,,30,keep,
+002,,L2-指标,MedAE下两端样本是噪声,对AE<=0.06或>=0.7样本给0.01权重,,0.03,,,,,45,keep,kill=delta_cv<1e-4
