@@ -94,3 +94,118 @@
 - T34 LLM 加速器 vs 风险源：输出当不可信输入。
 - T35 API 成本 vs 额度/自部署：赛前做成本模型。
 - T37 窄分带信号 vs 噪声：分带≈噪声时不用 LB 选模。
+
+## 链接索引（来源佐证）
+
+> 自动生成：本文档提到的比赛及其题解链接（Kaggle discussion，最多 3 条）+ KStarter 深读原文。
+
+- **fathomnet-out-of-sample-detection**（cv/Research｜FathomNet 2023）
+  - [4th 方案（5 票 / 0 评论）](https://www.kaggle.com/competitions/fathomnet-out-of-sample-detection/discussion/413092)
+  - [标签错误讨论（6 票 / 2 评论）](https://www.kaggle.com/competitions/fathomnet-out-of-sample-detection/discussion/407400)
+  - [metric 修复与重算（3 票 / 0 评论）](https://www.kaggle.com/competitions/fathomnet-out-of-sample-detection/discussion/404769)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/fathomnet-out-of-sample-detection.md)
+- **geolifeclef-2022-lifeclef-2022-fgvc9**（cv/Research｜MeanBestErrorAtK）
+  - [1st 方案（11 票 / 5 评论）](https://www.kaggle.com/competitions/geolifeclef-2022-lifeclef-2022-fgvc9/discussion/327055)
+  - [2nd 方案（4 票 / 0 评论）](https://www.kaggle.com/competitions/geolifeclef-2022-lifeclef-2022-fgvc9/discussion/328637)
+  - [working note 与纪律（3 票 / 0 评论）](https://www.kaggle.com/competitions/geolifeclef-2022-lifeclef-2022-fgvc9/discussion/325984)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/geolifeclef-2022-lifeclef-2022-fgvc9.md)
+- **herbarium-2022-fgvc9**（cv/Research｜F-Score (Macro)）
+  - [1st 方案（5 票 / 1 评论）](https://www.kaggle.com/competitions/herbarium-2022-fgvc9/discussion/329299)
+  - [上手 notebook 合集（15 票 / 7 评论）](https://www.kaggle.com/competitions/herbarium-2022-fgvc9/discussion/323794)
+  - [往届 notebook（38 票 / 18 评论）](https://www.kaggle.com/competitions/herbarium-2022-fgvc9/discussion/307745)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/herbarium-2022-fgvc9.md)
+- **hotel-id-to-combat-human-trafficking-2022-fgvc9**（cv/Research｜MAP@{K}）
+  - [1st：BlendFlip + 5 模型集成（30 票 / 8 评论）](https://www.kaggle.com/competitions/hotel-id-to-combat-human-trafficking-2022-fgvc9/discussion/328281)
+  - [2nd 方案（11 票 / 0 评论）](https://www.kaggle.com/competitions/hotel-id-to-combat-human-trafficking-2022-fgvc9/discussion/328345)
+  - [公开/私榜 3rd（16 票 / 8 评论）](https://www.kaggle.com/competitions/hotel-id-to-combat-human-trafficking-2022-fgvc9/discussion/328237)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/hotel-id-to-combat-human-trafficking-2022-fgvc9.md)
+- **sorghum-id-fgvc-9**（cv/Research｜Categorization Accuracy）
+  - [3rd 方案（12 票 / 7 评论）](https://www.kaggle.com/competitions/sorghum-id-fgvc-9/discussion/328593)
+  - [2nd 方案（5 票 / 0 评论）](https://www.kaggle.com/competitions/sorghum-id-fgvc-9/discussion/329414)
+  - [1st 方案（6 票 / 4 评论）](https://www.kaggle.com/competitions/sorghum-id-fgvc-9/discussion/329049)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/sorghum-id-fgvc-9.md)
+- **bigquery-ai-hackathon**（nlp/Featured｜）
+  - [获奖与评审流程（8 票 / 12 评论）](https://www.kaggle.com/competitions/bigquery-ai-hackathon/discussion/612730)
+  - [云额度支持（13 票 / 37 评论）](https://www.kaggle.com/competitions/bigquery-ai-hackathon/discussion/598576)
+  - [官方欢迎（24 票 / 49 评论）](https://www.kaggle.com/competitions/bigquery-ai-hackathon/discussion/598594)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/bigquery-ai-hackathon.md)
+- **gemini-3**（nlp/Featured｜）
+  - [官方欢迎帖（49 票 / 84 评论）](https://www.kaggle.com/competitions/gemini-3/discussion/651844)
+  - [write-up 观感（44 票 / 89 评论）](https://www.kaggle.com/competitions/gemini-3/discussion/662567)
+  - [评审时间线更新（69 票 / 207 评论）](https://www.kaggle.com/competitions/gemini-3/discussion/667609)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/gemini-3.md)
+- **gemini-long-context**（nlp/Community｜）
+  - [获奖公布（19 票 / 33 评论）](https://www.kaggle.com/competitions/gemini-long-context/discussion/552419)
+  - [起步指引（13 票 / 27 评论）](https://www.kaggle.com/competitions/gemini-long-context/discussion/541152)
+  - [Save&Run All 挂载提醒（22 票 / 1 评论）](https://www.kaggle.com/competitions/gemini-long-context/discussion/541420)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/gemini-long-context.md)
+- **kaggle-measuring-agi**（nlp/Featured｜）
+  - [获奖公布（22 票 / 43 评论）](https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918)
+  - [收官说明（25 票 / 41 评论）](https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/692562)
+  - [社区投票权重质疑（28 票 / 5 评论）](https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/683674)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/kaggle-measuring-agi.md)
+- **openai-gpt-oss-20b-red-teaming**（nlp/Featured｜）
+  - [获奖公布与评审说明（24 票 / 91 评论）](https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/discussion/608537)
+  - [攻击方法分层分类（4 票 / 5 评论）](https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/discussion/608997)
+  - [官方欢迎帖（39 票 / 50 评论）](https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/discussion/596882)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/openai-gpt-oss-20b-red-teaming.md)
+- **autonomous-agent-prediction-beta**（sim-agent/Playground｜Autonomous Agent Prediction Beta Metric）
+  - [3rd 方案（6 票 / 2 评论）](https://www.kaggle.com/competitions/autonomous-agent-prediction-beta/discussion/737407)
+  - [官方失败原因清单（9 票 / 11 评论）](https://www.kaggle.com/competitions/autonomous-agent-prediction-beta/discussion/723907)
+  - [$2 预算讨论（11 票 / 7 评论）](https://www.kaggle.com/competitions/autonomous-agent-prediction-beta/discussion/723806)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/autonomous-agent-prediction-beta.md)
+- **maze-crawler**（sim-agent/Playground｜crawl）
+  - [1st 方案（11 票 / 4 评论）](https://www.kaggle.com/competitions/maze-crawler/discussion/717120)
+  - [3rd 方案（1 票 / 0 评论）](https://www.kaggle.com/competitions/maze-crawler/discussion/718158)
+  - [7th 方案（3 票 / 0 评论）](https://www.kaggle.com/competitions/maze-crawler/discussion/717177)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/maze-crawler.md)
+- **playground-series-s3e18**（tabular/Playground｜Roc Auc Score）
+  - ["不是多标签，而是两场比赛"（39 票 / 14 评论）](https://www.kaggle.com/competitions/playground-series-s3e18/discussion/420127)
+  - [EC2 最佳单模型 Bagged KNN（30 票 / 24 评论）](https://www.kaggle.com/competitions/playground-series-s3e18/discussion/420822)
+  - [中期总结（41 票 / 2 评论）](https://www.kaggle.com/competitions/playground-series-s3e18/discussion/421462)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e18.md)
+- **playground-series-s3e22**（tabular/Playground｜F1 Score）
+  - [Onboarding materials（62 票 / 28 评论）](https://www.kaggle.com/competitions/playground-series-s3e22/discussion/438603)
+  - [兽医 AI/Cox 文献（32 票 / 4 评论）](https://www.kaggle.com/competitions/playground-series-s3e22/discussion/438620)
+  - [Inferring the LB shakeup（36 票 / 11 评论）](https://www.kaggle.com/competitions/playground-series-s3e22/discussion/444654)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e22.md)
+- **playground-series-s3e23**（tabular/Playground｜Roc Auc Score）
+  - [胜利说明书（117 票 / 49 评论）](https://www.kaggle.com/competitions/playground-series-s3e23/discussion/445245)
+  - [#2 八模型集成（95 票 / 42 评论）](https://www.kaggle.com/competitions/playground-series-s3e23/discussion/450315)
+  - [爬山集成教程（48 票 / 19 评论）](https://www.kaggle.com/competitions/playground-series-s3e23/discussion/444784)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e23.md)
+- **playground-series-s3e25**（tabular/Playground｜Median Absolute Error）
+  - [样本权重调优（74 票 / 35 评论）](https://www.kaggle.com/competitions/playground-series-s3e25/discussion/455888)
+  - [数据分箱事实（54 票 / 42 评论）](https://www.kaggle.com/competitions/playground-series-s3e25/discussion/457631)
+  - [起步参考（43 票 / 13 评论）](https://www.kaggle.com/competitions/playground-series-s3e25/discussion/455241)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e25.md)
+- **playground-series-s3e8**（tabular/Playground｜Root Mean Squared Error）
+  - [8th（26 票 / 7 评论）](https://www.kaggle.com/competitions/playground-series-s3e8/discussion/392860)
+  - [2nd（27 票 / 10 评论）](https://www.kaggle.com/competitions/playground-series-s3e8/discussion/392828)
+  - [3rd（26 票 / 11 评论）](https://www.kaggle.com/competitions/playground-series-s3e8/discussion/392824)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e8.md)
+- **playground-series-s3e9**（tabular/Playground｜Root Mean Squared Error）
+  - [1st：CV 与多样性赢（89 票 / 50 评论）](https://www.kaggle.com/competitions/playground-series-s3e9/discussion/394592)
+  - [12th：六步流程（20 票 / 4 评论）](https://www.kaggle.com/competitions/playground-series-s3e9/discussion/394600)
+  - [44th：LinearRegression 派生特征（8 票 / 0 评论）](https://www.kaggle.com/competitions/playground-series-s3e9/discussion/394641)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e9.md)
+- **playground-series-s4e12**（tabular/Playground｜Root Mean Squared Logarithmic Error）
+  - [1st（230 行处）](https://www.kaggle.com/competitions/playground-series-s4e12/discussion/554328)
+  - [NAN 与目标（126 票）](https://www.kaggle.com/competitions/playground-series-s4e12/discussion/552165)
+  - [Rank2 暴力集成（27 票）](https://www.kaggle.com/competitions/playground-series-s4e12/discussion/554505)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s4e12.md)
+- **playground-series-s5e9**（tabular/Playground｜Mean Squared Error）
+  - [随机目标检验（64 票 / 29 评论）](https://www.kaggle.com/competitions/playground-series-s5e9/discussion/604028)
+  - [MIR 领域背景（28 票 / 4 评论）](https://www.kaggle.com/competitions/playground-series-s5e9/discussion/603307)
+  - [26th FE+伪标签+残差（16 票 / 10 评论）](https://www.kaggle.com/competitions/playground-series-s5e9/discussion/610264)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s5e9.md)
+- **scrabble-player-rating**（tabular/Playground｜Root Mean Squared Error）
+  - [赛后复盘与 CV 问题（3 票 / 2 评论）](https://www.kaggle.com/competitions/scrabble-player-rating/discussion/372554)
+  - [公开 kernel 清单（9 票 / 1 评论）](https://www.kaggle.com/competitions/scrabble-player-rating/discussion/362744)
+  - [官方欢迎（16 票 / 3 评论）](https://www.kaggle.com/competitions/scrabble-player-rating/discussion/362735)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/scrabble-player-rating.md)
+- **tabular-playground-series-nov-2022**（tabular/Playground｜Log Loss）
+  - [1st](https://www.kaggle.com/competitions/tabular-playground-series-nov-2022/discussion/369674)
+  - [3rd](https://www.kaggle.com/competitions/tabular-playground-series-nov-2022/discussion/370126)
+  - [7th](https://www.kaggle.com/competitions/tabular-playground-series-nov-2022/discussion/369731)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/tabular-playground-series-nov-2022.md)

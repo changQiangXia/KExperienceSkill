@@ -77,6 +77,9 @@ description: Kaggle 上分决策与经验迁移。面对新比赛时，从 264 �
 - 折文件/台账生成 → `scripts/experiment_harness.py`；OOF 指标 + bootstrap CI + 配对比较 → `scripts/oof_report.py`
 - 台账/收官模板 → `assets/experiment_ledger_template.csv`、`assets/endgame_checklist.md`
 
+> 佐证链接：各参考文档末尾附 `链接索引（来源佐证）`（自动生成，来源 `tools/add_links_appendix.py`），
+> 每条链接是 Kaggle 讨论区题解原文 + KStarter 深读 GitHub 链接；`scripts/case_card.py` 与 `case_search.py --deep` 也会输出可点击链接。
+
 ## 证据分级（写方案时必须标注）
 
 - **官方**：主办方帖子/规则/评审说明；

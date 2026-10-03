@@ -122,6 +122,7 @@ def main() -> int:
 
     slugs = sorted(p.stem for p in (root / "analysis" / "deep").glob("*.md"))
     rows = []
+    github_base = "https://github.com/changQiangXia/KStarter/blob/main/"
     for slug in slugs:
         meta = parse_digest(root, slug)
         deep = parse_deep(root, slug)
@@ -143,6 +144,8 @@ def main() -> int:
                 "one_line": deep["one_line"],
                 "deep_doc": f"analysis/deep/{slug}.md",
                 "notes_doc": notes[0].relative_to(root).as_posix() if notes else "",
+                "deep_doc_url": f"{github_base}analysis/deep/{slug}.md",
+                "notes_doc_url": f"{github_base}{notes[0].relative_to(root).as_posix()}" if notes else "",
             }
         )
 
@@ -168,7 +171,8 @@ def main() -> int:
         for r in items:
             lesson = r["one_line"] or r["title"]
             lines.append(
-                f"- `{r['slug']}`（{r['category']}｜{r['metric'] or '—'}｜{r['tags']}）：{lesson}"
+                f"- `{r['slug']}`（{r['category']}｜{r['metric'] or '—'}｜{r['tags']}）：{lesson} "
+                f"[深读原文]({r['deep_doc_url']})"
             )
         lines.append("")
     (SKILL / "references" / "case-index.md").write_text("\n".join(lines), encoding="utf-8")

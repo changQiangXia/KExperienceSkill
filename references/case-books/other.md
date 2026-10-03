@@ -6,6 +6,7 @@
 ## 2023-kaggle-ai-report — 2023 Kaggle AI Report 轻量深读（Tier B）
 
 > 主题 other ｜ 类别 Community ｜ 指标 Mean Absolute Error ｜ 队伍 220 ｜ 截止 2023-07-16 ｜ Tier B ｜ 标签 other,code,review
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/2023-kaggle-ai-report.md
 > 材料基础：`digests/2023-kaggle-ai-report.md`（6 篇正文：获奖公布 429989 / 获奖作品索引 430092 / 积分奖牌争议 409784 / 冠军解决方案数据集 421036 / GenAI 类冠军 430488 / 继续发 notebook 是否影响评奖 420122；80 条主题索引）+ 2 张归档图
 
 ### 一句话重述
@@ -69,11 +70,24 @@ tabular 冠军把 S3 前 13 场冠军的模型选择编成表；另一位冠军�
 - ../../intel/2023-kaggle-ai-report/bodies/429989_img/01.png — S3 前 13 场冠军算法使用表
 - ../../intel/2023-kaggle-ai-report/bodies/429989_img/02.png — Trustworthy AI 六边形
 
+### 出处
+- 获奖公布（51 票 / 30 评论）：https://www.kaggle.com/competitions/2023-kaggle-ai-report/discussion/429989
+- 获奖作品索引（2 票 / 2 评论）：https://www.kaggle.com/competitions/2023-kaggle-ai-report/discussion/430092
+- 积分与奖牌争议（73 票 / 37 评论）：https://www.kaggle.com/competitions/2023-kaggle-ai-report/discussion/409784
+- 官方积分更新（29 票 / 15 评论）：https://www.kaggle.com/competitions/2023-kaggle-ai-report/discussion/410802
+- AI 生成内容政策（21 票 / 24 评论）：https://www.kaggle.com/competitions/2023-kaggle-ai-report/discussion/409388
+- ZeroGPT 互查（7 票 / 21 评论）：https://www.kaggle.com/competitions/2023-kaggle-ai-report/discussion/419618
+- 置顶 Q&A（13 票 / 156 评论）：https://www.kaggle.com/competitions/2023-kaggle-ai-report/discussion/400084
+- 结果透明性质疑（11 票 / 4 评论）：https://www.kaggle.com/competitions/2023-kaggle-ai-report/discussion/429994
+- 冠军解决方案数据集（5 票 / 2 评论）：https://www.kaggle.com/competitions/2023-kaggle-ai-report/discussion/421036
+- 最终报告发布（22 票 / 2 评论）：https://www.kaggle.com/competitions/2023-kaggle-ai-report/discussion/446174
+
 ---
 
 ## 5-day-ai-agents-intensive-vibecoding-course-with-google — 5-Day AI Agents Intensive (Vibe Coding with Google) 轻量深读（Tier B）
 
 > 主题 other ｜ 类别 Featured ｜ 指标  ｜ 队伍 0 ｜ 截止 2026-06-19 ｜ Tier B ｜ 标签 other,agent,rl
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/5-day-ai-agents-intensive-vibecoding-course-with-google.md
 > 材料基础：`digests/5-day-ai-agents-intensive-vibecoding-course-with-google.md`（6 篇正文：Codelabs FAQ 1654+ / Welcome+Setup 2592 / Final(Unit5) 1254 / Day2 2147 / Day3 1564 / Day1 4217 票；80 条主题索引）+ 0 张归档图
 
 ### 证据分级
@@ -89,11 +103,21 @@ tabular 冠军把 S3 前 13 场冠军的模型选择编成表；另一位冠军�
 - 课程无数值化成效/评测；"0 队"表明它不是可竞技的赛道。
 - 无归档图（本场无图证）。
 
+### 出处
+- Day 1（4217 票）：https://www.kaggle.com/competitions/5-day-ai-agents-intensive-vibecoding-course-with-google/discussion/708280
+- Welcome + Setup（2592 票）：https://www.kaggle.com/competitions/5-day-ai-agents-intensive-vibecoding-course-with-google/discussion/708114
+- Day 2（2147 票）：https://www.kaggle.com/competitions/5-day-ai-agents-intensive-vibecoding-course-with-google/discussion/708469
+- Codelabs FAQ（1654 票）：https://www.kaggle.com/competitions/5-day-ai-agents-intensive-vibecoding-course-with-google/discussion/708107
+- Day 3（1564 票）：https://www.kaggle.com/competitions/5-day-ai-agents-intensive-vibecoding-course-with-google/discussion/708744
+- Final Assignment（1254 票）：https://www.kaggle.com/competitions/5-day-ai-agents-intensive-vibecoding-course-with-google/discussion/709464
+- 缺口登记：Day 4（709165）、Capstone（709721）、Wrap-up（709712）、Learn Guide（716539）
+
 ---
 
 ## kaggle-survey-2021 — 2021 Kaggle ML & DS Survey（数据叙事 notebook 赛）轻量深读（Tier B）
 
 > 主题 other ｜ 类别 Community ｜ 指标  ｜ 队伍 0 ｜ 截止 2021-11-28 ｜ Tier B ｜ 标签 other,code
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/kaggle-survey-2021.md
 > 材料基础：`digests/kaggle-survey-2021.md`（6 篇正文：7 条建议 279327 / 获奖名单 295401 / 8 大主题 278727 / 往届获奖 278542 / 早期提交奖 288495 / 21 个获奖示例 281091；72 条主题索引）+ 6 张归档图
 
 ### 一句话重述
@@ -151,11 +175,23 @@ $1,000 奖励"提前公开的优秀 notebook"，与 2022 届冠军"提前两周�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/kaggle-survey-2021/bodies/295401_img/01.png — 冠军的 AI 采用指数
 
+### 出处
+- 7 条建议（94 票 / 34 评论）：https://www.kaggle.com/competitions/kaggle-survey-2021/discussion/279327
+- 获奖名单（63 票 / 31 评论）：https://www.kaggle.com/competitions/kaggle-survey-2021/discussion/295401
+- 8 大叙事主题（63 票 / 14 评论）：https://www.kaggle.com/competitions/kaggle-survey-2021/discussion/278727
+- 往届获奖名单（54 票 / 17 评论）：https://www.kaggle.com/competitions/kaggle-survey-2021/discussion/278542
+- 早期提交奖（47 票 / 20 评论）：https://www.kaggle.com/competitions/kaggle-survey-2021/discussion/288495
+- 21 个获奖示例（25 票 / 2 评论）：https://www.kaggle.com/competitions/kaggle-survey-2021/discussion/281091
+- 分析赛与讲故事（31 票 / 14 评论）：https://www.kaggle.com/competitions/kaggle-survey-2021/discussion/291684
+- 可视化建议（25 票 / 9 评论）：https://www.kaggle.com/competitions/kaggle-survey-2021/discussion/281675
+- 外部数据集（24 票 / 2 评论）：https://www.kaggle.com/competitions/kaggle-survey-2021/discussion/280726
+
 ---
 
 ## kaggle-survey-2022 — 2022 Kaggle ML & DS Survey（数据叙事 notebook 赛）轻量深读（Tier B）
 
 > 主题 other ｜ 类别 Community ｜ 指标  ｜ 队伍 0 ｜ 截止 2022-11-27 ｜ Tier B ｜ 标签 other,code
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/kaggle-survey-2022.md
 > 材料基础：`digests/kaggle-survey-2022.md`（6 篇正文：历届获奖 359064 / 1st 幕后连载 part I 374157、part II 374969、part V 377522 / 上届作品集 359075 / 外部数据源 359047；63 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -208,11 +244,23 @@ Kaggle 第六届年度调查的"最佳分析 notebook"赛：用当年问卷（�
 - 评审 rubric 的完整加权未知；
 - **图证缺口**：本场归档 0 图。
 
+### 出处
+- 冠军幕后 part I：开发前构思（19 票 / 7 评论）：https://www.kaggle.com/competitions/kaggle-survey-2022/discussion/374157
+- 冠军幕后 part II：因子化思路（12 票）：https://www.kaggle.com/competitions/kaggle-survey-2022/discussion/374969
+- 冠军幕后 part V：总结与运营（10 票 / 6 评论）：https://www.kaggle.com/competitions/kaggle-survey-2022/discussion/377522
+- 历届获奖 notebook 清单（53 票 / 16 评论）：https://www.kaggle.com/competitions/kaggle-survey-2022/discussion/359064
+- 上届作品集（9 票）：https://www.kaggle.com/competitions/kaggle-survey-2022/discussion/359075
+- 外部数据源建议（35 票 / 6 评论）：https://www.kaggle.com/competitions/kaggle-survey-2022/discussion/359047
+- "图表不会自己说话"（20 票 / 35 评论）：https://www.kaggle.com/competitions/kaggle-survey-2022/discussion/359342
+- 奖项公告（33 票 / 40 评论）：https://www.kaggle.com/competitions/kaggle-survey-2022/discussion/372587
+- 官方 Q&A（25 票 / 41 评论）：https://www.kaggle.com/competitions/kaggle-survey-2022/discussion/358116
+
 ---
 
 ## nfl-big-data-bowl-2022 — NFL Big Data Bowl 2022 轻量深读（Tier B）
 
 > 主题 other ｜ 类别 Community ｜ 指标  ｜ 队伍 0 ｜ 截止 2022-01-06 ｜ Tier B ｜ 标签 other,sports
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/nfl-big-data-bowl-2022.md
 > 材料基础：`digests/nfl-big-data-bowl-2022.md`（6 篇正文：NFL 入门指南 274258 / 历届获奖作品 274056 / 官方欢迎 274066 / 官方欢迎与规则 274053 / 官方 demos 275296 / film study 283822；80 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -272,11 +320,24 @@ Kaggle 第六届年度调查的"最佳分析 notebook"赛：用当年问卷（�
 - 外部数据规则（284626）与天气数据（276845）的答复未归档；
 - **图证缺口**：本场 0 张归档图（目录为空），已登记。
 
+### 出处
+- 官方欢迎与规则（22 票 / 7 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2022/discussion/274053
+- 任务说明与数据范围（41 票 / 27 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2022/discussion/274066
+- 官方 demos（18 票 / 1 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2022/discussion/275296
+- NFL 入门指南（18 票 / 5 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2022/discussion/274258
+- 特勤组 10 分钟（17 票 / 4 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2022/discussion/274376
+- 历届获奖作品（29 票 / 4 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2022/discussion/274056
+- film study（20 票 / 2 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2022/discussion/283822
+- judging 与 next steps（10 票 / 6 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2022/discussion/300722
+- 2022 Winners（7 票 / 2 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2022/discussion/307969
+- PFF/tracking 不匹配补丁（2 票 / 0 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2022/discussion/298160
+
 ---
 
 ## predict-ai-model-runtime — Predict AI Model Runtime 轻量深读（Tier B）
 
 > 主题 other ｜ 类别 Research ｜ 指标 58266_TpuGraphsEval ｜ 队伍 616 ｜ 截止 2023-11-17 ｜ Tier B ｜ 标签 other,
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/predict-ai-model-runtime.md
 > 材料基础：`digests/predict-ai-model-runtime.md`（6 篇正文：1st 456343 / 10th 456129 / 6th 456084 / 11th 456092 / 4th 456462 / 科普帖 435631；80 条主题索引）+ 6 张图
 
 ### 一句话重述
@@ -344,5 +405,15 @@ Kaggle 第六届年度调查的"最佳分析 notebook"赛：用当年问卷（�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/predict-ai-model-runtime/bodies/456343_img/01.png — 1st 的网络结构
 - ../../intel/predict-ai-model-runtime/bodies/456129_img/01.png — 10th 的 tile/layout 双模型
+
+### 出处
+- 1st（68 票）：https://www.kaggle.com/competitions/predict-ai-model-runtime/discussion/456343
+- 10th（25 票）：https://www.kaggle.com/competitions/predict-ai-model-runtime/discussion/456129
+- 6th（28 票）：https://www.kaggle.com/competitions/predict-ai-model-runtime/discussion/456084
+- 11th（27 票）：https://www.kaggle.com/competitions/predict-ai-model-runtime/discussion/456092
+- 4th（25 票）：https://www.kaggle.com/competitions/predict-ai-model-runtime/discussion/456462
+- 科普（101 票，layout/tile 定义）：https://www.kaggle.com/competitions/predict-ai-model-runtime/discussion/435631
+- 数据更新（33 票）：https://www.kaggle.com/competitions/predict-ai-model-runtime/discussion/443581
+- 测试采样泄漏（13 票）：https://www.kaggle.com/competitions/predict-ai-model-runtime/discussion/456090
 
 ---

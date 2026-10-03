@@ -130,3 +130,13 @@
 - 用 LB 结果证明假设（没有同折对照）；
 - 一次改多个变量、事后归因；
 - 忽略规则与合规，或把不合规红利写进计划。
+
+## 链接索引（来源佐证）
+
+> 自动生成：本文档提到的比赛及其题解链接（Kaggle discussion，最多 3 条）+ KStarter 深读原文。
+
+- **deep-past-initiative-machine-translation**（nlp/Featured｜DPI BLEU / chrF++）
+  - [1st（94 票）](https://www.kaggle.com/competitions/deep-past-initiative-machine-translation/discussion/684353)
+  - [编译讨论（93 票）](https://www.kaggle.com/competitions/deep-past-initiative-machine-translation/discussion/668402)
+  - [6th（54 票）](https://www.kaggle.com/competitions/deep-past-initiative-machine-translation/discussion/684231)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/deep-past-initiative-machine-translation.md)

@@ -62,6 +62,11 @@ def main() -> int:
     print("\n## 证据分级")
     for e in card["evidence"]:
         print(f"- {e['assertion']}｜{e['level']}｜{e['note']}")
+    print("\n## 题解链接（来源佐证）")
+    for s in card.get("sources", []):
+        print(f"- [{s['label']}]({s['url']})")
+    if card.get("deep_doc_url"):
+        print(f"- [KStarter 深读原文]({card['deep_doc_url']})")
     return 0
 
 

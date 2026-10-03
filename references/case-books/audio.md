@@ -6,6 +6,7 @@
 ## bengaliai-speech — Bengali.AI Speech Recognition 轻量深读（Tier B）
 
 > 主题 audio ｜ 类别 Research ｜ 指标 Word Error Rate ｜ 队伍 744 ｜ 截止 2023-10-17 ｜ Tier B ｜ 标签 audio
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/bengaliai-speech.md
 > 材料基础：`digests/bengaliai-speech.md`（6 篇正文：1st 447961 / 2nd 447976 / 3rd 447957 / 5th 448006 / 44th 450635 / 实验帖 425496；80 条主题索引）+ 6 张图
 
 ### 一句话重述
@@ -70,11 +71,20 @@
 ### 图证（KStarter 仓库内路径）
 - ../../intel/bengaliai-speech/bodies/448006_img/01.png — 5th 的隐状态拼接集成
 
+### 出处
+- 1st（447961）：https://www.kaggle.com/competitions/bengaliai-speech/discussion/447961
+- 2nd（41 票）：https://www.kaggle.com/competitions/bengaliai-speech/discussion/447976
+- 3rd（43 票）：https://www.kaggle.com/competitions/bengaliai-speech/discussion/447957
+- 5th（34 票，ensembling works）：https://www.kaggle.com/competitions/bengaliai-speech/discussion/448006
+- 44th（31 票）：https://www.kaggle.com/competitions/bengaliai-speech/discussion/450635
+- "微调是关键"（47 票）：https://www.kaggle.com/competitions/bengaliai-speech/discussion/433722
+
 ---
 
 ## birdclef-2022 — BirdCLEF 2022 深读：稀有类分组 × 损失分工 × 阈值校准
 
 > 主题 audio ｜ 类别 Research ｜ 指标 Weighted Categorization Accuracy ｜ 队伍 801 ｜ 截止 2022-05-24 ｜ Tier A ｜ 标签 audio,wildlife
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/birdclef-2022.md
 > 材料基础：`digests/birdclef-2022.md`（6 篇：抄袭举报 177 票/实验分享 156/1st models 63/public#1-private#2 59/3rd 56/起点帖 51；80 条索引）+ 3 张图
 
 ### 一句话重述
@@ -182,11 +192,21 @@ public#1/private#2：直接用主办方 BirdNET（20/21 类重合，改 species_
 - 增强类：SED 上的 mixup、RandomLowpassFilter（3rd）；"augment only scored birds"、"multiply loss ×10"（3rd）。
 - 流程类：复制粘贴 notebook（治理）；推理耗时 2h 未优化（起点帖）；只按公榜选提交（3rd 的教训）。
 
+### 出处
+- 抄袭举报（177 票）：https://www.kaggle.com/competitions/birdclef-2022/discussion/321202
+- 实验分享（156 票）：https://www.kaggle.com/competitions/birdclef-2022/discussion/318081
+- 1st models（63 票）：https://www.kaggle.com/competitions/birdclef-2022/discussion/327047
+- public#1/private#2（59 票）：https://www.kaggle.com/competitions/birdclef-2022/discussion/326950
+- 3rd（56 票）：https://www.kaggle.com/competitions/birdclef-2022/discussion/327193
+- 起点帖（51 票）：https://www.kaggle.com/competitions/birdclef-2022/discussion/308004
+- 缺口登记：307824、324124、326973、314999、309213 未收录正文
+
 ---
 
 ## birdclef-2023 — BirdCLEF 2023 轻量深读（Tier B）
 
 > 主题 audio ｜ 类别 Research ｜ 指标 buffered_cmAP ｜ 队伍 1189 ｜ 截止 2023-05-24 ｜ Tier B ｜ 标签 audio,wildlife
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/birdclef-2023.md
 > 材料基础：`digests/birdclef-2023.md`（6 篇正文：1st 132 / Pretraining 0.80 88 / 2nd 67 / 4th 55 / 7th 38 / 10th；80 条主题索引）+ 2 张图
 
 ### 一句话重述
@@ -249,11 +269,20 @@ Transformer（ECAPA TDNN）、更大 chunk、CQT/LEAF、彩色噪声、2021 2nd 
 ### 图证（KStarter 仓库内路径）
 - ../../intel/birdclef-2023/bodies/412922_img/01.jpeg — 推理库耗时对比
 
+### 出处
+- 1st（132 票）：https://www.kaggle.com/competitions/birdclef-2023/discussion/412808
+- Pretraining 0.80（88 票）：https://www.kaggle.com/competitions/birdclef-2023/discussion/395843
+- 2nd（67 票）：https://www.kaggle.com/competitions/birdclef-2023/discussion/412707
+- 4th（55 票）：https://www.kaggle.com/competitions/birdclef-2023/discussion/412753
+- 7th（38 票）：https://www.kaggle.com/competitions/birdclef-2023/discussion/412922
+- 10th：https://www.kaggle.com/competitions/birdclef-2023/discussion/412713
+
 ---
 
 ## birdclef-2025 — BirdCLEF 2025 深读：多轮 Noisy Student 自训练工程
 
 > 主题 audio ｜ 类别 Research ｜ 指标 Birdclef ROC AUC ｜ 队伍 2031 ｜ 截止 2025-06-05 ｜ Tier A ｜ 标签 audio,ranking,wildlife,education
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/birdclef-2025.md
 > 材料基础：`digests/birdclef-2025.md`（6 篇：1st 263 票/recipe 119/2024 技法汇总 73/5th 69/系列索引 55/2nd 54；80 条索引）+ 11 张图
 
 ### 一句话重述
@@ -376,11 +405,21 @@ Transformer（ECAPA TDNN）、更大 chunk、CQT/LEAF、彩色噪声、2021 2nd 
 - 5th：CNN/1D 模型；过多增强；低排名类 power 后处理（怕过拟合未用）。
 - Recipe：raw-wave 上的任何增强/处理都有害。
 
+### 出处
+- 1st（263 票）：https://www.kaggle.com/competitions/birdclef-2025/discussion/583577
+- Recipe 0.872（119 票）：https://www.kaggle.com/competitions/birdclef-2025/discussion/573066
+- 2024 技法汇总（73 票）：https://www.kaggle.com/competitions/birdclef-2025/discussion/572928
+- 5th（69 票）：https://www.kaggle.com/competitions/birdclef-2025/discussion/583312
+- 系列索引（55 票）：https://www.kaggle.com/competitions/birdclef-2025/discussion/567499
+- 2nd（54 票）：https://www.kaggle.com/competitions/birdclef-2025/discussion/583699
+- 缺口登记：568886、567495、570760、570402、570837、568303、567672 未收录正文
+
 ---
 
 ## birdclef-2026 — BirdCLEF 2026 轻量深读（Tier B）
 
 > 主题 audio ｜ 类别 Research ｜ 指标 Birdclef ROC AUC ｜ 队伍 4094 ｜ 截止 2026-06-03 ｜ Tier B ｜ 标签 audio,ranking,wildlife
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/birdclef-2026.md
 > 材料基础：`digests/birdclef-2026.md`（6 篇正文：Claude-Code 被移除 704391 / 1st 704752 / 2nd 704399 / 10th 704271 / 11th 704264 / Claude 占位 681146；80 条主题索引）+ 7 张图
 
 ### 一句话重述
@@ -442,5 +481,13 @@ Transformer（ECAPA TDNN）、更大 chunk、CQT/LEAF、彩色噪声、2021 2nd 
 
 ### 图证（KStarter 仓库内路径）
 - ../../intel/birdclef-2026/bodies/704752_img/01.png — 1st 的完整管线
+
+### 出处
+- Claude-Code 被移除（704391）：https://www.kaggle.com/competitions/birdclef-2026/discussion/704391
+- 1st（704752）：https://www.kaggle.com/competitions/birdclef-2026/discussion/704752
+- 2nd（704399）：https://www.kaggle.com/competitions/birdclef-2026/discussion/704399
+- 10th（704271）：https://www.kaggle.com/competitions/birdclef-2026/discussion/704271
+- 11th（704264）：https://www.kaggle.com/competitions/birdclef-2026/discussion/704264
+- Claude 占位（681146）：https://www.kaggle.com/competitions/birdclef-2026/discussion/681146
 
 ---

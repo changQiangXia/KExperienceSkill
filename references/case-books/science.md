@@ -6,6 +6,7 @@
 ## MABe-mouse-behavior-detection — MABe Mouse Behavior Detection 轻量深读（Tier B）
 
 > 主题 science ｜ 类别 Research ｜ 指标 MABe F Beta ｜ 队伍 1412 ｜ 截止 2025-12-15 ｜ Tier B ｜ 标签 science,cv,detection
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/MABe-mouse-behavior-detection.md
 > 材料基础：`digests/MABe-mouse-behavior-detection.md`（6 篇正文：7th 663029 / 2nd 663083 / 10th 663063 / 3rd 663026 / 睡鼠笔记 608753 / 1D 检测占位 609063；80 条主题索引）+ 7 张图
 
 ### 一句话重述
@@ -67,11 +68,20 @@ CNN-Transformer（7th）vs CNN+RNN/SqueezeFormer（2nd）vs LSTM（3rd）都能�
 - ../../intel/MABe-mouse-behavior-detection/bodies/663029_img/05.png — CNN Transformer 架构
 - ../../intel/MABe-mouse-behavior-detection/bodies/663029_img/02.png — 不同实验室的 arena 差异
 
+### 出处
+- 7th（92 票）：https://www.kaggle.com/competitions/MABe-mouse-behavior-detection/discussion/663029
+- 2nd（46 票）：https://www.kaggle.com/competitions/MABe-mouse-behavior-detection/discussion/663083
+- 10th ST-GCN（663063）：https://www.kaggle.com/competitions/MABe-mouse-behavior-detection/discussion/663063
+- 3rd（52 票）：https://www.kaggle.com/competitions/MABe-mouse-behavior-detection/discussion/663026
+- 睡鼠笔记（53 票）：https://www.kaggle.com/competitions/MABe-mouse-behavior-detection/discussion/608753
+- 1D 检测占位（42 票）：https://www.kaggle.com/competitions/MABe-mouse-behavior-detection/discussion/609063
+
 ---
 
 ## amp-parkinsons-disease-progression-prediction — AMP-Parkinson's Disease Progression Prediction 轻量深读（Tier B）
 
 > 主题 science ｜ 类别 Featured ｜ 指标 smape_plus_1 ｜ 队伍 1805 ｜ 截止 2023-05-18 ｜ Tier B ｜ 标签 science
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/amp-parkinsons-disease-progression-prediction.md
 > 材料基础：`digests/amp-parkinsons-disease-progression-prediction.md`（6 篇正文：1st 411505 / 4th 411398 / 8th 411395 / 13th 411436 / Top89 411561 等；80 条主题索引）+ 6 张图
 
 ### 一句话重述
@@ -132,11 +142,20 @@ CNN-Transformer（7th）vs CNN+RNN/SqueezeFormer（2nd）vs LSTM（3rd）都能�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/amp-parkinsons-disease-progression-prediction/bodies/411398_img/01.png — UPDRS 均值随就诊月变化
 
+### 出处
+- 1st（99 票）：https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction/discussion/411505
+- 4th（235 行处）：https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction/discussion/411398
+- 8th：https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction/discussion/411395
+- 13th：https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction/discussion/411436
+- Top89（非泄漏）：https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction/discussion/411561
+- 找对照组（76 票）：https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction/discussion/411388
+
 ---
 
 ## ariel-data-challenge-2024 — ARIEL 2024 深读：物理反演 × 仿真代码逆向 × 不确定度工程
 
 > 主题 science ｜ 类别 Featured ｜ 指标 Ariel Gaussian Log Likelihood ｜ 队伍 1151 ｜ 截止 2024-10-31 ｜ Tier A ｜ 标签 science
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/ariel-data-challenge-2024.md
 > 材料基础：`digests/ariel-data-challenge-2024.md`（6 篇：2nd 125 票/1st/4th/5th/6th + 组织者资源帖；80 条讨论索引）+ 18 张图
 
 ### 一句话重述
@@ -251,11 +270,21 @@ CNN-Transformer（7th）vs CNN+RNN/SqueezeFormer（2nd）vs LSTM（3rd）都能�
 - 推断层：MCMC（5th，运行时不可行）；若不做迭代线性化，非线性先验无法直接解（2nd）。
 - 评估层：把本地验证当泛化代理（5th 的 +0.1 幻觉）。
 
+### 出处
+- 2nd（jeroencottaar，125 票）：https://www.kaggle.com/competitions/ariel-data-challenge-2024/discussion/543853
+- 组织者资源帖（74 票）：https://www.kaggle.com/competitions/ariel-data-challenge-2024/discussion/524287
+- 6th（sergeifironov，57 票）：https://www.kaggle.com/competitions/ariel-data-challenge-2024/discussion/543666
+- 1st（daiwakun + cnumber，51 票）：https://www.kaggle.com/competitions/ariel-data-challenge-2024/discussion/544317
+- 5th（ilu000 + Youri，36 票）：https://www.kaggle.com/competitions/ariel-data-challenge-2024/discussion/543760
+- 4th（27 票）：https://www.kaggle.com/competitions/ariel-data-challenge-2024/discussion/544471
+- 缺口登记（未收录正文）：543679(7th)、523708、523664、529533、528247、528114、528066、540248 等
+
 ---
 
 ## ariel-data-challenge-2025 — Ariel Data Challenge 2025 轻量深读（Tier B）
 
 > 主题 science ｜ 类别 Featured ｜ 指标 Ariel Gaussian Log Likelihood ｜ 队伍 860 ｜ 截止 2025-09-24 ｜ Tier B ｜ 标签 science
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/ariel-data-challenge-2025.md
 > 材料基础：`digests/ariel-data-challenge-2025.md`（6 篇正文：1st 609888 / 6th 609276 / 7th 609210 / ArielML 591278 / 9th 609443 / 3rd 609252；80 条主题索引）+ 19 张图
 
 ### 一句话重述
@@ -313,11 +342,20 @@ CNN-Transformer（7th）vs CNN+RNN/SqueezeFormer（2nd）vs LSTM（3rd）都能�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/ariel-data-challenge-2025/bodies/609888_img/04.png — 1st 的先验分解
 
+### 出处
+- 1st（56 票）：https://www.kaggle.com/competitions/ariel-data-challenge-2025/discussion/609888
+- 6th（609276）：https://www.kaggle.com/competitions/ariel-data-challenge-2025/discussion/609276
+- 7th（609210）：https://www.kaggle.com/competitions/ariel-data-challenge-2025/discussion/609210
+- ArielML（591278）：https://www.kaggle.com/competitions/ariel-data-challenge-2025/discussion/591278
+- 9th（609443）：https://www.kaggle.com/competitions/ariel-data-challenge-2025/discussion/609443
+- 3rd（32 票）：https://www.kaggle.com/competitions/ariel-data-challenge-2025/discussion/609252
+
 ---
 
 ## birdclef-2024 — BirdCLEF 2024 轻量深读（Tier B）
 
 > 主题 science ｜ 类别 Research ｜ 指标 Birdclef ROC AUC ｜ 队伍 974 ｜ 截止 2024-06-10 ｜ Tier B ｜ 标签 science,audio,ranking,wildlife
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/birdclef-2024.md
 > 材料基础：`digests/birdclef-2024.md`（6 篇正文：4th Cerberus 511845 / 2nd 512340 / 1st 512197 / 3rd 511905 / 5th 511535 / Xeno 补充数据 491687；80 条主题索引）+ 6 张图
 
 ### 一句话重述
@@ -380,11 +418,20 @@ CNN-Transformer（7th）vs CNN+RNN/SqueezeFormer（2nd）vs LSTM（3rd）都能�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/birdclef-2024/bodies/512197_img/03.png — 1st 的集成推理流程
 
+### 出处
+- 4th Cerberus（511845）：https://www.kaggle.com/competitions/birdclef-2024/discussion/511845
+- 2nd（512340）：https://www.kaggle.com/competitions/birdclef-2024/discussion/512340
+- 1st（107 票）：https://www.kaggle.com/competitions/birdclef-2024/discussion/512197
+- 3rd（78 票）：https://www.kaggle.com/competitions/birdclef-2024/discussion/511905
+- 5th（57 票）：https://www.kaggle.com/competitions/birdclef-2024/discussion/511535
+- Xeno 补充数据（85 票）：https://www.kaggle.com/competitions/birdclef-2024/discussion/491687
+
 ---
 
 ## cafa-5-protein-function-prediction — CAFA 5 Protein Function Prediction 轻量深读（Tier B）
 
 > 主题 science ｜ 类别 Research ｜ 指标 PostProcessorKernelDesc ｜ 队伍 1625 ｜ 截止 2023-12-20 ｜ Tier B ｜ 标签 science,drug-discovery
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/cafa-5-protein-function-prediction.md
 > 材料基础：`digests/cafa-5-protein-function-prediction.md`（6 篇正文：1st 466917 / 2nd 434064 / 3rd 464437 / 13th 425 行处 / Information Accretion 405237 / ESM2 帖 406168；80 条主题索引）+ 5 张图
 
 ### 一句话重述
@@ -448,11 +495,20 @@ IA 解释帖说明层级与权重；2nd 直接把本体图搬进推理（按图�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/cafa-5-protein-function-prediction/bodies/466917_img/01.png — 1st 的组件方法性能
 
+### 出处
+- 1st（34 票）：https://www.kaggle.com/competitions/cafa-5-protein-function-prediction/discussion/466917
+- 2nd 私榜/公榜 5th（59 票）：https://www.kaggle.com/competitions/cafa-5-protein-function-prediction/discussion/434064
+- 3rd（31 票）：https://www.kaggle.com/competitions/cafa-5-protein-function-prediction/discussion/464437
+- Information Accretion 解释（68 票）：https://www.kaggle.com/competitions/cafa-5-protein-function-prediction/discussion/405237
+- ESM2 末层嵌入（47 票）：https://www.kaggle.com/competitions/cafa-5-protein-function-prediction/discussion/406168
+- 蛋白语言模型（41 票）：https://www.kaggle.com/competitions/cafa-5-protein-function-prediction/discussion/402565
+
 ---
 
 ## cafa-6-protein-function-prediction — CAFA 6 Protein Function Prediction 轻量深读（Tier B）
 
 > 主题 science ｜ 类别 Research ｜ 指标 cafa6_metric_final ｜ 队伍 2259 ｜ 截止 2026-06-01 ｜ Tier B ｜ 标签 science,drug-discovery
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/cafa-6-protein-function-prediction.md
 > 材料基础：`digests/cafa-6-protein-function-prediction.md`（6 篇正文：1st 709383 / 2nd 711635 / 3rd 709281 / 加速实验 1283 行处 / 分类学 1337 行处 / 入门 1337 等；80 条主题索引）+ 19 张图
 
 ### 一句话重述
@@ -511,11 +567,20 @@ IA 解释帖说明层级与权重；2nd 直接把本体图搬进推理（按图�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/cafa-6-protein-function-prediction/bodies/709383_img/01.png — GOAlpha 总览
 
+### 出处
+- 1st（20 票）：https://www.kaggle.com/competitions/cafa-6-protein-function-prediction/discussion/709383
+- 2nd（17 票）：https://www.kaggle.com/competitions/cafa-6-protein-function-prediction/discussion/711635
+- 3rd（15 票）：https://www.kaggle.com/competitions/cafa-6-protein-function-prediction/discussion/709281
+- GAF 基线（22 票）：https://www.kaggle.com/competitions/cafa-6-protein-function-prediction/discussion/613138
+- 时间平移验证（16 票）：https://www.kaggle.com/competitions/cafa-6-protein-function-prediction/discussion/614668
+- CAFA-evaluator（21 票）：https://www.kaggle.com/competitions/cafa-6-protein-function-prediction/discussion/612097
+
 ---
 
 ## csiro-biomass — CSIRO Biomass Prediction 轻量深读（Tier B）
 
 > 主题 science ｜ 类别 Research ｜ 指标 R2 Score ｜ 队伍 3805 ｜ 截止 2026-01-28 ｜ Tier B ｜ 标签 science
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/csiro-biomass.md
 > 材料基础：`digests/csiro-biomass.md`（6 篇正文：1st 670735 / 4th 670677 / 5th 670668 / 7th 670654 / 37th 670672 / 按采样日期分组 615401；80 条主题索引）+ 10 张图
 
 ### 一句话重述
@@ -581,11 +646,20 @@ IA 解释帖说明层级与权重；2nd 直接把本体图搬进推理（按图�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/csiro-biomass/bodies/670677_img/01.png — 4th 的多模态融合架构
 
+### 出处
+- 1st（670735）：https://www.kaggle.com/competitions/csiro-biomass/discussion/670735
+- 4th（46 票）：https://www.kaggle.com/competitions/csiro-biomass/discussion/670677
+- 5th（81 票）：https://www.kaggle.com/competitions/csiro-biomass/discussion/670668
+- 7th（41 票）：https://www.kaggle.com/competitions/csiro-biomass/discussion/670654
+- 按采样日期分组（132 票）：https://www.kaggle.com/competitions/csiro-biomass/discussion/615401
+- Height/Dead 假设检验（86 票）：https://www.kaggle.com/competitions/csiro-biomass/discussion/650736
+
 ---
 
 ## equity-post-HCT-survival-predictions — Equity in Post-HCT Survival Predictions 轻量深读（Tier B）
 
 > 主题 science ｜ 类别 Research ｜ 指标 eefs_concordance_index ｜ 队伍 3325 ｜ 截止 2025-03-05 ｜ Tier B ｜ 标签 science
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/equity-post-HCT-survival-predictions.md
 > 材料基础：`digests/equity-post-HCT-survival-predictions.md`（6 篇正文：1st 566550 / 指标入门 550003 / 5th 566541 / 3rd 566574 / 4th 566528 / 2nd 566522；80 条主题索引）+ 9 张图
 
 ### 一句话重述
@@ -643,11 +717,20 @@ efs=0 是"至少存活到 efs_time"的删失观测；4th 用 Kaplan-Meier 累积
 ### 图证（KStarter 仓库内路径）
 - ../../intel/equity-post-HCT-survival-predictions/bodies/566550_img/01.jpg — merge 函数曲面
 
+### 出处
+- 1st（186 票）：https://www.kaggle.com/competitions/equity-post-HCT-survival-predictions/discussion/566550
+- 指标入门（301 票）：https://www.kaggle.com/competitions/equity-post-HCT-survival-predictions/discussion/550003
+- 5th（566541）：https://www.kaggle.com/competitions/equity-post-HCT-survival-predictions/discussion/566541
+- 3rd（566574）：https://www.kaggle.com/competitions/equity-post-HCT-survival-predictions/discussion/566574
+- 4th（566528）：https://www.kaggle.com/competitions/equity-post-HCT-survival-predictions/discussion/566528
+- 2nd（115 票）：https://www.kaggle.com/competitions/equity-post-HCT-survival-predictions/discussion/566522
+
 ---
 
 ## g2net-detecting-continuous-gravitational-waves — G2Net 连续引力波深读：功率统计量战胜深度学习（附生成痕迹利用案）
 
 > 主题 science ｜ 类别 Research ｜ 指标 Area Under Receiver Operating Characteristic Curve ｜ 队伍 936 ｜ 截止 2023-01-03 ｜ Tier A ｜ 标签 science,cv,detection
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/g2net-detecting-continuous-gravitational-waves.md
 > 材料基础：`digests/g2net-detecting-continuous-gravitational-waves.md`（6 篇：数据理解 134 票 / -1 彩蛋 125 票 / 1st 101 票 / 9th 48 票 / 6th 41 票 / 3rd 40 票；80 条讨论索引）+ 20 张图
 
 ### 一句话重述
@@ -759,11 +842,21 @@ float32 下溢风险（361312 帖，未收录）暗示数据尺度陷阱。
 - 6th：放弃 CV、按公榜调权（高风险）；真实噪声 rank 修正为事后经验。
 - 通用：用官方平稳噪声直接训练（域差异）；不做频率匹配的模板/模型。
 
+### 出处
+- 数据理解（134 票）：https://www.kaggle.com/competitions/g2net-detecting-continuous-gravitational-waves/discussion/358444
+- -1 标签彩蛋（125 票）：https://www.kaggle.com/competitions/g2net-detecting-continuous-gravitational-waves/discussion/363734
+- 1st（junkoda，101 票）：https://www.kaggle.com/competitions/g2net-detecting-continuous-gravitational-waves/discussion/375910
+- 9th（48 票）：https://www.kaggle.com/competitions/g2net-detecting-continuous-gravitational-waves/discussion/375897
+- 6th（41 票）：https://www.kaggle.com/competitions/g2net-detecting-continuous-gravitational-waves/discussion/375923
+- 3rd（40 票）：https://www.kaggle.com/competitions/g2net-detecting-continuous-gravitational-waves/discussion/376233
+- 缺口登记（未收录正文）：347052、370202、376022、373973、375369、361312、363280 等
+
 ---
 
 ## icecube-neutrinos-in-deep-ice — IceCube - Neutrinos in Deep Ice 轻量深读（Tier B）
 
 > 主题 science ｜ 类别 Research ｜ 指标 MeanAngularError ｜ 队伍 812 ｜ 截止 2023-04-19 ｜ Tier B ｜ 标签 science
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/icecube-neutrinos-in-deep-ice.md
 > 材料基础：`digests/icecube-neutrinos-in-deep-ice.md`（6 篇正文：2nd 402882 / 11th 402920 / 3rd 402888 / 1st 402976 / 10th 402969 / 9th 402849；80 条主题索引）+ 17 张图
 
 ### 一句话重述
@@ -821,11 +914,20 @@ float32 下溢风险（361312 帖，未收录）暗示数据尺度陷阱。
 ### 图证（KStarter 仓库内路径）
 - ../../intel/icecube-neutrinos-in-deep-ice/bodies/402882_img/01.png — 2nd 的 Transformer 模型
 
+### 出处
+- 2nd（103 票）：https://www.kaggle.com/competitions/icecube-neutrinos-in-deep-ice/discussion/402882
+- 11th（402920）：https://www.kaggle.com/competitions/icecube-neutrinos-in-deep-ice/discussion/402920
+- 3rd（56 票）：https://www.kaggle.com/competitions/icecube-neutrinos-in-deep-ice/discussion/402888
+- 1st（77 票）：https://www.kaggle.com/competitions/icecube-neutrinos-in-deep-ice/discussion/402976
+- 10th（402969）：https://www.kaggle.com/competitions/icecube-neutrinos-in-deep-ice/discussion/402969
+- 9th（41 票）：https://www.kaggle.com/competitions/icecube-neutrinos-in-deep-ice/discussion/402849
+
 ---
 
 ## leap-atmospheric-physics-ai-climsim — LEAP ClimSim 深读：数据规模 × 鲁棒损失 × 1D 序列架构（附泄漏治理案例）
 
 > 主题 science ｜ 类别 Research ｜ 指标 R2 Score ｜ 队伍 693 ｜ 截止 2024-07-15 ｜ Tier A ｜ 标签 science
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/leap-atmospheric-physics-ai-climsim.md
 > 材料基础：`digests/leap-atmospheric-physics-ai-climsim.md`（6 篇：4th/1st/2nd/10th + Two tips 109 票 + 泄漏治理请求 51 票；80 条讨论索引）+ 9 张图（523041×2 / 523055×5 / 523063×2）
 
 ### 一句话重述
@@ -946,11 +1048,21 @@ Two tips：**float32 下溢**（必须保 float64）；
 - 流程类：batch size 等超参遗留泄漏痕迹（4th）——**流程清洁度**是被忽视的合规要点；R² 与 1−MSE 的选择在测试集更换后决定验证有效性（10th）。
 - 数据类：HR 预训练未收敛（10th）、无全量数据（多队）。
 
+### 出处
+- 4th（34 票）：https://www.kaggle.com/competitions/leap-atmospheric-physics-ai-climsim/discussion/523042
+- 1st（82 票）：https://www.kaggle.com/competitions/leap-atmospheric-physics-ai-climsim/discussion/523063
+- 2nd（47 票）：https://www.kaggle.com/competitions/leap-atmospheric-physics-ai-climsim/discussion/523055
+- 10th（33 票）：https://www.kaggle.com/competitions/leap-atmospheric-physics-ai-climsim/discussion/523041
+- Two tips（109 票）：https://www.kaggle.com/competitions/leap-atmospheric-physics-ai-climsim/discussion/506984
+- 泄漏治理请求（51 票）：https://www.kaggle.com/competitions/leap-atmospheric-physics-ai-climsim/discussion/519249
+- 缺口登记（未收录正文）：511911、508630、501829、506490、519184、494968 等
+
 ---
 
 ## leash-BELKA — LEASH - BELKA（DNA 编码库结合预测）轻量深读（Tier B）
 
 > 主题 science ｜ 类别 Featured ｜ 指标 Leash Average mAP ｜ 队伍 1950 ｜ 截止 2024-07-08 ｜ Tier B ｜ 标签 science
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/leash-BELKA.md
 > 材料基础：`digests/leash-BELKA.md`（7 篇正文：1st 519020 / 2nd 519133 / 14th 518951 / 5th 521894 / 988th 519135 等 + 数据瘦身 491472 + 度量变更 503232；120 条主题索引）+ 10 张图
 
 ### 一句话重述
@@ -1011,11 +1123,21 @@ host 公告修改评分指标。**裁决**：指标变更后要重估所有历�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/leash-BELKA/bodies/519133_img/02.png — 2nd 的非共享块 ChemBERTa 模型
 
+### 出处
+- 1st（85 票）：https://www.kaggle.com/competitions/leash-BELKA/discussion/519020
+- 2nd 公榜/13th 私榜（68 票）：https://www.kaggle.com/competitions/leash-BELKA/discussion/519133
+- 14th（61 票）：https://www.kaggle.com/competitions/leash-BELKA/discussion/518951
+- 5th（46 票）：https://www.kaggle.com/competitions/leash-BELKA/discussion/521894
+- 988th（42 票）：https://www.kaggle.com/competitions/leash-BELKA/discussion/519135
+- 训练集瘦身（90 票）：https://www.kaggle.com/competitions/leash-BELKA/discussion/491472
+- 指标变更（68 票）：https://www.kaggle.com/competitions/leash-BELKA/discussion/503232
+
 ---
 
 ## march-machine-learning-mania-2026 — March Machine Learning Mania 2026 轻量深读（Tier B）
 
 > 主题 science ｜ 类别 Featured ｜ 指标 Mean Squared Error ｜ 队伍 3462 ｜ 截止 2026-04-07 ｜ Tier B ｜ 标签 science,sports,education
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/march-machine-learning-mania-2026.md
 > 材料基础：`digests/march-machine-learning-mania-2026.md`（8 篇正文：1st 72 / 3rd 34 / 2nd 15 / 10th 16 / 银牌 13 / 7th / 6th / 可视化 60；120 条主题索引）+ 10 张图
 
 ### 一句话重述
@@ -1091,11 +1213,20 @@ host 公告修改评分指标。**裁决**：指标变更后要重估所有历�
 - ../../intel/march-machine-learning-mania-2026/bodies/689528_img/01.png — 1st 的边缘锐化
 - ../../intel/march-machine-learning-mania-2026/bodies/689321_img/01.png — 3rd 的市场分层混合
 
+### 出处
+- 1st（72 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2026/discussion/689528
+- 2nd（15 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2026/discussion/689537
+- 3rd（34 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2026/discussion/689321
+- 10th（16 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2026/discussion/689044
+- 银牌 19th（13 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2026/discussion/689174
+- 缺口登记：678938（赛制更新）、683453（榜单完成）、680969（数据错误）、689808、689849
+
 ---
 
 ## neurips-open-polymer-prediction-2025 — NeurIPS Open Polymer 2025 深读：单性质标签事故 × 偏移探针 × 外部数据治理
 
 > 主题 science ｜ 类别 Featured ｜ 指标 open_polymer_2025 ｜ 队伍 2240 ｜ 截止 2025-09-15 ｜ Tier A ｜ 标签 science
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/neurips-open-polymer-prediction-2025.md
 > 材料基础：`digests/neurips-open-polymer-prediction-2025.md`（6 篇：1st/8th/2nd/20th/3rd + 材料帖；120 条讨论索引）+ 3 张图（607947×1 / 608069×2）
 
 ### 一句话重述
@@ -1218,11 +1349,21 @@ host 公告修改评分指标。**裁决**：指标变更后要重估所有历�
 - 数据类：外部数据不校正（Tg/−20°C、Density 0.118）；不查许可证（治理风险）。
 - 模型选择类：CatBoost/LGBM 折间方差大（8th 弃用）；复杂模型在低信噪比下无优势（2nd 的观察）。
 
+### 出处
+- 1st（jsday96，116 票）：https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/discussion/607947
+- Jump-start（106 票）：https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/discussion/585022
+- 8th（36 票）：https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/discussion/608069
+- 2nd：https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/discussion/608984
+- 20th（32 票）：https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/discussion/607803
+- 3rd（hongyu Guo）：https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/discussion/607991
+- 缺口登记（未收录正文）：587318、607784、585884、588643、607769、608250、593755、607778 等
+
 ---
 
 ## novozymes-enzyme-stability-prediction — Novozymes Enzyme Stability Prediction 轻量深读（Tier B）
 
 > 主题 science ｜ 类别 Featured ｜ 指标 SpearmanR ｜ 队伍 2482 ｜ 截止 2023-01-03 ｜ Tier B ｜ 标签 science,ranking,drug-discovery
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/novozymes-enzyme-stability-prediction.md
 > 材料基础：`digests/novozymes-enzyme-stability-prediction.md`（8 篇正文：公榜第 1→私榜 967 的复盘 376116 / GNN 版 1st 376371 / "意外夺冠" 375920 / 2nd 376134 / 3rd 636 行处 / 6th 810 行处 / 11th 784 行处 / 训练数据帖 572 行处；120 条主题索引）+ 11 张图
 
 ### 一句话重述
@@ -1281,11 +1422,20 @@ host 公告修改评分指标。**裁决**：指标变更后要重估所有历�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/novozymes-enzyme-stability-prediction/bodies/376371_img/01.png — GNN 版 1st 的模型结构
 
+### 出处
+- 公榜1→私榜967（169 票）：https://www.kaggle.com/competitions/novozymes-enzyme-stability-prediction/discussion/376116
+- GNN 版 1st（376371）：https://www.kaggle.com/competitions/novozymes-enzyme-stability-prediction/discussion/376371
+- "意外夺冠"（68 票）：https://www.kaggle.com/competitions/novozymes-enzyme-stability-prediction/discussion/375920
+- 2nd（私榜 0.577）：https://www.kaggle.com/competitions/novozymes-enzyme-stability-prediction/discussion/376134
+- 训练数据含同类突变（122 票）：https://www.kaggle.com/competitions/novozymes-enzyme-stability-prediction/discussion/355209
+- AF2 预测（71 票）：https://www.kaggle.com/competitions/novozymes-enzyme-stability-prediction/discussion/361816
+
 ---
 
 ## open-problems-multimodal — Open Problems Multimodal 深读：稀疏计数表示 × 目标分解 × 域偏移与公榜污染
 
 > 主题 science ｜ 类别 Featured ｜ 指标 MeanPearsonOld ｜ 队伍 1220 ｜ 截止 2022-11-15 ｜ Tier A ｜ 标签 science
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/open-problems-multimodal.md
 > 材料基础：`digests/open-problems-multimodal.md`（6 篇：1st/2nd/3rd + 作弊事件帖 + 领域知识帖 + 上届冠军索引；80 条讨论索引）+ 15 张图（366961×11 / 366453×2 / 346888×2）
 
 ### 一句话重述
@@ -1400,11 +1550,21 @@ host 公告修改评分指标。**裁决**：指标变更后要重估所有历�
 - 模型类：在低秩表示上追求更大容量（1st/3rd 的小模型反证）。
 - 治理类：参与付费代打（规则与信誉双重风险）；榜单异常段不要模仿。
 
+### 出处
+- 有组织作弊（147 票）：https://www.kaggle.com/competitions/open-problems-multimodal/discussion/366313
+- 领域知识（132 票）：https://www.kaggle.com/competitions/open-problems-multimodal/discussion/346888
+- 1st（shu65，104 票）：https://www.kaggle.com/competitions/open-problems-multimodal/discussion/366961
+- 上届冠军索引（96 票）：https://www.kaggle.com/competitions/open-problems-multimodal/discussion/348792
+- 2nd（senkin，95 票）：https://www.kaggle.com/competitions/open-problems-multimodal/discussion/366453
+- 3rd（makotu，70 票）：https://www.kaggle.com/competitions/open-problems-multimodal/discussion/366428
+- 缺口登记（未收录正文）：Leak in public test set(349867)、Private 0.773 lessons(366395)、It is a time series(363052)、7th(366471)、Exploiting the column names(349242)、364408、12th(366455)、Data Update and Rescore(350933)、 chronicles(348311)、ATAC-Gene(349559)
+
 ---
 
 ## open-problems-single-cell-perturbations — Open Problems Single-Cell Perturbations 深读：极弱输入 × 18k 目标 × 榜单哲学
 
 > 主题 science ｜ 类别 Featured ｜ 指标 Weighted Rowwise Root Mean Squared Error ｜ 队伍 1097 ｜ 截止 2023-11-30 ｜ Tier A ｜ 标签 science,cv
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/open-problems-single-cell-perturbations.md
 > 材料基础：`digests/open-problems-single-cell-perturbations.md`（6 篇：#13 U900 长文/1st/2nd/3rd + 指南 + 提问帖；80 条讨论索引）+ 12 张图（458750×8 / 459258×4）
 
 ### 一句话重述
@@ -1525,11 +1685,21 @@ host 公告修改评分指标。**裁决**：指标变更后要重估所有历�
 - 训练类：early stopping 阻断全量重训（#13）；伪标签进 SMILES-NN 无增益（#13）；Huber loss（3rd）；标签归一化/标准化、chained regression、去噪数据集、去离群、只训易/难列（3rd）。
 - 验证/治理类：以 local MRRMSE 选模（#13 量化其近零相关）；过度依赖公榜（本场探针/套利背景）。
 
+### 出处
+- 综合指南（65 票）：https://www.kaggle.com/competitions/open-problems-single-cell-perturbations/discussion/438859
+- #13 U900/PYBOOST（65 票）：https://www.kaggle.com/competitions/open-problems-single-cell-perturbations/discussion/460858
+- 1st（Jean Kouagou，50 票）：https://www.kaggle.com/competitions/open-problems-single-cell-perturbations/discussion/459258
+- 2nd（49 票）：https://www.kaggle.com/competitions/open-problems-single-cell-perturbations/discussion/458738
+- 3rd（33 票）：https://www.kaggle.com/competitions/open-problems-single-cell-perturbations/discussion/458750
+- 评审奖提问：https://www.kaggle.com/competitions/open-problems-single-cell-perturbations/discussion/456239
+- 缺口登记（未收录正文）：458661、454700、445883、457753、456943、440177、441550、458916 等
+
 ---
 
 ## phase-ii-widsdatathon2022 — WiDS Datathon 2022 Phase II（气候/健康研究型 datathon）轻量深读（Tier B）
 
 > 主题 science ｜ 类别 Community ｜ 指标  ｜ 队伍 0 ｜ 截止 2022-07-01 ｜ Tier B ｜ 标签 science
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/phase-ii-widsdatathon2022.md
 > 材料基础：`digests/phase-ii-widsdatathon2022.md`（6 篇正文：气候资源 312249 / 起步资源 311836 / 赛制说明 311833 / 组队 311837 / 法国燃气分析 311930 / CCAI notebook 缺失 313736；35 条主题索引）+ 3 张归档图
 
 ### 一句话重述
@@ -1591,11 +1761,21 @@ MIT/EPA/CCAI 各自数据有 starter、缺 notebook、列名含义（`alt_prec`�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/phase-ii-widsdatathon2022/bodies/312249_img/01.png — Tackling Climate Change with Machine Learning 论文首页
 
+### 出处
+- 赛制说明（6 票 / 5 评论）：https://www.kaggle.com/competitions/phase-ii-widsdatathon2022/discussion/311833
+- 起步资源（16 票 / 8 评论）：https://www.kaggle.com/competitions/phase-ii-widsdatathon2022/discussion/311836
+- 气候资源（6 票 / 3 评论）：https://www.kaggle.com/competitions/phase-ii-widsdatathon2022/discussion/312249
+- 论文截止提醒（3 票 / 3 评论）：https://www.kaggle.com/competitions/phase-ii-widsdatathon2022/discussion/333677
+- CCAI 缺失 notebook（6 票 / 0 评论）：https://www.kaggle.com/competitions/phase-ii-widsdatathon2022/discussion/313736
+- `alt_prec` 含义（3 票 / 0 评论）：https://www.kaggle.com/competitions/phase-ii-widsdatathon2022/discussion/313830
+- 研究奖 kick-off 录像（5 票 / 0 评论）：https://www.kaggle.com/competitions/phase-ii-widsdatathon2022/discussion/313768
+
 ---
 
 ## rogii-wellbore-geology-prediction — ROGII Wellbore Geology 深读：多模态对齐 × 验证纪律
 
 > 主题 science ｜ 类别 Featured ｜ 指标 Mean Squared Error ｜ 队伍 6125 ｜ 截止 2026-08-05 ｜ Tier A ｜ 标签 science
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/rogii-wellbore-geology-prediction.md
 > 材料基础：`digests/rogii-wellbore-geology-prediction.md`（9 篇正文：1st/2nd/3rd/6th/7th/26th/36th + 工作笔记奖 + 问题图示）；图片资产 24 张
 
 ### 一句话重述
@@ -1745,11 +1925,24 @@ MIT/EPA/CCAI 各自数据有 starter、缺 notebook、列名含义（`alt_prec`�
 - ../../intel/rogii-wellbore-geology-prediction/bodies/733154_img/03.png — rulers
 - ../../intel/rogii-wellbore-geology-prediction/bodies/733136_img/01.png — 26th submissions
 
+### 出处
+- 1st（Ruby）：https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction/discussion/733220
+- 2nd（Bilzard）：https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction/discussion/733432
+- 3rd（tereka）：https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction/discussion/733319
+- 6th（k256.dev）：https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction/discussion/733226
+- 7th（Gaopeng Ren）：https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction/discussion/733154
+- 26th（Tucker Arrants）：https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction/discussion/733136
+- 36th（Chris Deotte）：https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction/discussion/733181
+- 工作笔记奖（Igor Kuvaev）：https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction/discussion/727171
+- 问题图示（Zacchaeus）：https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction/discussion/697418
+- 未收录缺口（登记备查）：733480（4th）｜733522（5th）｜733281（8th）｜733150（9th）｜733315（10th）｜733182（34th）｜733307（48→407 复盘）等
+
 ---
 
 ## stanford-ribonanza-rna-folding — Stanford Ribonanza 深读：BPP 结构先验注入 × 长度外推 × 相似性 CV
 
 > 主题 science ｜ 类别 Research ｜ 指标 Mean Absolute Error ｜ 队伍 755 ｜ 截止 2023-12-07 ｜ Tier A ｜ 标签 science
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/stanford-ribonanza-rna-folding.md
 > 材料基础：`digests/stanford-ribonanza-rna-folding.md`（6 篇：1st/7th/8th/2nd/4th + best-single 讨论帖；80 条讨论索引）+ 15 张图（460121×7 / 460190×1 / 460203×2 / 460222×3 / 460316×2）
 
 ### 一句话重述
@@ -1882,11 +2075,21 @@ MIT/EPA/CCAI 各自数据有 starter、缺 notebook、列名含义（`alt_prec`�
 - 训练类：位置级误差掩码损失；SN 直接加权损失（1st，无提升）；30M 外部序列 MLM（7th）；EMA/AWP（7th）；大模型 dim>512（2nd）；SSL（2nd，结果不定但放弃）；多数增强（2nd/7th 仅 flip+BPP 重算有效）；1st 的全卷积 LegNet；UNet 层级（4th）；距离矩阵/结构特征/BPP 特征工程（4th）。
 - 数据类：EX 数据（公榜有效、私榜无效）；伪标签进集成（1st 无增益）；伪标签 CV（2nd 无增益）。
 
+### 出处
+- 1st（147 票）：https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/discussion/460121
+- best single model（66 票）：https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/discussion/440702
+- 7th（44 票）：https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/discussion/460190
+- 2nd（42 票）：https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/discussion/460316
+- 4th（29 票）：https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/discussion/460203
+- 8th（27 票）：https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/discussion/460222
+- 缺口登记（未收录正文）：3rd(460403)、444653、460301、460285、451158、451853、454397、458478、460130 等
+
 ---
 
 ## stanford-rna-3d-folding — Stanford RNA 3D Folding (Part 1) 轻量深读（Tier B）
 
 > 主题 science ｜ 类别 Featured ｜ 指标 Ribonanza TM-Score ｜ 队伍 1516 ｜ 截止 2025-09-24 ｜ Tier B ｜ 标签 science
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/stanford-rna-3d-folding.md
 > 材料基础：`digests/stanford-rna-3d-folding.md`（6 篇正文：1st 609774 / 2nd 609843 / 3rd 609701 / 0.484 单机方案 582377 / 121 票实验帖 566906 / 临时第 1 582295；80 条主题索引）+ 2 张归档图
 
 ### 一句话重述
@@ -1954,11 +2157,24 @@ MIT/EPA/CCAI 各自数据有 starter、缺 notebook、列名含义（`alt_prec`�
 - ../../intel/stanford-rna-3d-folding/bodies/566906_img/01.png — DRfold2 基线与能量选择
 - ../../intel/stanford-rna-3d-folding/bodies/609843_img/01.png — 表征对齐与 Smith–Waterman 对比
 
+### 出处
+- 1st（97 票）：https://www.kaggle.com/competitions/stanford-rna-3d-folding/discussion/609774
+- 2nd（16 票）：https://www.kaggle.com/competitions/stanford-rna-3d-folding/discussion/609843
+- 3rd（16 票）：https://www.kaggle.com/competitions/stanford-rna-3d-folding/discussion/609701
+- 滚动实验帖（121 票 / 107 评论）：https://www.kaggle.com/competitions/stanford-rna-3d-folding/discussion/566906
+- 0.484 单机方案（23 票）：https://www.kaggle.com/competitions/stanford-rna-3d-folding/discussion/582377
+- 临时第 1 / 预期回落的 TBM（20 票）：https://www.kaggle.com/competitions/stanford-rna-3d-folding/discussion/582295
+- AlphaFold3 基线（20 票）：https://www.kaggle.com/competitions/stanford-rna-3d-folding/discussion/570292
+- RibonanzaNet2 alpha（40 票）：https://www.kaggle.com/competitions/stanford-rna-3d-folding/discussion/571704
+- 训练数据更新（13 票）：https://www.kaggle.com/competitions/stanford-rna-3d-folding/discussion/575109
+- 赛后总结（23 票）：https://www.kaggle.com/competitions/stanford-rna-3d-folding/discussion/609187
+
 ---
 
 ## stanford-rna-3d-folding-2 — Stanford RNA 3D Folding Part 2 轻量深读（Tier B）
 
 > 主题 science ｜ 类别 Featured ｜ 指标 Ribonanza TM-Score PermuteChains ｜ 队伍 1867 ｜ 截止 2026-03-25 ｜ Tier B ｜ 标签 science
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/stanford-rna-3d-folding-2.md
 > 材料基础：`digests/stanford-rna-3d-folding-2.md`（6 篇正文：1st 689386 / 2nd 691133 / 3rd 689697 / 6th 686777 / 8th 687113 / RNAPro 管线 668412；80 条主题索引）+ 1 张图
 
 ### 一句话重述
@@ -2019,11 +2235,22 @@ Part 1 总结称"模板法回归"是最大惊喜；本场 1st 把 TBM 当长序�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/stanford-rna-3d-folding-2/bodies/668412_img/01.png — RNAPro 推理管线与对比
 
+### 出处
+- 1st（25 票）：https://www.kaggle.com/competitions/stanford-rna-3d-folding-2/discussion/689386
+- 2nd（21 票）：https://www.kaggle.com/competitions/stanford-rna-3d-folding-2/discussion/691133
+- 3rd（16 票）：https://www.kaggle.com/competitions/stanford-rna-3d-folding-2/discussion/689697
+- 6th（23 票）：https://www.kaggle.com/competitions/stanford-rna-3d-folding-2/discussion/686777
+- 8th（16 票）：https://www.kaggle.com/competitions/stanford-rna-3d-folding-2/discussion/687113
+- RNAPro 管线（26 票）：https://www.kaggle.com/competitions/stanford-rna-3d-folding-2/discussion/668412
+- host 欢迎帖：https://www.kaggle.com/competitions/stanford-rna-3d-folding-2/discussion/666382
+- 移动靶争议（15 票 / 37 评论）：https://www.kaggle.com/competitions/stanford-rna-3d-folding-2/discussion/686651
+
 ---
 
 ## ventilator-pressure-prediction — Ventilator Pressure 深读：把 66% 的数据用 PID 反演"直接解掉"
 
 > 主题 science ｜ 类别 Research ｜ 指标 Mean Absolute Error ｜ 队伍 2605 ｜ 截止 2021-11-03 ｜ Tier A ｜ 标签 science
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/ventilator-pressure-prediction.md
 > 材料基础：`digests/ventilator-pressure-prediction.md`（6 节：1st/2nd/3rd/9th + R/C 物理解释 + Chris 的 Transformer 单模）+ 18 张图
 
 ### 一句话重述
@@ -2124,11 +2351,21 @@ Chris 的气球类比 + 300 曲线可视化：C=顺应性（C=50 软→压力低
 | 9th：两周找泄漏/增强 | 9th | 没有额外收益；Laplace 损失这一条改动才是关键 |
 | 只用 decoder/OOF 的 Transformer | Chris | encoder-only 效果最好；结构选择要实验 |
 
+### 出处
+- Winner（326 票）：https://www.kaggle.com/competitions/ventilator-pressure-prediction/discussion/285256
+- R/C Explained（Chris Deotte，242 票）：https://www.kaggle.com/competitions/ventilator-pressure-prediction/discussion/276599
+- 3rd（Wonho Song/UPSTAGE，221 票）：https://www.kaggle.com/competitions/ventilator-pressure-prediction/discussion/285330
+- Transformer 单模（Chris Deotte，173 票）：https://www.kaggle.com/competitions/ventilator-pressure-prediction/discussion/285277
+- 2nd 逆 PID（166 票）：https://www.kaggle.com/competitions/ventilator-pressure-prediction/discussion/285283
+- 9th Laplace（ryomak，123 票）：https://www.kaggle.com/competitions/ventilator-pressure-prediction/discussion/285353
+- 未收录缺口（登记备查）：285278（4th PID hacking）｜285402（5th）｜285282（6th）｜285965（1st code）｜285639（金牌要点复盘）
+
 ---
 
 ## waveform-inversion — Waveform Inversion 深读：正演模拟在环 × 非对齐输入表示 × 分家族专业化
 
 > 主题 science ｜ 类别 Research ｜ 指标 Mean Absolute Error ｜ 队伍 1365 ｜ 截止 2025-06-30 ｜ Tier A ｜ 标签 science
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/waveform-inversion.md
 > 材料基础：`digests/waveform-inversion.md`（6 篇：1st/2nd/3rd/9th/20th + 数据讲解帖；80 条讨论索引）+ 13 张图（587388×8 / 587950×5）
 
 ### 一句话重述
@@ -2250,5 +2487,14 @@ Chris 的气球类比 + 300 曲线可视化：C=顺应性（C=50 软→压力低
 - 训练/增强类：MAE/MIM 自监督、标准图像增强、diffusion/启发式生成速度模型（1st）；预条件（2nd）。
 - 资源/流程类：小 batch 下 Muon 开销（3rd）；单提交/单折风险（9th 自述）；训练集/推理不一致（3rd 的 last-row bug，修正后 7.96/7.99）——**提交前一致性检查**。
 - 验证类：CV 与 LB 在高分区间脱钩（20th）→ 高分段的 CV 设计要按家族重估。
+
+### 出处
+- 1st（harshitsheoran，194 票）：https://www.kaggle.com/competitions/waveform-inversion/discussion/587388
+- 数据讲解（tpmeli，156 票）：https://www.kaggle.com/competitions/waveform-inversion/discussion/572747
+- 3rd（60 票）：https://www.kaggle.com/competitions/waveform-inversion/discussion/587419
+- 9th（59 票）：https://www.kaggle.com/competitions/waveform-inversion/discussion/587498
+- 2nd（jeroencottaar，49 票）：https://www.kaggle.com/competitions/waveform-inversion/discussion/587950
+- 20th（46 票）：https://www.kaggle.com/competitions/waveform-inversion/discussion/587402
+- 缺口登记（未收录正文）：587500(4th)、587443(5th)、587460(6th)、572329、583896、582801、572434、583217、578305 等
 
 ---

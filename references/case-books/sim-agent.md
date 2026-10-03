@@ -6,6 +6,7 @@
 ## ai-village-capture-the-flag-defcon31 — AI Village Capture the Flag @ DEF CON 31 轻量深读（Tier B）
 
 > 主题 sim-agent ｜ 类别 Featured ｜ 指标 Flag_Metric ｜ 队伍 1344 ｜ 截止 2023-11-09 ｜ Tier B ｜ 标签 agent,rl
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/ai-village-capture-the-flag-defcon31.md
 > 材料基础：`digests/ai-village-capture-the-flag-defcon31.md`（6 篇正文：25 flags 454403 / 6th 454471 / 9th 454364 / 11th 454579 / 4th 454480 / 参考帖 446004；80 条主题索引）+ 7 张图
 
 ### 一句话重述
@@ -69,11 +70,21 @@ Pixelated 攻击的是 OCR→LLM 文本拼接（未转义 XML）；Spanglish 用
 - ../../intel/ai-village-capture-the-flag-defcon31/bodies/454471_img/01.png — 6th 的 Cluster3 t-SNE 螺旋
 - ../../intel/ai-village-capture-the-flag-defcon31/bodies/454471_img/03.png — Pixelated 的注入载荷
 
+### 出处
+- 25 flags 写手（49 票）：https://www.kaggle.com/competitions/ai-village-capture-the-flag-defcon31/discussion/454403
+- 6th（18 票）：https://www.kaggle.com/competitions/ai-village-capture-the-flag-defcon31/discussion/454471
+- 9th（43 票）：https://www.kaggle.com/competitions/ai-village-capture-the-flag-defcon31/discussion/454364
+- 11th（22 票）：https://www.kaggle.com/competitions/ai-village-capture-the-flag-defcon31/discussion/454579
+- 4th（18 票）：https://www.kaggle.com/competitions/ai-village-capture-the-flag-defcon31/discussion/454480
+- 3rd（17 票，未入库）：https://www.kaggle.com/competitions/ai-village-capture-the-flag-defcon31/discussion/454720
+- 参考帖（46 票）：https://www.kaggle.com/competitions/ai-village-capture-the-flag-defcon31/discussion/446004
+
 ---
 
 ## ai-village-ctf — AI Village CTF（DEF CON 30）深读：黑箱 oracle 探测 × 暴力优先 × 饱和分数竞速
 
 > 主题 sim-agent ｜ 类别 Research ｜ 指标 Nvidia Defcon ｜ 队伍 668 ｜ 截止 2022-09-12 ｜ Tier A ｜ 标签 agent,rl,security
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/ai-village-ctf.md
 > 材料基础：`digests/ai-village-ctf.md`（6 篇正文：HOTTERDOG 52 / 48 小时 39 / 7th 33 / 1st 24 / 21 解法摘要 11 / 分享禁令 13；80 条主题索引）+ 2 张图
 
 ### 一句话重述
@@ -172,11 +183,22 @@ WAF（逐字符触发检测边界）、Inference（手写字符 → server 预�
 - ../../intel/ai-village-ctf/bodies/344336_img/01.png — HOTTERDOG 梗图
 - ../../intel/ai-village-ctf/bodies/344396_img/01.jpg — It's all connected 梗图
 
+### 出处
+- HOTTERDOG 梗图与讨论（52 票）：https://www.kaggle.com/competitions/ai-village-ctf/discussion/344336
+- 48 小时梗图（39 票）：https://www.kaggle.com/competitions/ai-village-ctf/discussion/344396
+- 7th：21 solutions（33 票）：https://www.kaggle.com/competitions/ai-village-ctf/discussion/351800
+- 1st（24 票）：https://www.kaggle.com/competitions/ai-village-ctf/discussion/353536
+- 21 解法摘要（11 票）：https://www.kaggle.com/competitions/ai-village-ctf/discussion/351804
+- 分享禁令（13 票）：https://www.kaggle.com/competitions/ai-village-ctf/discussion/344845
+- 同系列对照：`digests/ai-village-capture-the-flag-defcon31.md`（2023，1344 队、25 flags）
+- 未收录正文的关键讨论（真实 topic id，供后续定点补采/图片层参考）：351806、351801、343582、347149、346451、343964、352068、343947、343654、352466
+
 ---
 
 ## autonomous-agent-prediction-beta — Autonomous Agent Prediction Beta 轻量深读（Tier B）
 
 > 主题 sim-agent ｜ 类别 Playground ｜ 指标 Autonomous Agent Prediction Beta Metric ｜ 队伍 570 ｜ 截止 2026-08-06 ｜ Tier B ｜ 标签 agent,rl
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/autonomous-agent-prediction-beta.md
 > 材料基础：`digests/autonomous-agent-prediction-beta.md`（6 篇正文：起步与 Discord 723664 / 提交失败原因 723907 / 3rd 方案 737407 / 月度系列询问 723810 / 反馈征集 732744 / $2 预算 723806；30 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -234,11 +256,22 @@ gemini-2.5-* 只支持单工具、deepseek-r1-0528 不支持工具、Anthropic �
 - "freeroll" fallback 规则是否被后续版本修补未知；
 - **图证缺口**：本场 0 张归档图，已登记。
 
+### 出处
+- 3rd 方案（6 票 / 2 评论）：https://www.kaggle.com/competitions/autonomous-agent-prediction-beta/discussion/737407
+- 官方失败原因清单（9 票 / 11 评论）：https://www.kaggle.com/competitions/autonomous-agent-prediction-beta/discussion/723907
+- $2 预算讨论（11 票 / 7 评论）：https://www.kaggle.com/competitions/autonomous-agent-prediction-beta/discussion/723806
+- 月度系列询问（10 票 / 4 评论）：https://www.kaggle.com/competitions/autonomous-agent-prediction-beta/discussion/723810
+- 官方反馈征集（6 票 / 13 评论）：https://www.kaggle.com/competitions/autonomous-agent-prediction-beta/discussion/732744
+- 0.823 fallback 模板（2 票 / 0 评论）：https://www.kaggle.com/competitions/autonomous-agent-prediction-beta/discussion/730539
+- select_submission 实测（0 票 / 5 评论）：https://www.kaggle.com/competitions/autonomous-agent-prediction-beta/discussion/730605
+- 本地评测笔记（0 票 / 2 评论）：https://www.kaggle.com/competitions/autonomous-agent-prediction-beta/discussion/730578
+
 ---
 
 ## fide-google-efficiency-chess-ai-challenge — FIDE & Google Efficient Chess AI Challenge 轻量深读（Tier B）
 
 > 主题 sim-agent ｜ 类别 Featured ｜ 指标 Chess ｜ 队伍 1120 ｜ 截止 2025-03-06 ｜ Tier B ｜ 标签 agent,rl
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/fide-google-efficiency-chess-ai-challenge.md
 > 材料基础：`digests/fide-google-efficiency-chess-ai-challenge.md`（6 篇正文：1st 571023 / 4th 563173 / 9th 567106 / Niboshi 563866 / GitHub 汇总 562764 / Tiny Chess Bot 548062；80 条主题索引）+ 5 张归档图
 
 ### 一句话重述
@@ -300,11 +333,24 @@ gemini-2.5-* 只支持单工具、deepseek-r1-0528 不支持工具、Anthropic �
 - ../../intel/fide-google-efficiency-chess-ai-challenge/bodies/571023_img/02.png — NNUE 特征变换器权重
 - ../../intel/fide-google-efficiency-chess-ai-challenge/bodies/571023_img/04.png — 16-bit 权重的直方图
 
+### 出处
+- 1st Cfish + NNUE + 数据（22 票）：https://www.kaggle.com/competitions/fide-google-efficiency-chess-ai-challenge/discussion/571023
+- 4th HCE + 小 MLP（39 票 / 5 评论）：https://www.kaggle.com/competitions/fide-google-efficiency-chess-ai-challenge/discussion/563173
+- 9th Cfish + SPSA（18 票）：https://www.kaggle.com/competitions/fide-google-efficiency-chess-ai-challenge/discussion/567106
+- Niboshi 方案（21 票 / 2 评论）：https://www.kaggle.com/competitions/fide-google-efficiency-chess-ai-challenge/discussion/563866
+- 前 8 名 GitHub 汇总（24 票 / 17 评论）：https://www.kaggle.com/competitions/fide-google-efficiency-chess-ai-challenge/discussion/562764
+- Tiny Chess Bot 挑战（46 票 / 12 评论）：https://www.kaggle.com/competitions/fide-google-efficiency-chess-ai-challenge/discussion/548062
+- Increment vs Simple Delay（35 票）：https://www.kaggle.com/competitions/fide-google-efficiency-chess-ai-challenge/discussion/548945
+- ELO 计分质疑（34 票 / 14 评论）：https://www.kaggle.com/competitions/fide-google-efficiency-chess-ai-challenge/discussion/550339
+- 环境变更质疑（25 票 / 22 评论）：https://www.kaggle.com/competitions/fide-google-efficiency-chess-ai-challenge/discussion/556777
+- 64KiB 未强制 bug（22 票）：https://www.kaggle.com/competitions/fide-google-efficiency-chess-ai-challenge/discussion/558075
+
 ---
 
 ## google-code-golf-2025 — Google Code Golf Championship 2025 轻量深读（Tier B）
 
 > 主题 sim-agent ｜ 类别 Research ｜ 指标 Code Golf Metric ｜ 队伍 1142 ｜ 截止 2025-10-30 ｜ Tier B ｜ 标签 agent,rl,code
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/google-code-golf-2025.md
 > 材料基础：`digests/google-code-golf-2025.md`（6 篇正文：4th 614124 / 5th 614225 / 8th 615039 / 解决方案链接 613968 / 单题分数共享 596679 / 最后三天 613583；80 条主题索引）+ 21 张图
 
 ### 一句话重述
@@ -363,11 +409,21 @@ gemini-2.5-* 只支持单工具、deepseek-r1-0528 不支持工具、Anthropic �
 ### 图证（KStarter 仓库内路径）
 - ../../intel/google-code-golf-2025/bodies/614124_img/01.png — 4th 的并行采样与规则化提示循环
 
+### 出处
+- 4th（Parallel Sampling + Rule-based Prompt Generation）：https://www.kaggle.com/competitions/google-code-golf-2025/discussion/614124
+- 5th（Better Compression Algorithm and Seed Cracking，27 票）：https://www.kaggle.com/competitions/google-code-golf-2025/discussion/614225
+- 8th（import itertools，36 票）：https://www.kaggle.com/competitions/google-code-golf-2025/discussion/615039
+- 解决方案链接（41 票）：https://www.kaggle.com/competitions/google-code-golf-2025/discussion/613968
+- 单题分数共享（44 票）：https://www.kaggle.com/competitions/google-code-golf-2025/discussion/596679
+- 最后三天（31 票）：https://www.kaggle.com/competitions/google-code-golf-2025/discussion/613583
+- 1st（未入库，待补）：https://www.kaggle.com/competitions/google-code-golf-2025/discussion/614092
+
 ---
 
 ## kore-2022 — Kore 2022 轻量深读（Tier B）
 
 > 主题 sim-agent ｜ 类别 Featured ｜ 指标 kore_fleets ｜ 队伍 469 ｜ 截止 2022-07-26 ｜ Tier B ｜ 标签 agent,rl
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/kore-2022.md
 > 材料基础：`digests/kore-2022.md`（6 篇正文：1st 340035 / 20th 339972 / 13th 337476 / 34th GNN 339774 / 游戏可视化 320987 / 替代可视化 323495；80 条主题索引）+ 3 张可内嵌 PNG（另有 1 张 13.5MB GIF 未内嵌、1 张截图缺失）
 
 ### 一句话重述
@@ -433,11 +489,25 @@ Kore 是"飞船 + 船坞 + kore 资源"的 1v1 对抗模拟赛：469 队提交 a
 - ../../intel/kore-2022/bodies/337476_img/02.png — Transformer 编解码架构
 - ../../intel/kore-2022/bodies/339774_img/01.png — 环面棋盘的图视角
 
+### 出处
+- 1st（49 票）：https://www.kaggle.com/competitions/kore-2022/discussion/340035
+- 20th 经济模型（23 票）：https://www.kaggle.com/competitions/kore-2022/discussion/339972
+- 13th 模仿学习（38 票）：https://www.kaggle.com/competitions/kore-2022/discussion/337476
+- 34th GNN（30 票）：https://www.kaggle.com/competitions/kore-2022/discussion/339774
+- 动画可视化（57 票）：https://www.kaggle.com/competitions/kore-2022/discussion/320987
+- 交互式调试器 Koreye（63 票）：https://www.kaggle.com/competitions/kore-2022/discussion/323495
+- 理解动作空间（48 票）：https://www.kaggle.com/competitions/kore-2022/discussion/319857
+- 高效最优路径（14 票）：https://www.kaggle.com/competitions/kore-2022/discussion/336804
+- 2 周收敛（14 票）：https://www.kaggle.com/competitions/kore-2022/discussion/336801
+- Top 40 每日分数（15 票）：https://www.kaggle.com/competitions/kore-2022/discussion/327155
+- 规则方案索引：2nd 340994 / 3rd 342296 / 4th 340157 / 5th 339979 / 10th 340159 / 15–20th 336826 / 60th 340115
+
 ---
 
 ## kore-2022-beta — Kore 2022 Beta 轻量深读（Tier B）
 
 > 主题 sim-agent ｜ 类别 Playground ｜ 指标 kore_fleets ｜ 队伍 58 ｜ 截止 2022-04-07 ｜ Tier B ｜ 标签 agent,rl
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/kore-2022-beta.md
 > 材料基础：`digests/kore-2022-beta.md`（6 篇正文：DQN tf.js 基线 317289 / My Reflections 317955 / 1st 317737 / TS/JS 经验 315970 / 官方欢迎 313582 / 碰撞结算疑问 315895；35 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -495,11 +565,22 @@ Kore 2022 的 **beta 预览赛**（无现金/积分/奖牌）：4 人舰队资�
 - 4p→2p 对策略有效性的影响未量化；
 - **图证缺口**：本场 0 张归档图（1st 的相邻攻击示意图为站外图床），已登记。
 
+### 出处
+- 1st 方案（58 票 / 24 评论）：https://www.kaggle.com/competitions/kore-2022-beta/discussion/317737
+- DQN tf.js 基线（14 票 / 1 评论）：https://www.kaggle.com/competitions/kore-2022-beta/discussion/317289
+- 社区反思（11 票 / 0 评论）：https://www.kaggle.com/competitions/kore-2022-beta/discussion/317955
+- TS/JS 经验分享（16 票 / 2 评论）：https://www.kaggle.com/competitions/kore-2022-beta/discussion/315970
+- 官方欢迎（12 票 / 29 评论）：https://www.kaggle.com/competitions/kore-2022-beta/discussion/313582
+- 4p→2p 调整（10 票 / 29 评论）：https://www.kaggle.com/competitions/kore-2022-beta/discussion/316993
+- 延期一周（10 票 / 27 评论）：https://www.kaggle.com/competitions/kore-2022-beta/discussion/315572
+- 碰撞结算疑问（2 票 / 6 评论）：https://www.kaggle.com/competitions/kore-2022-beta/discussion/315895
+
 ---
 
 ## lux-ai-2021 — Lux AI 2021（Season 1）轻量深读（Tier B）
 
 > 主题 sim-agent ｜ 类别 Featured ｜ 指标 Lux AI 2021 ｜ 队伍 1178 ｜ 截止 2021-12-20 ｜ Tier B ｜ 标签 agent,rl
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/lux-ai-2021.md
 > 材料基础：`digests/lux-ai-2021.md`（4 篇正文：Toad Brigade RL 294993 / 5th 293911 / 6th 293776 / 4th 296938 / 8th 294603 / 16th 293835；80 条主题索引）+ 14 张图
 
 ### 一句话重述
@@ -564,11 +645,21 @@ Kore 2022 的 **beta 预览赛**（无现金/积分/奖牌）：4 人舰队资�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/lux-ai-2021/bodies/294603_img/02.png — 8th 的同时动作 MCTS 结构
 
+### 出处
+- Toad Brigade 的 RL（294993）：https://www.kaggle.com/competitions/lux-ai-2021/discussion/294993
+- 5th（297 行处）：https://www.kaggle.com/competitions/lux-ai-2021/discussion/293911
+- 6th（72 票）：https://www.kaggle.com/competitions/lux-ai-2021/discussion/293776
+- 4th：https://www.kaggle.com/competitions/lux-ai-2021/discussion/296938
+- 8th：https://www.kaggle.com/competitions/lux-ai-2021/discussion/294603
+- 16th 规则补丁：https://www.kaggle.com/competitions/lux-ai-2021/discussion/293835
+- 开源引擎 + RL Gym（63 票）：https://www.kaggle.com/competitions/lux-ai-2021/discussion/267351
+
 ---
 
 ## lux-ai-2022-beta — Lux AI 2022 Beta 轻量深读（Tier B）
 
 > 主题 sim-agent ｜ 类别 Playground ｜ 指标 Lux AI 2022 ｜ 队伍 44 ｜ 截止 2022-12-22 ｜ Tier B ｜ 标签 agent,rl
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/lux-ai-2022-beta.md
 > 材料基础：`digests/lux-ai-2022-beta.md`（6 篇正文：资源与机制 363366 / 计划改动 365579 / Lux Eye 367091 / 官方欢迎 362825 / 活跃提交限制 363479 / 验证对局失败 363556；39 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -629,11 +720,22 @@ Lux Eye 2022 以 29 票成为本场最高热帖之一，社区用它替代官方
 - 与正赛（Lux S2 Featured/NeurIPS）的机制差异需另行对照；
 - **图证缺口**：本场 0 张归档图（Lux Eye 截图为站外图床），已登记。
 
+### 出处
+- 官方欢迎与 beta 定位（14 票 / 5 评论）：https://www.kaggle.com/competitions/lux-ai-2022-beta/discussion/362825
+- 资源与机制说明（17 票 / 5 评论）：https://www.kaggle.com/competitions/lux-ai-2022-beta/discussion/363366
+- 计划改动（12 票 / 0 评论）：https://www.kaggle.com/competitions/lux-ai-2022-beta/discussion/365579
+- Lux Eye 2022（29 票 / 8 评论）：https://www.kaggle.com/competitions/lux-ai-2022-beta/discussion/367091
+- 活跃提交限制（15 票 / 10 评论）：https://www.kaggle.com/competitions/lux-ai-2022-beta/discussion/363479
+- 验证对局失败（12 票 / 6 评论）：https://www.kaggle.com/competitions/lux-ai-2022-beta/discussion/363556
+- v1.1.1 大更新（9 票 / 0 评论）：https://www.kaggle.com/competitions/lux-ai-2022-beta/discussion/369935
+- 提交关闭（7 票 / 3 评论）：https://www.kaggle.com/competitions/lux-ai-2022-beta/discussion/373378
+
 ---
 
 ## lux-ai-season-2 — Lux AI Season 2 轻量深读（Tier B）
 
 > 主题 sim-agent ｜ 类别 Featured ｜ 指标 lux_ai_s2 ｜ 队伍 646 ｜ 截止 2023-05-08 ｜ Tier B ｜ 标签 agent,rl
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/lux-ai-season-2.md
 > 材料基础：`intel/lux-ai-season-2/bodies/` 已有 12 篇正文（digest 仅收录 2 篇——按"≤3 篇定点补采"原则已用本地归档补齐；含 1st 407982、4th FLG 406702、5th 409394、10th Deimos 411725、模仿笔记 404842、防诈骗 381975 等）+ 14 张图
 
 ### 一句话重述
@@ -703,11 +805,21 @@ Kaggle VM 单核、匹配用 CPU；FLG 的整个方案围绕推理速度设计�
 - ../../intel/lux-ai-season-2/bodies/406702_img/01.png — FLG 的 RL 架构
 - ../../intel/lux-ai-season-2/bodies/407982_img/01.jpg — 1st 的"可视化器"
 
+### 出处
+- 1st（43 票）：https://www.kaggle.com/competitions/lux-ai-season-2/discussion/407982
+- 4th FLG（51 票）：https://www.kaggle.com/competitions/lux-ai-season-2/discussion/406702
+- 5th（11 票）：https://www.kaggle.com/competitions/lux-ai-season-2/discussion/409394
+- 10th Deimos（15 票）：https://www.kaggle.com/competitions/lux-ai-season-2/discussion/411725
+- 模仿笔记（31 票）：https://www.kaggle.com/competitions/lux-ai-season-2/discussion/404842
+- 防诈骗警示（8 票）：https://www.kaggle.com/competitions/lux-ai-season-2/discussion/381975
+- 往届顶尖方案索引：https://www.kaggle.com/competitions/lux-ai-season-2/discussion/381184
+
 ---
 
 ## lux-ai-season-2-neurips-stage-2 — Lux AI Season 2 – NeurIPS Stage 2 轻量深读（Tier B）
 
 > 主题 sim-agent ｜ 类别 Featured ｜ 指标 lux_ai_s2 ｜ 队伍 64 ｜ 截止 2023-11-28 ｜ Tier B ｜ 标签 agent,rl
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/lux-ai-season-2-neurips-stage-2.md
 > 材料基础：`digests/lux-ai-season-2-neurips-stage-2.md`（6 篇正文：PPO+Jux 方案 459891 / 上手资源 442050 / 基线资源 438939 / 统计站 442372 / Discord 规则 442221 / 延期公告 456054；14 条主题索引）+ 12 张归档图
 
 ### 一句话重述
@@ -773,11 +885,20 @@ Lux AI S2 的 NeurIPS 精英阶段（**仅 64 队**）：在 16×16/32×32/64×6
 - ../../intel/lux-ai-season-2-neurips-stage-2/bodies/459891_img/08.png — 对局步数曲线
 - ../../intel/lux-ai-season-2-neurips-stage-2/bodies/459891_img/09.png — 金属产量曲线
 
+### 出处
+- PPO using Jux 方案（4 票 / 4 评论）：https://www.kaggle.com/competitions/lux-ai-season-2-neurips-stage-2/discussion/459891
+- 上手资源汇编（16 票 / 0 评论）：https://www.kaggle.com/competitions/lux-ai-season-2-neurips-stage-2/discussion/442050
+- 基线/数据/公开代码（3 票 / 3 评论）：https://www.kaggle.com/competitions/lux-ai-season-2-neurips-stage-2/discussion/438939
+- 提交统计站（5 票 / 1 评论）：https://www.kaggle.com/competitions/lux-ai-season-2-neurips-stage-2/discussion/442372
+- Discord 规则（2 票 / 0 评论）：https://www.kaggle.com/competitions/lux-ai-season-2-neurips-stage-2/discussion/442221
+- 延期公告（2 票 / 0 评论）：https://www.kaggle.com/competitions/lux-ai-season-2-neurips-stage-2/discussion/456054
+
 ---
 
 ## lux-ai-season-3 — Lux AI Season 3 轻量深读（Tier B）
 
 > 主题 sim-agent ｜ 类别 Featured ｜ 指标 Lux AI Season 3 ｜ 队伍 701 ｜ 截止 2025-03-24 ｜ Tier B ｜ 标签 agent,rl
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/lux-ai-season-3.md
 > 材料基础：`digests/lux-ai-season-3.md`（6 篇正文：Frog Parade / 1st Flat Neurons / 9th / 14th 3Comets / 4th / 3rd IL；80 条主题索引）+ 16 张图
 
 ### 一句话重述
@@ -843,11 +964,20 @@ nebula 漂移/能量削减/视野缩减、sap dropoff、得分点位都不可直
 ### 图证（KStarter 仓库内路径）
 - ../../intel/lux-ai-season-3/bodies/569562_img/01.png — 1st 的网络结构
 
+### 出处
+- Frog Parade（568621）：https://www.kaggle.com/competitions/lux-ai-season-3/discussion/568621
+- 1st Flat Neurons（569562）：https://www.kaggle.com/competitions/lux-ai-season-3/discussion/569562
+- 9th（568789）：https://www.kaggle.com/competitions/lux-ai-season-3/discussion/568789
+- 14th 多智能体 RL（567961）：https://www.kaggle.com/competitions/lux-ai-season-3/discussion/567961
+- 4th IL（569928）：https://www.kaggle.com/competitions/lux-ai-season-3/discussion/569928
+- 3rd IL（568494）：https://www.kaggle.com/competitions/lux-ai-season-3/discussion/568494
+
 ---
 
 ## maze-crawler — Maze Crawler 轻量深读（Tier B）
 
 > 主题 sim-agent ｜ 类别 Playground ｜ 指标 crawl ｜ 队伍 459 ｜ 截止 2026-06-30 ｜ Tier B ｜ 标签 agent,rl
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/maze-crawler.md
 > 材料基础：`digests/maze-crawler.md`（6 篇正文：1st 717120 / 3rd 718158 / 起步与 Discord 696210 / 7th 717177 / 无奖牌帖 696453 / 每日数据集 701822；23 条主题索引）+ 5 张归档图
 
 ### 一句话重述
@@ -915,11 +1045,22 @@ nebula 漂移/能量削减/视野缩减、sap dropoff、得分点位都不可直
 - ../../intel/maze-crawler/bodies/717120_img/04.png — 终局回放：Maksim Savelev 击败 Genematon
 - ../../intel/maze-crawler/bodies/717120_img/05.png — 最终排行榜
 
+### 出处
+- 1st 方案（11 票 / 4 评论）：https://www.kaggle.com/competitions/maze-crawler/discussion/717120
+- 3rd 方案（1 票 / 0 评论）：https://www.kaggle.com/competitions/maze-crawler/discussion/718158
+- 7th 方案（3 票 / 0 评论）：https://www.kaggle.com/competitions/maze-crawler/discussion/717177
+- 无奖牌/积分询问（9 票 / 2 评论）：https://www.kaggle.com/competitions/maze-crawler/discussion/696453
+- 起步与 Discord（5 票 / 0 评论）：https://www.kaggle.com/competitions/maze-crawler/discussion/696210
+- 每日 episode 数据集（4 票 / 0 评论）：https://www.kaggle.com/competitions/maze-crawler/discussion/701822
+- 环境本地/线上不一致（0 票 / 3 评论）：https://www.kaggle.com/competitions/maze-crawler/discussion/701737
+- 5th/7th 规则型 bot（2 票 / 4 评论）：https://www.kaggle.com/competitions/maze-crawler/discussion/708834
+
 ---
 
 ## neurogolf-2026 — NeuroGolf 2026 轻量深读（Tier B）
 
 > 主题 sim-agent ｜ 类别 Research ｜ 指标 NeuroGolf Metric ｜ 队伍 2963 ｜ 截止 2026-07-15 ｜ Tier B ｜ 标签 agent,rl
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/neurogolf-2026.md
 > 材料基础：`digests/neurogolf-2026.md`（6 篇正文：9th 726653 / 1st 管线 726799 / 1st 自进化提示 726883 / 1st 总述 726654 / 焦点帖 724795 / 骗局帖 726541；80 条主题索引）+ 12 张图
 
 ### 一句话重述
@@ -980,11 +1121,21 @@ nebula 漂移/能量削减/视野缩减、sap dropoff、得分点位都不可直
 - ../../intel/neurogolf-2026/bodies/726799_img/01.png — 1st 的双向 agent 流水线
 - ../../intel/neurogolf-2026/bodies/726654_img/04.png — dashboard 上单题的架构跃迁
 
+### 出处
+- 1st 总述（115 票）：https://www.kaggle.com/competitions/neurogolf-2026/discussion/726654
+- 1st 管线（34 票）：https://www.kaggle.com/competitions/neurogolf-2026/discussion/726799
+- 1st 自进化提示（38 票）：https://www.kaggle.com/competitions/neurogolf-2026/discussion/726883
+- 9th（66 票）：https://www.kaggle.com/competitions/neurogolf-2026/discussion/726653
+- 焦点帖（44 票）：https://www.kaggle.com/competitions/neurogolf-2026/discussion/724795
+- 骗局帖（77 票）：https://www.kaggle.com/competitions/neurogolf-2026/discussion/726541
+- LB 10000 漏洞帖（42 票）：https://www.kaggle.com/competitions/neurogolf-2026/discussion/696377
+
 ---
 
 ## orbit-wars — Orbit Wars 深读：硬推理预算下的自对弈军备竞赛
 
 > 主题 sim-agent ｜ 类别 Featured ｜ 指标 orbit_wars ｜ 队伍 4729 ｜ 截止 2026-07-07 ｜ Tier A ｜ 标签 agent,rl
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/orbit-wars.md
 > 材料基础：`digests/orbit-wars.md`（10 篇正文 = **8 篇独立**，含 2 对同作者重发）+ 23 张图片资产（含 1 张 8.6MB GIF 未内嵌）
 
 ### 一句话重述
@@ -1086,11 +1237,23 @@ nebula 漂移/能量削减/视野缩减、sap dropoff、得分点位都不可直
 - ../../intel/orbit-wars/bodies/723820_img/03.png — entropy schedule
 - ../../intel/orbit-wars/bodies/723820_img/05.png — 4p winrate
 
+### 出处
+- 1st（IsaiahP）：https://www.kaggle.com/competitions/orbit-wars/discussion/724268 ｜早期版（150 票）：https://www.kaggle.com/competitions/orbit-wars/discussion/714324
+- 2nd（simjeg）：https://www.kaggle.com/competitions/orbit-wars/discussion/723728 ｜早期版（98 票）：https://www.kaggle.com/competitions/orbit-wars/discussion/713276
+- 3rd（Felix M Neumann）：https://www.kaggle.com/competitions/orbit-wars/discussion/723820
+- 13th（Luca）：https://www.kaggle.com/competitions/orbit-wars/discussion/723731
+- Jake Will：https://www.kaggle.com/competitions/orbit-wars/discussion/723325
+- FLG：https://www.kaggle.com/competitions/orbit-wars/discussion/713519
+- Nebraskinator：https://www.kaggle.com/competitions/orbit-wars/discussion/713126
+- RL lessons（Lin Myat Ko）：https://www.kaggle.com/competitions/orbit-wars/discussion/697725
+- 索引与缺口（未扩采，登记备查）：https://www.kaggle.com/competitions/orbit-wars/discussion/723739 ｜ 728348 ｜ 727619 ｜ 727595 ｜ 727854 ｜ 727715 ｜ 714276 ｜ 714226
+
 ---
 
 ## pokemon-tcg-ai-battle — Pokémon TCG AI Battle Challenge 深读：自对弈生态 × 专家分工 × 匹配制评估
 
 > 主题 sim-agent ｜ 类别 Featured ｜ 指标 cabt_bo1 ｜ 队伍 6807 ｜ 截止 2026-08-31 ｜ Tier A ｜ 标签 agent,rl
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/pokemon-tcg-ai-battle.md
 > 材料基础：`digests/pokemon-tcg-ai-battle.md`（8 篇正文：引擎裁定 103 / 引擎源码 127 / 分享时机 16 / 24th 39 / 15th 44 / 27th 32 / 213tubo 57 / Team Magist 37；120 条主题索引）+ 13 张图
 
 ### 一句话重述
@@ -1200,11 +1363,23 @@ Magist：GA 生成"不寻常牌组"但**不稳定**，最终跟随顶级榜牌�
 - ../../intel/pokemon-tcg-ai-battle/bodies/735593_img/02.png — 宝可梦 Pattern DB 示例
 - ../../intel/pokemon-tcg-ai-battle/bodies/735593_img/03.png — 蒙特卡洛采样示意
 
+### 出处
+- 引擎裁定请求（103 票）：https://www.kaggle.com/competitions/pokemon-tcg-ai-battle/discussion/711737
+- 引擎源码发布（127 票）：https://www.kaggle.com/competitions/pokemon-tcg-ai-battle/discussion/717141
+- 分享时机（16 票）：https://www.kaggle.com/competitions/pokemon-tcg-ai-battle/discussion/733137
+- 213tubo（57 票）：https://www.kaggle.com/competitions/pokemon-tcg-ai-battle/discussion/735867
+- 15th（44 票）：https://www.kaggle.com/competitions/pokemon-tcg-ai-battle/discussion/739241
+- 24th（39 票）：https://www.kaggle.com/competitions/pokemon-tcg-ai-battle/discussion/740956
+- Team Magist（37 票）：https://www.kaggle.com/competitions/pokemon-tcg-ai-battle/discussion/735593
+- 27th（32 票）：https://www.kaggle.com/competitions/pokemon-tcg-ai-battle/discussion/738158
+- 未收录正文的关键讨论（真实 topic id，供后续定点补采/图片层参考）：712621、724362、709160、729926、735822、736361、735123、717697、716045、708586
+
 ---
 
 ## pokemon-tcg-ai-battle-challenge-strategy — Pokémon TCG AI Battle Challenge – Strategy Category 轻量深读（Tier B）
 
 > 主题 sim-agent ｜ 类别 Featured ｜ 指标  ｜ 队伍 939 ｜ 截止 2026-09-13 ｜ Tier B ｜ 标签 agent,rl
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/pokemon-tcg-ai-battle-challenge-strategy.md
 > 材料基础：`digests/pokemon-tcg-ai-battle-challenge-strategy.md`（6 篇正文：获奖与评审说明 742692 / 迟交资格求助 735276 / 官方欢迎 708588 / 字数与牌表规则 733067 / 发布位置 738911 / 格式问题 709452；47 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -1272,11 +1447,24 @@ Magist：GA 生成"不寻常牌组"但**不稳定**，最终跟随顶级榜牌�
 - 卡表 218 张差异与卡库 bug 的影响范围未定论；
 - **图证缺口**：本场 0 张归档图（官方强调的 rating/对位图均在获奖稿件内，未归档），已登记。
 
+### 出处
+- 获奖与评审说明（19 票 / 6 评论）：https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/discussion/742692
+- 官方欢迎（25 票 / 6 评论）：https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/discussion/708588
+- 迟报名资格求助（6 票 / 3 评论）：https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/discussion/735276
+- 字数与牌表规则（3 票 / 0 评论）：https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/discussion/733067
+- write-up 格式（4 票 / 0 评论）：https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/discussion/709452
+- 发布位置（2 票 / 1 评论）：https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/discussion/738911
+- 已完成提交被草稿覆盖（-1 票）：https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/discussion/739855
+- 两份 EN 卡表 218 张不一致：https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/discussion/734057
+- 卡库 bug 与先手偏差：https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/discussion/736918
+- Strategy-only 能否获奖（-2 票 / 8 评论）：https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/discussion/738058
+
 ---
 
 ## santa-2021 — Santa 2021 - Superpermutations 轻量深读（Tier B）
 
 > 主题 sim-agent ｜ 类别 Featured ｜ 指标 Santa's Superpermutations 2021 ｜ 队伍 867 ｜ 截止 2022-01-12 ｜ Tier B ｜ 标签 agent,rl,optimization
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/santa-2021.md
 > 材料基础：`digests/santa-2021.md`（6 篇正文：3rd 300509 / 4th 手作 300543 / 解析解 288124 / TSP 基线 288995 / 下界 294139 / "至少 2440" 292841；80 条主题索引）+ 4 张图
 
 ### 一句话重述
@@ -1336,11 +1524,20 @@ TSP 基线帖把"重叠"变成非对称距离；3rd 进一步固定归属把 504
 ### 图证（KStarter 仓库内路径）
 - ../../intel/santa-2021/bodies/288995_img/01.png — TSP 视角下的超级排列
 
+### 出处
+- 3rd（39 票）：https://www.kaggle.com/competitions/santa-2021/discussion/300509
+- 4th by hand：https://www.kaggle.com/competitions/santa-2021/discussion/300543
+- 解析解与背景（49 票）：https://www.kaggle.com/competitions/santa-2021/discussion/288124
+- TSP 基线：https://www.kaggle.com/competitions/santa-2021/discussion/288995
+- 2440 下界（57 票）：https://www.kaggle.com/competitions/santa-2021/discussion/294139
+- 至少 2440（67 票）：https://www.kaggle.com/competitions/santa-2021/discussion/292841
+
 ---
 
 ## santa-2022 — Santa 2022 - The Christmas Card Conundrum 轻量深读（Tier B）
 
 > 主题 sim-agent ｜ 类别 Featured ｜ 指标 Santa's Print Shop 2022 ｜ 队伍 874 ｜ 截止 2023-01-17 ｜ Tier B ｜ 标签 agent,rl,optimization
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/santa-2022.md
 > 材料基础：`digests/santa-2022.md`（6 篇正文：1st 379167 / 2nd 379086 / 4th 379080 / 9th 379150 / Web Visualizer 369788 / 另一可视化 717 行处；80 条主题索引）+ 6 张图
 
 ### 一句话重述
@@ -1400,11 +1597,20 @@ TSP 基线帖把"重叠"变成非对称距离；3rd 进一步固定归属把 504
 ### 图证（KStarter 仓库内路径）
 - ../../intel/santa-2022/bodies/379167_img/01.png — 1st 的最优路线可视化
 
+### 出处
+- 1st（80 票）：https://www.kaggle.com/competitions/santa-2022/discussion/379167
+- 2nd（81 票）：https://www.kaggle.com/competitions/santa-2022/discussion/379086
+- 4th（73 票）：https://www.kaggle.com/competitions/santa-2022/discussion/379080
+- 9th（30 票）：https://www.kaggle.com/competitions/santa-2022/discussion/379150
+- Web Visualizer（107 票）：https://www.kaggle.com/competitions/santa-2022/discussion/369788
+- TSP 下界（42 票）：https://www.kaggle.com/competitions/santa-2022/discussion/378537
+
 ---
 
 ## santa-2023 — Santa 2023 - The Polytope Permutation Puzzle 轻量深读（Tier B）
 
 > 主题 sim-agent ｜ 类别 Featured ｜ 指标 Santa 2023 Metric ｜ 队伍 1054 ｜ 截止 2024-01-31 ｜ Tier B ｜ 标签 agent,rl,optimization
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/santa-2023.md
 > 材料基础：`digests/santa-2023.md`（6 篇正文：1st 125 / 上手帖 98 / 4th 64 / 最优 wreath 39 / 16th 33 / 直接 ML 思路 29；另有 A* 搜索 29、Heuristic Transformer 27 等未收录正文；80 条主题索引）+ 3 张图
 
 ### 一句话重述
@@ -1464,11 +1670,21 @@ BBFS 让 wreath_12/12 首次可解（省 RAM、快于单向 BFS）；wreath_6/6�
 - ../../intel/santa-2023/bodies/472405_img/01.gif — 1st 的 10x10x10 立方体解
 - ../../intel/santa-2023/bodies/472489_img/01.png — 16th 的分数进展
 
+### 出处
+- 1st（125 票）：https://www.kaggle.com/competitions/santa-2023/discussion/472405
+- 上手帖（98 票）：https://www.kaggle.com/competitions/santa-2023/discussion/462236
+- 4th 仓库与分数（64 票）：https://www.kaggle.com/competitions/santa-2023/discussion/472386
+- 最优 wreath（39 票）：https://www.kaggle.com/competitions/santa-2023/discussion/463683
+- 16th（33 票）：https://www.kaggle.com/competitions/santa-2023/discussion/472489
+- 直接 ML 距离思路（29 票）：https://www.kaggle.com/competitions/santa-2023/discussion/466399
+- 缺口登记：472386 的方法细节、1st 完整分数表、2nd/3rd 方案；未收录正文：A* 搜索 462317（29 票）、Heuristic Transformer 464694（27 票）、ML approach for all puzzles 472606（24 票）、Best achievable score 两帖（62/43 票）
+
 ---
 
 ## santa-2024 — Santa 2024 深读：困惑度置换 × 受限 k-opt/ILS × 批量并行 SA
 
 > 主题 sim-agent ｜ 类别 Featured ｜ 指标 Santa 2024 Metric ｜ 队伍 1514 ｜ 截止 2025-01-31 ｜ Tier A ｜ 标签 agent,rl,optimization
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/santa-2024.md
 > 材料基础：`digests/santa-2024.md`（6 篇正文：批量困惑度 92 / 1st 85 / 2nd@zaburo 43 / 5th CPMP 43 / sample5 41 / SA 总论 59；80 条主题索引）+ 6 张图；**1st 正文仅有 repo 链接（398B 存根）**
 
 ### 一句话重述
@@ -1568,11 +1784,21 @@ sample 5 团队在赛期发布思路，评论区出现"会把 gold zone 填满�
 - ../../intel/santa-2024/bodies/559339_img/01.png — sample 5 的块 sharding
 - ../../intel/santa-2024/bodies/559339_img/02.png — sample 5 的块内示例
 
+### 出处
+- 批量困惑度（92 票）：https://www.kaggle.com/competitions/santa-2024/discussion/548249
+- 1st（85 票，正文仅 repo 链接）：https://www.kaggle.com/competitions/santa-2024/discussion/560560
+- SA 总论 255.9（59 票）：https://www.kaggle.com/competitions/santa-2024/discussion/548476
+- 2nd @zaburo（43 票）：https://www.kaggle.com/competitions/santa-2024/discussion/560533
+- 5th CPMP（43 票）：https://www.kaggle.com/competitions/santa-2024/discussion/560597
+- sample 5 团队解（41 票）：https://www.kaggle.com/competitions/santa-2024/discussion/559339
+- 未收录正文的关键讨论（真实 topic id，供后续定点补采/图片层参考）：560540、560565、560620、560536、560531、560542、551818、556784、551902、555881、547676、547505、557817、555545、550287、550429
+
 ---
 
 ## santa-2025 — Santa 2025 深读：几何包装的搜索工程学
 
 > 主题 sim-agent ｜ 类别 Featured ｜ 指标 Santa 2025 Metric ｜ 队伍 3357 ｜ 截止 2026-01-30 ｜ Tier A ｜ 标签 agent,rl,optimization
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/santa-2025.md
 > 材料基础：`digests/santa-2025.md`（8 节：1st/3rd/12th + SA 技巧 + 对称性两帖 + 1st 预览 + 10 树可视化）+ 33 张图
 
 ### 一句话重述
@@ -1675,5 +1901,16 @@ sample 5 团队在赛期发布思路，评论区出现"会把 gold zone 填满�
 
 ### 图证（KStarter 仓库内路径）
 - ../../intel/santa-2025/bodies/672465_img/01.png — islands
+
+### 出处
+- SA Tips（terry_u16，114 票）：https://www.kaggle.com/competitions/santa-2025/discussion/640894
+- 1st（Jeroen Cottaar，111 票）：https://www.kaggle.com/competitions/santa-2025/discussion/672465
+- 1st 预览（84 票）：https://www.kaggle.com/competitions/santa-2025/discussion/671058
+- 10 树可视化（c-number，65 票）：https://www.kaggle.com/competitions/santa-2025/discussion/629896
+- 3rd（Gilles Vandewiele 队，64 票）：https://www.kaggle.com/competitions/santa-2025/discussion/671181
+- 12th（Egor Trushin 队，55 票）：https://www.kaggle.com/competitions/santa-2025/discussion/671060
+- 对称解（saharan，46 票）：https://www.kaggle.com/competitions/santa-2025/discussion/664824
+- 不对称实验（A HS，41 票）：https://www.kaggle.com/competitions/santa-2025/discussion/666880
+- 未收录缺口（登记备查）：2nd/4th–11th 等约 29 条 write-up
 
 ---

@@ -6,6 +6,7 @@
 ## amex-default-prediction — 深读：Amex Default Prediction（用借来的数据、洗出的噪声、拼出的冠军）
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 Amex Custom Gini And X% Percentage Capture ｜ 队伍 4874 ｜ 截止 2022-08-24 ｜ Tier A ｜ 标签 tabular,finance
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/amex-default-prediction.md
 
 ### 一句话重述
 预测客户未来违约（自定义 Gini + top-x% capture，本质是"头部排序质量"）。数据被**注入噪声**（含 (0,0.01] 区间的均匀噪声）、短序列客户行为迥异、测试期（未来）数据可用。
@@ -64,11 +65,21 @@
 - ../../intel/amex-default-prediction/bodies/347641_img/02.png — KD schedule
 - ../../intel/amex-default-prediction/bodies/348111_img/02.jpg — 1st weights
 
+### 出处
+- 1st：https://www.kaggle.com/competitions/amex-default-prediction/discussion/348111
+- 2nd：https://www.kaggle.com/competitions/amex-default-prediction/discussion/347637
+- 3rd：https://www.kaggle.com/competitions/amex-default-prediction/discussion/349741
+- 5th：https://www.kaggle.com/competitions/amex-default-prediction/discussion/348097
+- 10th：https://www.kaggle.com/competitions/amex-default-prediction/discussion/347668
+- 13th：https://www.kaggle.com/competitions/amex-default-prediction/discussion/348014
+- 14th：https://www.kaggle.com/competitions/amex-default-prediction/discussion/347641
+
 ---
 
 ## asl-signs — Google Isolated Sign Language Recognition（ASL Signs）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Research ｜ 指标 PostProcessorKernelDesc ｜ 队伍 1165 ｜ 截止 2023-05-01 ｜ Tier B ｜ 标签 tabular,nlp
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/asl-signs.md
 > 材料基础：`digests/asl-signs.md`（6 篇正文：1st 406684 / 2nd Google 406306 / 6th 406537 / 44th 406302 / pytorch 实验 391265 / 可复现 406978；80 条主题索引）+ 10 张图
 
 ### 一句话重述
@@ -129,11 +140,20 @@ GCN、复杂几何增广、CutMix/MixUp（变长标签无法配对）、KD 均�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/asl-signs/bodies/406306_img/01.jpg — 2nd 的关键点图像化
 
+### 出处
+- 1st（191 票）：https://www.kaggle.com/competitions/asl-signs/discussion/406684
+- 2nd Google（118 票）：https://www.kaggle.com/competitions/asl-signs/discussion/406306
+- 6th（49 票）：https://www.kaggle.com/competitions/asl-signs/discussion/406537
+- 44th silver（73 票）：https://www.kaggle.com/competitions/asl-signs/discussion/406302
+- pytorch 实验（128 票）：https://www.kaggle.com/competitions/asl-signs/discussion/391265
+- 可复现代码（72 票）：https://www.kaggle.com/competitions/asl-signs/discussion/406978
+
 ---
 
 ## big-data-derby-2022 — Big Data Derby 2022 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Community ｜ 指标  ｜ 队伍 0 ｜ 截止 2022-11-10 ｜ Tier B ｜ 标签 tabular
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/big-data-derby-2022.md
 > 材料基础：`digests/big-data-derby-2022.md`（6 篇正文：往届分析赛巡礼 346415 / 官方欢迎 343581 / Chai Time 访谈 350111 / 99 条经验帖 344765 / 爬取数据规则讨论 346864 / NYC 天气数据 346096；80 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -188,11 +208,24 @@ Trakus 索引换算、赛道坐标、马匹缺失、文件表头/异常值等问
 - 爬取数据的规则答复未收录；
 - **图证缺口**：本场归档 0 图。
 
+### 出处
+- 分析赛方法论 99 条（80 票 / 26 评论）：https://www.kaggle.com/competitions/big-data-derby-2022/discussion/344765
+- 官方欢迎（43 票 / 62 评论）：https://www.kaggle.com/competitions/big-data-derby-2022/discussion/343581
+- 往届分析赛与获奖者（33 票 / 5 评论）：https://www.kaggle.com/competitions/big-data-derby-2022/discussion/346415
+- NYC 天气数据（73 票 / 10 评论）：https://www.kaggle.com/competitions/big-data-derby-2022/discussion/346096
+- 爬取马匹身份/名次讨论（32 票 / 17 评论）：https://www.kaggle.com/competitions/big-data-derby-2022/discussion/346864
+- Chai Time 访谈（5 票 / 3 评论）：https://www.kaggle.com/competitions/big-data-derby-2022/discussion/350111
+- 最终名次数据更新（21 票 / 14 评论）：https://www.kaggle.com/competitions/big-data-derby-2022/discussion/351147
+- 评审主观性（5 票 / 3 评论）：https://www.kaggle.com/competitions/big-data-derby-2022/discussion/343825
+- 获奖名单（14 票 / 35 评论）：https://www.kaggle.com/competitions/big-data-derby-2022/discussion/370851
+- 伤病数据与学术焦点（19 票 / 2 评论）：https://www.kaggle.com/competitions/big-data-derby-2022/discussion/350949
+
 ---
 
 ## child-mind-institute-detect-sleep-states — CMI Detecting Sleep States 深读：事件级指标的两级流水线
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 Event Detection AP ｜ 队伍 1877 ｜ 截止 2023-12-05 ｜ Tier A ｜ 标签 tabular,cv,detection
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/child-mind-institute-detect-sleep-states.md
 > 材料基础：`digests/child-mind-institute-detect-sleep-states.md`（8 节：1st/2nd/3rd/4th×2/7th/11th + 社区 UNet2D）+ 36 张图
 
 ### 一句话重述
@@ -295,11 +328,23 @@ feedback-2021 中 WBF 是夺冠关键；本场 4th Nikhil：WBF 公开 +0.003、
 | 追求公开榜排名 | 3rd/7th | 公开方差吞掉模型差异；专注 CV |
 | 只做峰值检测（无二级重排） | 1st/2nd 的对比 | 单点后处理到不了前排 |
 
+### 出处
+- UNet2D 社区帖（213tubo，206 票）：https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states/discussion/452940
+- 11th（Chris Deotte，186 票）：https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states/discussion/459596
+- 2nd（K_mat，177 票）：https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states/discussion/459627
+- 1st（sakami，168 票）：https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states/discussion/459715
+- 3rd（Fnoa，77 票）：https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states/discussion/459599
+- 7th（Ahmet Erdem，70 票）：https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states/discussion/459598
+- 4th Nikhil（68 票）：https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states/discussion/459637
+- 4th penguin46（64 票）：https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states/discussion/459597
+- 未收录缺口（登记备查）：38 条 write-up 标记中的其余条目（5th/6th/8th/9th 等）
+
 ---
 
 ## child-mind-institute-problematic-internet-use — CMI Problematic Internet Use 深读：高方差评分下的稳健工程
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 Cohen Kappa Score ｜ 队伍 3559 ｜ 截止 2024-12-19 ｜ Tier A ｜ 标签 tabular
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/child-mind-institute-problematic-internet-use.md
 > 材料基础：`digests/child-mind-institute-problematic-internet-use.md`（8 节：1st/2nd/5th/7th/14th/16th/19th + QWK 目标验证帖）+ 2 张图
 
 ### 一句话重述
@@ -394,11 +439,23 @@ QWK 验证帖：多分类目标 0.2643/0.265 → 自定义目标 0.45187/0.401�
 | 自定义 QWK 目标当万能药 | 16th/535052 | CV 大涨、私榜不涨甚至更差 |
 | 相信单种子分数 | 7th 的方差示例 | 多种子投票才是"分数" |
 
+### 出处
+- 1st（Lennart Haupts，94 票）：https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use/discussion/552638
+- QWK 目标验证（chumajin，89 票）：https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use/discussion/535052
+- 16th（Jack，42 票）：https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use/discussion/552569
+- 2nd（Aradhye，32 票）：https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use/discussion/552712
+- 7th（31 票）：https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use/discussion/552625
+- 19th（Vladimir Demidov，25 票）：https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use/discussion/552513
+- 14th（Laura Romar，20 票）：https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use/discussion/552517
+- 5th（peyman，14 票）：https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use/discussion/552656
+- 未收录缺口（登记备查）：17 条 write-up 标记中的其余条目
+
 ---
 
 ## cmi-detect-behavior-with-sensor-data — CMI Detect Behavior 深读：设备取证 × 组合标签 × 无重复后处理
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 CMI_2025 ｜ 队伍 2657 ｜ 截止 2025-09-02 ｜ Tier A ｜ 标签 tabular,cv,detection
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/cmi-detect-behavior-with-sensor-data.md
 > 材料基础：`digests/cmi-detect-behavior-with-sensor-data.md`（8 节：1st/2nd/4th/5th/6th/12th + 赛前思考帖 + agent 实验帖）+ 6 张图
 
 ### 一句话重述
@@ -494,11 +551,23 @@ QWK 验证帖：多分类目标 0.2643/0.265 → 自定义目标 0.45187/0.401�
 | 把 rot/global_acc 当绝对特征 | 6th 的注记 | 依赖采集时朝向，真实部署应去掉或相对化 |
 | agent 单模型直接上 | 583863 | 单 o3 模型 0.70；多模型规划（分工/评估）才到 0.82 |
 
+### 出处
+- agent 实验（phalanx，151 票）：https://www.kaggle.com/competitions/cmi-detect-behavior-with-sensor-data/discussion/583863
+- 赛前思考（Ravi Ramakrishnan，137 票）：https://www.kaggle.com/competitions/cmi-detect-behavior-with-sensor-data/discussion/582388
+- 6th（Jack/rsakata，115 票）：https://www.kaggle.com/competitions/cmi-detect-behavior-with-sensor-data/discussion/603592
+- 2nd（daiwakun，113 票）：https://www.kaggle.com/competitions/cmi-detect-behavior-with-sensor-data/discussion/603594
+- 1st（Ogurtsov 队，81 票）：https://www.kaggle.com/competitions/cmi-detect-behavior-with-sensor-data/discussion/603611
+- 5th（Ethan，79 票）：https://www.kaggle.com/competitions/cmi-detect-behavior-with-sensor-data/discussion/603542
+- 4th（dott，59 票）：https://www.kaggle.com/competitions/cmi-detect-behavior-with-sensor-data/discussion/603601
+- 12th（Ruby，53 票）：https://www.kaggle.com/competitions/cmi-detect-behavior-with-sensor-data/discussion/603564
+- 未收录缺口（登记备查）：31 条 write-up 标记中的其余条目（3rd/7th–11th 等）
+
 ---
 
 ## dfl-bundesliga-data-shootout — DFL Bundesliga Data Shootout 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 DFLEventDetectionAP ｜ 队伍 530 ｜ 截止 2022-12-20 ｜ Tier B ｜ 标签 tabular,cv,detection
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/dfl-bundesliga-data-shootout.md
 > 材料基础：`digests/dfl-bundesliga-data-shootout.md`（6 篇正文：1st 359932 / 2nd 360097 / 3rd 360236 / 4th 472 行处 / 5th 360331 / 6th 570 行处；80 条主题索引）+ 21 张图
 
 ### 一句话重述
@@ -557,11 +626,20 @@ QWK 验证帖：多分类目标 0.2643/0.265 → 自定义目标 0.45187/0.401�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/dfl-bundesliga-data-shootout/bodies/360097_img/01.png — 2nd 的五段式管线
 
+### 出处
+- 1st（139 票）：https://www.kaggle.com/competitions/dfl-bundesliga-data-shootout/discussion/359932
+- 2nd（360097）：https://www.kaggle.com/competitions/dfl-bundesliga-data-shootout/discussion/360097
+- 3rd（85 票）：https://www.kaggle.com/competitions/dfl-bundesliga-data-shootout/discussion/360236
+- 5th（41 票）：https://www.kaggle.com/competitions/dfl-bundesliga-data-shootout/discussion/360331
+- 视频分类入门（75 票）：https://www.kaggle.com/competitions/dfl-bundesliga-data-shootout/discussion/347266
+- 外部数据（40 票）：https://www.kaggle.com/competitions/dfl-bundesliga-data-shootout/discussion/340836
+
 ---
 
 ## foursquare-location-matching — Foursquare Location Matching 深读：实体匹配四段式 × 图后处理 × 泄漏利用
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 Jaccard ｜ 队伍 1079 ｜ 截止 2022-07-07 ｜ Tier A ｜ 标签 tabular,retrieval
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/foursquare-location-matching.md
 > 材料基础：`digests/foursquare-location-matching.md`（6 篇：Unidecode 128 票/13th GNN 102/1st 92/7th 66/3rd 61/4th 59；80 条索引）+ 5 张图
 
 ### 一句话重述
@@ -664,11 +742,21 @@ unidecode（128 票工具帖）被 4th/7th/1st 广泛使用；7th 做了语言�
 - 13th：无（强调泄漏是外部因素）。
 - 7th：公开基线起点，无重大失败项登记。
 
+### 出处
+- Unidecode（128 票）：https://www.kaggle.com/competitions/foursquare-location-matching/discussion/320938
+- 13th GNN（102 票）：https://www.kaggle.com/competitions/foursquare-location-matching/discussion/336124
+- 1st（92 票）：https://www.kaggle.com/competitions/foursquare-location-matching/discussion/336055
+- 7th（66 票）：https://www.kaggle.com/competitions/foursquare-location-matching/discussion/335800
+- 3rd（61 票）：https://www.kaggle.com/competitions/foursquare-location-matching/discussion/338112
+- 4th（59 票）：https://www.kaggle.com/competitions/foursquare-location-matching/discussion/335810
+- 缺口登记：324653、321992、319620、335799、336518、329472 未收录正文
+
 ---
 
 ## g-research-crypto-forecasting — G-Research Crypto Forecasting 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 Weighted Correlation Coefficient ｜ 队伍 1946 ｜ 截止 2022-05-03 ｜ Tier B ｜ 标签 tabular,time-series,finance,retrieval,review
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/g-research-crypto-forecasting.md
 > 材料基础：`digests/g-research-crypto-forecasting.md`（8 篇正文：13th/前 6 周第 1 313386 / 2nd 323098 / 3rd 323703 / 7th 323250 / 初始思路 284903 / 额外数据 285726 / 指标帖 286778 / Jane Street 迁移 286676；120 条主题索引）+ 3 张图
 
 ### 一句话重述
@@ -731,11 +819,21 @@ unidecode（128 票工具帖）被 4th/7th/1st 广泛使用；7th 做了语言�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/g-research-crypto-forecasting/bodies/313386_img/01.jpg — Beta 分量随时间与缺失的关系
 
+### 出处
+- 13th/前 6 周第 1（91 票）：https://www.kaggle.com/competitions/g-research-crypto-forecasting/discussion/313386
+- 2nd（87 票）：https://www.kaggle.com/competitions/g-research-crypto-forecasting/discussion/323098
+- 3rd（323703）：https://www.kaggle.com/competitions/g-research-crypto-forecasting/discussion/323703
+- 7th（323250）：https://www.kaggle.com/competitions/g-research-crypto-forecasting/discussion/323250
+- 初始思路（294 票）：https://www.kaggle.com/competitions/g-research-crypto-forecasting/discussion/284903
+- 额外数据（117 票）：https://www.kaggle.com/competitions/g-research-crypto-forecasting/discussion/285726
+- Jane Street 迁移（286676）：https://www.kaggle.com/competitions/g-research-crypto-forecasting/discussion/286676
+
 ---
 
 ## godaddy-microbusiness-density-forecasting — GoDaddy Microbusiness Density 深读：倍率建模 × 数据质量 × 榜单探针
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 SMAPE ｜ 队伍 3547 ｜ 截止 2023-06-16 ｜ Tier A ｜ 标签 tabular,time-series
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/godaddy-microbusiness-density-forecasting.md
 > 材料基础：`digests/godaddy-microbusiness-density-forecasting.md`（8 节：1st/2nd/3rd/6th + Hugo 复盘 + 基线帖 + 基线修正帖 + Giba SVR）+ 6 张图
 
 ### 一句话重述
@@ -835,11 +933,23 @@ Chris：线性模型只用于人口 >25k；3rd：只训 Top 90% 大县，小县�
 | 公开 notebook 的前视特征（2019 训练用 2021 census） | 2nd | 隐式未来信息；CV 虚高 |
 | 复杂模型 + 大量特征 | Hugo/1st | 只是发现了全局线性趋势；last×1.01x 等效 |
 
+### 出处
+- 线性回归基线（Chris Deotte，196 票）：https://www.kaggle.com/competitions/godaddy-microbusiness-density-forecasting/discussion/373099
+- 基线修正（Chris Deotte，141 票）：https://www.kaggle.com/competitions/godaddy-microbusiness-density-forecasting/discussion/389215
+- 3rd 倍率 GRU（84 票）：https://www.kaggle.com/competitions/godaddy-microbusiness-density-forecasting/discussion/418287
+- 1st（@kaggleqrdl，48 票）：https://www.kaggle.com/competitions/godaddy-microbusiness-density-forecasting/discussion/395131
+- Giba RAPIDS SVR（36 票）：https://www.kaggle.com/competitions/godaddy-microbusiness-density-forecasting/discussion/395011
+- 6th 目标展平（24 票）：https://www.kaggle.com/competitions/godaddy-microbusiness-density-forecasting/discussion/417821
+- Hugo 复盘（24 票）：https://www.kaggle.com/competitions/godaddy-microbusiness-density-forecasting/discussion/394822
+- 2nd 数据清洗（Daniel Phalen，19 票）：https://www.kaggle.com/competitions/godaddy-microbusiness-density-forecasting/discussion/395264
+- 未收录缺口（登记备查）：17 条 write-up 标记中的其余条目
+
 ---
 
 ## h-and-m-personalized-fashion-recommendations — H&M 时尚推荐深读：召回策略是上限，排序只吃残差
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 MAP@{K} ｜ 队伍 2952 ｜ 截止 2022-05-09 ｜ Tier A ｜ 标签 tabular,ranking,ecommerce
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/h-and-m-personalized-fashion-recommendations.md
 > 材料基础：`digests/h-and-m-personalized-fashion-recommendations.md`（8 节正文：1st/2nd/3rd/4th/6th/52nd + 赛事本质 Q&A + 图像数据集）+ 6 张图（全场图片资产已全读）
 
 ### 一句话重述
@@ -945,11 +1055,23 @@ pos:neg≈1:300（3rd）→ 保留 30× 正样本；1st：每周 100–200 万�
 - ../../intel/h-and-m-personalized-fashion-recommendations/bodies/324070_img/02.png — cv grid
 - ../../intel/h-and-m-personalized-fashion-recommendations/bodies/324094_img/01.png — 4th arch
 
+### 出处
+- Q&A（Paweł Jankiewicz，431 票）：https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/discussion/307288
+- 1st（senkin13 & h4211819，430 票）：https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/discussion/324070
+- 图像数据集（Sanskar Hasija，100 票）：https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/discussion/306152
+- 3rd（sirius，96 票）：https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/discussion/324129
+- 2nd（wht1996 & Paweł，80 票）：https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/discussion/324197
+- 52nd 20 分钟方案（Clear n' Simple，75 票）：https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/discussion/324076
+- 6th（Ethan 队，71 票）：https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/discussion/324075
+- 4th（Hongwei Zhang，65 票）：https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/discussion/324094
+- 未收录缺口（登记备查）：324098（5th）｜324127（9th）｜324084（11th）｜324278（Giba）｜324152（22nd 单 LGBM）｜324486（top-10 汇总）等
+
 ---
 
 ## hms-harmful-brain-activity-classification — 深读：HMS 有害脑活动分类（标签来源双位移 + 频谱逆向工程）
 
 > 主题 tabular ｜ 类别 Research ｜ 指标 Kullback Leibler Divergence ｜ 队伍 2767 ｜ 截止 2024-04-08 ｜ Tier A ｜ 标签 tabular,classification,science,medical
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/hms-harmful-brain-activity-classification.md
 
 ### 一句话重述
 任务：由 EEG 预测 6 类有害脑活动的**概率分布**（KL 散度）。
@@ -1008,11 +1130,20 @@ pos:neg≈1:300（3rd）→ 保留 30× 正样本；1st：每周 100–200 万�
 - ../../intel/hms-harmful-brain-activity-classification/bodies/468010_img/01.png — HMS 数据结构
 - ../../intel/hms-harmful-brain-activity-classification/bodies/492482_img/03.png — One Mega Model
 
+### 出处
+- 数据理解 starter：https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/discussion/468010
+- Magic Formula：https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/discussion/469760
+- 3rd：https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/discussion/492471
+- 2nd：https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/discussion/492254
+- 8th：https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/discussion/492482
+- 1st：https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/discussion/492560
+
 ---
 
 ## home-credit-credit-risk-model-stability — Home Credit - Credit Risk Model Stability 深读：指标缺陷 × 日期恢复 × 下注策略
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 Home Credit 2023 - Gini Stability ｜ 队伍 3856 ｜ 截止 2024-05-27 ｜ Tier A ｜ 标签 tabular,finance
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/home-credit-credit-risk-model-stability.md
 > 材料基础：`digests/home-credit-credit-risk-model-stability.md`（8 篇正文：1st 175 / 公开 8→私有 253 的 60 / 13th 38 / 10th 29 / 53rd 29 / silver 29 / 57th 24 / 数据理解 375；120 条主题索引）+ 4 张图
 
 ### 一句话重述
@@ -1129,11 +1260,23 @@ pos:neg≈1:300（3rd）→ 保留 30× 正样本；1st：每周 100–200 万�
 - ../../intel/home-credit-credit-risk-model-stability/bodies/473950_img/01.png — 数据 schema：depth 与来源
 - ../../intel/home-credit-credit-risk-model-stability/bodies/473950_img/02.png — 文件大小与空值分布
 
+### 出处
+- 数据理解（375 票）：https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/discussion/473950
+- 1st（175 票）：https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/discussion/508337
+- 公开 8/私有 253（60 票）：https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/discussion/507946
+- 13th（38 票）：https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/discussion/508113
+- 10th（29 票）：https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/discussion/508588
+- 53rd 无 hack（29 票）：https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/discussion/508242
+- silver（29 票）：https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/discussion/507971
+- 57th 无 hack（24 票）：https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability/discussion/508124
+- 未收录正文的关键讨论（真实 topic id，供后续定点补采/图片层参考）：475878、476449、476867、478716、497167、497337、496898、501172、501744、505664、508163、475485、476463、477075、488466、505574、507556、507982、507959
+
 ---
 
 ## hull-tactical-market-prediction — Hull Tactical Market Prediction 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 Hull Competition Sharpe ｜ 队伍 3677 ｜ 截止 2026-06-25 ｜ Tier B ｜ 标签 tabular,time-series,finance
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/hull-tactical-market-prediction.md
 > 材料基础：`digests/hull-tactical-market-prediction.md`（6 篇正文：4th 718664 / 2.6 公榜方案 663043 / 61st 715547 / 163rd 1137 / "Stop wasting" 1080 / 随机提交讨论 608135；120 条主题索引）+ 11 张 EDA 图
 
 ### 一句话重述
@@ -1196,11 +1339,21 @@ pos:neg≈1:300（3rd）→ 保留 30× 正样本；1st：每周 100–200 万�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/hull-tactical-market-prediction/bodies/610981_img/01.png — 训练数据缺失值热图
 
+### 出处
+- 4th（39 票）：https://www.kaggle.com/competitions/hull-tactical-market-prediction/discussion/718664
+- 2.6 公榜方案（663043）：https://www.kaggle.com/competitions/hull-tactical-market-prediction/discussion/663043
+- 61st（715547）：https://www.kaggle.com/competitions/hull-tactical-market-prediction/discussion/715547
+- 163rd（714278）：https://www.kaggle.com/competitions/hull-tactical-market-prediction/discussion/714278
+- 随机提交讨论（44 票）：https://www.kaggle.com/competitions/hull-tactical-market-prediction/discussion/608135
+- EDA（47 票）：https://www.kaggle.com/competitions/hull-tactical-market-prediction/discussion/610981
+- "顶级方案在哪"（1177）：https://www.kaggle.com/competitions/hull-tactical-market-prediction/discussion/717746
+
 ---
 
 ## icr-identify-age-related-conditions — ICR - Identifying Age-Related Conditions 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 Weighted Multiclass Loss ｜ 队伍 6430 ｜ 截止 2023-08-10 ｜ Tier B ｜ 标签 tabular,classification
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/icr-identify-age-related-conditions.md
 > 材料基础：`digests/icr-identify-age-related-conditions.md`（10 篇正文：Silver 431067 / 9th 430906 / 1st 430843 / 4th 431173 / Wow 430860 / 3rd 430978 / 相似赛 409596 / 6th 431048 / 5th 430907；120 条主题索引）+ 6 张图
 
 ### 一句话重述
@@ -1256,11 +1409,22 @@ pos:neg≈1:300（3rd）→ 保留 30× 正样本；1st：每周 100–200 万�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/icr-identify-age-related-conditions/bodies/431067_img/02.png — 各时间段的验证损失
 
+### 出处
+- Silver 时间 CV（431067）：https://www.kaggle.com/competitions/icr-identify-age-related-conditions/discussion/431067
+- 9th（430906）：https://www.kaggle.com/competitions/icr-identify-age-related-conditions/discussion/430906
+- 1st（430843）：https://www.kaggle.com/competitions/icr-identify-age-related-conditions/discussion/430843
+- 4th（431173）：https://www.kaggle.com/competitions/icr-identify-age-related-conditions/discussion/431173
+- 2nd Wow（430860）：https://www.kaggle.com/competitions/icr-identify-age-related-conditions/discussion/430860
+- 3rd（430978）：https://www.kaggle.com/competitions/icr-identify-age-related-conditions/discussion/430978
+- 6th（431048）：https://www.kaggle.com/competitions/icr-identify-age-related-conditions/discussion/431048
+- 5th（430907）：https://www.kaggle.com/competitions/icr-identify-age-related-conditions/discussion/430907
+
 ---
 
 ## jane-street-real-time-market-data-forecasting — Jane Street Real-Time Market Data Forecasting 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 Jane Street Zero-Mean R2 ｜ 队伍 3757 ｜ 截止 2025-07-12 ｜ Tier B ｜ 标签 tabular,time-series,finance
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/jane-street-real-time-market-data-forecasting.md
 > 材料基础：`digests/jane-street-real-time-market-data-forecasting.md`（6 篇正文：私 8th 556542 / 公 17th 556541 / 私 162nd 589829 / 简单解 550849 / 参考帖 540437 / 往届汇总 541003；120 条主题索引）+ 6 张装饰头图（无分析图）
 
 ### 一句话重述
@@ -1322,11 +1486,22 @@ pos:neg≈1:300（3rd）→ 保留 30× 正样本；1st：每周 100–200 万�
 - CatBoost 在线（556544，60 票）与 LGBM 推理加速（542697，45 票）两条工程线未细读；
 - **图证缺口**：本场归档 6 张图全部是往届汇总帖（541003）的装饰横幅（`[图 N: header]`），无架构图/分数表可作证；原帖内嵌图多为站外/CDN 图，未归档。
 
+### 出处
+- 私榜 8th（295 票）：https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/discussion/556542
+- 公榜 17th（57 票）：https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/discussion/556541
+- 私榜 162nd（11 票）：https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/discussion/589829
+- 简单解（32 票）：https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/discussion/550849
+- responder 逆向工程（165 票）：https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/discussion/555562
+- 公开测试集扩展（54 票）：https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/discussion/550790
+- CatBoost 在线训练（60 票）：https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/discussion/556544
+- 往届金融赛方案汇总（48 票）：https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/discussion/541003
+
 ---
 
 ## jpx-tokyo-stock-exchange-prediction — JPX Tokyo Stock Exchange Prediction 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 JPXSharpe ｜ 队伍 2033 ｜ 截止 2022-10-07 ｜ Tier B ｜ 标签 tabular,time-series,finance
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/jpx-tokyo-stock-exchange-prediction.md
 > 材料基础：`digests/jpx-tokyo-stock-exchange-prediction.md`（5 篇正文：4th 359151 / 8th 359227 / 榜单红act 317413 / 猜测赢家 324051 / 往届 JQuants 317250；80 条主题索引）+ 1 张装饰图（无分析图）
 
 ### 一句话重述
@@ -1381,11 +1556,20 @@ host 整理了上一届 JQuants 冠军代码；社区高票帖"猜测冠军方�
 - 除权日策略的容量/成本未讨论（真实交易中借券成本等）；
 - **图证缺口**：本场唯一归档图是装饰图（"Best Wishes!"），无分析图；方法细节只能靠文字引用。
 
+### 出处
+- 4th（359151）：https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/discussion/359151
+- 8th（359227）：https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/discussion/359227
+- 榜单清理（116 票）：https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/discussion/317413
+- 幸运冠军（67 票）：https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/discussion/320323
+- 做空除权日（45 票）：https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/discussion/320836
+- 无泄漏 CV（74 票）：https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/discussion/324217
+
 ---
 
 ## learning-equality-curriculum-recommendations — Learning Equality - Curriculum Recommendations 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 F-Score Beta (Micro) ｜ 队伍 1057 ｜ 截止 2023-03-14 ｜ Tier B ｜ 标签 tabular,education
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/learning-equality-curriculum-recommendations.md
 > 材料基础：`digests/learning-equality-curriculum-recommendations.md`（6 篇正文：1st 394812 / 2nd 395110 / 3rd 394838 / 6th 394813 / ChatGPT 方案 372384 / LB 0.30+ 基线 373640；80 条主题索引）+ 9 张图
 
 ### 一句话重述
@@ -1453,11 +1637,21 @@ host 整理了上一届 JQuants 冠军代码；社区高票帖"猜测冠军方�
 - ../../intel/learning-equality-curriculum-recommendations/bodies/395110_img/05.jpg — 2nd 的动态阈值计算
 - ../../intel/learning-equality-curriculum-recommendations/bodies/394813_img/01.png — 6th 的两阶段检索-重排管线
 
+### 出处
+- 1st（209 票）：https://www.kaggle.com/competitions/learning-equality-curriculum-recommendations/discussion/394812
+- 2nd（79 票）：https://www.kaggle.com/competitions/learning-equality-curriculum-recommendations/discussion/395110
+- 3rd（59 票）：https://www.kaggle.com/competitions/learning-equality-curriculum-recommendations/discussion/394838
+- 6th（47 票）：https://www.kaggle.com/competitions/learning-equality-curriculum-recommendations/discussion/394813
+- LB 0.30+ 基线（129 票）：https://www.kaggle.com/competitions/learning-equality-curriculum-recommendations/discussion/373640
+- 主题上下文（81 票）：https://www.kaggle.com/competitions/learning-equality-curriculum-recommendations/discussion/376873
+- Stage1/2 CV vs LB（74 票）：https://www.kaggle.com/competitions/learning-equality-curriculum-recommendations/discussion/381509
+
 ---
 
 ## march-machine-learning-mania-2023 — March Machine Learning Mania 2023 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 Mean Squared Error ｜ 队伍 1033 ｜ 截止 2023-04-04 ｜ Tier B ｜ 标签 tabular,sports,education
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/march-machine-learning-mania-2023.md
 > 材料基础：`digests/march-machine-learning-mania-2023.md`（3 篇正文：1st 399553 / 2nd 401578 / 5th 401382 + 官方计分帖 395257；80 条主题索引）+ 1 张过小的图
 
 ### 一句话重述
@@ -1513,11 +1707,20 @@ host 整理了上一届 JQuants 冠军代码；社区高票帖"猜测冠军方�
 - 5th 的其余特征与模型未细读；
 - **图证缺口**：本场唯一归档图仅 144×753（过小、不可读），按规则不内嵌。
 
+### 出处
+- 1st（399553）：https://www.kaggle.com/competitions/march-machine-learning-mania-2023/discussion/399553
+- 2nd（401578）：https://www.kaggle.com/competitions/march-machine-learning-mania-2023/discussion/401578
+- 5th（401382）：https://www.kaggle.com/competitions/march-machine-learning-mania-2023/discussion/401382
+- 官方计分（74 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2023/discussion/395257
+- 538 外部数据（74 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2023/discussion/388323
+- 正则化与 Brier（23 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2023/discussion/395600
+
 ---
 
 ## march-machine-learning-mania-2024 — March Machine Learning Mania 2024 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 March Mania 2024 Metric ｜ 队伍 820 ｜ 截止 2024-04-09 ｜ Tier B ｜ 标签 tabular,sports,education
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/march-machine-learning-mania-2024.md
 > 材料基础：`digests/march-machine-learning-mania-2024.md`（3 篇正文：1st 493793 / 2nd 492761 / 17th 492459 / 45th 567 行处；80 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -1574,11 +1777,20 @@ host 整理了上一届 JQuants 冠军代码；社区高票帖"猜测冠军方�
 - 本届评分口径（March Mania 2024 Metric）与往届的差异未整理；
 - **图证缺口**：本场 0 张归档图。
 
+### 出处
+- 1st（33 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2024/discussion/493793
+- 2nd（46 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2024/discussion/492761
+- 17th（28 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2024/discussion/492459
+- 起步参考（52 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2024/discussion/480346
+- 比赛设计（35 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2024/discussion/481750
+- 提交/选择问题（27 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2024/discussion/485935
+
 ---
 
 ## march-machine-learning-mania-2025 — March Machine Learning Mania 2025 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 Mean Squared Error ｜ 队伍 1727 ｜ 截止 2025-04-08 ｜ Tier B ｜ 标签 tabular,sports,education
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/march-machine-learning-mania-2025.md
 > 材料基础：`digests/march-machine-learning-mania-2025.md`（6 篇正文：往届总结 562585 / 榜单更新 569248 / 1st 572717 / 4th 572466 / 可视化 568862 / "第一名吓人" 569369；80 条主题索引）+ 1 张图
 
 ### 一句话重述
@@ -1635,11 +1847,20 @@ NCAA 淘汰赛胜负概率预测（Brier）。真正考点与此前一致：**�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/march-machine-learning-mania-2025/bodies/568862_img/01.png — 2025 男子组预测括号
 
+### 出处
+- 往届总结（562585）：https://www.kaggle.com/competitions/march-machine-learning-mania-2025/discussion/562585
+- 榜单更新（569248）：https://www.kaggle.com/competitions/march-machine-learning-mania-2025/discussion/569248
+- 1st（572717）：https://www.kaggle.com/competitions/march-machine-learning-mania-2025/discussion/572717
+- 4th（572466）：https://www.kaggle.com/competitions/march-machine-learning-mania-2025/discussion/572466
+- 可视化器（568862）：https://www.kaggle.com/competitions/march-machine-learning-mania-2025/discussion/568862
+- "第一名吓人"（569369）：https://www.kaggle.com/competitions/march-machine-learning-mania-2025/discussion/569369
+
 ---
 
 ## mens-march-mania-2022 — Men's March Mania 2022 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 Log Loss ｜ 队伍 930 ｜ 截止 2022-04-05 ｜ Tier B ｜ 标签 tabular,sports
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/mens-march-mania-2022.md
 > 材料基础：`digests/mens-march-mania-2022.md`（7 篇正文：1st 317145 + "Magic"解读 317316 / 3rd 317365 / 5th 317566 / 6th 317114 / 往届方案 308513 / 外部 538 评分 309917；120 条主题索引）+ 11 张图
 
 ### 一句话重述
@@ -1699,11 +1920,21 @@ NCAA 淘汰赛胜负概率预测（Brier）。真正考点与此前一致：**�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/mens-march-mania-2022/bodies/317316_img/04.png — 错季统计下的对阵热力图
 
+### 出处
+- #1 solution（317145）：https://www.kaggle.com/competitions/mens-march-mania-2022/discussion/317145
+- 1st "Magic"解读（46 票）：https://www.kaggle.com/competitions/mens-march-mania-2022/discussion/317316
+- #3 solution（317365）：https://www.kaggle.com/competitions/mens-march-mania-2022/discussion/317365
+- #5 solution（317566）：https://www.kaggle.com/competitions/mens-march-mania-2022/discussion/317566
+- 6th 队伍嵌入（317114）：https://www.kaggle.com/competitions/mens-march-mania-2022/discussion/317114
+- 往届夺冠方案（308513）：https://www.kaggle.com/competitions/mens-march-mania-2022/discussion/308513
+- 538 外部评分（54 票）：https://www.kaggle.com/competitions/mens-march-mania-2022/discussion/309917
+
 ---
 
 ## mitsui-commodity-prediction-challenge — MITSUI&CO. Commodity Prediction Challenge 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 MITSUI&CO. Commodity Prediction Metric ｜ 队伍 1711 ｜ 截止 2026-01-16 ｜ Tier B ｜ 标签 tabular
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/mitsui-commodity-prediction-challenge.md
 > 材料基础：`digests/mitsui-commodity-prediction-challenge.md`（6 篇正文：5th ZLF 670526 / 15th 668673 / 10th 668589 / 89th 668781 / 规则澄清 591256 / 运气分析 599772；80 条主题索引）+ 1 张归档图
 
 ### 一句话重述
@@ -1764,11 +1995,23 @@ NCAA 淘汰赛胜负概率预测（Brier）。真正考点与此前一致：**�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/mitsui-commodity-prediction-challenge/bodies/599772_img/01.png — 随机提交的分数分布
 
+### 出处
+- 5th ZLF（8 票）：https://www.kaggle.com/competitions/mitsui-commodity-prediction-challenge/discussion/670526
+- 15th 在线学习（16 票）：https://www.kaggle.com/competitions/mitsui-commodity-prediction-challenge/discussion/668673
+- 10th regularized-naive（17 票）：https://www.kaggle.com/competitions/mitsui-commodity-prediction-challenge/discussion/668589
+- 89th 常量排名预测（5 票）：https://www.kaggle.com/competitions/mitsui-commodity-prediction-challenge/discussion/668781
+- 运气模拟（33 票）：https://www.kaggle.com/competitions/mitsui-commodity-prediction-challenge/discussion/599772
+- 规则澄清（54 票 / 24 评论）：https://www.kaggle.com/competitions/mitsui-commodity-prediction-challenge/discussion/591256
+- 无泄漏 CV（16 票）：https://www.kaggle.com/competitions/mitsui-commodity-prediction-challenge/discussion/591530
+- 数据集更新（13 票 / 38 评论）：https://www.kaggle.com/competitions/mitsui-commodity-prediction-challenge/discussion/603716
+- 退市股票 target 对（18 票）：https://www.kaggle.com/competitions/mitsui-commodity-prediction-challenge/discussion/606650
+
 ---
 
 ## optiver-realized-volatility-prediction — 深读：Optiver Realized Volatility（把被打乱的时间轴拼回来）
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 Root Mean Square Percentage Error ｜ 队伍 3852 ｜ 截止 2022-01-10 ｜ Tier A ｜ 标签 tabular
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/optiver-realized-volatility-prediction.md
 
 ### 一句话重述
 用订单簿 + 成交数据预测 10 分钟后已实现波动率（RMSPE）。数据把 **time_id 顺序打乱**、价格被归一化，但两条隐藏线索让它可解：
@@ -1835,11 +2078,19 @@ NCAA 淘汰赛胜负概率预测（Brier）。真正考点与此前一致：**�
 - ../../intel/optiver-realized-volatility-prediction/bodies/274970_img/04.png — timeline
 - ../../intel/optiver-realized-volatility-prediction/bodies/274970_img/05.png — nn features
 
+### 出处
+- 1st：https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/discussion/274970
+- 消融研究：https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/discussion/302626
+- 15th：https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/discussion/276137
+- 3rd：https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/discussion/278676
+- GNN：https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/discussion/275185
+
 ---
 
 ## optiver-trading-at-the-close — Optiver - Trading at the Close 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 Mean Columnwise Mean Absolute Error ｜ 队伍 4436 ｜ 截止 2024-03-22 ｜ Tier B ｜ 标签 tabular,finance
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/optiver-trading-at-the-close.md
 > 材料基础：`digests/optiver-trading-at-the-close.md`（8 篇正文：1st 338 / 9th 66 / 特征加速 54 / 6th 49 / 前作回顾 47 / 7th 43 / 14th 31 / 30th 25；120 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -1907,11 +2158,23 @@ top-300 重要性（1st）、分组增量（9th）、分模型筛选（30th：Ca
 - `462639` NN with no FE（63 票，"5.34X"）与最终 5.40 的关系（是否公开榜虚高）未厘清。
 - 30th 的中期更新崩溃原因无官方说明；赛制数据形状规则未收录。
 
+### 出处
+- 1st（338 票）：https://www.kaggle.com/competitions/optiver-trading-at-the-close/discussion/487446
+- 9th（66 票）：https://www.kaggle.com/competitions/optiver-trading-at-the-close/discussion/486868
+- 特征加速（54 票）：https://www.kaggle.com/competitions/optiver-trading-at-the-close/discussion/451735
+- 6th（49 票）：https://www.kaggle.com/competitions/optiver-trading-at-the-close/discussion/486040
+- 前作回顾（47 票）：https://www.kaggle.com/competitions/optiver-trading-at-the-close/discussion/442167
+- 7th（43 票）：https://www.kaggle.com/competitions/optiver-trading-at-the-close/discussion/486169
+- 14th（31 票）：https://www.kaggle.com/competitions/optiver-trading-at-the-close/discussion/485985
+- 30th（25 票）：https://www.kaggle.com/competitions/optiver-trading-at-the-close/discussion/462650
+- 缺口登记：442851、457721、462639、450626、444516、441590
+
 ---
 
 ## otto-recommender-system — OTTO 推荐系统深读：候选工程决定 95% 的分数
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 WeightedRecall@{K} ｜ 队伍 2574 ｜ 截止 2023-01-31 ｜ Tier A ｜ 标签 tabular
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/otto-recommender-system.md
 > 材料基础：`digests/otto-recommender-system.md`（7 节正文：GBT Ranker 教程 + 大数据推荐概念 + 规则第 3 + 第 5 + 3rd(imaginary) + 2nd(ONODERA) + 20th）+ 14 张图
 
 ### 一句话重述
@@ -2028,11 +2291,22 @@ Sirius：MLP（0.598）不进最终融合；GRU/预训练 item embedding 全失�
 - ../../intel/otto-recommender-system/bodies/382790_img/01.png — item2item
 - ../../intel/otto-recommender-system/bodies/382771_img/01.png — kiccho
 
+### 出处
+- GBT Ranker 教程（Chris Deotte，335 票）：https://www.kaggle.com/competitions/otto-recommender-system/discussion/370210
+- 大数据推荐概念（Ravi Shah，275 票）：https://www.kaggle.com/competitions/otto-recommender-system/discussion/364721
+- 规则第 3（Chris Deotte/G&B&D&T，151 票）：https://www.kaggle.com/competitions/otto-recommender-system/discussion/383013
+- 5th（NikhilMishra，103 票）：https://www.kaggle.com/competitions/otto-recommender-system/discussion/382802
+- 3rd imaginary（Makotu 队，98 票）：https://www.kaggle.com/competitions/otto-recommender-system/discussion/382879
+- 2nd ONODERA 部分（90 票）：https://www.kaggle.com/competitions/otto-recommender-system/discussion/382790
+- 20th（kiccho，90 票）：https://www.kaggle.com/competitions/otto-recommender-system/discussion/382771
+- 未收录缺口（登记备查）：**384022（1st）**｜383769（7th）｜382839（2nd senkin13）｜382975（3rd Theo）｜384120（6th）｜383792/383130（9th）｜383382（16th）｜372976（H&M 汇总）等
+
 ---
 
 ## playground-series-s3e1 — Playground Series S3E1（加州房价）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Root Mean Squared Error ｜ 队伍 689 ｜ 截止 2023-01-09 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e1.md
 > 材料基础：`digests/playground-series-s3e1.md`（6 篇正文：1st 377137 / 2nd 377179 / 24th 377993 / 坐标 FE 清单 376210 / 官方写-up 帖 377040+377595；59 条主题索引）+ 1 张归档图
 
 ### 一句话重述
@@ -2089,11 +2363,23 @@ Sirius：MLP（0.598）不进最终融合；GRU/预训练 item embedding 全失�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s3e1/bodies/377179_img/01.png — 2nd 的多尺度 NN 结构
 
+### 出处
+- 1st AutoGluon（69 票 / 46 评论）：https://www.kaggle.com/competitions/playground-series-s3e1/discussion/377137
+- 2nd 验证口径（21 票 / 4 评论）：https://www.kaggle.com/competitions/playground-series-s3e1/discussion/377179
+- 24th（15 票 / 5 评论）：https://www.kaggle.com/competitions/playground-series-s3e1/discussion/377993
+- 坐标 FE 清单（46 票 / 8 评论）：https://www.kaggle.com/competitions/playground-series-s3e1/discussion/376210
+- 简单特征 +0.002（40 票 / 13 评论）：https://www.kaggle.com/competitions/playground-series-s3e1/discussion/376043
+- 注意 CV / 忽略原数据（30 票 / 30 评论）：https://www.kaggle.com/competitions/playground-series-s3e1/discussion/376709
+- Clip Max（21 票 / 9 评论）：https://www.kaggle.com/competitions/playground-series-s3e1/discussion/376396
+- 原数据大提升（19 票 / 3 评论）：https://www.kaggle.com/competitions/playground-series-s3e1/discussion/375754
+- 经纬度为何重要（25 票 / 8 评论）：https://www.kaggle.com/competitions/playground-series-s3e1/discussion/376078
+
 ---
 
 ## playground-series-s3e10 — Playground Series S3E10（脉冲星识别）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Log Loss ｜ 队伍 807 ｜ 截止 2023-03-20 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e10.md
 > 材料基础：`digests/playground-series-s3e10.md`（6 篇正文：1st 396345 / 19th 396259 / 十届冠军汇编 394981 / 十届结构化复盘 395484 / 校准模板警告 393073 / 天体物理背景 392834；61 条主题索引）+ 2 张归档图
 
 ### 一句话重述
@@ -2154,11 +2440,22 @@ Sirius：MLP（0.598）不进最终融合；GRU/预训练 item embedding 全失�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s3e10/bodies/393073_img/01.png — 校准曲线与预测直方图
 
+### 出处
+- 1st GAM（22 票 / 13 评论）：https://www.kaggle.com/competitions/playground-series-s3e10/discussion/396345
+- 19th 全组合特征（13 票）：https://www.kaggle.com/competitions/playground-series-s3e10/discussion/396259
+- 十届冠军汇编（32 票 / 6 评论）：https://www.kaggle.com/competitions/playground-series-s3e10/discussion/394981
+- 十届结构化复盘（23 票 / 9 评论）：https://www.kaggle.com/competitions/playground-series-s3e10/discussion/395484
+- 校准模板警告（49 票 / 14 评论）：https://www.kaggle.com/competitions/playground-series-s3e10/discussion/393073
+- 天体物理背景（35 票 / 12 评论）：https://www.kaggle.com/competitions/playground-series-s3e10/discussion/392834
+- 概率校准（28 票 / 5 评论）：https://www.kaggle.com/competitions/playground-series-s3e10/discussion/393861
+- 去掉异常值（22 票 / 21 评论）：https://www.kaggle.com/competitions/playground-series-s3e10/discussion/393093
+
 ---
 
 ## playground-series-s3e11 — Playground Series S3E11（门店成本预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Mean Squared Log Error ｜ 队伍 952 ｜ 截止 2023-04-03 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e11.md
 > 材料基础：`digests/playground-series-s3e11.md`（6 篇正文：1st 399401 / 3rd 399571 / 4th 399489 / 17th 399393 / 回归冠军汇编 396123 / FE 合集 396291；79 条主题索引）+ 11 张归档图
 
 ### 一句话重述
@@ -2222,11 +2519,23 @@ Sirius：MLP（0.598）不进最终融合；GRU/预训练 item embedding 全失�
 - ../../intel/playground-series-s3e11/bodies/399401_img/02.png — 模型多样性树状图
 - ../../intel/playground-series-s3e11/bodies/399489_img/01.png — 原数据只入训练不入验证
 
+### 出处
+- 1st A Zoo of Models（90 票 / 30 评论）：https://www.kaggle.com/competitions/playground-series-s3e11/discussion/399401
+- 3rd KS+LOFO+伪标签（17 票）：https://www.kaggle.com/competitions/playground-series-s3e11/discussion/399571
+- 4th FE 决定成败（20 票）：https://www.kaggle.com/competitions/playground-series-s3e11/discussion/399489
+- 17th 手工调参（17 票）：https://www.kaggle.com/competitions/playground-series-s3e11/discussion/399393
+- FE 合集（57 票 / 42 评论）：https://www.kaggle.com/competitions/playground-series-s3e11/discussion/396291
+- 数据详解（54 票 / 44 评论）：https://www.kaggle.com/competitions/playground-series-s3e11/discussion/396153
+- 去掉特征即 0.2945（34 票）：https://www.kaggle.com/competitions/playground-series-s3e11/discussion/396508
+- 回归赛冠军汇编（19 票）：https://www.kaggle.com/competitions/playground-series-s3e11/discussion/396123
+- 人工数据质疑（26 票）：https://www.kaggle.com/competitions/playground-series-s3e11/discussion/397431
+
 ---
 
 ## playground-series-s3e12 — Playground Series S3E12（极小数据分类）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 sklearn_roc_auc_score ｜ 队伍 1088 ｜ 截止 2023-04-17 ｜ Tier B ｜ 标签 tabular,ranking,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e12.md
 > 材料基础：`digests/playground-series-s3e12.md`（6 篇正文：两特征 400152 / train_test_split 警告 401113 / #28 402347 / #14 402467 / #24 402398 / #8 402416；80 条主题索引）+ 4 张归档图
 
 ### 一句话重述
@@ -2288,11 +2597,23 @@ Sirius：MLP（0.598）不进最终融合；GRU/预训练 item embedding 全失�
 - ../../intel/playground-series-s3e12/bodies/400152_img/01.png — 六个分类器的二维决策面
 - ../../intel/playground-series-s3e12/bodies/401113_img/01.png — 公开 notebook 的验证质量
 
+### 出处
+- 两特征足够 + 轮廓图（77 票 / 31 评论）：https://www.kaggle.com/competitions/playground-series-s3e12/discussion/400152
+- 为什么不能用 train_test_split（78 票 / 51 评论）：https://www.kaggle.com/competitions/playground-series-s3e12/discussion/401113
+- Metric 与 CV 入门（53 票 / 11 评论）：https://www.kaggle.com/competitions/playground-series-s3e12/discussion/399412
+- 十折不够吗（47 票 / 15 评论）：https://www.kaggle.com/competitions/playground-series-s3e12/discussion/399869
+- 别忘了 GAM（43 票 / 15 评论）：https://www.kaggle.com/competitions/playground-series-s3e12/discussion/400005
+- #28（4 票）：https://www.kaggle.com/competitions/playground-series-s3e12/discussion/402347
+- #14（3 票）：https://www.kaggle.com/competitions/playground-series-s3e12/discussion/402467
+- #24（7 票）：https://www.kaggle.com/competitions/playground-series-s3e12/discussion/402398
+- #8（11 票）：https://www.kaggle.com/competitions/playground-series-s3e12/discussion/402416
+
 ---
 
 ## playground-series-s3e13 — Playground Series S3E13（媒介传播疾病分类）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 MAP@{K} ｜ 队伍 934 ｜ 截止 2023-05-01 ｜ Tier B ｜ 标签 tabular,ranking,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e13.md
 > 材料基础：`digests/playground-series-s3e13.md`（6 篇正文：#2 407829 / #3 406409 / #5 406313 / #4 406812 / MAP@3 402411 / 探榜事件 405480；80 条主题索引）+ 3 张归档图
 
 ### 一句话重述
@@ -2359,11 +2680,23 @@ Sirius：MLP（0.598）不进最终融合；GRU/预训练 item embedding 全失�
 - ../../intel/playground-series-s3e13/bodies/407829_img/01.PNG — 症状聚类特征
 - ../../intel/playground-series-s3e13/bodies/407829_img/02.PNG — 成对逻辑特征
 
+### 出处
+- #2（13 票）：https://www.kaggle.com/competitions/playground-series-s3e13/discussion/407829
+- #3（19 票）：https://www.kaggle.com/competitions/playground-series-s3e13/discussion/406409
+- #5（36 票）：https://www.kaggle.com/competitions/playground-series-s3e13/discussion/406313
+- #4（10 票）：https://www.kaggle.com/competitions/playground-series-s3e13/discussion/406812
+- MAP@3 解释（47 票 / 15 评论）：https://www.kaggle.com/competitions/playground-series-s3e13/discussion/402411
+- 探榜事件（47 票 / 53 评论）：https://www.kaggle.com/competitions/playground-series-s3e13/discussion/405480
+- #1 公私榜位移（32 票）：https://www.kaggle.com/competitions/playground-series-s3e13/discussion/406433
+- LDA 基线（21 票）：https://www.kaggle.com/competitions/playground-series-s3e13/discussion/405435
+- 医疗知识警告（35 票 / 24 评论）：https://www.kaggle.com/competitions/playground-series-s3e13/discussion/403728
+
 ---
 
 ## playground-series-s3e14 — Playground Series S3E14（野生蓝莓产量预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Mean Absolute Error ｜ 队伍 1875 ｜ 截止 2023-05-15 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e14.md
 > 材料基础：`digests/playground-series-s3e14.md`（6 篇正文：1st 410627 / 4th 410639 / 13th 410652 / 189th 410700 / 后处理技巧 407327 / 3rd 410787；71 条主题索引）+ 10 张归档图
 
 ### 一句话重述
@@ -2424,11 +2757,23 @@ PLS/PCA 线性投影反复出现；LADRegression（最小绝对偏差，天然�
 - ../../intel/playground-series-s3e14/bodies/410627_img/02.png — 1st 的完整模型管线
 - ../../intel/playground-series-s3e14/bodies/410639_img/02.png — hill climbing 的 MAE 曲线
 
+### 出处
+- 1st（133 票 / 57 评论）：https://www.kaggle.com/competitions/playground-series-s3e14/discussion/410627
+- 后处理技巧（80 票 / 18 评论）：https://www.kaggle.com/competitions/playground-series-s3e14/discussion/407327
+- 4th hillclimbers（50 票 / 16 评论）：https://www.kaggle.com/competitions/playground-series-s3e14/discussion/410639
+- 13th（21 票 / 17 评论）：https://www.kaggle.com/competitions/playground-series-s3e14/discussion/410652
+- 189th（10 票）：https://www.kaggle.com/competitions/playground-series-s3e14/discussion/410700
+- 3rd（12 票）：https://www.kaggle.com/competitions/playground-series-s3e14/discussion/410787
+- 337 分技巧（69 票 / 48 评论）：https://www.kaggle.com/competitions/playground-series-s3e14/discussion/409242
+- 快速 FE 想法（60 票 / 28 评论）：https://www.kaggle.com/competitions/playground-series-s3e14/discussion/406448
+- 简单集成 + 后处理（53 票 / 13 评论）：https://www.kaggle.com/competitions/playground-series-s3e14/discussion/410666
+
 ---
 
 ## playground-series-s3e15 — Playground Series S3E15（临界热通量预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Root Mean Squared Error ｜ 队伍 693 ｜ 截止 2023-05-29 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e15.md
 > 材料基础：`digests/playground-series-s3e15.md`（6 篇正文：1st 414048 / 2nd 413826 / 5th 413742 / 14th 413749 / 插补技术 410645 / 资源合集 410613；59 条主题索引）+ 7 张归档图
 
 ### 一句话重述
@@ -2488,11 +2833,22 @@ PLS/PCA 线性投影反复出现；LADRegression（最小绝对偏差，天然�
 - ../../intel/playground-series-s3e15/bodies/413749_img/01.png — hillclimbers 集成结构
 - ../../intel/playground-series-s3e15/bodies/414048_img/01.png — 1st 的提交对比
 
+### 出处
+- 1st 多样集成（26 票 / 8 评论）：https://www.kaggle.com/competitions/playground-series-s3e15/discussion/414048
+- 2nd 原数据的力量（29 票 / 12 评论）：https://www.kaggle.com/competitions/playground-series-s3e15/discussion/413826
+- 5th 没有插补器的插补（26 票 / 16 评论）：https://www.kaggle.com/competitions/playground-series-s3e15/discussion/413742
+- 14th hillclimbers（22 票 / 5 评论）：https://www.kaggle.com/competitions/playground-series-s3e15/discussion/413749
+- 插补技术与代码（47 票 / 13 评论）：https://www.kaggle.com/competitions/playground-series-s3e15/discussion/410645
+- 资源合集（52 票）：https://www.kaggle.com/competitions/playground-series-s3e15/discussion/410613
+- 基础 FE/插补思路（31 票 / 16 评论）：https://www.kaggle.com/competitions/playground-series-s3e15/discussion/411353
+- CHF 关联式（29 票 / 29 评论）：https://www.kaggle.com/competitions/playground-series-s3e15/discussion/410793
+
 ---
 
 ## playground-series-s3e16 — Playground Series S3E16（鲍鱼年龄预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Mean Absolute Error ｜ 队伍 1429 ｜ 截止 2023-06-12 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e16.md
 > 材料基础：`digests/playground-series-s3e16.md`（6 篇正文：1st 416766 / 2nd 416903 / 3rd 416783 / 5th 416769 / 11th 416819 / 高票帖 413750；76 条主题索引）+ 2 张图
 
 ### 一句话重述
@@ -2551,11 +2907,20 @@ MAE 指标下 5th 用 **LADRegression**（最小绝对偏差）作为集成器�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s3e16/bodies/416903_img/01.png — 2nd 的配置与逐项效果标注
 
+### 出处
+- 1st（24 票）：https://www.kaggle.com/competitions/playground-series-s3e16/discussion/416766
+- 2nd（19 票）：https://www.kaggle.com/competitions/playground-series-s3e16/discussion/416903
+- 5th（23 票）：https://www.kaggle.com/competitions/playground-series-s3e16/discussion/416769
+- 11th（273 行处）：https://www.kaggle.com/competitions/playground-series-s3e16/discussion/416819
+- 特征工程 1.33708（48 票）：https://www.kaggle.com/competitions/playground-series-s3e16/discussion/415721
+- round or not（37 票）：https://www.kaggle.com/competitions/playground-series-s3e16/discussion/413971
+
 ---
 
 ## playground-series-s3e17 — Playground Series S3E17（机器故障预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Roc Auc Score ｜ 队伍 1502 ｜ 截止 2023-06-26 ｜ Tier B ｜ 标签 tabular,ranking,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e17.md
 > 材料基础：`digests/playground-series-s3e17.md`（6 篇正文：领域知识 416765 / 11th 419643 / 17th 419648 / 4th 419698 / 3rd 419730 / 赛制反馈 417785；80 条主题索引）+ 2 张归档图
 
 ### 一句话重述
@@ -2618,11 +2983,23 @@ MAE 指标下 5th 用 **LADRegression**（最小绝对偏差）作为集成器�
 - ../../intel/playground-series-s3e17/bodies/416765_img/01.png — 产品类型分布
 - ../../intel/playground-series-s3e17/bodies/416765_img/02.png — 故障类型计数
 
+### 出处
+- 领域知识与字段表（65 票 / 29 评论）：https://www.kaggle.com/competitions/playground-series-s3e17/discussion/416765
+- 11th 方案（44 票 / 36 评论）：https://www.kaggle.com/competitions/playground-series-s3e17/discussion/419643
+- 17th 单 CatBoost（14 票）：https://www.kaggle.com/competitions/playground-series-s3e17/discussion/419648
+- 4th 行级 TE（5 票）：https://www.kaggle.com/competitions/playground-series-s3e17/discussion/419698
+- 3rd AutoML（31 票）：https://www.kaggle.com/competitions/playground-series-s3e17/discussion/419730
+- 赛制多样性请求（45 票 / 26 评论）：https://www.kaggle.com/competitions/playground-series-s3e17/discussion/417785
+- 不平衡策略（37 票 / 22 评论）：https://www.kaggle.com/competitions/playground-series-s3e17/discussion/416923
+- Product ID 讨论（18 票 / 12 评论）：https://www.kaggle.com/competitions/playground-series-s3e17/discussion/416774
+- 重复观测（15 票）：https://www.kaggle.com/competitions/playground-series-s3e17/discussion/416919
+
 ---
 
 ## playground-series-s3e18 — Playground Series S3E18（酶底物 EC1/EC2 多标签）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Roc Auc Score ｜ 队伍 1047 ｜ 截止 2023-07-10 ｜ Tier B ｜ 标签 tabular,ranking,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e18.md
 > 材料基础：`digests/playground-series-s3e18.md`（6 篇正文：中期总结 421462 / 领域知识 419646 / 起步资源 419645 / 1st 432011 / 11th 423642 / "不是多标签而是两场比赛" 420127；66 条主题索引）+ 1 张归档图
 
 ### 一句话重述
@@ -2690,11 +3067,26 @@ EC2 AUC 约 0.58–0.59，仅略好于全 1 分类器；11th 的集成无法超�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s3e18/bodies/420127_img/01.png — EC1 vs EC2 各模型 AUC 对比
 
+### 出处
+- "不是多标签，而是两场比赛"（39 票 / 14 评论）：https://www.kaggle.com/competitions/playground-series-s3e18/discussion/420127
+- EC2 最佳单模型 Bagged KNN（30 票 / 24 评论）：https://www.kaggle.com/competitions/playground-series-s3e18/discussion/420822
+- 中期总结（41 票 / 2 评论）：https://www.kaggle.com/competitions/playground-series-s3e18/discussion/421462
+- 指标最优实现（23 票 / 8 评论）：https://www.kaggle.com/competitions/playground-series-s3e18/discussion/421149
+- EC2 少即是多（13 票 / 7 评论）：https://www.kaggle.com/competitions/playground-series-s3e18/discussion/421210
+- 领域知识（48 票 / 20 评论）：https://www.kaggle.com/competitions/playground-series-s3e18/discussion/419646
+- 起步资源（52 票 / 24 评论）：https://www.kaggle.com/competitions/playground-series-s3e18/discussion/419645
+- 1st 方案（11 票 / 3 评论）：https://www.kaggle.com/competitions/playground-series-s3e18/discussion/432011
+- 11th 方案（24 票 / 11 评论）：https://www.kaggle.com/competitions/playground-series-s3e18/discussion/423642
+- `-666` 异常值（0 票 / 5 评论）：https://www.kaggle.com/competitions/playground-series-s3e18/discussion/419692
+- OOD 类别值与频率编码（7 票 / 5 评论）：https://www.kaggle.com/competitions/playground-series-s3e18/discussion/419651
+- 对抗验证原数据可用（8 票 / 5 评论）：https://www.kaggle.com/competitions/playground-series-s3e18/discussion/419685
+
 ---
 
 ## playground-series-s3e19 — Playground Series S3E19（销售预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 SMAPE ｜ 队伍 1172 ｜ 截止 2023-07-31 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e19.md
 > 材料基础：`digests/playground-series-s3e19.md`（5 篇正文：3rd 428682 / 2nd 428385 / 9th 473 行处 / 5th 535 行处 / 技巧帖 426258；80 条主题索引）+ 12 张图
 
 ### 一句话重述
@@ -2751,11 +3143,20 @@ EC2 AUC 约 0.58–0.59，仅略好于全 1 分类器；11th 的集成无法超�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s3e19/bodies/428682_img/01.png — 2020 异常趋势的修正前后
 
+### 出处
+- 3rd（428682）：https://www.kaggle.com/competitions/playground-series-s3e19/discussion/428682
+- 2nd（32 票）：https://www.kaggle.com/competitions/playground-series-s3e19/discussion/428385
+- 数据构造错误？（37 票）：https://www.kaggle.com/competitions/playground-series-s3e19/discussion/425538
+- 数据漂移提醒（19 票）：https://www.kaggle.com/competitions/playground-series-s3e19/discussion/423657
+- 国家份额与人均 GDP（19 票）：https://www.kaggle.com/competitions/playground-series-s3e19/discussion/423725
+- 打印变量名技巧（43 票）：https://www.kaggle.com/competitions/playground-series-s3e19/discussion/426258
+
 ---
 
 ## playground-series-s3e2 — Playground Series S3E2（中风预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Area Under Receiver Operating Characteristic Curve ｜ 队伍 770 ｜ 截止 2023-01-16 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e2.md
 > 材料基础：`digests/playground-series-s3e2.md`（6 篇正文：1st 378795 / 5th 378780 / 88th 378879 / "Never get married!" 377253 / 8th 381377 / 6th 378866；67 条主题索引）+ 1 张归档图
 
 ### 一句话重述
@@ -2815,11 +3216,23 @@ one-hot（或稀疏 k−1）够用，Mean/WoE/频率编码没有超过它；`Unk
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s3e2/bodies/377253_img/01.png — 控制年龄后的婚姻风险
 
+### 出处
+- 1st（35 票 / 14 评论）：https://www.kaggle.com/competitions/playground-series-s3e2/discussion/378795
+- 5th（46 票 / 22 评论）：https://www.kaggle.com/competitions/playground-series-s3e2/discussion/378780
+- 88th 四模型混合（4 票）：https://www.kaggle.com/competitions/playground-series-s3e2/discussion/378879
+- Never get married!（49 票 / 62 评论）：https://www.kaggle.com/competitions/playground-series-s3e2/discussion/377253
+- 8th（5 票）：https://www.kaggle.com/competitions/playground-series-s3e2/discussion/381377
+- 6th Optuna 权重（5 票）：https://www.kaggle.com/competitions/playground-series-s3e2/discussion/378866
+- Lasso 效果很好（39 票 / 31 评论）：https://www.kaggle.com/competitions/playground-series-s3e2/discussion/377377
+- 风险因子特征（28 票）：https://www.kaggle.com/competitions/playground-series-s3e2/discussion/377370
+- 血糖/年龄/BMI 分组（27 票 / 15 评论）：https://www.kaggle.com/competitions/playground-series-s3e2/discussion/377135
+
 ---
 
 ## playground-series-s3e20 — Playground Series S3E20（卢旺达 CO2 排放预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Root Mean Squared Error ｜ 队伍 1440 ｜ 截止 2023-08-21 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e20.md
 > 材料基础：`digests/playground-series-s3e20.md`（6 篇正文：为何常规方法失效 432294 / 4th 433567 / 3rd 433822 / 降维 429278 / 9.61 方案 433510 / 最短方案 430226；80 条主题索引）+ 14 张归档图
 
 ### 一句话重述
@@ -2880,11 +3293,24 @@ one-hot（或稀疏 k−1）够用，Mean/WoE/频率编码没有超过它；`Unk
 - ../../intel/playground-series-s3e20/bodies/429278_img/01.png — 位置 SVD 的累计解释方差
 - ../../intel/playground-series-s3e20/bodies/433567_img/03.png — 4th 的提交乘子对照
 
+### 出处
+- 为何常规方法失效（64 票 / 18 评论）：https://www.kaggle.com/competitions/playground-series-s3e20/discussion/432294
+- 4th PCA 方案（43 票 / 11 评论）：https://www.kaggle.com/competitions/playground-series-s3e20/discussion/433567
+- 3rd COVID 周折算（31 票 / 7 评论）：https://www.kaggle.com/competitions/playground-series-s3e20/discussion/433822
+- 降维：5 维足够（78 票 / 22 评论）：https://www.kaggle.com/competitions/playground-series-s3e20/discussion/429278
+- 外推还是丢 Covid（50 票 / 10 评论）：https://www.kaggle.com/competitions/playground-series-s3e20/discussion/428791
+- NMF 解释生成方式（34 票）：https://www.kaggle.com/competitions/playground-series-s3e20/discussion/430850
+- 初始 EDA（33 票）：https://www.kaggle.com/competitions/playground-series-s3e20/discussion/428566
+- Holt-Winters（25 票）：https://www.kaggle.com/competitions/playground-series-s3e20/discussion/430200
+- 9.61 方案（4 票）：https://www.kaggle.com/competitions/playground-series-s3e20/discussion/433510
+- 最短方案（14 票）：https://www.kaggle.com/competitions/playground-series-s3e20/discussion/430226
+
 ---
 
 ## playground-series-s3e21 — Playground Series S3E21（Data-Centric：改进固定模型）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 59109-datacentric-playground ｜ 队伍 955 ｜ 截止 2023-09-11 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e21.md
 > 材料基础：`digests/playground-series-s3e21.md`（6 篇正文：66th 438609 / 23rd 438824 / Missed 2nd 438635 / 4th 439142 / DCAI 综述 433516 / 资源 433491；80 条主题索引）+ 1 张归档图
 
 ### 一句话重述
@@ -2943,11 +3369,23 @@ Kaggle 罕见的赛制：**模型固定、只允许改数据**——用数据清
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s3e21/bodies/438635_img/01.png — 未选中的主动学习提交
 
+### 出处
+- 66th 清洗流程（8 票）：https://www.kaggle.com/competitions/playground-series-s3e21/discussion/438609
+- 23rd IsolationForest（10 票）：https://www.kaggle.com/competitions/playground-series-s3e21/discussion/438824
+- Missed 2nd / 主动学习（9 票）：https://www.kaggle.com/competitions/playground-series-s3e21/discussion/438635
+- 4th remove top-N errors（11 票）：https://www.kaggle.com/competitions/playground-series-s3e21/discussion/439142
+- Data-centric 方法与理论（44 票 / 3 评论）：https://www.kaggle.com/competitions/playground-series-s3e21/discussion/433516
+- DCAI 资源（35 票 / 16 评论）：https://www.kaggle.com/competitions/playground-series-s3e21/discussion/433491
+- 伪标签有效（32 票 / 15 评论）：https://www.kaggle.com/competitions/playground-series-s3e21/discussion/433531
+- 原始 train 数据可能有危险（32 票 / 11 评论）：https://www.kaggle.com/competitions/playground-series-s3e21/discussion/434969
+- 不该信公榜（20 票 / 27 评论）：https://www.kaggle.com/competitions/playground-series-s3e21/discussion/434376
+
 ---
 
 ## playground-series-s3e22 — Playground Series S3E22（马疝痛存活预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 F1 Score ｜ 队伍 1541 ｜ 截止 2023-10-02 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e22.md
 > 材料基础：`digests/playground-series-s3e22.md`（6 篇正文：入门材料 438603 / 领域文献 438620 / LB shakeup 444654 / 14th 复盘 444642 / 死多次的怪癖 441284 / 获奖模型发布疑问 444892；80 条主题索引）+ 1 张归档图
 
 ### 一句话重述
@@ -3010,11 +3448,24 @@ AI 论文给出 76%/85% 的基线准确率与 PCV、切除长度、手术时长�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s3e22/bodies/444654_img/01.png — S3E22 public-private 名次动态
 
+### 出处
+- Onboarding materials（62 票 / 28 评论）：https://www.kaggle.com/competitions/playground-series-s3e22/discussion/438603
+- 兽医 AI/Cox 文献（32 票 / 4 评论）：https://www.kaggle.com/competitions/playground-series-s3e22/discussion/438620
+- Inferring the LB shakeup（36 票 / 11 评论）：https://www.kaggle.com/competitions/playground-series-s3e22/discussion/444654
+- 14th Solution（26 票 / 15 评论）：https://www.kaggle.com/competitions/playground-series-s3e22/discussion/444642
+- 同一匹马死多次（50 票 / 26 评论）：https://www.kaggle.com/competitions/playground-series-s3e22/discussion/441284
+- 获奖模型发布疑问（2 票 / 0 评论）：https://www.kaggle.com/competitions/playground-series-s3e22/discussion/444892
+- Beware of the public LB!（29 票 / 11 评论）：https://www.kaggle.com/competitions/playground-series-s3e22/discussion/438637
+- 用一次提交探测 LB 目标分布（25 票 / 5 评论）：https://www.kaggle.com/competitions/playground-series-s3e22/discussion/438889
+- micro-F1 = accuracy（4 票 / 0 评论）：https://www.kaggle.com/competitions/playground-series-s3e22/discussion/440333
+- 前 11 名 7 队只提交 1–2 次（2 票 / 0 评论）：https://www.kaggle.com/competitions/playground-series-s3e22/discussion/444630
+
 ---
 
 ## playground-series-s3e23 — Playground Series S3E23（软件缺陷预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Roc Auc Score ｜ 队伍 1702 ｜ 截止 2023-10-23 ｜ Tier B ｜ 标签 tabular,ranking,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e23.md
 > 材料基础：`digests/playground-series-s3e23.md`（6 篇正文：爬山集成 444784 / 入门材料 444629 / McCabe-Halstead 指标 444685 / #2 八模型集成 450315 / 胜利说明书 445245 / 数据解释 444627；64 条主题索引）+ 6 张归档图
 
 ### 一句话重述
@@ -3084,11 +3535,24 @@ PCA（10 成分 >99% 方差）掉分，t-SNE 无可分性，聚类 + target enco
 - ../../intel/playground-series-s3e23/bodies/445245_img/02.png — RF min_samples_leaf 曲线
 - ../../intel/playground-series-s3e23/bodies/450315_img/01.png — 爬山集成提交分数
 
+### 出处
+- 胜利说明书（117 票 / 49 评论）：https://www.kaggle.com/competitions/playground-series-s3e23/discussion/445245
+- #2 八模型集成（95 票 / 42 评论）：https://www.kaggle.com/competitions/playground-series-s3e23/discussion/450315
+- 爬山集成教程（48 票 / 19 评论）：https://www.kaggle.com/competitions/playground-series-s3e23/discussion/444784
+- 数据解释（49 票 / 16 评论）：https://www.kaggle.com/competitions/playground-series-s3e23/discussion/444627
+- McCabe/Halstead 指标（32 票 / 11 评论）：https://www.kaggle.com/competitions/playground-series-s3e23/discussion/444685
+- 入门材料（43 票 / 14 评论）：https://www.kaggle.com/competitions/playground-series-s3e23/discussion/444629
+- log 变换提示（27 票 / 8 评论）：https://www.kaggle.com/competitions/playground-series-s3e23/discussion/445015
+- 准重复观测（13 票 / 2 评论）：https://www.kaggle.com/competitions/playground-series-s3e23/discussion/444988
+- 完全相关特征（7 票 / 1 评论）：https://www.kaggle.com/competitions/playground-series-s3e23/discussion/445099
+- 原始数据预处理（9 票 / 6 评论）：https://www.kaggle.com/competitions/playground-series-s3e23/discussion/444640
+
 ---
 
 ## playground-series-s3e24 — Playground Series S3E24（生物信号判断吸烟状态）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Roc Auc Score ｜ 队伍 1908 ｜ 截止 2023-11-13 ｜ Tier B ｜ 标签 tabular,ranking,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e24.md
 > 材料基础：`digests/playground-series-s3e24.md`（6 篇正文：领域信息 450314 / #3 private #8 public 455248 / #4 455296 / gender 特征 452379 / #7 private #2 public 455271 / #8 private #7 public 455268；80 条主题索引）+ 1 张归档图
 
 ### 一句话重述
@@ -3148,11 +3612,23 @@ PCA（10 成分 >99% 方差）掉分，t-SNE 无可分性，聚类 + target enco
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s3e24/bodies/455271_img/01.jpeg — #7 的未选提交
 
+### 出处
+- 领域信息与特征想法（74 票 / 35 评论）：https://www.kaggle.com/competitions/playground-series-s3e24/discussion/450314
+- #3 private / #8 public（57 票 / 37 评论）：https://www.kaggle.com/competitions/playground-series-s3e24/discussion/455248
+- #4 稳健 Hill Climbing（24 票 / 12 评论）：https://www.kaggle.com/competitions/playground-series-s3e24/discussion/455296
+- 制作 gender 特征（42 票 / 21 评论）：https://www.kaggle.com/competitions/playground-series-s3e24/discussion/452379
+- #7 private / #2 public（17 票 / 5 评论）：https://www.kaggle.com/competitions/playground-series-s3e24/discussion/455271
+- #8 private / #7 public（14 票 / 4 评论）：https://www.kaggle.com/competitions/playground-series-s3e24/discussion/455268
+- Be careful with AUC（42 票 / 15 评论）：https://www.kaggle.com/competitions/playground-series-s3e24/discussion/450764
+- 模型组合示例（41 票 / 7 评论）：https://www.kaggle.com/competitions/playground-series-s3e24/discussion/452123
+- stacking vs blending（31 票 / 1 评论）：https://www.kaggle.com/competitions/playground-series-s3e24/discussion/450585
+
 ---
 
 ## playground-series-s3e25 — Playground Series S3E25（莫氏硬度回归）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Median Absolute Error ｜ 队伍 1632 ｜ 截止 2023-12-04 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e25.md
 > 材料基础：`digests/playground-series-s3e25.md`（6 篇正文：起步参考 455241 / 样本权重 455888 / 数据分箱事实 457631 / 引用缺失抱怨 458154 / 树模型表现提问 456721 / 如何把 notebook 挂到 Solution 列 460423；74 条主题索引）+ 1 张归档图
 
 ### 一句话重述
@@ -3218,11 +3694,24 @@ MedAE 只取单点，若测试含与训练重复的行，会直接决定分数�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s3e25/bodies/460423_img/01.png — S3E25 排行榜 Solution 列
 
+### 出处
+- 样本权重调优（74 票 / 35 评论）：https://www.kaggle.com/competitions/playground-series-s3e25/discussion/455888
+- 数据分箱事实（54 票 / 42 评论）：https://www.kaggle.com/competitions/playground-series-s3e25/discussion/457631
+- 起步参考（43 票 / 13 评论）：https://www.kaggle.com/competitions/playground-series-s3e25/discussion/455241
+- 引用缺失抱怨（40 票 / 19 评论）：https://www.kaggle.com/competitions/playground-series-s3e25/discussion/458154
+- MedAE 解释（32 票 / 4 评论）：https://www.kaggle.com/competitions/playground-series-s3e25/discussion/455251
+- CV 策略提醒（26 票 / 5 评论）：https://www.kaggle.com/competitions/playground-series-s3e25/discussion/457338
+- 数据清洗与模型技巧（24 票 / 8 评论）：https://www.kaggle.com/competitions/playground-series-s3e25/discussion/455273
+- 准重复/边界警告（17 票 / 1 评论）：https://www.kaggle.com/competitions/playground-series-s3e25/discussion/455519
+- LAD Stacker 基线（17 票 / 9 评论）：https://www.kaggle.com/competitions/playground-series-s3e25/discussion/455289
+- 200+ 提交 0.25（4 票 / 4 评论）：https://www.kaggle.com/competitions/playground-series-s3e25/discussion/459308
+
 ---
 
 ## playground-series-s3e26 — Playground Series S3E26（肝硬化结局三分类）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Log Loss ｜ 队伍 1661 ｜ 截止 2024-01-01 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e26.md
 > 材料基础：`digests/playground-series-s3e26.md`（6 篇正文：1st 464865 / 2nd 464887 / 4th 464863 / 7th 465167 / 医学风险因子 459392 / 资源合集 459389；80 条主题索引）+ 3 张归档图
 
 ### 一句话重述
@@ -3283,11 +3772,24 @@ MedAE 只取单点，若测试含与训练重复的行，会直接决定分数�
 - ../../intel/playground-series-s3e26/bodies/464887_img/01.png — 2nd 的 level-0 PLE 网络
 - ../../intel/playground-series-s3e26/bodies/464887_img/03.png — 2nd 的堆叠网络
 
+### 出处
+- 1st 跨届复用 + 伪标签（19 票）：https://www.kaggle.com/competitions/playground-series-s3e26/discussion/464865
+- 2nd PLE 神经网络（71 票 / 39 评论）：https://www.kaggle.com/competitions/playground-series-s3e26/discussion/464887
+- 4th XGB 元模型堆叠（26 票 / 9 评论）：https://www.kaggle.com/competitions/playground-series-s3e26/discussion/464863
+- 7th 软投票（6 票）：https://www.kaggle.com/competitions/playground-series-s3e26/discussion/465167
+- 医学检验风险因子（44 票 / 13 评论）：https://www.kaggle.com/competitions/playground-series-s3e26/discussion/459392
+- 资源合集（47 票）：https://www.kaggle.com/competitions/playground-series-s3e26/discussion/459389
+- 快速小提升技巧（33 票）：https://www.kaggle.com/competitions/playground-series-s3e26/discussion/461307
+- 7 条分类经验（25 票）：https://www.kaggle.com/competitions/playground-series-s3e26/discussion/461062
+- 新类别特征（22 票）：https://www.kaggle.com/competitions/playground-series-s3e26/discussion/459860
+- Cox PH 生存分析（21 票）：https://www.kaggle.com/competitions/playground-series-s3e26/discussion/460069
+
 ---
 
 ## playground-series-s3e3 — Playground Series S3E3（员工流失预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Area Under Receiver Operating Characteristic Curve ｜ 队伍 665 ｜ 截止 2023-01-23 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e3.md
 > 材料基础：`digests/playground-series-s3e3.md`（6 篇正文：1st 380920 / 8th 381052 / 14th 380757 / 54th 380744 / Hill Climbing 379690 / Avoid .apply() 379959；76 条主题索引）+ 3 张归档图
 
 ### 一句话重述
@@ -3348,11 +3850,23 @@ MedAE 只取单点，若测试含与训练重复的行，会直接决定分数�
 - ../../intel/playground-series-s3e3/bodies/380757_img/01.png — 三模型 CDF 对比
 - ../../intel/playground-series-s3e3/bodies/379959_img/01.png — apply vs 向量化
 
+### 出处
+- 1st 意外夺冠（36 票 / 14 评论）：https://www.kaggle.com/competitions/playground-series-s3e3/discussion/380920
+- 8th 方案（13 票）：https://www.kaggle.com/competitions/playground-series-s3e3/discussion/381052
+- 14th 方案（25 票 / 10 评论）：https://www.kaggle.com/competitions/playground-series-s3e3/discussion/380757
+- 54th 复盘（13 票）：https://www.kaggle.com/competitions/playground-series-s3e3/discussion/380744
+- Hill Climbing（61 票 / 39 评论）：https://www.kaggle.com/competitions/playground-series-s3e3/discussion/379690
+- Avoid .apply()（39 票 / 19 评论）：https://www.kaggle.com/competitions/playground-series-s3e3/discussion/379959
+- 公榜 34 正例（28 票）：https://www.kaggle.com/competitions/playground-series-s3e3/discussion/379492
+- 风险因子（17 票）：https://www.kaggle.com/competitions/playground-series-s3e3/discussion/378994
+- 洗牌讨论（15 票 / 15 评论）：https://www.kaggle.com/competitions/playground-series-s3e3/discussion/380729
+
 ---
 
 ## playground-series-s3e4 — Playground Series S3E4（信用卡欺诈检测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Area Under Receiver Operating Characteristic Curve ｜ 队伍 641 ｜ 截止 2023-01-30 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e4.md
 > 材料基础：`digests/playground-series-s3e4.md`（6 篇正文：30th 382447 / 时间结构 380771 / 54th 382443 / 相关性 381087 / 10th 382539 / 7th 382589；67 条主题索引）+ 6 张归档图
 
 ### 一句话重述
@@ -3417,11 +3931,24 @@ train/test 窗口不重叠（0–33.5h vs 33.5–48h）；380771 明确建议"�
 - ../../intel/playground-series-s3e4/bodies/382443_img/01.png — 交易时间的训练/测试切分
 - ../../intel/playground-series-s3e4/bodies/381087_img/02.png — V20/Amount 的判别力
 
+### 出处
+- 30th（28 票）：https://www.kaggle.com/competitions/playground-series-s3e4/discussion/382447
+- Use your Time wisely（44 票 / 24 评论）：https://www.kaggle.com/competitions/playground-series-s3e4/discussion/380771
+- 54th 单模型（16 票 / 6 评论）：https://www.kaggle.com/competitions/playground-series-s3e4/discussion/382443
+- Correlation tells the story（46 票 / 23 评论）：https://www.kaggle.com/competitions/playground-series-s3e4/discussion/381087
+- 10th（17 票 / 5 评论）：https://www.kaggle.com/competitions/playground-series-s3e4/discussion/382539
+- 7th 流程集成（22 票 / 9 评论）：https://www.kaggle.com/competitions/playground-series-s3e4/discussion/382589
+- 原始数据重复行（31 票 / 18 评论）：https://www.kaggle.com/competitions/playground-series-s3e4/discussion/381455
+- 与原版差异（28 票 / 30 评论）：https://www.kaggle.com/competitions/playground-series-s3e4/discussion/381305
+- 对抗验证（25 票 / 16 评论）：https://www.kaggle.com/competitions/playground-series-s3e4/discussion/381089
+- 完美 CV 讨论（21 票 / 34 评论）：https://www.kaggle.com/competitions/playground-series-s3e4/discussion/381415
+
 ---
 
 ## playground-series-s3e5 — Playground Series S3E5（葡萄酒质量评级）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Cohen Kappa Score ｜ 队伍 901 ｜ 截止 2023-02-13 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e5.md
 > 材料基础：`digests/playground-series-s3e5.md`（6 篇正文：1st 387882 / 4th 386645 / 3rd 386683 / 14th 386627 / FE 382698 / QWK 382421；80 条主题索引）+ 6 张归档图
 
 ### 一句话重述
@@ -3482,11 +4009,24 @@ train/test 窗口不重叠（0–33.5h vs 33.5–48h）；380771 明确建议"�
 - ../../intel/playground-series-s3e5/bodies/386645_img/02.png — Density/Alcohol 的评级分布
 - ../../intel/playground-series-s3e5/bodies/386645_img/04.png — 最优模型的混淆矩阵
 
+### 出处
+- 1st 单模型 + 阈值优化（40 票 / 12 评论）：https://www.kaggle.com/competitions/playground-series-s3e5/discussion/387882
+- 4th（48 票 / 18 评论）：https://www.kaggle.com/competitions/playground-series-s3e5/discussion/386645
+- 3rd 众数集成（27 票 / 12 评论）：https://www.kaggle.com/competitions/playground-series-s3e5/discussion/386683
+- 14th NN（21 票 / 9 评论）：https://www.kaggle.com/competitions/playground-series-s3e5/discussion/386627
+- FE 合集（67 票 / 29 评论）：https://www.kaggle.com/competitions/playground-series-s3e5/discussion/382698
+- QWK 指标理解（56 票 / 14 评论）：https://www.kaggle.com/competitions/playground-series-s3e5/discussion/382421
+- 这是彩票吗（36 票 / 15 评论）：https://www.kaggle.com/competitions/playground-series-s3e5/discussion/383429
+- 4 特征 XGB 0.58267（31 票 / 22 评论）：https://www.kaggle.com/competitions/playground-series-s3e5/discussion/383158
+- 回归处理（29 票 / 9 评论）：https://www.kaggle.com/competitions/playground-series-s3e5/discussion/382525
+- Rounder 集成（34 票 / 8 评论）：https://www.kaggle.com/competitions/playground-series-s3e5/discussion/382960
+
 ---
 
 ## playground-series-s3e6 — Playground Series S3E6（巴黎房价）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Root Mean Squared Error ｜ 队伍 703 ｜ 截止 2023-02-20 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e6.md
 > 材料基础：`digests/playground-series-s3e6.md`（6 篇正文：1st 389391 / 5th 389145 / 3rd 389140 / 9th 389151 / "丢弃 30% 数据" 384915 / 起步资源 384403；60 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -3544,11 +4084,23 @@ squareMeters 相关性 ~0.53、重要性 ~99%；FE 尝试均无增益。**裁决
 - 价格调整规则的最优阈值（50/110）未做灵敏度分析；
 - **图证缺口**：本场归档 0 图。
 
+### 出处
+- 1st public / 2nd private（21 票 / 6 评论）：https://www.kaggle.com/competitions/playground-series-s3e6/discussion/389391
+- 5th（10 票 / 4 评论）：https://www.kaggle.com/competitions/playground-series-s3e6/discussion/389145
+- 3rd（21 票 / 11 评论）：https://www.kaggle.com/competitions/playground-series-s3e6/discussion/389140
+- 9th（9 票）：https://www.kaggle.com/competitions/playground-series-s3e6/discussion/389151
+- 丢弃 30% 数据（22 票 / 12 评论）：https://www.kaggle.com/competitions/playground-series-s3e6/discussion/384915
+- 起步资源（31 票 / 8 评论）：https://www.kaggle.com/competitions/playground-series-s3e6/discussion/384403
+- 三类房型（16 票 / 5 评论）：https://www.kaggle.com/competitions/playground-series-s3e6/discussion/384412
+- `made` 异常值（16 票 / 16 评论）：https://www.kaggle.com/competitions/playground-series-s3e6/discussion/384251
+- 准重复行（17 票 / 6 评论）：https://www.kaggle.com/competitions/playground-series-s3e6/discussion/386116
+
 ---
 
 ## playground-series-s3e7 — Playground Series S3E7（酒店预订取消预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Area Under Receiver Operating Characteristic Curve ｜ 队伍 678 ｜ 截止 2023-02-27 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e7.md
 > 材料基础：`digests/playground-series-s3e7.md`（6 篇正文：1st 390976 / 2nd 390956 / 3rd 390979 / 4th 390962 / 9th 390961 / 起步资源 386628；44 条主题索引）+ 4 张归档图
 
 ### 一句话重述
@@ -3610,11 +4162,23 @@ squareMeters 相关性 ~0.53、重要性 ~99%；FE 尝试均无增益。**裁决
 - ../../intel/playground-series-s3e7/bodies/390976_img/01.png — 原数据的对抗验证双峰
 - ../../intel/playground-series-s3e7/bodies/390961_img/01.png — 0.5 泄漏提交 vs 被选提交
 
+### 出处
+- 1st（57 票 / 16 评论）：https://www.kaggle.com/competitions/playground-series-s3e7/discussion/390976
+- 2nd（34 票 / 9 评论）：https://www.kaggle.com/competitions/playground-series-s3e7/discussion/390956
+- 3rd（28 票 / 11 评论）：https://www.kaggle.com/competitions/playground-series-s3e7/discussion/390979
+- 4th（15 票 / 2 评论）：https://www.kaggle.com/competitions/playground-series-s3e7/discussion/390962
+- 9th（12 票 / 4 评论）：https://www.kaggle.com/competitions/playground-series-s3e7/discussion/390961
+- 起步资源（44 票 / 22 评论）：https://www.kaggle.com/competitions/playground-series-s3e7/discussion/386628
+- 泄漏数据利用（38 票 / 15 评论）：https://www.kaggle.com/competitions/playground-series-s3e7/discussion/388851
+- 日期异常修复（29 票 / 15 评论）：https://www.kaggle.com/competitions/playground-series-s3e7/discussion/386655
+- 冲突 booking_status 重复（16 票 / 11 评论）：https://www.kaggle.com/competitions/playground-series-s3e7/discussion/386686
+
 ---
 
 ## playground-series-s3e8 — Playground Series S3E8（宝石价格预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Root Mean Squared Error ｜ 队伍 734 ｜ 截止 2023-03-06 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e8.md
 > 材料基础：`digests/playground-series-s3e8.md`（6 篇正文：8th 392860 / 2nd 392828 / 3rd 392824 / ChatGPT 特征 389472 / 几何特征 389207 / 6th 392820；49 条主题索引）+ 7 张归档图
 
 ### 一句话重述
@@ -3675,11 +4239,24 @@ squareMeters 相关性 ~0.53、重要性 ~99%；FE 尝试均无增益。**裁决
 - ../../intel/playground-series-s3e8/bodies/392860_img/03.png — 修离群后的训练分布
 - ../../intel/playground-series-s3e8/bodies/392828_img/01.png — FE 变体对比
 
+### 出处
+- 8th（26 票 / 7 评论）：https://www.kaggle.com/competitions/playground-series-s3e8/discussion/392860
+- 2nd（27 票 / 10 评论）：https://www.kaggle.com/competitions/playground-series-s3e8/discussion/392828
+- 3rd（26 票 / 11 评论）：https://www.kaggle.com/competitions/playground-series-s3e8/discussion/392824
+- ChatGPT 特征（57 票 / 28 评论）：https://www.kaggle.com/competitions/playground-series-s3e8/discussion/389472
+- 几何特征（38 票 / 10 评论）：https://www.kaggle.com/competitions/playground-series-s3e8/discussion/389207
+- 6th AutoGluon+AutoXGB（18 票 / 3 评论）：https://www.kaggle.com/competitions/playground-series-s3e8/discussion/392820
+- 4Cs 概念（28 票 / 5 评论）：https://www.kaggle.com/competitions/playground-series-s3e8/discussion/389465
+- 帮助想法汇编（26 票 / 8 评论）：https://www.kaggle.com/competitions/playground-series-s3e8/discussion/390882
+- 有序数值化（18 票 / 2 评论）：https://www.kaggle.com/competitions/playground-series-s3e8/discussion/389174
+- 1st（15 票，未收录正文）：https://www.kaggle.com/competitions/playground-series-s3e8/discussion/392926
+
 ---
 
 ## playground-series-s3e9 — Playground Series S3E9（混凝土强度预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Root Mean Squared Error ｜ 队伍 765 ｜ 截止 2023-03-13 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e9.md
 > 材料基础：`digests/playground-series-s3e9.md`（6 篇正文：12th 六步流程 394600 / 1st 394592 / 44th 394641 / 结构工程师背景 391237 / 原数据集致谢 391013 / 模型组合 391644；45 条主题索引）+ 3 张归档图
 
 ### 一句话重述
@@ -3744,11 +4321,21 @@ squareMeters 相关性 ~0.53、重要性 ~99%；FE 尝试均无增益。**裁决
 - ../../intel/playground-series-s3e9/bodies/394592_img/01.png — 1st 最终模型对比
 - ../../intel/playground-series-s3e9/bodies/391644_img/01.png — 多样性 CV 对比
 
+### 出处
+- 1st：CV 与多样性赢（89 票 / 50 评论）：https://www.kaggle.com/competitions/playground-series-s3e9/discussion/394592
+- 12th：六步流程（20 票 / 4 评论）：https://www.kaggle.com/competitions/playground-series-s3e9/discussion/394600
+- 44th：LinearRegression 派生特征（8 票 / 0 评论）：https://www.kaggle.com/competitions/playground-series-s3e9/discussion/394641
+- 结构工程师背景（43 票 / 9 评论）：https://www.kaggle.com/competitions/playground-series-s3e9/discussion/391237
+- 原数据集致谢（33 票 / 12 评论）：https://www.kaggle.com/competitions/playground-series-s3e9/discussion/391013
+- 别缩减模型组合（47 票 / 15 评论）：https://www.kaggle.com/competitions/playground-series-s3e9/discussion/391644
+- 重复行讨论（32 票 / 9 评论）：https://www.kaggle.com/competitions/playground-series-s3e9/discussion/391011
+
 ---
 
 ## playground-series-s4e1 — Playground Series S4E1（银行客户流失）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Roc Auc Score ｜ 队伍 3632 ｜ 截止 2024-01-31 ｜ Tier B ｜ 标签 tabular,ranking,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s4e1.md
 > 材料基础：`digests/playground-series-s4e1.md`（6 篇正文：1st 472502 / 2nd 472496 / 3rd 472413 / 5th 472497 / 17th 472636 / SMOTE 讨论 467034；80 条主题索引）+ 1 张归档图
 
 ### 一句话重述
@@ -3811,11 +4398,23 @@ squareMeters 相关性 ~0.53、重要性 ~99%；FE 尝试均无增益。**裁决
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s4e1/bodies/472636_img/01.png — AutoGluon 三层栈示意
 
+### 出处
+- 1st（43 票 / 35 评论）：https://www.kaggle.com/competitions/playground-series-s4e1/discussion/472502
+- 2nd（82 票 / 42 评论）：https://www.kaggle.com/competitions/playground-series-s4e1/discussion/472496
+- 3rd CatBoost Encoding Galore（99 票 / 53 评论）：https://www.kaggle.com/competitions/playground-series-s4e1/discussion/472413
+- 5th 无泄漏单 XGB（9 票）：https://www.kaggle.com/competitions/playground-series-s4e1/discussion/472497
+- 17th AutoGluon（11 票）：https://www.kaggle.com/competitions/playground-series-s4e1/discussion/472636
+- Feeling lucky（32 票 / 24 评论）：https://www.kaggle.com/competitions/playground-series-s4e1/discussion/469859
+- SMOTE 等重采样讨论（12 票）：https://www.kaggle.com/competitions/playground-series-s4e1/discussion/467034
+- 榜单洗牌可视化（34 票）：https://www.kaggle.com/competitions/playground-series-s4e1/discussion/472397
+- 参与数纪录（22 票）：https://www.kaggle.com/competitions/playground-series-s4e1/discussion/470362
+
 ---
 
 ## playground-series-s4e10 — Playground Series S4E10（贷款获批预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Roc Auc Score ｜ 队伍 3858 ｜ 截止 2024-10-31 ｜ Tier B ｜ 标签 tabular,ranking,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s4e10.md
 > 材料基础：`digests/playground-series-s4e10.md`（6 篇正文：1st 543725 / 2nd 543766 / 8th 543772 / 10th 543735 / LLM 方案 543734 / 新手提示 539612；80 条主题索引）+ 5 张归档图
 
 ### 一句话重述
@@ -3878,11 +4477,25 @@ LLM 写出的"通用好方案"789 名；人主导的类别化/CatBoost 残差提
 - ../../intel/playground-series-s4e10/bodies/543735_img/01.png — 10th 的 OOF AUC 箱线图
 - ../../intel/playground-series-s4e10/bodies/543772_img/01.png — 8th 的模型 CV 对比
 
+### 出处
+- 1st CatBoost All The Way Down（174 票 / 105 评论）：https://www.kaggle.com/competitions/playground-series-s4e10/discussion/543725
+- 2nd（31 票 / 22 评论）：https://www.kaggle.com/competitions/playground-series-s4e10/discussion/543766
+- 8th（21 票 / 7 评论）：https://www.kaggle.com/competitions/playground-series-s4e10/discussion/543772
+- 10th no blind blend（19 票）：https://www.kaggle.com/competitions/playground-series-s4e10/discussion/543735
+- LLM 方案落点（12 票）：https://www.kaggle.com/competitions/playground-series-s4e10/discussion/543734
+- 新手提示（55 票 / 63 评论）：https://www.kaggle.com/competitions/playground-series-s4e10/discussion/539612
+- XGBoost max_bin（34 票 / 28 评论）：https://www.kaggle.com/competitions/playground-series-s4e10/discussion/539963
+- 数据有明显分组（34 票 / 31 评论）：https://www.kaggle.com/competitions/playground-series-s4e10/discussion/538099
+- 线性 booster 当集成器（33 票 / 28 评论）：https://www.kaggle.com/competitions/playground-series-s4e10/discussion/540769
+- 原数据提升 CV+LB（25 票 / 50 评论）：https://www.kaggle.com/competitions/playground-series-s4e10/discussion/537494
+- Rank 4 方案（45 票 / 41 评论）：https://www.kaggle.com/competitions/playground-series-s4e10/discussion/543672
+
 ---
 
 ## playground-series-s4e11 — Playground Series S4E11 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Accuracy Score ｜ 队伍 2685 ｜ 截止 2024-11-30 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s4e11.md
 > 材料基础：`digests/playground-series-s4e11.md`（6 篇正文：1st 549160 / 13th 549155 / 24th 549147 / 25th 549194 / 4th 549197 / 公榜硬标签讨论 543929；80 条主题索引）+ 7 张图
 
 ### 一句话重述
@@ -3945,11 +4558,20 @@ LLM 写出的"通用好方案"789 名；人主导的类别化/CatBoost 残差提
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s4e11/bodies/543929_img/02.png — 硬标签指标下的公榜稳定性
 
+### 出处
+- 1st（549160）：https://www.kaggle.com/competitions/playground-series-s4e11/discussion/549160
+- 13th（549155）：https://www.kaggle.com/competitions/playground-series-s4e11/discussion/549155
+- 24th（549147）：https://www.kaggle.com/competitions/playground-series-s4e11/discussion/549147
+- 25th（37 票）：https://www.kaggle.com/competitions/playground-series-s4e11/discussion/549194
+- 4th（27 票）：https://www.kaggle.com/competitions/playground-series-s4e11/discussion/549197
+- 公榜硬标签讨论（45 票）：https://www.kaggle.com/competitions/playground-series-s4e11/discussion/543929
+
 ---
 
 ## playground-series-s4e12 — Playground Series S4E12（保险保费预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Root Mean Squared Logarithmic Error ｜ 队伍 2390 ｜ 截止 2024-12-31 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s4e12.md
 > 材料基础：`digests/playground-series-s4e12.md`（5 篇正文：1st 554328 / 9th 554377 / 7th 554746 / NAN 与目标 552165 / Rank2 暴力集成 554505；80 条主题索引）+ 7 张图
 
 ### 一句话重述
@@ -4009,11 +4631,20 @@ LLM 写出的"通用好方案"789 名；人主导的类别化/CatBoost 残差提
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s4e12/bodies/552165_img/01.png — Annual Income 的 NaN 与平均保费
 
+### 出处
+- 1st（230 行处）：https://www.kaggle.com/competitions/playground-series-s4e12/discussion/554328
+- NAN 与目标（126 票）：https://www.kaggle.com/competitions/playground-series-s4e12/discussion/552165
+- Rank2 暴力集成（27 票）：https://www.kaggle.com/competitions/playground-series-s4e12/discussion/554505
+- 7th（554746）：https://www.kaggle.com/competitions/playground-series-s4e12/discussion/554746
+- 9th（29 票）：https://www.kaggle.com/competitions/playground-series-s4e12/discussion/554377
+- Magic Middle（62 票）：https://www.kaggle.com/competitions/playground-series-s4e12/discussion/549909
+
 ---
 
 ## playground-series-s4e2 — Playground Series S4E2（肥胖风险多分类）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Accuracy Score ｜ 队伍 3587 ｜ 截止 2024-02-29 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s4e2.md
 > 材料基础：`digests/playground-series-s4e2.md`（6 篇正文：4th 480939 / 2nd 481062 / 6th 480795 / 24th 480927 / 70th 480787 / 启动资源 472392；80 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -4073,11 +4704,24 @@ LLM 写出的"通用好方案"789 名；人主导的类别化/CatBoost 残差提
 - 种子效应（15 票 / 23 评论）与洗牌的关系未量化；
 - **图证缺口**：本场归档 0 图，无直方图/权重图可内嵌。
 
+### 出处
+- 4th 堆叠 + 伪标签（76 票 / 28 评论）：https://www.kaggle.com/competitions/playground-series-s4e2/discussion/480939
+- 2nd 两模型 + 阈值化（12 票）：https://www.kaggle.com/competitions/playground-series-s4e2/discussion/481062
+- 6th 树 + NN（27 票）：https://www.kaggle.com/competitions/playground-series-s4e2/discussion/480795
+- 24th 简单集成（14 票）：https://www.kaggle.com/competitions/playground-series-s4e2/discussion/480927
+- 70th trust CV（9 票）：https://www.kaggle.com/competitions/playground-series-s4e2/discussion/480787
+- 启动资源（91 票 / 40 评论）：https://www.kaggle.com/competitions/playground-series-s4e2/discussion/472392
+- BMI has flaws（41 票）：https://www.kaggle.com/competitions/playground-series-s4e2/discussion/476939
+- multiclass vs OVA（30 票 / 32 评论）：https://www.kaggle.com/competitions/playground-series-s4e2/discussion/477862
+- 洗牌分析（37 票）：https://www.kaggle.com/competitions/playground-series-s4e2/discussion/480792
+- 有序标签讨论（19 票 / 28 评论）：https://www.kaggle.com/competitions/playground-series-s4e2/discussion/475438
+
 ---
 
 ## playground-series-s4e3 — Playground Series S4E3（钢板缺陷预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Mean Columnwise Area Under Receiver Operating Characteristic Curve ｜ 队伍 2199 ｜ 截止 2024-03-31 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s4e3.md
 > 材料基础：`digests/playground-series-s4e3.md`（6 篇正文：1st 488065 / 2nd 488106 / 3rd 488127 / 目标解释 481015 / 多标签讨论 480817 / BlueCast 482923；80 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -4132,11 +4776,22 @@ LLM 写出的"通用好方案"789 名；人主导的类别化/CatBoost 残差提
 - SigmoidOfArea、随机种子等社区观察未展开；
 - **图证缺口**：本场归档 0 图。
 
+### 出处
+- 1st noise contrastive XGB（25 票）：https://www.kaggle.com/competitions/playground-series-s4e3/discussion/488065
+- 2nd OOF 集成（57 票 / 23 评论）：https://www.kaggle.com/competitions/playground-series-s4e3/discussion/488106
+- 3rd Mediocres et Impera（22 票 / 11 评论）：https://www.kaggle.com/competitions/playground-series-s4e3/discussion/488127
+- 目标与特征解释（63 票 / 19 评论）：https://www.kaggle.com/competitions/playground-series-s4e3/discussion/481015
+- 多标签 vs 多类讨论（60 票 / 30 评论）：https://www.kaggle.com/competitions/playground-series-s4e3/discussion/480817
+- 原数据是多类（25 票）：https://www.kaggle.com/competitions/playground-series-s4e3/discussion/480805
+- 丢掉 6 个特征（33 票）：https://www.kaggle.com/competitions/playground-series-s4e3/discussion/482401
+- 21 个多标签行不是噪声（5 票）：https://www.kaggle.com/competitions/playground-series-s4e3/discussion/485992
+
 ---
 
 ## playground-series-s4e4 — Playground Series S4E4（鲍鱼年龄回归）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Mean Squared Log Error ｜ 队伍 2606 ｜ 截止 2024-04-30 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s4e4.md
 > 材料基础：`digests/playground-series-s4e4.md`（6 篇正文：1st 499174 / 2nd 499698 / 3rd 499747 / 4th 499341 / 5th 499204 / 起步资源 488067；80 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -4195,11 +4850,24 @@ LLM 写出的"通用好方案"789 名；人主导的类别化/CatBoost 残差提
 - OpenFE 的搜索空间（2nd 的生成器细节）未完整公开；
 - **图证缺口**：本场归档 0 图。
 
+### 出处
+- 1st（122 票 / 51 评论）：https://www.kaggle.com/competitions/playground-series-s4e4/discussion/499174
+- 2nd（12 票）：https://www.kaggle.com/competitions/playground-series-s4e4/discussion/499698
+- 3rd（11 票）：https://www.kaggle.com/competitions/playground-series-s4e4/discussion/499747
+- 4th（13 票）：https://www.kaggle.com/competitions/playground-series-s4e4/discussion/499341
+- 5th（32 票 / 5 评论）：https://www.kaggle.com/competitions/playground-series-s4e4/discussion/499204
+- 起步资源（77 票 / 31 评论）：https://www.kaggle.com/competitions/playground-series-s4e4/discussion/488067
+- 常见坑与提示（63 票 / 22 评论）：https://www.kaggle.com/competitions/playground-series-s4e4/discussion/488093
+- 集成权重（52 票 / 14 评论）：https://www.kaggle.com/competitions/playground-series-s4e4/discussion/488409
+- log1p+MSE vs MSLE（42 票）：https://www.kaggle.com/competitions/playground-series-s4e4/discussion/488283
+- 系统性误差（29 票 / 8 评论）：https://www.kaggle.com/competitions/playground-series-s4e4/discussion/491196
+
 ---
 
 ## playground-series-s4e5 — Playground Series S4E5（洪水概率预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 R2 Score ｜ 队伍 2788 ｜ 截止 2024-05-31 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s4e5.md
 > 材料基础：`digests/playground-series-s4e5.md`（5 篇正文：1st 509043 / 2nd Peaky Blenders 509410 / AGP 1st 500700 / AGP 2nd H2O 500549 / 首特征 566 行处；80 条主题索引）+ 6 张图
 
 ### 一句话重述
@@ -4259,11 +4927,20 @@ LLM 写出的"通用好方案"789 名；人主导的类别化/CatBoost 残差提
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s4e5/bodies/499274_img/01.png — 洪水概率 vs 行内特征和
 
+### 出处
+- 1st（106 票）：https://www.kaggle.com/competitions/playground-series-s4e5/discussion/509043
+- 2nd Peaky Blenders（509410）：https://www.kaggle.com/competitions/playground-series-s4e5/discussion/509410
+- AGP 1st（35 票）：https://www.kaggle.com/competitions/playground-series-s4e5/discussion/500700
+- AGP 2nd H2O（36 票）：https://www.kaggle.com/competitions/playground-series-s4e5/discussion/500549
+- 首个有用的特征（499274）：https://www.kaggle.com/competitions/playground-series-s4e5/discussion/499274
+- Poisson 讨论（31 票）：https://www.kaggle.com/competitions/playground-series-s4e5/discussion/499244
+
 ---
 
 ## playground-series-s4e6 — Playground Series S4E6 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Accuracy Score ｜ 队伍 2684 ｜ 截止 2024-06-30 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s4e6.md
 > 材料基础：`digests/playground-series-s4e6.md`（6 篇正文：AGP 1st 509631 / Pt.2 509642 / ravi20076 509665 / 6th 515989 / 集成多样性 512220 / 两个最重要特征 509073；80 条主题索引）+ 5 张图
 
 ### 一句话重述
@@ -4323,11 +5000,21 @@ Tilii 把三分类概率压成带符号置信度后用相关/KS/散点判断成�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s4e6/bodies/509073_img/01.png — 浅层决策树给出的主规则
 
+### 出处
+- AGP 1st（32 票）：https://www.kaggle.com/competitions/playground-series-s4e6/discussion/509631
+- Pt.2 写手（36 票）：https://www.kaggle.com/competitions/playground-series-s4e6/discussion/509642
+- ravi20076（32 票）：https://www.kaggle.com/competitions/playground-series-s4e6/discussion/509665
+- 6th（55 票）：https://www.kaggle.com/competitions/playground-series-s4e6/discussion/515989
+- 集成多样性（70 票）：https://www.kaggle.com/competitions/playground-series-s4e6/discussion/512220
+- 两个最重要特征（61 票）：https://www.kaggle.com/competitions/playground-series-s4e6/discussion/509073
+- 3rd 单 XGB（30 票）：https://www.kaggle.com/competitions/playground-series-s4e6/discussion/515983
+
 ---
 
 ## playground-series-s4e7 — Playground Series S4E7（AutoML Grand Prix 七月）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Roc Auc Score ｜ 队伍 2234 ｜ 截止 2024-07-31 ｜ Tier B ｜ 标签 tabular,ranking,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s4e7.md
 > 材料基础：`digests/playground-series-s4e7.md`（6 篇正文：Cross Sellers 523404 / AGP 1st 516475 / 2nd 523489 / 3rd 516860 / 4th 516265 / 23rd 516413；80 条主题索引）+ 3 张图
 
 ### 一句话重述
@@ -4392,11 +5079,20 @@ Cross Sellers 的三种策略里"补充数据整份加进每个折"最好；2nd 
 - ../../intel/playground-series-s4e7/bodies/523404_img/01.png — Cross Sellers 的三段堆叠
 - ../../intel/playground-series-s4e7/bodies/516860_img/02.png — 3rd 的两种特征重要性
 
+### 出处
+- Cross Sellers（132 票）：https://www.kaggle.com/competitions/playground-series-s4e7/discussion/523404
+- AGP 1st（54 票）：https://www.kaggle.com/competitions/playground-series-s4e7/discussion/516475
+- 2nd（45 票）：https://www.kaggle.com/competitions/playground-series-s4e7/discussion/523489
+- 3rd（43 票）：https://www.kaggle.com/competitions/playground-series-s4e7/discussion/516860
+- 4th（48 票）：https://www.kaggle.com/competitions/playground-series-s4e7/discussion/516265
+- 23rd（35 票）：https://www.kaggle.com/competitions/playground-series-s4e7/discussion/516413
+
 ---
 
 ## playground-series-s4e8 — Playground S4E8（蘑菇可食性）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Matthews Corrcoef ｜ 队伍 2422 ｜ 截止 2024-08-31 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s4e8.md
 > 材料基础：`digests/playground-series-s4e8.md`（6 篇正文：主赛 1st 531823 / AGP 1st 523656 / AGP 4th 523837 / 主赛 #4 531343 / AGP 3rd KAN 524709 / 缺失特征帖 523474；80 条主题索引）+ 8 张图
 
 ### 一句话重述
@@ -4455,11 +5151,20 @@ AGP 把舍入从 6→8 位做 tiebreak；主赛 1st 记录 0.0001–0.0002 的 C
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s4e8/bodies/523656_img/01.jpg — AGP 1st 的总览
 
+### 出处
+- 主赛 1st（531823）：https://www.kaggle.com/competitions/playground-series-s4e8/discussion/531823
+- AGP 1st（523656）：https://www.kaggle.com/competitions/playground-series-s4e8/discussion/523656
+- AGP 4th（523837）：https://www.kaggle.com/competitions/playground-series-s4e8/discussion/523837
+- 主赛 #4（531343）：https://www.kaggle.com/competitions/playground-series-s4e8/discussion/531343
+- AGP 3rd KAN（524709）：https://www.kaggle.com/competitions/playground-series-s4e8/discussion/524709
+- 缺失特征（523474）：https://www.kaggle.com/competitions/playground-series-s4e8/discussion/523474
+
 ---
 
 ## playground-series-s4e9 — Playground S4E9（二手车价格）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Mean Squared Error ｜ 队伍 3066 ｜ 截止 2024-09-30 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s4e9.md
 > 材料基础：`digests/playground-series-s4e9.md`（6 篇正文：#1 95 / 交互+无泄漏 TE 63 / AutoML GP 1st 53 / 81st 51? / #4 48 / AutoML GP 3rd；80 条主题索引）+ 6 张图
 
 ### 一句话重述
@@ -4524,11 +5229,21 @@ TE 帖给出嵌套折规范（外层 5 折 × 内层 5 折，测试集用全训�
 - ../../intel/playground-series-s4e9/bodies/533961_img/02.png — 无泄漏 Target Encoding 的嵌套折
 - ../../intel/playground-series-s4e9/bodies/537052_img/03.png — #1 的 CV vs 私榜散点
 
+### 出处
+- #1（95 票）：https://www.kaggle.com/competitions/playground-series-s4e9/discussion/537052
+- 无泄漏 TE 与交互特征（63 票）：https://www.kaggle.com/competitions/playground-series-s4e9/discussion/533961
+- AutoML GP 1st（53 票）：https://www.kaggle.com/competitions/playground-series-s4e9/discussion/531884
+- 81st 分类→回归堆叠：https://www.kaggle.com/competitions/playground-series-s4e9/discussion/537202
+- #4 集成观：https://www.kaggle.com/competitions/playground-series-s4e9/discussion/536973
+- AutoML GP 3rd：https://www.kaggle.com/competitions/playground-series-s4e9/discussion/532758
+- 缺口登记：2nd/3rd 主赛方案、Warning: Average Fold RMSE 帖（63 票）
+
 ---
 
 ## playground-series-s5e1 — Playground Series S5E1（销售预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Mean Absolute Percentage Error ｜ 队伍 2722 ｜ 截止 2025-01-31 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s5e1.md
 > 材料基础：`digests/playground-series-s5e1.md`（6 篇正文：1st 560629 / 2nd 560549 / 3rd 560554 / 5th 498 行处 / 12th 395 行处 / Transformer 0.052 帖 559314；80 条主题索引）+ 15 张图
 
 ### 一句话重述
@@ -4586,11 +5301,20 @@ TE 帖给出嵌套折规范（外层 5 折 × 内层 5 折，测试集用全训�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s5e1/bodies/560554_img/01.png — 三国 2019 年的假日权重曲线
 
+### 出处
+- 1st（560629）：https://www.kaggle.com/competitions/playground-series-s5e1/discussion/560629
+- 2nd（279 行处）：https://www.kaggle.com/competitions/playground-series-s5e1/discussion/560549
+- 3rd（31 票）：https://www.kaggle.com/competitions/playground-series-s5e1/discussion/560554
+- Transformer 0.052（80 票）：https://www.kaggle.com/competitions/playground-series-s5e1/discussion/559314
+- 显然的分解（72 票）：https://www.kaggle.com/competitions/playground-series-s5e1/discussion/554349
+- 四舍五入（30 票）：https://www.kaggle.com/competitions/playground-series-s5e1/discussion/555149
+
 ---
 
 ## playground-series-s5e10 — Playground Series S5E10（道路事故风险）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Mean Squared Error ｜ 队伍 4082 ｜ 截止 2025-10-31 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s5e10.md
 > 材料基础：`digests/playground-series-s5e10.md`（6 篇正文：1st 614086 / 5th 614079 / 8th 614207 / 14th 614089 / 3rd 614114 / 残差提升 610828；75 条主题索引）+ 3 张图
 
 ### 一句话重述
@@ -4653,11 +5377,20 @@ TE 帖给出嵌套折规范（外层 5 折 × 内层 5 折，测试集用全训�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s5e10/bodies/614086_img/01.png — 1st 的集成流程图
 
+### 出处
+- 1st（614086）：https://www.kaggle.com/competitions/playground-series-s5e10/discussion/614086
+- 5th（58 票）：https://www.kaggle.com/competitions/playground-series-s5e10/discussion/614079
+- 8th（614207）：https://www.kaggle.com/competitions/playground-series-s5e10/discussion/614207
+- 14th（614089）：https://www.kaggle.com/competitions/playground-series-s5e10/discussion/614089
+- XGB 残差提升（67 票）：https://www.kaggle.com/competitions/playground-series-s5e10/discussion/610828
+- 高值被低估（46 票）：https://www.kaggle.com/competitions/playground-series-s5e10/discussion/610422
+
 ---
 
 ## playground-series-s5e11 — Playground Series S5E11（贷款偿付预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Roc Auc Score ｜ 队伍 3724 ｜ 截止 2025-11-30 ｜ Tier B ｜ 标签 tabular,ranking,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s5e11.md
 > 材料基础：`digests/playground-series-s5e11.md`（6 篇正文：1st 647362 / 2nd 647288 / 4th 647417 / 5th 647359 / 6th 647305 / 盲混讨论 614986；70 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -4717,11 +5450,25 @@ TE 帖给出嵌套折规范（外层 5 折 × 内层 5 折，测试集用全训�
 - 盲混 notebook 的具体流程未细读；
 - **图证缺口**：本场归档 0 图（无分数/权重图）。
 
+### 出处
+- 1st（95 票 / 54 评论）：https://www.kaggle.com/competitions/playground-series-s5e11/discussion/647362
+- 2nd（31 票 / 16 评论）：https://www.kaggle.com/competitions/playground-series-s5e11/discussion/647288
+- 4th（17 票）：https://www.kaggle.com/competitions/playground-series-s5e11/discussion/647417
+- 5th（19 票 / 11 评论）：https://www.kaggle.com/competitions/playground-series-s5e11/discussion/647359
+- 6th（15 票 / 15 评论）：https://www.kaggle.com/competitions/playground-series-s5e11/discussion/647305
+- boosting over residuals 提议（118 票 / 86 评论）：https://www.kaggle.com/competitions/playground-series-s5e11/discussion/614986
+- How to blend models correctly（90 票）：https://www.kaggle.com/competitions/playground-series-s5e11/discussion/614624
+- Blind blending fails in practice（71 票）：https://www.kaggle.com/competitions/playground-series-s5e11/discussion/614704
+- Stable CV-LB relationship（42 票）：https://www.kaggle.com/competitions/playground-series-s5e11/discussion/614140
+- 单模 vs 集成（36 票）：https://www.kaggle.com/competitions/playground-series-s5e11/discussion/636012
+- 模型正交性（22 票）：https://www.kaggle.com/competitions/playground-series-s5e11/discussion/614412
+
 ---
 
 ## playground-series-s5e12 — 深读：S5E12 糖尿病预测（ID 位移 + 概念漂移 —— "被故意破坏的数据"）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Roc Auc Score ｜ 队伍 4206 ｜ 截止 2025-12-31 ｜ Tier A ｜ 标签 tabular,ranking,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s5e12.md
 
 ### 一句话重述
 合成数据被"刻意破坏"（删除 HbA1c 等决定性特征、扭曲分布），同时生成顺序带来 **ID 位移**（训练集尾部 ≈ 测试分布）。
@@ -4780,11 +5527,20 @@ TE 帖给出嵌套折规范（外层 5 折 × 内层 5 折，测试集用全训�
 - ../../intel/playground-series-s5e12/bodies/651787_img/01.png — CatB vs XGB CDF
 - ../../intel/playground-series-s5e12/bodies/651787_img/02.png — XGB vs RealMLP CDF
 
+### 出处
+- 2nd（ID Shift）：https://www.kaggle.com/competitions/playground-series-s5e12/discussion/665385
+- 1st（HC+Ridge）：https://www.kaggle.com/competitions/playground-series-s5e12/discussion/665432
+- 数据被破坏：https://www.kaggle.com/competitions/playground-series-s5e12/discussion/652262
+- 盲融诊断（CDF/KS）：https://www.kaggle.com/competitions/playground-series-s5e12/discussion/651787
+- EDA→Baseline：https://www.kaggle.com/competitions/playground-series-s5e12/discussion/648186
+- 新手路线图：https://www.kaggle.com/competitions/playground-series-s5e12/discussion/650676
+
 ---
 
 ## playground-series-s5e2 — Playground Series S5E2（背包价格：噪声中的孪生信号）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Mean Squared Error ｜ 队伍 3393 ｜ 截止 2025-02-28 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s5e2.md
 > 材料基础：`digests/playground-series-s5e2.md`（6 篇正文：1st 565539 / 3rd 565653 / 5th 565583 / 数据信号解释 564056 / RAPIDS starter 563743 / 追加数据 561008；80 条主题索引）+ 1 张归档图
 
 ### 一句话重述
@@ -4842,11 +5598,23 @@ TE 帖给出嵌套折规范（外层 5 折 × 内层 5 折，测试集用全训�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s5e2/bodies/565539_img/01.png — 直方图分桶聚合特征
 
+### 出处
+- 1st 单模型 + FE（189 票 / 102 评论）：https://www.kaggle.com/competitions/playground-series-s5e2/discussion/565539
+- 3rd（33 票 / 16 评论）：https://www.kaggle.com/competitions/playground-series-s5e2/discussion/565653
+- 5th 噪声堆找信号针（14 票）：https://www.kaggle.com/competitions/playground-series-s5e2/discussion/565583
+- 背包数据信号解释（76 票 / 56 评论）：https://www.kaggle.com/competitions/playground-series-s5e2/discussion/564056
+- RAPIDS starter（70 票 / 29 评论）：https://www.kaggle.com/competitions/playground-series-s5e2/discussion/563743
+- 追加训练数据（37 票 / 29 评论）：https://www.kaggle.com/competitions/playground-series-s5e2/discussion/561008
+- Rank2 上百组件特征集（36 票 / 22 评论）：https://www.kaggle.com/competitions/playground-series-s5e2/discussion/565542
+- 目标是否噪声（25 票 / 26 评论）：https://www.kaggle.com/competitions/playground-series-s5e2/discussion/560669
+- FE 概念勿盲目外推（30 票 / 10 评论）：https://www.kaggle.com/competitions/playground-series-s5e2/discussion/564876
+
 ---
 
 ## playground-series-s5e3 — Playground Series S5E3（降雨预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Roc Auc Score ｜ 队伍 4381 ｜ 截止 2025-03-31 ｜ Tier B ｜ 标签 tabular,ranking,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s5e3.md
 > 材料基础：`digests/playground-series-s5e3.md`（6 篇正文：2nd 571176 / 54th 571133 / 18th 571021 / 37th 571139 / Linear SVC 568268 / 全方案归档 571015；80 条主题索引）+ 3 张归档图
 
 ### 一句话重述
@@ -4912,11 +5680,26 @@ TE 帖给出嵌套折规范（外层 5 折 × 内层 5 折，测试集用全训�
 - ../../intel/playground-series-s5e3/bodies/571133_img/02.png — 各年降雨比例
 - ../../intel/playground-series-s5e3/bodies/571133_img/03.png — 月度降雨分布对比
 
+### 出处
+- 2nd Place（160 票 / 97 评论）：https://www.kaggle.com/competitions/playground-series-s5e3/discussion/571176
+- 54th 特征工程与嵌套 CV（8 票）：https://www.kaggle.com/competitions/playground-series-s5e3/discussion/571133
+- 18th 单 XGB + AUC 损失（23 票 / 19 评论）：https://www.kaggle.com/competitions/playground-series-s5e3/discussion/571021
+- 37th TabPFN（12 票）：https://www.kaggle.com/competitions/playground-series-s5e3/discussion/571139
+- Linear SVC + 受控非线性（58 票 / 38 评论）：https://www.kaggle.com/competitions/playground-series-s5e3/discussion/568268
+- 全方案归档（10 票）：https://www.kaggle.com/competitions/playground-series-s5e3/discussion/571015
+- 公榜只有 146 行（41 票 / 40 评论）：https://www.kaggle.com/competitions/playground-series-s5e3/discussion/568465
+- 10 份 AUC=1.0（34 票 / 22 评论）：https://www.kaggle.com/competitions/playground-series-s5e3/discussion/568718
+- 探榜指南（30 票）：https://www.kaggle.com/competitions/playground-series-s5e3/discussion/568865
+- Trust Your CV（37 票 / 32 评论）：https://www.kaggle.com/competitions/playground-series-s5e3/discussion/570819
+- 标签错误（41 票 / 21 评论）：https://www.kaggle.com/competitions/playground-series-s5e3/discussion/565634
+- 原始数据来源识别（38 票）：https://www.kaggle.com/competitions/playground-series-s5e3/discussion/566908
+
 ---
 
 ## playground-series-s5e4 — Playground Series S5E4（播客收听时长）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Mean Squared Error ｜ 队伍 3310 ｜ 截止 2025-04-30 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s5e4.md
 > 材料基础：`digests/playground-series-s5e4.md`（6 篇正文：1st 575784 / 2nd 575840 / 3rd 575862 / 5th 575839 / 6th 575783 / EDA 571549；80 条主题索引）+ 10 张归档图
 
 ### 一句话重述
@@ -4984,11 +5767,25 @@ ELM 占 90%+ 信号、缺失 11.6%，使"有/无 ELM"成为两个情景。1st �
 - ../../intel/playground-series-s5e4/bodies/575783_img/04.png — 特征组合的 RMSE–覆盖率搜索
 - ../../intel/playground-series-s5e4/bodies/575784_img/02.png — 1st 的三级栈结构
 
+### 出处
+- 1st：RAPIDS cuML 三级栈（234 票 / 152 评论）：https://www.kaggle.com/competitions/playground-series-s5e4/discussion/575784
+- 2nd：单 LightGBM + 目标编码（78 票）：https://www.kaggle.com/competitions/playground-series-s5e4/discussion/575840
+- 3rd：目标编码与三级结构（28 票）：https://www.kaggle.com/competitions/playground-series-s5e4/discussion/575862
+- 5th：100 OOFs 与未裁剪事故（12 票）：https://www.kaggle.com/competitions/playground-series-s5e4/discussion/575839
+- 6th：特征组合选择与数据泄漏（27 票）：https://www.kaggle.com/competitions/playground-series-s5e4/discussion/575783
+- 强相关 EDA（149 票 / 137 评论）：https://www.kaggle.com/competitions/playground-series-s5e4/discussion/571549
+- 强特征交互（142 票）：https://www.kaggle.com/competitions/playground-series-s5e4/discussion/573002
+- 直接 vs 间接关系（60 票）：https://www.kaggle.com/competitions/playground-series-s5e4/discussion/574249
+- 原始数据重复行警示（49 票）：https://www.kaggle.com/competitions/playground-series-s5e4/discussion/571035
+- 小数位模式（27 票）：https://www.kaggle.com/competitions/playground-series-s5e4/discussion/574925
+- 极端离群与 cap 建议（11 票）：https://www.kaggle.com/competitions/playground-series-s5e4/discussion/571827
+
 ---
 
 ## playground-series-s5e5 — Playground Series S5E5 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Mean Squared Log Error ｜ 队伍 4316 ｜ 截止 2025-05-31 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s5e5.md
 > 材料基础：`digests/playground-series-s5e5.md`（6 篇正文：1st 582611 / 2nd 582700 / 6th 582518 / 7th 582591 / RMSLE 集成方法 576111 / 往届方案洞察 576731；80 条主题索引）+ 7 张图
 
 ### 一句话重述
@@ -5049,11 +5846,20 @@ ELM 占 90%+ 信号、缺失 11.6%，使"有/无 ELM"成为两个情景。1st �
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s5e5/bodies/582518_img/03.png — 6th 的 Hill Climbing 迭代日志
 
+### 出处
+- 1st GPU Hill Climbing（582611）：https://www.kaggle.com/competitions/playground-series-s5e5/discussion/582611
+- 2nd Trust CV and diversity（582700）：https://www.kaggle.com/competitions/playground-series-s5e5/discussion/582700
+- 6th（582518）：https://www.kaggle.com/competitions/playground-series-s5e5/discussion/582518
+- 7th（26 票）：https://www.kaggle.com/competitions/playground-series-s5e5/discussion/582591
+- How To Ensemble with RMSLE（140 票）：https://www.kaggle.com/competitions/playground-series-s5e5/discussion/576111
+- 往届方案洞察（49 票）：https://www.kaggle.com/competitions/playground-series-s5e5/discussion/576731
+
 ---
 
 ## playground-series-s5e6 — Playground Series S5E6（最优化肥推荐）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 MAP@{K} ｜ 队伍 2648 ｜ 截止 2025-06-30 ｜ Tier B ｜ 标签 tabular,ranking,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s5e6.md
 > 材料基础：`digests/playground-series-s5e6.md`（5 篇正文：1st 587393 / 2nd 587398 / 3rd 587464 / 5th 587392 / 信号分析 583189；80 条主题索引）+ 4 张图
 
 ### 一句话重述
@@ -5113,11 +5919,20 @@ EDA 帖指出数值列近乎无相关、但按类别有中位数位移 → 比�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s5e6/bodies/587398_img/01.png — 2nd 的三层集成结构
 
+### 出处
+- 1st（587393）：https://www.kaggle.com/competitions/playground-series-s5e6/discussion/587393
+- 2nd（61 票）：https://www.kaggle.com/competitions/playground-series-s5e6/discussion/587398
+- 3rd（587464）：https://www.kaggle.com/competitions/playground-series-s5e6/discussion/587464
+- 5th（24 票）：https://www.kaggle.com/competitions/playground-series-s5e6/discussion/587392
+- N/P/K 比率信号（68 票）：https://www.kaggle.com/competitions/playground-series-s5e6/discussion/583189
+- 原始数据噪声质疑（46 票）：https://www.kaggle.com/competitions/playground-series-s5e6/discussion/582632
+
 ---
 
 ## playground-series-s5e7 — Playground Series S5E7（内向/外向预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Accuracy Score ｜ 队伍 4329 ｜ 截止 2025-07-31 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s5e7.md
 > 材料基础：`digests/playground-series-s5e7.md`（6 篇正文：难样本分析 587827 / 数据简单但比赛不简单 587445 / 特征爆炸 vs 智能选择 588419 / Top-3 594049 / 心理测量背景 587413 / 奖牌更新 588779；80 条主题索引）+ 3 张归档图（含 1 GIF）
 
 ### 一句话重述
@@ -5177,11 +5992,23 @@ Top-3 的核心之一是 0.40 阈值；另有"概率校准提分"专帖。**裁�
 - ../../intel/playground-series-s5e7/bodies/587827_img/01.png — 七个特征的两类密度分布
 - ../../intel/playground-series-s5e7/bodies/587445_img/02.png — Keras 倒数第二层 t-SNE
 
+### 出处
+- 难样本分析（80 票 / 76 评论）：https://www.kaggle.com/competitions/playground-series-s5e7/discussion/587827
+- 数据简单但比赛不简单（67 票 / 42 评论）：https://www.kaggle.com/competitions/playground-series-s5e7/discussion/587445
+- 特征爆炸 vs 智能选择（42 票 / 8 评论）：https://www.kaggle.com/competitions/playground-series-s5e7/discussion/588419
+- Top-3（30 票 / 4 评论）：https://www.kaggle.com/competitions/playground-series-s5e7/discussion/594049
+- 概率校准（31 票 / 8 评论）：https://www.kaggle.com/competitions/playground-series-s5e7/discussion/587685
+- 公榜 940 个外向（32 票 / 20 评论）：https://www.kaggle.com/competitions/playground-series-s5e7/discussion/587479
+- 约 10 个点决定比赛（29 票 / 12 评论）：https://www.kaggle.com/competitions/playground-series-s5e7/discussion/590008
+- 怪异结局（25 票 / 20 评论）：https://www.kaggle.com/competitions/playground-series-s5e7/discussion/593994
+- 心理测量背景（33 票 / 19 评论）：https://www.kaggle.com/competitions/playground-series-s5e7/discussion/587413
+
 ---
 
 ## playground-series-s5e8 — Playground Series S5E8 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Roc Auc Score ｜ 队伍 3365 ｜ 截止 2025-08-31 ｜ Tier B ｜ 标签 tabular,ranking,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s5e8.md
 > 材料基础：`digests/playground-series-s5e8.md`（6 篇正文：1st 603210 / 2nd 603297 / 3rd 603198 / 15th 603179 / QuantileDMatrix 600048 / 反盲混帖 596696；80 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -5242,11 +6069,20 @@ Top-3 的核心之一是 0.40 阈值；另有"概率校准提分"专帖。**裁�
 - 反盲混争议帖（596696）与"学习 vs 混提交"帖的结论未细读；
 - **图证缺口**：本场 0 张归档图。
 
+### 出处
+- 1st JAPE（26 票）：https://www.kaggle.com/competitions/playground-series-s5e8/discussion/603210
+- 2nd（47 票）：https://www.kaggle.com/competitions/playground-series-s5e8/discussion/603297
+- 3rd（24 票）：https://www.kaggle.com/competitions/playground-series-s5e8/discussion/603198
+- 15th（21 票）：https://www.kaggle.com/competitions/playground-series-s5e8/discussion/603179
+- QuantileDMatrix（69 票）：https://www.kaggle.com/competitions/playground-series-s5e8/discussion/600048
+- 反盲混（34 票）：https://www.kaggle.com/competitions/playground-series-s5e8/discussion/596696
+
 ---
 
 ## playground-series-s5e9 — Playground Series S5E9（歌曲 BPM 预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Mean Squared Error ｜ 队伍 2581 ｜ 截止 2025-09-30 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s5e9.md
 > 材料基础：`digests/playground-series-s5e9.md`（6 篇正文：MIR 领域背景 603307 / 573rd 复盘 610016 / 随机目标检验 604028 / 26th 方案 610264 / Potential first place 609999 / No solutions 610185；52 条主题索引）+ 8 张归档图
 
 ### 一句话重述
@@ -5313,11 +6149,23 @@ MIR 帖提供了节拍估计文献与 DJ 用途，但随机目标检验表明原
 - ../../intel/playground-series-s5e9/bodies/604028_img/06.png — S5E9 随机目标 z 检验
 - ../../intel/playground-series-s5e9/bodies/609999_img/01.png — 未选用提交的分数截图
 
+### 出处
+- 随机目标检验（64 票 / 29 评论）：https://www.kaggle.com/competitions/playground-series-s5e9/discussion/604028
+- MIR 领域背景（28 票 / 4 评论）：https://www.kaggle.com/competitions/playground-series-s5e9/discussion/603307
+- 26th FE+伪标签+残差（16 票 / 10 评论）：https://www.kaggle.com/competitions/playground-series-s5e9/discussion/610264
+- 573rd 复盘（0 票 / 4 评论）：https://www.kaggle.com/competitions/playground-series-s5e9/discussion/610016
+- Potential first place（8 票 / 15 评论）：https://www.kaggle.com/competitions/playground-series-s5e9/discussion/609999
+- No solutions（1 票 / 0 评论）：https://www.kaggle.com/competitions/playground-series-s5e9/discussion/610185
+- XGBoost Starter（25 票 / 13 评论）：https://www.kaggle.com/competitions/playground-series-s5e9/discussion/604292
+- CV-LB relation thread（20 票 / 44 评论）：https://www.kaggle.com/competitions/playground-series-s5e9/discussion/603432
+- 26.38 vs 26.39（2 票 / 6 评论）：https://www.kaggle.com/competitions/playground-series-s5e9/discussion/608579
+
 ---
 
 ## playground-series-s6e1 — Playground Series S6E1（学生考试成绩）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Root Mean Squared Error ｜ 队伍 4317 ｜ 截止 2026-01-31 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s6e1.md
 > 材料基础：`digests/playground-series-s6e1.md`（6 篇正文：1st 671371 / 2nd 671261 / 6th 671328 / 13th 671? / EDA 665965 / 伪标签 615 行处；80 条主题索引）+ 4 张图
 
 ### 一句话重述
@@ -5376,11 +6224,20 @@ EDA 帖指出大量线性关系（图 1）；"恢复原始数据模型"帖（44 
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s6e1/bodies/665965_img/01.png — 各特征与平均成绩的关系
 
+### 出处
+- 1st（49 票）：https://www.kaggle.com/competitions/playground-series-s6e1/discussion/671371
+- 2nd（55 票）：https://www.kaggle.com/competitions/playground-series-s6e1/discussion/671261
+- 6th（21 票）：https://www.kaggle.com/competitions/playground-series-s6e1/discussion/671328
+- EDA（78 票）：https://www.kaggle.com/competitions/playground-series-s6e1/discussion/665965
+- 恢复原始数据模型（44 票）：https://www.kaggle.com/competitions/playground-series-s6e1/discussion/665915
+- Tobit 截尾（25 票）：https://www.kaggle.com/competitions/playground-series-s6e1/discussion/667296
+
 ---
 
 ## playground-series-s6e2 — Playground S6E2（心脏病预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Roc Auc Score ｜ 队伍 4370 ｜ 截止 2026-02-28 ｜ Tier B ｜ 标签 tabular,ranking,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s6e2.md
 > 材料基础：`digests/playground-series-s6e2.md`（6 篇正文：1st 202 / MLP 嵌入 64 / 22nd 19 / 4th 13 / 3rd 14 / 69th 27；80 条主题索引）+ 4 张图
 
 ### 一句话重述
@@ -5445,11 +6302,21 @@ LR+OHE 即 0.95550（4th）；无 FE 的 FM 只差 0.00009（22nd）；4th 的 8
 - ../../intel/playground-series-s6e2/bodies/679376_img/02.png — 1st 的多表示特征管线
 - ../../intel/playground-series-s6e2/bodies/679389_img/01.png — Public vs Private 位置散点
 
+### 出处
+- 1st（202 票）：https://www.kaggle.com/competitions/playground-series-s6e2/discussion/679376
+- MLP 数值嵌入（64 票）：https://www.kaggle.com/competitions/playground-series-s6e2/discussion/671783
+- 4th（13 票）：https://www.kaggle.com/competitions/playground-series-s6e2/discussion/679414
+- 22nd（19 票）：https://www.kaggle.com/competitions/playground-series-s6e2/discussion/679389
+- 3rd（14 票）：https://www.kaggle.com/competitions/playground-series-s6e2/discussion/679428
+- 69th（27 票）：https://www.kaggle.com/competitions/playground-series-s6e2/discussion/679367
+- 缺口登记：673079、673774、671274、673762、679364
+
 ---
 
 ## playground-series-s6e3 — Playground Series S6E3（电信客户流失）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Roc Auc Score ｜ 队伍 4142 ｜ 截止 2026-03-31 ｜ Tier B ｜ 标签 tabular,ranking,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s6e3.md
 > 材料基础：`digests/playground-series-s6e3.md`（4 篇正文：1st 686686 / 3rd 686834 / 16th 1057 行处 / 5th 1267 行处；80 条主题索引）+ 4 张图
 
 ### 一句话重述
@@ -5508,11 +6375,20 @@ LR+OHE 即 0.95550（4th）；无 FE 的 FM 只差 0.00009（22nd）；4th 的 8
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s6e3/bodies/686686_img/01.png — 1st 的四层堆叠结构
 
+### 出处
+- 1st（686686）：https://www.kaggle.com/competitions/playground-series-s6e3/discussion/686686
+- 3rd（38 票）：https://www.kaggle.com/competitions/playground-series-s6e3/discussion/686834
+- 高级 EDA 技巧（112 票）：https://www.kaggle.com/competitions/playground-series-s6e3/discussion/680290
+- 盲混之争（39 票）：https://www.kaggle.com/competitions/playground-series-s6e3/discussion/679672
+- YDF 默认参数（31 票）：https://www.kaggle.com/competitions/playground-series-s6e3/discussion/679983
+- GNN starter（36 票）：https://www.kaggle.com/competitions/playground-series-s6e3/discussion/680622
+
 ---
 
 ## playground-series-s6e4 — Playground Series S6E4（灌溉需求三分类）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Balanced Accuracy Score ｜ 队伍 4315 ｜ 截止 2026-04-30 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s6e4.md
 > 材料基础：`digests/playground-series-s6e4.md`（6 篇正文：原数据公式 687460 / 1st 696040 / 2nd 696169 / 4th 696054 / 200 模型堆叠 696104 / 24th 696016；55 条主题索引）+ 5 张归档图
 
 ### 一句话重述
@@ -5576,11 +6452,25 @@ LR+OHE 即 0.95550（4th）；无 FE 的 FM 只差 0.00009（22nd）；4th 的 8
 - ../../intel/playground-series-s6e4/bodies/696169_img/01.png — CV 与私榜相关性
 - ../../intel/playground-series-s6e4/bodies/696169_img/02.png — CV 与公榜相关性
 
+### 出处
+- 原数据精确公式（115 票 / 30 评论）：https://www.kaggle.com/competitions/playground-series-s6e4/discussion/687460
+- 1st OVR + 多分类（56 票 / 23 评论）：https://www.kaggle.com/competitions/playground-series-s6e4/discussion/696040
+- 2nd Claude Code + Codex + GPU LogReg（44 票 / 14 评论）：https://www.kaggle.com/competitions/playground-series-s6e4/discussion/696169
+- 4th 集成器比模型多（24 票 / 13 评论）：https://www.kaggle.com/competitions/playground-series-s6e4/discussion/696054
+- 200 模型误差多样性（14 票）：https://www.kaggle.com/competitions/playground-series-s6e4/discussion/696104
+- 24th 166 OOF 神经堆叠（12 票）：https://www.kaggle.com/competitions/playground-series-s6e4/discussion/696016
+- 平衡准确率处理（45 票）：https://www.kaggle.com/competitions/playground-series-s6e4/discussion/686709
+- 类别权重（26 票）：https://www.kaggle.com/competitions/playground-series-s6e4/discussion/686754
+- 原数据漂移警告（25 票）：https://www.kaggle.com/competitions/playground-series-s6e4/discussion/686722
+- 公榜只有 1800 个 High（23 票）：https://www.kaggle.com/competitions/playground-series-s6e4/discussion/687069
+- 阈值调优（19 票）：https://www.kaggle.com/competitions/playground-series-s6e4/discussion/687082
+
 ---
 
 ## playground-series-s6e5 — Playground Series S6E5（F1 进站预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Roc Auc Score ｜ 队伍 3022 ｜ 截止 2026-05-31 ｜ Tier B ｜ 标签 tabular,ranking,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s6e5.md
 > 材料基础：`digests/playground-series-s6e5.md`（6 篇正文：1st 703562 / 2nd 703615 / 5th 703572 / 8th 703539 / 4th 703528 / 赛道 EDA 698434；42 条主题索引）+ 2 张归档图
 
 ### 一句话重述
@@ -5644,11 +6534,24 @@ LR+OHE 即 0.95550（4th）；无 FE 的 FM 只差 0.00009（22nd）；4th 的 8
 - ../../intel/playground-series-s6e5/bodies/698434_img/01.png — 各赛道 PitNextLap 目标率
 - ../../intel/playground-series-s6e5/bodies/703615_img/01.png — Agent 迭代循环
 
+### 出处
+- 1st（54 票 / 33 评论）：https://www.kaggle.com/competitions/playground-series-s6e5/discussion/703562
+- 2nd Autonomous Codex（36 票 / 26 评论）：https://www.kaggle.com/competitions/playground-series-s6e5/discussion/703615
+- 5th 99 模型 logit 栈（15 票）：https://www.kaggle.com/competitions/playground-series-s6e5/discussion/703572
+- 8th L5 集成（10 票）：https://www.kaggle.com/competitions/playground-series-s6e5/discussion/703539
+- 4th 5 天冲刺（22 票）：https://www.kaggle.com/competitions/playground-series-s6e5/discussion/703528
+- 赛道 EDA（54 票）：https://www.kaggle.com/competitions/playground-series-s6e5/discussion/698434
+- 轮胎配方（43 票）：https://www.kaggle.com/competitions/playground-series-s6e5/discussion/696012
+- 原数据不一致（31 票）：https://www.kaggle.com/competitions/playground-series-s6e5/discussion/696380
+- Rank17（18 票）：https://www.kaggle.com/competitions/playground-series-s6e5/discussion/703529
+- Stacking stacked predictions（11 票）：https://www.kaggle.com/competitions/playground-series-s6e5/discussion/703542
+
 ---
 
 ## playground-series-s6e6 — Playground Series S6E6 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Balanced Accuracy Score ｜ 队伍 2816 ｜ 截止 2026-06-30 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s6e6.md
 > 材料基础：`digests/playground-series-s6e6.md`（6 篇正文：1st 717510 / 6th 716945 / 8th 716756 / 25th 716748 / 派生特征公式 703535 / TabPFN-3 基线 703686；78 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -5708,11 +6611,21 @@ LR+OHE 即 0.95550（4th）；无 FE 的 FM 只差 0.00009（22nd）；4th 的 8
 - 1st 的 78 模型版 CV 数字在原文写作中疑似笔误（0.97573），无法据以复算；
 - **图证缺口**：本场 0 张归档图（原帖无内嵌图或未归档），按规则不内嵌。
 
+### 出处
+- 1st（31 票）：https://www.kaggle.com/competitions/playground-series-s6e6/discussion/717510
+- 6th（17 票）：https://www.kaggle.com/competitions/playground-series-s6e6/discussion/716945
+- 8th（28 票）：https://www.kaggle.com/competitions/playground-series-s6e6/discussion/716756
+- 25th（26 票）：https://www.kaggle.com/competitions/playground-series-s6e6/discussion/716748
+- 派生特征公式（47 票）：https://www.kaggle.com/competitions/playground-series-s6e6/discussion/703535
+- GPU LR stacker 模板（35 票）：https://www.kaggle.com/competitions/playground-series-s6e6/discussion/704014
+- TabPFN-3 基线（21 票）：https://www.kaggle.com/competitions/playground-series-s6e6/discussion/703686
+
 ---
 
 ## playground-series-s6e7 — Playground Series S6E7（学生健康风险）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Balanced Accuracy Score ｜ 队伍 3355 ｜ 截止 2026-07-31 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s6e7.md
 > 材料基础：`digests/playground-series-s6e7.md`（6 篇正文：4th 732487 / 2nd 731904 / 29th 561 行处 / 135th 669 行处 / 生成模型帖 770 行处 / S6E7 方案 814 行处；71 条主题索引）+ 4 张图
 
 ### 一句话重述
@@ -5771,11 +6684,20 @@ LR+OHE 即 0.95550（4th）；无 FE 的 FM 只差 0.00009（22nd）；4th 的 8
 ### 图证（KStarter 仓库内路径）
 - ../../intel/playground-series-s6e7/bodies/731729_img/01.png — Rank11 的 stacker 剪枝轨迹
 
+### 出处
+- 4th（732487）：https://www.kaggle.com/competitions/playground-series-s6e7/discussion/732487
+- 2nd（29 票）：https://www.kaggle.com/competitions/playground-series-s6e7/discussion/731904
+- Trust your CV（27 票）：https://www.kaggle.com/competitions/playground-series-s6e7/discussion/718258
+- Rank11 approach（22 票）：https://www.kaggle.com/competitions/playground-series-s6e7/discussion/731745
+- 9 notebook 研究轨迹（19 票）：https://www.kaggle.com/competitions/playground-series-s6e7/discussion/719199
+- "为什么 86% 准确率只得 0.33"（8 票）：https://www.kaggle.com/competitions/playground-series-s6e7/discussion/717018
+
 ---
 
 ## playground-series-s6e8 — Playground Series S6E8（手机成瘾预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Roc Auc Score ｜ 队伍 3531 ｜ 截止 2026-08-31 ｜ Tier B ｜ 标签 tabular,ranking,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s6e8.md
 > 材料基础：`digests/playground-series-s6e8.md`（6 篇正文：1st 738592 / 2nd 738856 / 7th 738650 / 14th 739004 / 248th 738626 / 233rd 738691；63 条主题索引）+ 9 张归档图
 
 ### 一句话重述
@@ -5839,11 +6761,24 @@ LR+OHE 即 0.95550（4th）；无 FE 的 FM 只差 0.00009（22nd）；4th 的 8
 - ../../intel/playground-series-s6e8/bodies/738592_img/02.png — 堆叠进度与模型数
 - ../../intel/playground-series-s6e8/bodies/738650_img/01.png — 556 条预测流的严格 OOF 流水线
 
+### 出处
+- 1st Distributed Intelligence（127 票 / 78 评论）：https://www.kaggle.com/competitions/playground-series-s6e8/discussion/738592
+- 2nd Place（47 票 / 13 评论）：https://www.kaggle.com/competitions/playground-series-s6e8/discussion/738856
+- 7th "One Simple Stack"（14 票）：https://www.kaggle.com/competitions/playground-series-s6e8/discussion/738650
+- 14th 278 共享 OOF + 密封折（10 票）：https://www.kaggle.com/competitions/playground-series-s6e8/discussion/739004
+- 248th 秩对齐融合（3 票）：https://www.kaggle.com/competitions/playground-series-s6e8/discussion/738626
+- 233rd（4 票）：https://www.kaggle.com/competitions/playground-series-s6e8/discussion/738691
+- 简单 XGB/EDA starter（24 票）：https://www.kaggle.com/competitions/playground-series-s6e8/discussion/736409
+- 生成缺失原始数据集（21 票）：https://www.kaggle.com/competitions/playground-series-s6e8/discussion/732428
+- 0.97101 NN 分数溯源（14 票）：https://www.kaggle.com/competitions/playground-series-s6e8/discussion/735404
+- stringified TE + 秩平均（9 票）：https://www.kaggle.com/competitions/playground-series-s6e8/discussion/734063
+
 ---
 
 ## playground-series-s6e9 — Playground Series S6E9（电动车购买预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Roc Auc Score ｜ 队伍 3575 ｜ 截止 2026-09-30 ｜ Tier B ｜ 标签 tabular,ranking,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s6e9.md
 > 材料基础：`digests/playground-series-s6e9.md`（6 篇正文：1st 745013 / 2nd 744815 / 3rd 744848 / 8th 744923 / 9th、10th 等节；79 条主题索引）+ 18 张图
 
 ### 一句话重述
@@ -5906,11 +6841,20 @@ LR+OHE 即 0.95550（4th）；无 FE 的 FM 只差 0.00009（22nd）；4th 的 8
 - ../../intel/playground-series-s6e9/bodies/744815_img/02.png — 2nd 的最终管线与权重
 - ../../intel/playground-series-s6e9/bodies/745013_img/05.png — 1st 的"接力棒是笔记"
 
+### 出处
+- 1st（41 票）：https://www.kaggle.com/competitions/playground-series-s6e9/discussion/745013
+- 2nd：https://www.kaggle.com/competitions/playground-series-s6e9/discussion/744815
+- 3rd（32 票）：https://www.kaggle.com/competitions/playground-series-s6e9/discussion/744848
+- 8th：https://www.kaggle.com/competitions/playground-series-s6e9/discussion/744923
+- 10th（19 票）：https://www.kaggle.com/competitions/playground-series-s6e9/discussion/744826
+- Simpson 悖论（31 票）：https://www.kaggle.com/competitions/playground-series-s6e9/discussion/738991
+
 ---
 
 ## predict-energy-behavior-of-prosumers — Enefit - Predict Energy Behavior of Prosumers 深读：非平稳目标 × 在线重训 × 公开/私有榜解耦
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 Mean Absolute Error ｜ 队伍 2731 ｜ 截止 2024-04-30 ｜ Tier A ｜ 标签 tabular,time-series
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/predict-energy-behavior-of-prosumers.md
 > 材料基础：`digests/predict-energy-behavior-of-prosumers.md`（8 篇正文：1st 178 / References 103 / 公开 10th 78 / 公开 3rd 48 / 公开 12th 37 / 5th 30 / 公开 53rd 27 / 13th 26；120 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -6018,11 +6962,23 @@ LR+OHE 即 0.95550（4th）；无 FE 的 FM 只差 0.00009（22nd）；4th 的 8
 - 12th：按 prediction_unit 聚类分模失败；Wikipedia 县人口特征无用；"如果早三天开始集成，结果会更好"。
 - 10th：无；但其 80/20 混合在 CV 更差的情况下改善公开榜——提示 CV 与 LB 的张力需谨慎解释。
 
+### 出处
+- References（103 票）：https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/452687
+- 1st（178 票）：https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/472793
+- 公开 10th/私有 11th（78 票）：https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/472537
+- 公开 3rd（48 票）：https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/472754
+- 公开 12th（37 票）：https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/472564
+- 5th（30 票）：https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/499938
+- 公开 53rd（27 票）：https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/472475
+- 13th（26 票）：https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/499364
+- 未收录正文的关键讨论（真实 topic id，供后续定点补采/图片层参考）：468654、455189、470238、472515、482656、483313、499206、455833、460848、468201、461505、455999
+
 ---
 
 ## predict-student-performance-from-game-play — Predict Student Performance 深读：时长信号 × 噪声准入门槛 × 泄漏风波
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 F-Score (Macro) ｜ 队伍 2051 ｜ 截止 2023-06-28 ｜ Tier A ｜ 标签 tabular,agent,education
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/predict-student-performance-from-game-play.md
 > 材料基础：`digests/predict-student-performance-from-game-play.md`（8 节：1st×2/4th/7th/9th/13th + 开局 EDA + 游戏攻略）+ 13 张图
 
 ### 一句话重述
@@ -6117,11 +7073,23 @@ LR+OHE 即 0.95550（4th）；无 FE 的 FM 只差 0.00009（22nd）；4th 的 8
 | 5 折 | 9th/1st | 10 折有小增益；折数也是超参 |
 | 未量化噪声就加特征 | 1st 的核心警告 | 小数据宏 F1 的"改进"多数是噪声 |
 
+### 出处
+- 开局 EDA（Chris Deotte，228 票）：https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/387864
+- 游戏攻略（pjmathematician，212 票）：https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/384796
+- 1st（Bertrand P，168 票）：https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/420217
+- 7th/效率第 1（Jack，102 票）：https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/420119
+- 9th（Makotu，81 票）：https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/420046
+- 1st 代码（67 票）：https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/420332
+- 13th（Takoi，52 票）：https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/420077
+- 4th（Joel Erikanders，48 票）：https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/420349
+- 未收录缺口（登记备查）：24 条 write-up 标记中的其余条目（2nd/3rd/5th/6th 等）
+
 ---
 
 ## scrabble-player-rating — Scrabble Player Rating 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Root Mean Squared Error ｜ 队伍 301 ｜ 截止 2022-12-15 ｜ Tier B ｜ 标签 tabular
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/scrabble-player-rating.md
 > 材料基础：`digests/scrabble-player-rating.md`（6 篇正文：赛后复盘 372554 / 公开 kernel 清单 362744 / 官方欢迎 362735 / RMSE 资源 362749 / 评分系统提问 363404 / FE+AGG 数据集 363143；12 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -6180,11 +7148,20 @@ min/max/mean 历史分数等聚合特征与 `difficult_word` 类新特征都指�
 - 本场没有 top-10 write-up；
 - **图证缺口**：本场 0 张归档图，已登记。
 
+### 出处
+- 赛后复盘与 CV 问题（3 票 / 2 评论）：https://www.kaggle.com/competitions/scrabble-player-rating/discussion/372554
+- 公开 kernel 清单（9 票 / 1 评论）：https://www.kaggle.com/competitions/scrabble-player-rating/discussion/362744
+- 官方欢迎（16 票 / 3 评论）：https://www.kaggle.com/competitions/scrabble-player-rating/discussion/362735
+- RMSE 资源（6 票 / 2 评论）：https://www.kaggle.com/competitions/scrabble-player-rating/discussion/362749
+- FE+AGG 数据集（10 票 / 3 评论）：https://www.kaggle.com/competitions/scrabble-player-rating/discussion/363143
+- 词表问题（0 票 / 2 评论）：https://www.kaggle.com/competitions/scrabble-player-rating/discussion/363660
+
 ---
 
 ## smartphone-decimeter-2022 — Google Smartphone Decimeter Challenge 2022 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Research ｜ 指标 SmartphoneDecimeter ｜ 队伍 573 ｜ 截止 2022-07-29 ｜ Tier B ｜ 标签 tabular
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/smartphone-decimeter-2022.md
 > 材料基础：`digests/smartphone-decimeter-2022.md`（6 篇正文：5th 340692 / 1st 341111 / 3rd 341305 / How to approach 323548 / 6th 341226 / 上届冠军 322510；75 条主题索引）+ 11 张图
 
 ### 一句话重述
@@ -6248,11 +7225,20 @@ min/max/mean 历史分数等聚合特征与 `difficult_word` 类新特征都指�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/smartphone-decimeter-2022/bodies/340692_img/03.png — 5th 的全局优化计算图
 
+### 出处
+- 5th（44 票）：https://www.kaggle.com/competitions/smartphone-decimeter-2022/discussion/340692
+- 1st（72 票）：https://www.kaggle.com/competitions/smartphone-decimeter-2022/discussion/341111
+- 3rd（24 票）：https://www.kaggle.com/competitions/smartphone-decimeter-2022/discussion/341305
+- How to Approach（65 票）：https://www.kaggle.com/competitions/smartphone-decimeter-2022/discussion/323548
+- 6th（31 票）：https://www.kaggle.com/competitions/smartphone-decimeter-2022/discussion/341226
+- 上届冠军（42 票）：https://www.kaggle.com/competitions/smartphone-decimeter-2022/discussion/322510
+
 ---
 
 ## tabular-playground-series-apr-2022 — Tabular Playground Series Apr 2022（传感器序列分类）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Area Under Receiver Operating Characteristic Curve ｜ 队伍 816 ｜ 截止 2022-04-30 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/tabular-playground-series-apr-2022.md
 > 材料基础：`digests/tabular-playground-series-apr-2022.md`（6 篇正文：1st 322259 / 2nd 322257 / 3rd 322269 / 5th 322277 / 6th 322622 / 特征工程六坑 318527；68 条主题索引）+ 0 张可读归档图（318527_img 目录为空）
 
 ### 一句话重述
@@ -6309,11 +7295,23 @@ test 的 subject 与 train 不相交；六坑帖把"KFold/StratifiedKFold"直接
 - HMM/序列顺序性（3rd 的失败探索）没有结论；
 - **图证缺口**：本场 0 张可读归档图。
 
+### 出处
+- 1st DAE 方案（40 票 / 8 评论）：https://www.kaggle.com/competitions/tabular-playground-series-apr-2022/discussion/322259
+- 2nd Place（25 票 / 7 评论）：https://www.kaggle.com/competitions/tabular-playground-series-apr-2022/discussion/322257
+- 3rd Place（17 票 / 9 评论）：https://www.kaggle.com/competitions/tabular-playground-series-apr-2022/discussion/322269
+- 5th Place（17 票 / 7 评论）：https://www.kaggle.com/competitions/tabular-playground-series-apr-2022/discussion/322277
+- 6th Place（22 票 / 5 评论）：https://www.kaggle.com/competitions/tabular-playground-series-apr-2022/discussion/322622
+- 特征工程六大坑（185 票 / 86 评论）：https://www.kaggle.com/competitions/tabular-playground-series-apr-2022/discussion/318527
+- 无变化则 target=0（14 票）：https://www.kaggle.com/competitions/tabular-playground-series-apr-2022/discussion/316383
+- 概率 vs 标签（12 票）：https://www.kaggle.com/competitions/tabular-playground-series-apr-2022/discussion/321000
+- 协变量偏移（10 票）：https://www.kaggle.com/competitions/tabular-playground-series-apr-2022/discussion/317778
+
 ---
 
 ## tabular-playground-series-aug-2022 — Tabular Playground Series Aug 2022（吸水海绵失效预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Area Under Receiver Operating Characteristic Curve ｜ 队伍 1888 ｜ 截止 2022-08-31 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/tabular-playground-series-aug-2022.md
 > 材料基础：`digests/tabular-playground-series-aug-2022.md`（6 篇正文：背景故事 341462 / 缺失值预测力 342319 / 14th 349810 / 17th 349541 / Less can be more 342126 / 9th 349297；80 条主题索引）+ 1 张归档图
 
 ### 一句话重述
@@ -6371,11 +7369,23 @@ top10 平均跳 331 位；"最好未选分数 0.59137"；公榜与私榜/CV 相�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/tabular-playground-series-aug-2022/bodies/349810_img/01.PNG — 修复后的集成提交
 
+### 出处
+- 缺失值有预测价值（137 票 / 66 评论）：https://www.kaggle.com/competitions/tabular-playground-series-aug-2022/discussion/342319
+- 背景故事解读（63 票 / 11 评论）：https://www.kaggle.com/competitions/tabular-playground-series-aug-2022/discussion/341462
+- Less can be more（52 票 / 22 评论）：https://www.kaggle.com/competitions/tabular-playground-series-aug-2022/discussion/342126
+- 产品码分组 CV（50 票 / 9 评论）：https://www.kaggle.com/competitions/tabular-playground-series-aug-2022/discussion/341070
+- GroupKFold 不够（33 票 / 10 评论）：https://www.kaggle.com/competitions/tabular-playground-series-aug-2022/discussion/341896
+- 14th（5 票 / 3 评论）：https://www.kaggle.com/competitions/tabular-playground-series-aug-2022/discussion/349810
+- 17th（6 票 / 6 评论）：https://www.kaggle.com/competitions/tabular-playground-series-aug-2022/discussion/349541
+- 公开榜过拟合陷阱（41 票 / 24 评论）：https://www.kaggle.com/competitions/tabular-playground-series-aug-2022/discussion/348767
+- Private vs Public Data（42 票 / 16 评论）：https://www.kaggle.com/competitions/tabular-playground-series-aug-2022/discussion/342403
+
 ---
 
 ## tabular-playground-series-dec-2021 — TPS Dec 2021 深读：物理范围修复 × 合成数据过拟合陷阱 × 公开 blend 的马戏团
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Categorization Accuracy ｜ 队伍 1188 ｜ 截止 2021-12-31 ｜ Tier A ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/tabular-playground-series-dec-2021.md
 > 材料基础：`digests/tabular-playground-series-dec-2021.md`（6 篇正文：TPS 教训 116 / 特征修复 62 / 2nd 54 / 2021 解法索引 51 / focal loss 23 / 收官祝贺 13；80 条主题索引）+ 0 张可用归档图（293072_img 为空目录，HTML 内 1 个 `<img>` 未下载）
 
 ### 一句话重述
@@ -6462,11 +7472,21 @@ Gulshan（四列修复，0.95631→0.95673）、Samuel（负距离→0，+0.0053
 - 社区：accuracy 指标对不平衡不友好；伪标签缺乏同代际验证；SeLU/距离特征之外的特征工程大面积无效（2nd 的观察）。
 - 公开生态：复制同一 notebook/blend 导致分数饱和与名次噪声（既是"失败"也是环境事实）。
 
+### 出处
+- TPS 2021 教训（116 票）：https://www.kaggle.com/competitions/tabular-playground-series-dec-2021/discussion/296842
+- 修复四列特征（62 票）：https://www.kaggle.com/competitions/tabular-playground-series-dec-2021/discussion/293373
+- 2nd 方案（54 票）：https://www.kaggle.com/competitions/tabular-playground-series-dec-2021/discussion/298304
+- 2021 Tabular 解法索引（51 票）：https://www.kaggle.com/competitions/tabular-playground-series-dec-2021/discussion/294062
+- Focal loss（23 票）：https://www.kaggle.com/competitions/tabular-playground-series-dec-2021/discussion/293072
+- 收官祝贺（13 票）：https://www.kaggle.com/competitions/tabular-playground-series-dec-2021/discussion/298131
+- 未收录正文的关键讨论（真实 topic id，供后续定点补采/图片层参考）：293768、291844、293612、292823、291871、291832、293362、292381、292839、295617
+
 ---
 
 ## tabular-playground-series-feb-2022 — 深读：TPS Feb 2022（随机数生成缺陷泄漏 —— "同种子"把 train/test 绑在了一起）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Categorization Accuracy ｜ 队伍 1255 ｜ 截止 2022-02-28 ｜ Tier A ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/tabular-playground-series-feb-2022.md
 
 ### 一句话重述
 主办方为复现"训练 10 种菌、测试 10 种突变菌"的分布差，用**同一个随机种子、略微不同的概率向量**生成两批序列；由于 `choice()` 的逆 CDF 机制，两批序列高度重合（近重复 + 完全重复）。
@@ -6516,11 +7536,18 @@ Gulshan（四列修复，0.95631→0.95673）、Samuel（负距离→0，+0.0053
 ### 图证（KStarter 仓库内路径）
 - ../../intel/tabular-playground-series-feb-2022/bodies/305350_img/08.png — 四种验证方案对比（Vabalas 2019）
 
+### 出处
+- 1st：https://www.kaggle.com/competitions/tabular-playground-series-feb-2022/discussion/310359
+- 2nd：https://www.kaggle.com/competitions/tabular-playground-series-feb-2022/discussion/310367
+- 去重帖：https://www.kaggle.com/competitions/tabular-playground-series-feb-2022/discussion/305364
+- 嵌套 CV 资源：https://www.kaggle.com/competitions/tabular-playground-series-feb-2022/discussion/305350
+
 ---
 
 ## tabular-playground-series-jan-2022 — Tabular Playground Series Jan 2022（北欧销量预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 SMAPE ｜ 队伍 1591 ｜ 截止 2022-01-31 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/tabular-playground-series-jan-2022.md
 > 材料基础：`digests/tabular-playground-series-jan-2022.md`（6 篇正文：1st 304355 / 40th 304353 / 16th 304413 / 混合模型 298196 / 方案汇编 304381 / 热帖 298446；80 条主题索引）+ 1 张归档图（社区 meme）
 
 ### 一句话重述
@@ -6582,11 +7609,23 @@ Gulshan（四列修复，0.95631→0.95673）、Samuel（负距离→0，+0.0053
 ### 图证（KStarter 仓库内路径）
 - ../../intel/tabular-playground-series-jan-2022/bodies/298446_img/01.jpg — 社区热帖 meme
 
+### 出处
+- 1st 高级线性模型（111 票 / 42 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jan-2022/discussion/304355
+- 40th Boltzmann 集成（16 票）：https://www.kaggle.com/competitions/tabular-playground-series-jan-2022/discussion/304353
+- 16th 混合模型（25 票 / 9 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jan-2022/discussion/304413
+- 混合模型与往届先例（33 票）：https://www.kaggle.com/competitions/tabular-playground-series-jan-2022/discussion/298196
+- 方案汇编（15 票）：https://www.kaggle.com/competitions/tabular-playground-series-jan-2022/discussion/304381
+- 舍入为何提分（71 票）：https://www.kaggle.com/competitions/tabular-playground-series-jan-2022/discussion/301249
+- SMAPE 计算（81 票）：https://www.kaggle.com/competitions/tabular-playground-series-jan-2022/discussion/298201
+- 热帖 meme（224 票 / 153 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jan-2022/discussion/298446
+- top notebook 数据泄漏指控（11 票 / 10 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jan-2022/discussion/305266
+
 ---
 
 ## tabular-playground-series-jul-2022 — Tabular Playground Series Jul 2022（首个无监督聚类赛）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Adjusted Rand Index ｜ 队伍 1253 ｜ 截止 2022-07-31 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/tabular-playground-series-jul-2022.md
 > 材料基础：`digests/tabular-playground-series-jul-2022.md`（6 篇正文：ARI 聚类分析 334541 / 收官经验 340874 / 七簇可视化 334808 / 1st 341023 / 聚类集成 335078 / UMAP 338839；80 条主题索引）+ 2 张归档图
 
 ### 一句话重述
@@ -6641,11 +7680,23 @@ Kaggle 首个无监督聚类赛：给一份表格数据预测簇标签，按 ARI
 ### 图证（KStarter 仓库内路径）
 - ../../intel/tabular-playground-series-jul-2022/bodies/335078_img/01.png — 聚类集成流程
 
+### 出处
+- 1st（74 票 / 27 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jul-2022/discussion/341023
+- 收官经验（66 票 / 23 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jul-2022/discussion/340874
+- 七簇可视化（73 票 / 14 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jul-2022/discussion/334808
+- 聚类集成（47 票 / 17 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jul-2022/discussion/335078
+- UMAP 结构（63 票 / 23 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jul-2022/discussion/338839
+- ARI 分析（43 票 / 32 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jul-2022/discussion/334541
+- 丢掉 15 个特征（35 票 / 23 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jul-2022/discussion/334875
+- ARI 直觉（34 票 / 11 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jul-2022/discussion/335167
+- 常见聚类算法（30 票 / 7 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jul-2022/discussion/334484
+
 ---
 
 ## tabular-playground-series-jun-2022 — Tabular Playground Series Jun 2022（缺失值插补）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Root Mean Squared Error ｜ 队伍 844 ｜ 截止 2022-06-30 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/tabular-playground-series-jun-2022.md
 > 材料基础：`digests/tabular-playground-series-jun-2022.md`（6 篇正文：1st 334331 / 2nd 334319 / 4th 334497 / 技巧汇总 334415 / 插补综述 328568 / 回归法 328369；70 条主题索引）+ 1 张归档图
 
 ### 一句话重述
@@ -6707,11 +7758,22 @@ Kaggle 首个无监督聚类赛：给一份表格数据预测簇标签，按 ARI
 ### 图证（KStarter 仓库内路径）
 - ../../intel/tabular-playground-series-jun-2022/bodies/334331_img/01.png — DAE 架构
 
+### 出处
+- 1st DAE（76 票 / 20 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jun-2022/discussion/334331
+- 2nd 缺失模式分组（21 票 / 10 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jun-2022/discussion/334319
+- 4th 方案（18 票 / 8 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jun-2022/discussion/334497
+- 前排名技巧汇总（12 票）：https://www.kaggle.com/competitions/tabular-playground-series-jun-2022/discussion/334415
+- 插补技术综述（59 票 / 26 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jun-2022/discussion/328568
+- 逐列回归框架（28 票 / 11 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jun-2022/discussion/328369
+- 缺失值资源合集（23 票）：https://www.kaggle.com/competitions/tabular-playground-series-jun-2022/discussion/328366
+- MissForest / missingpy（27 票）：https://www.kaggle.com/competitions/tabular-playground-series-jun-2022/discussion/328358
+
 ---
 
 ## tabular-playground-series-mar-2022 — Tabular Playground Series Mar 2022（交通拥堵时空预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Mean Absolute Error ｜ 队伍 956 ｜ 截止 2022-03-31 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/tabular-playground-series-mar-2022.md
 > 材料基础：`digests/tabular-playground-series-mar-2022.md`（6 篇正文：1st 316271 / 中位数基线 310642 / 3rd 317661 / Spark 方案 313882 / 新手汇编 312463 / 可视化提问 311480；80 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -6765,11 +7827,23 @@ Kaggle 首个无监督聚类赛：给一份表格数据预测簇标签，按 ARI
 - "早晨预测下午"的量化增益未给出；
 - **图证缺口**：本场归档 0 图。
 
+### 出处
+- 1st Disbelief（38 票 / 16 评论）：https://www.kaggle.com/competitions/tabular-playground-series-mar-2022/discussion/316271
+- 中位数基线（68 票 / 24 评论）：https://www.kaggle.com/competitions/tabular-playground-series-mar-2022/discussion/310642
+- 3rd（6 票 / 1 评论）：https://www.kaggle.com/competitions/tabular-playground-series-mar-2022/discussion/317661
+- Spark/Scala 方案（4 票）：https://www.kaggle.com/competitions/tabular-playground-series-mar-2022/discussion/313882
+- 新手汇编（31 票 / 16 评论）：https://www.kaggle.com/competitions/tabular-playground-series-mar-2022/discussion/312463
+- 时间序列资源（36 票 / 10 评论）：https://www.kaggle.com/competitions/tabular-playground-series-mar-2022/discussion/311012
+- 日期特征抽取（34 票 / 18 评论）：https://www.kaggle.com/competitions/tabular-playground-series-mar-2022/discussion/310377
+- 中位数 fold 集成（5 票 / 0 评论）：https://www.kaggle.com/competitions/tabular-playground-series-mar-2022/discussion/313420
+- 公私榜大幅位移（6 票 / 1 评论）：https://www.kaggle.com/competitions/tabular-playground-series-mar-2022/discussion/316245
+
 ---
 
 ## tabular-playground-series-may-2022 — Tabular Playground Series May 2022（特征交互专项赛）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Area Under Receiver Operating Characteristic Curve ｜ 队伍 1151 ｜ 截止 2022-05-31 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/tabular-playground-series-may-2022.md
 > 材料基础：`digests/tabular-playground-series-may-2022.md`（6 篇正文：1st 328336 / 4th 328441 / 5th 328553 / 541th 328355 / 三大交互 323892 / 交互 vs 相关 323766；68 条主题索引）+ 2 张归档图
 
 ### 一句话重述
@@ -6826,11 +7900,23 @@ Kaggle 首个无监督聚类赛：给一份表格数据预测簇标签，按 ARI
 ### 图证（KStarter 仓库内路径）
 - ../../intel/tabular-playground-series-may-2022/bodies/328441_img/01.png — 4th 的多激活分支网络
 
+### 出处
+- 1st 二分支网络（54 票 / 20 评论）：https://www.kaggle.com/competitions/tabular-playground-series-may-2022/discussion/328336
+- 三大交互工程化（71 票 / 26 评论）：https://www.kaggle.com/competitions/tabular-playground-series-may-2022/discussion/323892
+- 4th 多激活分支（19 票 / 2 评论）：https://www.kaggle.com/competitions/tabular-playground-series-may-2022/discussion/328441
+- 5th CatBoost+Keras（17 票 / 2 评论）：https://www.kaggle.com/competitions/tabular-playground-series-may-2022/discussion/328553
+- 541th 方法论复盘（6 票 / 0 评论）：https://www.kaggle.com/competitions/tabular-playground-series-may-2022/discussion/328355
+- Interaction vs Correlation（53 票 / 8 评论）：https://www.kaggle.com/competitions/tabular-playground-series-may-2022/discussion/323766
+- f_27 与隐藏信息（23 票 / 16 评论）：https://www.kaggle.com/competitions/tabular-playground-series-may-2022/discussion/322534
+- SHAP 交互分析（22 票 / 2 评论）：https://www.kaggle.com/competitions/tabular-playground-series-may-2022/discussion/323595
+- early stopping 指标选择（45 票 / 8 评论）：https://www.kaggle.com/competitions/tabular-playground-series-may-2022/discussion/326116
+
 ---
 
 ## tabular-playground-series-nov-2021 — Tabular Playground Series Nov 2021（分块数据与探榜事件）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Area Under Receiver Operating Characteristic Curve ｜ 队伍 1362 ｜ 截止 2021-11-30 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/tabular-playground-series-nov-2021.md
 > 材料基础：`digests/tabular-playground-series-nov-2021.md`（6 篇正文：1st 291883 / 3rd 291766 / 社区推测 288221 / 生产力指南 287989 / 三重大师 285092 / 学习>=获胜 285738；80 条主题索引）+ 1 张归档图
 
 ### 一句话重述
@@ -6888,11 +7974,23 @@ Kaggle 首个无监督聚类赛：给一份表格数据预测簇标签，按 ARI
 ### 图证（KStarter 仓库内路径）
 - ../../intel/tabular-playground-series-nov-2021/bodies/288221_img/01.png — Trust your CV meme
 
+### 出处
+- 1st（21 票）：https://www.kaggle.com/competitions/tabular-playground-series-nov-2021/discussion/291883
+- 3rd Don't trust the cv scores（27 票 / 14 评论）：https://www.kaggle.com/competitions/tabular-playground-series-nov-2021/discussion/291766
+- 社区预测帖（34 票 / 11 评论）：https://www.kaggle.com/competitions/tabular-playground-series-nov-2021/discussion/288221
+- Mislabeled samples（47 票 / 121 评论）：https://www.kaggle.com/competitions/tabular-playground-series-nov-2021/discussion/285503
+- Is he a thief?（38 票 / 25 评论）：https://www.kaggle.com/competitions/tabular-playground-series-nov-2021/discussion/285700
+- The data is chunked!（28 票 / 25 评论）：https://www.kaggle.com/competitions/tabular-playground-series-nov-2021/discussion/286731
+- 生产力指南（80 票 / 20 评论）：https://www.kaggle.com/competitions/tabular-playground-series-nov-2021/discussion/287989
+- Feedback Requested（77 票 / 89 评论）：https://www.kaggle.com/competitions/tabular-playground-series-nov-2021/discussion/284445
+- 三重大师（83 票 / 84 评论）：https://www.kaggle.com/competitions/tabular-playground-series-nov-2021/discussion/285092
+
 ---
 
 ## tabular-playground-series-nov-2022 — 深读：TPS Nov 2022（"给你的不是特征，是 5000 个模型的预测"）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Log Loss ｜ 队伍 689 ｜ 截止 2022-11-30 ｜ Tier A ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/tabular-playground-series-nov-2022.md
 
 ### 一句话重述
 比赛的输入是**约 5000 个已训练模型的预测文件**（而非原始特征）。因此任务被降解为两步：
@@ -6948,11 +8046,21 @@ Kaggle 首个无监督聚类赛：给一份表格数据预测簇标签，按 ARI
 - ../../intel/tabular-playground-series-nov-2022/bodies/363968_img/02.PNG — Blend
 - ../../intel/tabular-playground-series-nov-2022/bodies/363968_img/03.PNG — Stacking
 
+### 出处
+- 1st：https://www.kaggle.com/competitions/tabular-playground-series-nov-2022/discussion/369674
+- 3rd：https://www.kaggle.com/competitions/tabular-playground-series-nov-2022/discussion/370126
+- 7th：https://www.kaggle.com/competitions/tabular-playground-series-nov-2022/discussion/369731
+- 机制帖：https://www.kaggle.com/competitions/tabular-playground-series-nov-2022/discussion/364013
+- 7515/7485 探测量：https://www.kaggle.com/competitions/tabular-playground-series-nov-2022/discussion/364082
+- 集成解说：https://www.kaggle.com/competitions/tabular-playground-series-nov-2022/discussion/363968
+- Host（实为 Oct）：https://www.kaggle.com/competitions/tabular-playground-series-nov-2022/discussion/365103
+
 ---
 
 ## tabular-playground-series-oct-2021 — Tabular Playground Series Oct 2021（百万行大表）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Area Under Receiver Operating Characteristic Curve ｜ 队伍 1089 ｜ 截止 2021-10-31 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/tabular-playground-series-oct-2021.md
 > 材料基础：`digests/tabular-playground-series-oct-2021.md`（6 篇正文：9th 284492 / 3rd 284594 / 4th 284560 / 社区预测 278541 / 大表读取 275669 / 教程汇编 275712；80 条主题索引）+ 1 张归档图
 
 ### 一句话重述
@@ -7008,11 +8116,23 @@ Kaggle 首个无监督聚类赛：给一份表格数据预测簇标签，按 ARI
 ### 图证（KStarter 仓库内路径）
 - ../../intel/tabular-playground-series-oct-2021/bodies/284492_img/01.jpg — 9th 的三级栈
 
+### 出处
+- 9th（40 票 / 19 评论）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2021/discussion/284492
+- 3rd（31 票 / 5 评论）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2021/discussion/284594
+- 4th（16 票 / 9 评论）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2021/discussion/284560
+- 百万行读取（75 票 / 32 评论）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2021/discussion/275669
+- 大表教程汇编（56 票 / 7 评论）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2021/discussion/275712
+- SHAP 重要性警告（36 票 / 18 评论）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2021/discussion/276953
+- feature22 相关（27 票 / 18 评论）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2021/discussion/275605
+- CV 忽略部分 fold（28 票 / 14 评论）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2021/discussion/280661
+- GPU LightGBM 注意点（25 票 / 13 评论）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2021/discussion/275930
+
 ---
 
 ## tabular-playground-series-oct-2022 — Tabular Playground Series Oct 2022（火箭联盟状态预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 Mean Columnwise Log Loss ｜ 队伍 463 ｜ 截止 2022-10-31 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/tabular-playground-series-oct-2022.md
 > 材料基础：`digests/tabular-playground-series-oct-2022.md`（6 篇正文：主办方方案 364908 / "5 分钟冠军" 363288 / 在线学习入门 356584 / dtype 压缩 356540 / LogLoss 往届方案 361308 / 107th 363585；80 条主题索引）+ 2 张归档图
 
 ### 一句话重述
@@ -7073,11 +8193,23 @@ Kaggle 首个无监督聚类赛：给一份表格数据预测簇标签，按 ARI
 - ../../intel/tabular-playground-series-oct-2022/bodies/363288_img/01.jpg — 榜首榜单一度第一
 - ../../intel/tabular-playground-series-oct-2022/bodies/363288_img/02.png — Neptune 实验日志
 
+### 出处
+- 主办方方案（19 票 / 10 评论）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2022/discussion/364908
+- "5 分钟冠军"事件（19 票 / 12 评论）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2022/discussion/363288
+- 在线学习入门（70 票 / 33 评论）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2022/discussion/356584
+- dtype 压缩（40 票 / 20 评论）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2022/discussion/356540
+- 欢迎帖（33 票 / 15 评论）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2022/discussion/356530
+- 如何避免过拟合的验证（33 票 / 13 评论）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2022/discussion/359714
+- 数据表示与特征工程（32 票 / 8 评论）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2022/discussion/356718
+- 球员位置 NaN（24 票 / 11 评论）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2022/discussion/356545
+- 往届 LogLoss 方案（7 票）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2022/discussion/361308
+
 ---
 
 ## tabular-playground-series-sep-2022 — Tabular Playground Series Sep 2022（图书销量预测）轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Playground ｜ 指标 SMAPE ｜ 队伍 1381 ｜ 截止 2022-09-30 ｜ Tier B ｜ 标签 tabular,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/tabular-playground-series-sep-2022.md
 > 材料基础：`digests/tabular-playground-series-sep-2022.md`（6 篇正文：1st 388206 / 2nd 356746 / 3rd 356643 / FE 351098 / 视频教程 349557 / Jan 2022 冠军 notebook 349435；80 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -7134,11 +8266,24 @@ GDP、教育指数、消费者/商业信心、封锁日期、节假日被反复�
 - GDP/信心指数等外部数据的量化增益未给出；
 - **图证缺口**：本场归档 0 图。
 
+### 出处
+- 1st（13 票）：https://www.kaggle.com/competitions/tabular-playground-series-sep-2022/discussion/388206
+- 2nd Boltzmann 集成（11 票）：https://www.kaggle.com/competitions/tabular-playground-series-sep-2022/discussion/356746
+- 3rd 单 GAM（13 票）：https://www.kaggle.com/competitions/tabular-playground-series-sep-2022/discussion/356643
+- FE 合集（43 票 / 10 评论）：https://www.kaggle.com/competitions/tabular-playground-series-sep-2022/discussion/351098
+- 时序 CV 指南（38 票 / 17 评论）：https://www.kaggle.com/competitions/tabular-playground-series-sep-2022/discussion/350505
+- 比率至上（34 票 / 7 评论）：https://www.kaggle.com/competitions/tabular-playground-series-sep-2022/discussion/349941
+- 分层时序方法（34 票 / 4 评论）：https://www.kaggle.com/competitions/tabular-playground-series-sep-2022/discussion/350190
+- GDP 外生数据（32 票 / 7 评论）：https://www.kaggle.com/competitions/tabular-playground-series-sep-2022/discussion/349371
+- SMAPE 的陷阱（30 票 / 4 评论）：https://www.kaggle.com/competitions/tabular-playground-series-sep-2022/discussion/349553
+- Jan 2022 冠军 notebook 公开（6 票）：https://www.kaggle.com/competitions/tabular-playground-series-sep-2022/discussion/349435
+
 ---
 
 ## tlvmc-parkinsons-freezing-gait-prediction — TLVM C - Parkinson's Freezing of Gait Prediction 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Research ｜ 指标 sklearn_average_precision_score ｜ 队伍 1379 ｜ 截止 2023-06-08 ｜ Tier B ｜ 标签 tabular
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/tlvmc-parkinsons-freezing-gait-prediction.md
 > 材料基础：`digests/tlvmc-parkinsons-freezing-gait-prediction.md`（6 篇正文：1st 416026 / 2nd 416057 / 4th 416410 / 6th 415992 / 8th 1182 行处 / 往届方案 394004；80 条主题索引）+ 3 张图
 
 ### 一句话重述
@@ -7202,11 +8347,20 @@ GDP、教育指数、消费者/商业信心、封锁日期、节假日被反复�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/tlvmc-parkinsons-freezing-gait-prediction/bodies/415992_img/01.png — 6th 的频谱图/小波双分支
 
+### 出处
+- 1st（416026）：https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction/discussion/416026
+- 2nd（62 票）：https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction/discussion/416057
+- 4th（37 票）：https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction/discussion/416410
+- 6th（66 票）：https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction/discussion/415992
+- 数据质疑（62 票）：https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction/discussion/403470
+- 数据更新与重算（29 票）：https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction/discussion/406700
+
 ---
 
 ## ubiquant-market-prediction — Ubiquant Market Prediction 深读：匿名特征金融赛的稳健性工程
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 MeanPearson ｜ 队伍 2893 ｜ 截止 2022-07-19 ｜ Tier A ｜ 标签 tabular,time-series,finance
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/ubiquant-market-prediction.md
 > 材料基础：`digests/ubiquant-market-prediction.md`（8 节正文：1st/2nd/3rd/5th/7th/17th + 匿名特征竞赛汇总 + Parquet 数据集帖）+ 2 张图（1 张行情图 + 1 张梗图，梗图按规范不内嵌）
 
 ### 一句话重述
@@ -7311,11 +8465,23 @@ Purged K-Fold + embargo（2nd）、PurgedGroupTimeSeries + TimeSeriesSplit（1st
 ### 图证（KStarter 仓库内路径）
 - ../../intel/ubiquant-market-prediction/bodies/338220_img/01.png — szse
 
+### 出处
+- Parquet 数据集（Rob Mulla，276 票）：https://www.kaggle.com/competitions/ubiquant-market-prediction/discussion/301724
+- 1st（yuuniee，198 票）：https://www.kaggle.com/competitions/ubiquant-market-prediction/discussion/338220
+- 3rd（hyd，69 票）：https://www.kaggle.com/competitions/ubiquant-market-prediction/discussion/338561
+- 匿名特征竞赛汇总（34 票）：https://www.kaggle.com/competitions/ubiquant-market-prediction/discussion/311546
+- 5th（Ricardo Colomer，33 票）：https://www.kaggle.com/competitions/ubiquant-market-prediction/discussion/338400
+- 2nd（Davide Stenner，28 票）：https://www.kaggle.com/competitions/ubiquant-market-prediction/discussion/338615
+- 7th（Wenrui Kong，24 票）：https://www.kaggle.com/competitions/ubiquant-market-prediction/discussion/338293
+- 17th（Kyle Peters，23 票）：https://www.kaggle.com/competitions/ubiquant-market-prediction/discussion/338239
+- 未收录缺口（登记备查）：338236（8th）、301699（往届冠军方案索引）
+
 ---
 
 ## um-game-playing-strength-of-mcts-variants — UM - Game-Playing Strength of MCTS Variants 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Research ｜ 指标 Mean Squared Error ｜ 队伍 1608 ｜ 截止 2024-12-02 ｜ Tier B ｜ 标签 tabular,agent
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/um-game-playing-strength-of-mcts-variants.md
 > 材料基础：`digests/um-game-playing-strength-of-mcts-variants.md`（6 篇正文：1st 549801 / 6th 549582 / 7th 549617 / 3rd 549588 / 5th 549585 / 洞察帖 534634；80 条主题索引）+ 9 张图
 
 ### 一句话重述
@@ -7383,11 +8549,22 @@ Purged K-Fold + embargo（2nd）、PurgedGroupTimeSeries + TimeSeriesSplit（1st
 - ../../intel/um-game-playing-strength-of-mcts-variants/bodies/549582_img/01.jpg — 6th 的零成本数据生成 + 两阶段集成管线
 - ../../intel/um-game-playing-strength-of-mcts-variants/bodies/549582_img/03.jpg — 6th 的翻转增强缺口对照
 
+### 出处
+- 1st（95 票）：https://www.kaggle.com/competitions/um-game-playing-strength-of-mcts-variants/discussion/549801
+- 6th（53 票）：https://www.kaggle.com/competitions/um-game-playing-strength-of-mcts-variants/discussion/549582
+- 3rd（68 票）：https://www.kaggle.com/competitions/um-game-playing-strength-of-mcts-variants/discussion/549588
+- 5th（56 票）：https://www.kaggle.com/competitions/um-game-playing-strength-of-mcts-variants/discussion/549585
+- 7th（44 票）：https://www.kaggle.com/competitions/um-game-playing-strength-of-mcts-variants/discussion/549617
+- 洞察（94 票）：https://www.kaggle.com/competitions/um-game-playing-strength-of-mcts-variants/discussion/534634
+- 单模 CV/LB 线程（68 票）：https://www.kaggle.com/competitions/um-game-playing-strength-of-mcts-variants/discussion/532617
+- 离线数据生成（59 票）：https://www.kaggle.com/competitions/um-game-playing-strength-of-mcts-variants/discussion/533088
+
 ---
 
 ## womens-march-mania-2022 — Women's March Mania 2022 轻量深读（Tier B）
 
 > 主题 tabular ｜ 类别 Featured ｜ 指标 Log Loss ｜ 队伍 651 ｜ 截止 2022-04-04 ｜ Tier B ｜ 标签 tabular,sports
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/womens-march-mania-2022.md
 > 材料基础：`digests/womens-march-mania-2022.md`（6 篇正文：1st 317817 / 2nd 316966 / 4th 317183 / 6th 317105 / 40th 316863 / 538 外部数据 309917；75 条主题索引）+ 2 张图
 
 ### 一句话重述
@@ -7442,5 +8619,13 @@ Purged K-Fold + embargo（2nd）、PurgedGroupTimeSeries + TimeSeriesSplit（1st
 
 ### 图证（KStarter 仓库内路径）
 - ../../intel/womens-march-mania-2022/bodies/316966_img/02.png — 13 场赌博的全组合结果模拟
+
+### 出处
+- 1st（317817）：https://www.kaggle.com/competitions/womens-march-mania-2022/discussion/317817
+- 2nd（33 票）：https://www.kaggle.com/competitions/womens-march-mania-2022/discussion/316966
+- 4th（17 票）：https://www.kaggle.com/competitions/womens-march-mania-2022/discussion/317183
+- 6th（18 票）：https://www.kaggle.com/competitions/womens-march-mania-2022/discussion/317105
+- 40th（17 票）：https://www.kaggle.com/competitions/womens-march-mania-2022/discussion/316863
+- 538 外部数据：https://www.kaggle.com/competitions/womens-march-mania-2022/discussion/309917
 
 ---

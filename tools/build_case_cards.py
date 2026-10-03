@@ -49,7 +49,11 @@ def clean(text: str, limit: int = 300) -> str:
     return text[:limit]
 
 
-def parse_doc(path: pathlib.Path) -> dict:
+URL = re.compile(r"https?://\S+")
+LABEL_URL = re.compile(r"^(?:[-*+]\s*)?(.*?)[:：]\s*(https?://\S+)")
+
+
+def parse_doc(path: pathlib.Path, slug: str) -> dict:
     lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
     sections: list[tuple[str, list[str]]] = []
     current, buffer = "", []
@@ -68,6 +72,7 @@ def parse_doc(path: pathlib.Path) -> dict:
     verdicts: list[dict[str, str]] = []
     failures: list[str] = []
     evidence: list[dict[str, str]] = []
+    sources: list[dict[str, str]] = []
 
     for heading, body in sections:
         if "数字" in heading:
@@ -104,11 +109,21 @@ def parse_doc(path: pathlib.Path) -> dict:
                                 "note": clean(row[2] if len(row) > 2 else "", 120),
                             }
                         )
+        if "出处" in heading:
+            for line in body:
+                s = line.strip()
+                m = LABEL_URL.match(s)
+                if m:
+                    sources.append({"label": clean(m.group(1), 120), "url": m.group(2)})
+                elif URL.search(s):
+                    sources.append({"label": clean(s[:100], 100), "url": URL.search(s).group(0)})
     return {
         "key_numbers": key_numbers[:14],
         "verdicts": verdicts[:12],
         "failures": failures[:10],
         "evidence": evidence[:12],
+        "sources": sources[:20],
+        "deep_doc_url": f"https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/{slug}.md",
     }
 
 
@@ -126,7 +141,16 @@ def main() -> int:
     cards = []
     for row in index:
         deep = root / row["deep_doc"]
-        parsed = parse_doc(deep) if deep.exists() else {"key_numbers": [], "verdicts": [], "failures": [], "evidence": []}
+        parsed = (
+            parse_doc(deep, row["slug"])
+            if deep.exists()
+            else {"key_numbers": [], "verdicts": [], "failures": [], "evidence": [], "sources": [], "deep_doc_url": ""}
+        )
+        for k in parsed["key_numbers"]:
+            ids = re.findall(r"(?<![\d.])(\d{5,7})(?![\d.])", k.get("source", ""))
+            k["urls"] = [
+                f"https://www.kaggle.com/competitions/{row['slug']}/discussion/{tid}" for tid in ids
+            ]
         cards.append({**row, **parsed})
 
     out = SKILL / "assets" / "case_cards.jsonl"
@@ -136,12 +160,13 @@ def main() -> int:
 
     print(f"case_cards.jsonl: {len(cards)} cards -> {out}")
     print(
-        "coverage: key_numbers=%d verdicts=%d failures=%d evidence=%d"
+        "coverage: key_numbers=%d verdicts=%d failures=%d evidence=%d sources=%d"
         % (
             sum(1 for c in cards if c["key_numbers"]),
             sum(1 for c in cards if c["verdicts"]),
             sum(1 for c in cards if c["failures"]),
             sum(1 for c in cards if c["evidence"]),
+            sum(1 for c in cards if c["sources"]),
         )
     )
     return 0

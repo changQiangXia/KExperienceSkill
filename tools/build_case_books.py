@@ -89,7 +89,7 @@ def parse_case(root: pathlib.Path, slug: str, meta: dict) -> str:
                     alt = re.search(r"!\[([^\]]*)\]\(([^)]+)\)", para)
                     if alt:
                         figures.append(f"- {alt.group(2)} — {alt.group(1)}")
-        if heading in ("出处", "出处（主题 id）") or heading.startswith("出处"):
+        if "出处" in heading:
             for l in body:
                 if l.strip().startswith("-") or "https://" in l:
                     sources.append(l.strip())
@@ -100,6 +100,9 @@ def parse_case(root: pathlib.Path, slug: str, meta: dict) -> str:
     out.append(
         f"> 主题 {meta.get('theme','')} ｜ 类别 {meta.get('category','')} ｜ 指标 {meta.get('metric','')} "
         f"｜ 队伍 {meta.get('teams','')} ｜ 截止 {meta.get('deadline','')} ｜ Tier {meta.get('tier','')} ｜ 标签 {meta.get('tags','')}"
+    )
+    out.append(
+        f"> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/{slug}.md"
     )
     if material:
         out.append(f"> {material}")

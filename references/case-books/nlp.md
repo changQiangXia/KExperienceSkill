@@ -6,6 +6,7 @@
 ## AI4Code — Google AI4Code 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 AI4CodeKendallTau ｜ 队伍 1135 ｜ 截止 2022-11-10 ｜ Tier B ｜ 标签 nlp,code,ranking
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/AI4Code.md
 > 材料基础：`digests/AI4Code.md`（6 篇正文：领域理解 328905 / 2nd 343659 / 11th 343680 / 4th 343595 / 1st 360501 / 开源 326970；80 条主题索引）+ 6 张图
 
 ### 一句话重述
@@ -70,11 +71,21 @@ Jupyter notebook 中 **code 单元顺序已知**，要把 **markdown 单元排�
 - ../../intel/AI4Code/bodies/343659_img/01.png — 2nd 的双塔+双 decoder 架构
 - ../../intel/AI4Code/bodies/343680_img/01.png — 11th 的 Nested Transformers
 
+### 出处
+- 领域理解（328905）：https://www.kaggle.com/competitions/AI4Code/discussion/328905
+- 2nd（343659）：https://www.kaggle.com/competitions/AI4Code/discussion/343659
+- 11th Nested Transformers（343680）：https://www.kaggle.com/competitions/AI4Code/discussion/343680
+- 4th（343595）：https://www.kaggle.com/competitions/AI4Code/discussion/343595
+- 1st（360501）：https://www.kaggle.com/competitions/AI4Code/discussion/360501
+- 开源（326970）：https://www.kaggle.com/competitions/AI4Code/discussion/326970
+- 缺口登记：3rd–10th 方案、325205（比赛意图讨论）
+
 ---
 
 ## ai-agent-security-multi-step-tool-attacks — AI Agent Security 深读：对着看不见的护栏做优化
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 Agents Security Metric ｜ 队伍 4186 ｜ 截止 2026-09-01 ｜ Tier A ｜ 标签 nlp,agent,rl,security
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/ai-agent-security-multi-step-tool-attacks.md
 > 材料基础：`digests/ai-agent-security-multi-step-tool-attacks.md`（9 节：1st/4th/7th/10th/11th/59th + 工作笔记 + 本地验证帖 + 奖项帖）+ 16 张图
 
 ### 一句话重述
@@ -176,11 +187,24 @@ Jupyter notebook 中 **code 单元顺序已知**，要把 **markdown 单元排�
 | 在错误的 llama.cpp 版本上优化 | 1st | 版本间 logit 漂移可达 2 nats，攻击的 token 裕度必须 >5 |
 | 本地墙钟推断吞吐 | 11th | 板端比开发机慢 ~35×；须用板端常数重标定 |
 
+### 出处
+- 1st（xz，82 票）：https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks/discussion/739181
+- 11th（Mohammad Shadab Alam，15 票）：https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks/discussion/739322
+- 7th（Civitasmass，22 票）：https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks/discussion/738981
+- 10th（Bình，12 票）：https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks/discussion/738946
+- 4th（Rick，27 票）：https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks/discussion/739040
+- 59th（Chris Deotte + DeepSeek V4 Pro，29 票）：https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks/discussion/738890
+- 工作笔记（Gagan Deep，12 票）：https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks/discussion/729993
+- 本地验证（Kh0a，93 票）：https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks/discussion/708186
+- 奖项流程（Elizabeth Park）：https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks/discussion/739078
+- 未收录缺口（登记备查）：24 条 write-up 标记中的其余条目（2nd/3rd/5th/6th/8th/9th 等）
+
 ---
 
 ## ai-mathematical-olympiad-prize — AI Mathematical Olympiad Prize 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 Accuracy Score ｜ 队伍 1161 ｜ 截止 2024-06-27 ｜ Tier B ｜ 标签 nlp
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/ai-mathematical-olympiad-prize.md
 > 材料基础：`digests/ai-mathematical-olympiad-prize.md`（4 篇正文：1st Numina 519303 / 2nd CMU_MATH 518964 / 3rd 517206 / 训练集样例 640 行处；80 条主题索引）+ 6 张图
 
 ### 一句话重述
@@ -238,11 +262,20 @@ on-policy KTO 让模型比 SFT 好"几个百分点"（公榜 27/50）；RLOO 没
 ### 图证（KStarter 仓库内路径）
 - ../../intel/ai-mathematical-olympiad-prize/bodies/519303_img/01.png — MuMath-Code 的两阶段训练
 
+### 出处
+- 1st（191 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-prize/discussion/519303
+- 2nd（352 行处）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-prize/discussion/518964
+- 3rd（72 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-prize/discussion/517206
+- 分数方差（70 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-prize/discussion/509388
+- SymPy（86 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-prize/discussion/494713
+- 入门资源（177 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-prize/discussion/488264
+
 ---
 
 ## ai-mathematical-olympiad-progress-prize-2 — AI Mathematical Olympiad Progress Prize 2 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 Accuracy Score ｜ 队伍 2212 ｜ 截止 2025-04-01 ｜ Tier B ｜ 标签 nlp
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/ai-mathematical-olympiad-progress-prize-2.md
 > 材料基础：`digests/ai-mathematical-olympiad-progress-prize-2.md`（digest 收 2 篇；`intel/.../bodies/` 已有 **14 篇**本地归档 write-up——1st/2nd/3rd/4th/5th/7th/8th/11th/17th/20th/21st 等，按"≤3 篇才补采"规则直接使用）+ 8 张图
 
 ### 一句话重述
@@ -307,11 +340,20 @@ TensorRT-LLM+FP8（1st）vs lmdeploy+AWQ4+KV8（2nd）vs vLLM V1（3rd/8th）。
 ### 图证（KStarter 仓库内路径）
 - ../../intel/ai-mathematical-olympiad-progress-prize-2/bodies/574765_img/04.png — 1st 的推理流程
 
+### 出处
+- 2nd（111 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-2/discussion/572948
+- 1st（147 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-2/discussion/574765
+- 3rd（58 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-2/discussion/573314
+- 4th（573671）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-2/discussion/573671
+- 8th（65 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-2/discussion/571356
+- 本地其他 write-up：5th 574262、7th 572760、11th 573086、17th 573071、20th 575172、21st 571289
+
 ---
 
 ## ai-mathematical-olympiad-progress-prize-3 — AI Mathematical Olympiad Progress Prize 3 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 118448 AIMO 3 Multirun-Accuracy ｜ 队伍 4138 ｜ 截止 2026-04-15 ｜ Tier B ｜ 标签 nlp
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/ai-mathematical-olympiad-progress-prize-3.md
 > 材料基础：`digests/ai-mathematical-olympiad-progress-prize-3.md`（10 篇正文：1st 703222 / 2nd 702423 / GPT-OSS-120B 技术总结 702057 / 37th 700274 / AIMO2 复盘 638787 / 语料奖 672528 / 附加奖公布 708484 / 写作奖规则 689703 等；120 条主题索引）+ 10 张归档图
 
 ### 一句话重述
@@ -381,11 +423,26 @@ TensorRT-LLM+FP8（1st）vs lmdeploy+AWQ4+KV8（2nd）vs vLLM V1（3rd/8th）。
 - ../../intel/ai-mathematical-olympiad-progress-prize-3/bodies/635859_img/01.png — 参考题 pass@3 基线
 - ../../intel/ai-mathematical-olympiad-progress-prize-3/bodies/703222_img/07.png — 熵的定义
 
+### 出处
+- 1st（14 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3/discussion/703222
+- 2nd（15 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3/discussion/702423
+- GPT-OSS-120B 技术总结（28 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3/discussion/702057
+- 37th 提示词压缩思路（13 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3/discussion/700274
+- AIMO2 前排名方案汇总（24 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3/discussion/638787
+- 附加奖公布（24 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3/discussion/708484
+- 写作奖规则（19 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3/discussion/689703
+- 历史榜单监控（85 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3/discussion/662498
+- 官方欢迎帖与 pass@3 基线（65 票 / 82 评论）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3/discussion/635859
+- 公私榜难度对比（64 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3/discussion/679559
+- 私榜重跑（51 票 / 70 评论）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3/discussion/693267
+- H100 滥用治理（35 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3/discussion/668407
+
 ---
 
 ## arc-prize-2024 — ARC Prize 2024 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 Abstraction and Reasoning Challenge ｜ 队伍 1427 ｜ 截止 2024-11-10 ｜ Tier B ｜ 标签 nlp
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/arc-prize-2024.md
 > 材料基础：`digests/arc-prize-2024.md`（4 篇正文：2nd Omni-ARC 545671 / 4th 550414 / 3rd 550328 / 21st 550209；80 条主题索引）+ 8 张图
 
 ### 一句话重述
@@ -445,11 +502,20 @@ TensorRT-LLM+FP8（1st）vs lmdeploy+AWQ4+KV8（2nd）vs vLLM V1（3rd/8th）。
 ### 图证（KStarter 仓库内路径）
 - ../../intel/arc-prize-2024/bodies/545671_img/02.png — Omni-ARC 的六种任务形式
 
+### 出处
+- 2nd（Omni-ARC，173 行处）：https://www.kaggle.com/competitions/arc-prize-2024/discussion/545671
+- 4th：https://www.kaggle.com/competitions/arc-prize-2024/discussion/550414
+- 3rd：https://www.kaggle.com/competitions/arc-prize-2024/discussion/550328
+- 21st：https://www.kaggle.com/competitions/arc-prize-2024/discussion/550209
+- 用 LLM 得 33 分（50 票）：https://www.kaggle.com/competitions/arc-prize-2024/discussion/512910
+- 400k 合成题（41 票）：https://www.kaggle.com/competitions/arc-prize-2024/discussion/543953
+
 ---
 
 ## arc-prize-2025 — ARC Prize 2025 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 Abstraction and Reasoning Challenge ｜ 队伍 1455 ｜ 截止 2025-11-03 ｜ Tier B ｜ 标签 nlp
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/arc-prize-2025.md
 > 材料基础：`digests/arc-prize-2025.md`（6 篇正文：NVARC 651671 / 3rd MindsAI&Tufa 629790 / 5th 617939 / ARChitects 656966 / 2024 复盘 575595 / 公榜第一自述 614436；80 条主题索引）+ 4 张归档图（2 张有信息量）
 
 ### 一句话重述
@@ -515,11 +581,25 @@ ARChitects 发现 AR 顺序生成不可回改、难处理全局重构，转向�
 - ../../intel/arc-prize-2025/bodies/651671_img/01.png — NVARC 总体流程
 - ../../intel/arc-prize-2025/bodies/651671_img/02.png — 合成数据规模与验证 loss
 
+### 出处
+- NVARC 方案（123 票）：https://www.kaggle.com/competitions/arc-prize-2025/discussion/651671
+- MindsAI & Tufa Labs 3rd（16 票）：https://www.kaggle.com/competitions/arc-prize-2025/discussion/629790
+- ARChitects 方案（15 票）：https://www.kaggle.com/competitions/arc-prize-2025/discussion/656966
+- 5th Place（13 票）：https://www.kaggle.com/competitions/arc-prize-2025/discussion/617939
+- ARC 2024 复盘（49 票）：https://www.kaggle.com/competitions/arc-prize-2025/discussion/575595
+- 公榜第一自述（152 票 / 106 评论）：https://www.kaggle.com/competitions/arc-prize-2025/discussion/614436
+- Deadline and the queue（21 票）：https://www.kaggle.com/competitions/arc-prize-2025/discussion/614325
+- 队列突然变糟（14 票）：https://www.kaggle.com/competitions/arc-prize-2025/discussion/611119
+- 隐藏测试可能只有 1 个训练样本（32 票）：https://www.kaggle.com/competitions/arc-prize-2025/discussion/578736
+- 测试集编辑（20 票）：https://www.kaggle.com/competitions/arc-prize-2025/discussion/573301
+- Post comp update（20 票）：https://www.kaggle.com/competitions/arc-prize-2025/discussion/652927
+
 ---
 
 ## bigquery-ai-hackathon — BigQuery AI – Building the Future of Data Hackathon 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标  ｜ 队伍 276 ｜ 截止 2025-09-22 ｜ Tier B ｜ 标签 nlp,review
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/bigquery-ai-hackathon.md
 > 材料基础：`digests/bigquery-ai-hackathon.md`（6 篇正文：获奖与评审流程 612730 / 云额度支持 598576 / 官方欢迎 598594 / 结赛致谢 609100 / 评审延期 610964 / Vertex AI notebooks 提示 599317；59 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -582,11 +662,24 @@ ARChitects 发现 AR 顺序生成不可回改、难处理全局重构，转向�
 - 幻灯片/视频是否为必需项（"video 似乎可选"帖无官方答复）；
 - **图证缺口**：本场 0 张归档图，已登记。
 
+### 出处
+- 获奖与评审流程（8 票 / 12 评论）：https://www.kaggle.com/competitions/bigquery-ai-hackathon/discussion/612730
+- 云额度支持（13 票 / 37 评论）：https://www.kaggle.com/competitions/bigquery-ai-hackathon/discussion/598576
+- 官方欢迎（24 票 / 49 评论）：https://www.kaggle.com/competitions/bigquery-ai-hackathon/discussion/598594
+- 结赛致谢与 250+ 提交（8 票 / 2 评论）：https://www.kaggle.com/competitions/bigquery-ai-hackathon/discussion/609100
+- 评审延期（13 票 / 10 评论）：https://www.kaggle.com/competitions/bigquery-ai-hackathon/discussion/610964
+- 提交按钮失效（1 票 / 15 评论）：https://www.kaggle.com/competitions/bigquery-ai-hackathon/discussion/608992
+- 无信用卡与额度（8 票 / 4 评论）：https://www.kaggle.com/competitions/bigquery-ai-hackathon/discussion/598831
+- GCP 项目暂停（2 票 / 1 评论）：https://www.kaggle.com/competitions/bigquery-ai-hackathon/discussion/607298
+- 不得包含凭证（5 票 / 0 评论）：https://www.kaggle.com/competitions/bigquery-ai-hackathon/discussion/608853
+- 评审 rubric 反馈请求（1 票 / 1 评论）：https://www.kaggle.com/competitions/bigquery-ai-hackathon/discussion/612790
+
 ---
 
 ## chaii-hindi-and-tamil-question-answering — CHAII - Hindi and Tamil Question Answering 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Research ｜ 指标 Jaccard ｜ 队伍 943 ｜ 截止 2021-11-15 ｜ Tier B ｜ 标签 nlp
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/chaii-hindi-and-tamil-question-answering.md
 > 材料基础：`digests/chaii-hindi-and-tamil-question-answering.md`（6 篇正文：1st 287923 / 2nd 287917 / 5th 288049 / 36th 287919 / 往届资源 563 行处 / 讨论 287916；80 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -641,11 +734,20 @@ ARChitects 发现 AR 顺序生成不可回改、难处理全局重构，转向�
 - "TyDi 与 chaii 可能有共享问题"只是 2nd 的猜测，无证据；
 - **图证缺口**：本场 0 张归档图。
 
+### 出处
+- 1st（287923）：https://www.kaggle.com/competitions/chaii-hindi-and-tamil-question-answering/discussion/287923
+- 2nd（59 票）：https://www.kaggle.com/competitions/chaii-hindi-and-tamil-question-answering/discussion/287917
+- 5th（47 票）：https://www.kaggle.com/competitions/chaii-hindi-and-tamil-question-answering/discussion/288049
+- 36th（40 票）：https://www.kaggle.com/competitions/chaii-hindi-and-tamil-question-answering/discussion/287919
+- 噪声标签（65 票）：https://www.kaggle.com/competitions/chaii-hindi-and-tamil-question-answering/discussion/264395
+- Tamil Jaccard（51 票）：https://www.kaggle.com/competitions/chaii-hindi-and-tamil-question-answering/discussion/264831
+
 ---
 
 ## commonlit-evaluate-student-summaries — CommonLit 摘要评估深读：主题多样性 × Head Mask × 长上下文鲁棒性
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 Mean Weighted Columnwise Root Mean Squared Error ｜ 队伍 2064 ｜ 截止 2023-10-11 ｜ Tier A ｜ 标签 nlp,education
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/commonlit-evaluate-student-summaries.md
 > 材料基础：`digests/commonlit-evaluate-student-summaries.md`（8 篇：2nd 142 票/离线 pip 129/4th 81/1st 59/9th 58/5th 47/3rd 43/7th + 120 条讨论索引）+ 3 张图（447293×2 可用 / 446524×1 为头像）
 
 ### 一句话重述
@@ -772,11 +874,23 @@ ARChitects 发现 AR 顺序生成不可回改、难处理全局重构，转向�
 - 集成类：LGB stacking（5th）、手工特征/GBT（3rd）、同 prompt 其他摘要拼接（5th）。
 - 工程类：不做长度排序 → 9h 超时（1st）。
 
+### 出处
+- 2nd（142 票）：https://www.kaggle.com/competitions/commonlit-evaluate-student-summaries/discussion/446573
+- 离线 pip（129 票）：https://www.kaggle.com/competitions/commonlit-evaluate-student-summaries/discussion/435153
+- 4th（81 票）：https://www.kaggle.com/competitions/commonlit-evaluate-student-summaries/discussion/446524
+- 1st（59 票，brief）：https://www.kaggle.com/competitions/commonlit-evaluate-student-summaries/discussion/447293
+- 9th（58 票）：https://www.kaggle.com/competitions/commonlit-evaluate-student-summaries/discussion/446539
+- 5th（47 票）：https://www.kaggle.com/competitions/commonlit-evaluate-student-summaries/discussion/446584
+- 3rd（43 票）：https://www.kaggle.com/competitions/commonlit-evaluate-student-summaries/discussion/446686
+- 7th：https://www.kaggle.com/competitions/commonlit-evaluate-student-summaries/discussion/446534
+- 缺口登记（未收录正文）：1st 详细版（未发布）、424162、433208、430705、431545、424330、432815、424372 等
+
 ---
 
 ## data-assistants-with-gemma — Google – AI Assistants for Data Tasks with Gemma 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Community ｜ 指标  ｜ 队伍 0 ｜ 截止 2024-04-14 ｜ Tier B ｜ 标签 nlp,llm
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/data-assistants-with-gemma.md
 > 材料基础：`digests/data-assistants-with-gemma.md`（6 篇正文：中期奖 487380 / Gemma 发布 478606 / LangChain 总结 479620 / 主题辨析 478868 / 数据来源 479190 / 求冠军代码 495318；80 条主题索引）+ 2 张归档图
 
 ### 一句话重述
@@ -841,11 +955,24 @@ ARChitects 发现 AR 顺序生成不可回改、难处理全局重构，转向�
 - ../../intel/data-assistants-with-gemma/bodies/478606_img/01.png — Gemma 2B Transformers 示例
 - ../../intel/data-assistants-with-gemma/bodies/487380_img/01.png — Kaggle swag 奖品
 
+### 出处
+- 中期奖公告（30 票 / 6 评论）：https://www.kaggle.com/competitions/data-assistants-with-gemma/discussion/487380
+- Gemma 发布与集成（50 票 / 13 评论）：https://www.kaggle.com/competitions/data-assistants-with-gemma/discussion/478606
+- Gemma meets LangChain（7 票 / 4 评论）：https://www.kaggle.com/competitions/data-assistants-with-gemma/discussion/479620
+- 总结 vs 讲解主题辨析（4 票 / 1 评论）：https://www.kaggle.com/competitions/data-assistants-with-gemma/discussion/478868
+- write-up 数据来源（5 票 / 3 评论）：https://www.kaggle.com/competitions/data-assistants-with-gemma/discussion/479190
+- 原创 vs 抄 notebook（20 票 / 5 评论）：https://www.kaggle.com/competitions/data-assistants-with-gemma/discussion/478616
+- 抄袭讨论（6 票 / 5 评论）：https://www.kaggle.com/competitions/data-assistants-with-gemma/discussion/478865
+- Gemma 2B 做 RAG 是否够（5 票 / 12 评论）：https://www.kaggle.com/competitions/data-assistants-with-gemma/discussion/479199
+- KaggleRAG demo（10 票 / 2 评论）：https://www.kaggle.com/competitions/data-assistants-with-gemma/discussion/479188
+- 最终奖公告（24 票 / 20 评论，正文未归档）：https://www.kaggle.com/competitions/data-assistants-with-gemma/discussion/499090
+
 ---
 
 ## deep-past-initiative-machine-translation — Deep Past 阿卡德语翻译深读：数据质量决定一切
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 DPI BLEU / chrF++ ｜ 队伍 2674 ｜ 截止 2026-03-23 ｜ Tier A ｜ 标签 nlp
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/deep-past-initiative-machine-translation.md
 > 材料基础：`digests/deep-past-initiative-machine-translation.md`（8 篇：1st 94 票/编译讨论 93/6th 54/2nd 42/7th 33/8th 25/10th 21/15th 16；120 条讨论索引）+ 23 张图
 
 ### 一句话重述
@@ -969,11 +1096,23 @@ ARChitects 发现 AR 顺序生成不可回改、难处理全局重构，转向�
 - 训练类：Stage2 >1 epoch（8th）、文档级长 maxlen（6th）、RL（DPO/PPO/GRPO，8th）、focal loss/架构技巧（15th 早期）。
 - 模型类：LLM 微调不如 byt5（7th/6th）、model soup/权重融合（15th/6th）、NLLB/mT5（8th）；1st 尝试的 CPT/多语/TTA 也放弃。
 
+### 出处
+- 1st（94 票）：https://www.kaggle.com/competitions/deep-past-initiative-machine-translation/discussion/684353
+- 编译讨论（93 票）：https://www.kaggle.com/competitions/deep-past-initiative-machine-translation/discussion/668402
+- 6th（54 票）：https://www.kaggle.com/competitions/deep-past-initiative-machine-translation/discussion/684231
+- 2nd（42 票）：https://www.kaggle.com/competitions/deep-past-initiative-machine-translation/discussion/684345
+- 7th（33 票）：https://www.kaggle.com/competitions/deep-past-initiative-machine-translation/discussion/684215
+- 8th（25 票）：https://www.kaggle.com/competitions/deep-past-initiative-machine-translation/discussion/684329
+- 10th（21 票）：https://www.kaggle.com/competitions/deep-past-initiative-machine-translation/discussion/684211
+- 15th（16 票）：https://www.kaggle.com/competitions/deep-past-initiative-machine-translation/discussion/684819
+- 缺口登记：665209、684425、664948、680686、672511、664177、668619、684189、678899、663233、663357 未收录正文
+
 ---
 
 ## drawing-with-llms — Drawing with LLMs 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 SVG Image Fidelity ｜ 队伍 1309 ｜ 截止 2025-05-27 ｜ Tier B ｜ 标签 nlp,cv,llm
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/drawing-with-llms.md
 > 材料基础：`digests/drawing-with-llms.md`（6 篇正文：1st 581027 / 2nd 581023 / 3rd 581024 / 4th 581108 / 13th 581032 / OCR-Exploit 565396；80 条主题索引）+ 27 张图
 
 ### 一句话重述
@@ -1034,11 +1173,21 @@ ARChitects 发现 AR 顺序生成不可回改、难处理全局重构，转向�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/drawing-with-llms/bodies/581027_img/01.png — 隐藏文本在三个阶段中的可见性
 
+### 出处
+- 1st（76 票）：https://www.kaggle.com/competitions/drawing-with-llms/discussion/581027
+- 2nd（39 票）：https://www.kaggle.com/competitions/drawing-with-llms/discussion/581023
+- 3rd：https://www.kaggle.com/competitions/drawing-with-llms/discussion/581024
+- 4th（40 票）：https://www.kaggle.com/competitions/drawing-with-llms/discussion/581108
+- 13th（38 票）：https://www.kaggle.com/competitions/drawing-with-llms/discussion/581032
+- OCR-Exploit（79 票）：https://www.kaggle.com/competitions/drawing-with-llms/discussion/565396
+- 指标更新（54 票）：https://www.kaggle.com/competitions/drawing-with-llms/discussion/567872
+
 ---
 
 ## eedi-mining-misconceptions-in-mathematics — Eedi 误区挖掘深读：长尾标签空间的检索级联 × 未见类别分布修复
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 MAP@{K} ｜ 队伍 1446 ｜ 截止 2024-12-12 ｜ Tier A ｜ 标签 nlp,ranking
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/eedi-mining-misconceptions-in-mathematics.md
 > 材料基础：`digests/eedi-mining-misconceptions-in-mathematics.md`（6 篇：1st 详版 177 票/tricks 171/1st 摘要 127/5th 76/3rd 63/7th 59；80 条讨论索引）+ 9 张图（可用 8：551688×7 / 551391×1）
 
 ### 一句话重述
@@ -1151,11 +1300,21 @@ tricks 帖：iterative hard mining + 大 batch 是核心；
 - 模型类：QwQ-32B-Preview（1st/5th/7th 均失败）；LoRA merge（1st）；双向编码器改造（1st）；full-data model（7th）。
 - 训练类：multi-step rerank（5th）；选项编码用双字母/数字/平假名（5th，均差于 52 字母）；prompt 里加参考示例（5th）。
 
+### 出处
+- 1st 详版（177 票）：https://www.kaggle.com/competitions/eedi-mining-misconceptions-in-mathematics/discussion/551688
+- tricks 帖（171 票）：https://www.kaggle.com/competitions/eedi-mining-misconceptions-in-mathematics/discussion/543519
+- 1st 摘要（127 票）：https://www.kaggle.com/competitions/eedi-mining-misconceptions-in-mathematics/discussion/551402
+- 5th（76 票）：https://www.kaggle.com/competitions/eedi-mining-misconceptions-in-mathematics/discussion/551391
+- 3rd（63 票）：https://www.kaggle.com/competitions/eedi-mining-misconceptions-in-mathematics/discussion/551498
+- 7th（59 票）：https://www.kaggle.com/competitions/eedi-mining-misconceptions-in-mathematics/discussion/551388
+- 缺口登记：533764、533728、546978、539458、550619、550223、541222、533790 未收录正文
+
 ---
 
 ## feedback-prize-2021 — Feedback Prize 2021 深读：两级架构 × 跨域融合
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 TextOverlapFBeta ｜ 队伍 2058 ｜ 截止 2022-03-15 ｜ Tier A ｜ 标签 nlp,agent
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/feedback-prize-2021.md
 > 材料基础：`digests/feedback-prize-2021.md`（8 节正文：1st/2nd/3rd/4th/6th + NER starter + 相关赛事汇总 + hengck23 见解）+ 9 张图
 
 ### 一句话重述
@@ -1262,11 +1421,23 @@ tricks 帖：iterative hard mining + 大 batch 是核心；
 - ../../intel/feedback-prize-2021/bodies/313330_img/02.png — beam search
 - ../../intel/feedback-prize-2021/bodies/313235_img/01.png — pipeline
 
+### 出处
+- NER starter（Chris Deotte，296 票）：https://www.kaggle.com/competitions/feedback-prize-2021/discussion/295794
+- 1st（(⊙﹏⊙)，282 票）：https://www.kaggle.com/competitions/feedback-prize-2021/discussion/313177
+- 2nd（Chris Deotte 队，203 票）：https://www.kaggle.com/competitions/feedback-prize-2021/discussion/313389
+- 6th（tascj，165 票）：https://www.kaggle.com/competitions/feedback-prize-2021/discussion/313424
+- 4th（Jungwoo Park，149 票）：https://www.kaggle.com/competitions/feedback-prize-2021/discussion/313330
+- 见解帖（hengck23，147 票）：https://www.kaggle.com/competitions/feedback-prize-2021/discussion/308992
+- 3rd（Shujun 队，72 票）：https://www.kaggle.com/competitions/feedback-prize-2021/discussion/313235
+- 相关赛事汇总（Jonathan Besomi，69 票）：https://www.kaggle.com/competitions/feedback-prize-2021/discussion/295193
+- 未收录缺口（登记备查）：313201（9th）｜313718（10th）｜313184（11th）｜316071（8th）｜313229（55th）｜313833（12th）｜313242（全解汇总）等
+
 ---
 
 ## feedback-prize-effectiveness — Feedback Prize - Effectiveness 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 Multiclass Loss ｜ 队伍 1557 ｜ 截止 2022-08-23 ｜ Tier B ｜ 标签 nlp,classification
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/feedback-prize-effectiveness.md
 > 材料基础：`digests/feedback-prize-effectiveness.md`（6 篇正文：1st 141 / 更多教训 107 / 2nd 94 / 3rd 77 / Efficiency 1st 75 / 3rd 短版 62；80 条主题索引）+ 3 张图
 
 ### 一句话重述
@@ -1338,11 +1509,21 @@ tricks 帖：iterative hard mining + 大 batch 是核心；
 - ../../intel/feedback-prize-effectiveness/bodies/347433_img/01.png — 3rd 的 span 架构
 - ../../intel/feedback-prize-effectiveness/bodies/347359_img/01.png — 2nd 的 span 标记示例
 
+### 出处
+- 1st（141 票）：https://www.kaggle.com/competitions/feedback-prize-effectiveness/discussion/347536
+- 更多教训（107 票）：https://www.kaggle.com/competitions/feedback-prize-effectiveness/discussion/347425
+- 2nd（94 票）：https://www.kaggle.com/competitions/feedback-prize-effectiveness/discussion/347359
+- 3rd（77 票）：https://www.kaggle.com/competitions/feedback-prize-effectiveness/discussion/347433
+- Efficiency 1st（75 票）：https://www.kaggle.com/competitions/feedback-prize-effectiveness/discussion/347537
+- 3rd 短版（62 票）：https://www.kaggle.com/competitions/feedback-prize-effectiveness/discussion/347371
+- 缺口登记：338271、333277、332438、347713、327251
+
 ---
 
 ## feedback-prize-english-language-learning — Feedback Prize ELL 深读：小样本多目标回归的融合工程
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 Mean Weighted Columnwise Root Mean Squared Error ｜ 队伍 2654 ｜ 截止 2022-11-29 ｜ Tier A ｜ 标签 nlp,education
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/feedback-prize-english-language-learning.md
 > 材料基础：`digests/feedback-prize-english-language-learning.md`（8 节正文：1st/2nd/3rd/5th + SVR starter + 往届方案汇总 + 访谈索引 + 新奖试点）+ 6 张图
 
 ### 一句话重述
@@ -1454,11 +1635,23 @@ tricks 帖：iterative hard mining + 大 batch 是核心；
 - ../../intel/feedback-prize-english-language-learning/bodies/369609_img/01.png — hill climb
 - ../../intel/feedback-prize-english-language-learning/bodies/369609_img/02.png — shift
 
+### 出处
+- SVR starter（Chris Deotte，197 票）：https://www.kaggle.com/competitions/feedback-prize-english-language-learning/discussion/351577
+- 3rd（Chris Deotte/Amed/CroDoc，141 票）：https://www.kaggle.com/competitions/feedback-prize-english-language-learning/discussion/369609
+- 1st（Dracarys 队，129 票）：https://www.kaggle.com/competitions/feedback-prize-english-language-learning/discussion/369457
+- 2nd（gezi，112 票）：https://www.kaggle.com/competitions/feedback-prize-english-language-learning/discussion/369369
+- 往届方案汇总（CroDoc，83 票）：https://www.kaggle.com/competitions/feedback-prize-english-language-learning/discussion/348967
+- 5th（Psi，74 票）：https://www.kaggle.com/competitions/feedback-prize-english-language-learning/discussion/369578
+- 访谈索引（Sanyam Bhutani，55 票）：https://www.kaggle.com/competitions/feedback-prize-english-language-learning/discussion/348957
+- 新奖试点（Mark McDonald，53 票）：https://www.kaggle.com/competitions/feedback-prize-english-language-learning/discussion/369307
+- 未收录缺口（登记备查）：369621（4th）｜369567（6th）｜369646（效率 1st）｜369440（13th）｜369368（单模双种子）等
+
 ---
 
 ## gemini-3 — Vibe Code with Gemini 3 Pro Hackathon 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标  ｜ 队伍 4083 ｜ 截止 2025-12-12 ｜ Tier B ｜ 标签 nlp,llm,code,review
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/gemini-3.md
 > 材料基础：`digests/gemini-3.md`（8 篇正文：欢迎 651844 / write-up 观感 662567 / 评审时间线 667609 / 提交规则问答 656839+662435+655733+652431 / 无法提交 660971；120 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -1510,11 +1703,24 @@ tricks 帖：iterative hard mining + 大 batch 是核心；
 - 多份 write-up 的最终裁定未确认；
 - **图证缺口**：本场归档 0 图。
 
+### 出处
+- 官方欢迎帖（49 票 / 84 评论）：https://www.kaggle.com/competitions/gemini-3/discussion/651844
+- write-up 观感（44 票 / 89 评论）：https://www.kaggle.com/competitions/gemini-3/discussion/662567
+- 评审时间线更新（69 票 / 207 评论）：https://www.kaggle.com/competitions/gemini-3/discussion/667609
+- 获奖名单（23 票 / 116 评论）：https://www.kaggle.com/competitions/gemini-3/discussion/684102
+- 能否信任 AI 评委（15 票 / 25 评论）：https://www.kaggle.com/competitions/gemini-3/discussion/668733
+- AI 模拟评审（7 票 / 10 评论）：https://www.kaggle.com/competitions/gemini-3/discussion/667965
+- 批判性思考去哪了（20 票）：https://www.kaggle.com/competitions/gemini-3/discussion/653101
+- 代码改动幻觉（13 票 / 14 评论）：https://www.kaggle.com/competitions/gemini-3/discussion/655429
+- 常见问题（13 票 / 14 评论）：https://www.kaggle.com/competitions/gemini-3/discussion/656912
+- 无法提交 write-up（2 票）：https://www.kaggle.com/competitions/gemini-3/discussion/660971
+
 ---
 
 ## gemini-long-context — Kaggle – Google Gemini Long Context 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Community ｜ 指标  ｜ 队伍 0 ｜ 截止 2024-12-01 ｜ Tier B ｜ 标签 nlp,llm
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/gemini-long-context.md
 > 材料基础：`digests/gemini-long-context.md`（6 篇正文：获奖公布 552419 / 起步指引 541152 / Save&Run All 提醒 541420 / 恋爱歌词误伤 541463 / 用户输入合规 545392 / token 越多越易赢 548881；80 条主题索引）+ 1 张归档图
 
 ### 一句话重述
@@ -1579,11 +1785,24 @@ HM 名单（8）：AI VTuber as Game Master（TRPG）、Github Profile Chat / �
 ### 图证（KStarter 仓库内路径）
 - ../../intel/gemini-long-context/bodies/541420_img/01.png — 模型页仅有 4 个 notebook 挂载
 
+### 出处
+- 获奖公布（19 票 / 33 评论）：https://www.kaggle.com/competitions/gemini-long-context/discussion/552419
+- 起步指引（13 票 / 27 评论）：https://www.kaggle.com/competitions/gemini-long-context/discussion/541152
+- Save&Run All 挂载提醒（22 票 / 1 评论）：https://www.kaggle.com/competitions/gemini-long-context/discussion/541420
+- 安全过滤误伤（24 票 / 6 评论）：https://www.kaggle.com/competitions/gemini-long-context/discussion/541463
+- 免费 API 额度（9 票 / 30 评论）：https://www.kaggle.com/competitions/gemini-long-context/discussion/541324
+- 429 配额错误（4 票 / 4 评论）：https://www.kaggle.com/competitions/gemini-long-context/discussion/541462
+- 503/504 超时（2 票 / 5 评论）：https://www.kaggle.com/competitions/gemini-long-context/discussion/542423
+- Vertex 视频错误（3 票 / 5 评论）：https://www.kaggle.com/competitions/gemini-long-context/discussion/546075
+- 投票操纵质疑（8 票 / 5 评论）：https://www.kaggle.com/competitions/gemini-long-context/discussion/550941
+- 非确定性结果讨论（2 票 / 5 评论）：https://www.kaggle.com/competitions/gemini-long-context/discussion/548186
+
 ---
 
 ## gemma-4-good-hackathon — Gemma 4 Good Hackathon 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标  ｜ 队伍 1606 ｜ 截止 2026-05-18 ｜ Tier B ｜ 标签 nlp,llm,review
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/gemma-4-good-hackathon.md
 > 材料基础：`digests/gemma-4-good-hackathon.md`（6 篇正文：Welcome 687467 / 评审进展 707673 / 评审完成 732628 / 获奖公布 736681 / ETA 讨论 701910 / 提交问题 695781+701671+701672；80 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -1640,11 +1859,26 @@ HM 名单（8）：AI VTuber as Game Master（TRPG）、Github Profile Chat / �
 - 各赛道评审权重（除视频 30% 外）未整理；
 - **图证缺口**：本场归档 0 图。
 
+### 出处
+- 官方 Welcome 与评审建议（39 票 / 55 评论）：https://www.kaggle.com/competitions/gemma-4-good-hackathon/discussion/687467
+- 评审进展（58 票 / 35 评论）：https://www.kaggle.com/competitions/gemma-4-good-hackathon/discussion/707673
+- 评审完成 / 技术检查（36 票 / 42 评论）：https://www.kaggle.com/competitions/gemma-4-good-hackathon/discussion/732628
+- 获奖公布（24 票 / 32 评论）：https://www.kaggle.com/competitions/gemma-4-good-hackathon/discussion/736681
+- 获奖时间 ETA 讨论（23 票 / 10 评论）：https://www.kaggle.com/competitions/gemma-4-good-hackathon/discussion/701910
+- 31B 推理/微调 notebook（13 票）：https://www.kaggle.com/competitions/gemma-4-good-hackathon/discussion/690070
+- 端侧部署被低估（3 票）：https://www.kaggle.com/competitions/gemma-4-good-hackathon/discussion/687353
+- 提交 Internal Error（1 票）：https://www.kaggle.com/competitions/gemma-4-good-hackathon/discussion/695781
+- 状态未更新（1 票）：https://www.kaggle.com/competitions/gemma-4-good-hackathon/discussion/701671
+- 迟到数秒（1 票）：https://www.kaggle.com/competitions/gemma-4-good-hackathon/discussion/701672
+- Live Demo 澄清（3 票）：https://www.kaggle.com/competitions/gemma-4-good-hackathon/discussion/691415
+- 更新规则澄清（2 票）：https://www.kaggle.com/competitions/gemma-4-good-hackathon/discussion/701946
+
 ---
 
 ## gemma-language-tuning — Gemma Language Tuning（多语言适配）轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Community ｜ 指标  ｜ 队伍 0 ｜ 截止 2025-01-15 ｜ Tier B ｜ 标签 nlp,llm
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/gemma-language-tuning.md
 > 材料基础：`digests/gemma-language-tuning.md`（6 篇正文：跨 Kaggle 参考汇编 537422 / 上届获胜方案索引 537393 / Gemma 2 多语言能力 537385 / 评审进度更新 562683 / 赛程收官 556897 / 日语适配视频 541342；80 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -1704,11 +1938,23 @@ HM 名单（8）：AI VTuber as Game Master（TRPG）、Github Profile Chat / �
 - 成本/credits 是否提供，归档中无官方答复；
 - **图证缺口**：本场 0 张归档图，已登记。
 
+### 出处
+- 跨 Kaggle 参考汇编（27 票 / 12 评论）：https://www.kaggle.com/competitions/gemma-language-tuning/discussion/537422
+- 上届获胜方案索引（9 票 / 1 评论）：https://www.kaggle.com/competitions/gemma-language-tuning/discussion/537393
+- Gemma 2 多语言能力（19 票 / 5 评论）：https://www.kaggle.com/competitions/gemma-language-tuning/discussion/537385
+- 日语适配视频（22 票 / 10 评论）：https://www.kaggle.com/competitions/gemma-language-tuning/discussion/541342
+- 评审进度更新（22 票 / 24 评论）：https://www.kaggle.com/competitions/gemma-language-tuning/discussion/562683
+- 赛程收官（23 票 / 17 评论）：https://www.kaggle.com/competitions/gemma-language-tuning/discussion/556897
+- 获奖公布（13 票 / 14 评论，正文未归档）：https://www.kaggle.com/competitions/gemma-language-tuning/discussion/575770
+- TPU 俄语适配指南（6 票）：https://www.kaggle.com/competitions/gemma-language-tuning/discussion/544169
+- torchtune 支持（8 票 / 7 评论）：https://www.kaggle.com/competitions/gemma-language-tuning/discussion/545714
+
 ---
 
 ## google-gemma-3n-hackathon — Google Gemma 3n Hackathon 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标  ｜ 队伍 599 ｜ 截止 2025-08-06 ｜ Tier B ｜ 标签 nlp,llm,review
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/google-gemma-3n-hackathon.md
 > 材料基础：`digests/google-gemma-3n-hackathon.md`（6 篇正文：收尾 597690 / 结果时间线 635977 / 提交故障申诉 597689 / 延期请求 596963 / 观感帖 598062 / 许可更正 589997；80 条主题索引）+ 1 张归档图
 
 ### 一句话重述
@@ -1768,11 +2014,24 @@ Welcome 与 starter 模板围绕"手机/边缘设备上跑 text+audio+vision"；
 ### 图证（KStarter 仓库内路径）
 - ../../intel/google-gemma-3n-hackathon/bodies/597689_img/01.png — 提交 "Internal Error" 截图
 
+### 出处
+- 收尾公告（51 票 / 99 评论）：https://www.kaggle.com/competitions/google-gemma-3n-hackathon/discussion/597690
+- 获奖者选定与公布时间线（36 票）：https://www.kaggle.com/competitions/google-gemma-3n-hackathon/discussion/635977
+- 获奖名单（13 票 / 30 评论）：https://www.kaggle.com/competitions/google-gemma-3n-hackathon/discussion/657756
+- Welcome（28 票 / 91 评论）：https://www.kaggle.com/competitions/google-gemma-3n-hackathon/discussion/586454
+- 提交 "Internal Error" 申诉（12 票）：https://www.kaggle.com/competitions/google-gemma-3n-hackathon/discussion/597689
+- 延期请求（21 票）：https://www.kaggle.com/competitions/google-gemma-3n-hackathon/discussion/591519
+- Unsloth 微调 + 多模态推理（20 票）：https://www.kaggle.com/competitions/google-gemma-3n-hackathon/discussion/587725
+- 公开 write-up 许可更正（5 票）：https://www.kaggle.com/competitions/google-gemma-3n-hackathon/discussion/589997
+- 官方 audio/vision 微调 notebook（6 票）：https://www.kaggle.com/competitions/google-gemma-3n-hackathon/discussion/593950
+- 移动端 starter 模板（9 票）：https://www.kaggle.com/competitions/google-gemma-3n-hackathon/discussion/590636
+
 ---
 
 ## google-tunix-hackathon — Google Tunix Hackathon 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标  ｜ 队伍 319 ｜ 截止 2026-01-12 ｜ Tier B ｜ 标签 nlp,review
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/google-tunix-hackathon.md
 > 材料基础：`digests/google-tunix-hackathon.md`（6 篇正文：提交模板与 FAQ 651560 / 延期请求 667200 / 起步与 Discord 617697 / 官方欢迎 617813 / 评审进展 670878 / write-up 数量 664187；80 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -1825,11 +2084,23 @@ Welcome 与 starter 模板围绕"手机/边缘设备上跑 text+audio+vision"；
 - "leak 很贵"帖指代的数据泄漏事件未细读；
 - **图证缺口**：本场归档 0 图。
 
+### 出处
+- 提交模板与 FAQ（13 票 / 77 评论）：https://www.kaggle.com/competitions/google-tunix-hackathon/discussion/651560
+- 延期请求（23 票 / 5 评论）：https://www.kaggle.com/competitions/google-tunix-hackathon/discussion/667200
+- 起步与 Discord（22 票 / 10 评论）：https://www.kaggle.com/competitions/google-tunix-hackathon/discussion/617697
+- 官方欢迎（29 票 / 59 评论）：https://www.kaggle.com/competitions/google-tunix-hackathon/discussion/617813
+- 评审进展（19 票 / 29 评论）：https://www.kaggle.com/competitions/google-tunix-hackathon/discussion/670878
+- 获奖名单（10 票 / 9 评论）：https://www.kaggle.com/competitions/google-tunix-hackathon/discussion/691572
+- TPU 排队 6+ 小时（11 票 / 13 评论）：https://www.kaggle.com/competitions/google-tunix-hackathon/discussion/666198
+- TPU 抢夺战（9 票 / 12 评论）：https://www.kaggle.com/competitions/google-tunix-hackathon/discussion/663707
+- 提高配额请求（5 票 / 14 评论）：https://www.kaggle.com/competitions/google-tunix-hackathon/discussion/666506
+
 ---
 
 ## jigsaw-agile-community-rules — Jigsaw Agile Community Rules 深读：Train-on-Test 与在线蒸馏
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 94635_Jigsaw_Rules_AUC ｜ 队伍 2445 ｜ 截止 2025-10-23 ｜ Tier A ｜ 标签 nlp,ranking
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/jigsaw-agile-community-rules.md
 > 材料基础：`digests/jigsaw-agile-community-rules.md`（7 节：1st/3rd/6th/7th/12th/120th + "规则公开"帖）+ 3 张图
 
 ### 一句话重述
@@ -1937,11 +2208,22 @@ Welcome 与 starter 模板围绕"手机/边缘设备上跑 text+audio+vision"；
 - ../../intel/jigsaw-agile-community-rules/bodies/613150_img/01.PNG — dml
 - ../../intel/jigsaw-agile-community-rules/bodies/613168_img/01.png — rag
 
+### 出处
+- 规则公开（c-number，127 票）：https://www.kaggle.com/competitions/jigsaw-agile-community-rules/discussion/607941
+- 1st（Guanshuo Xu，118 票）：https://www.kaggle.com/competitions/jigsaw-agile-community-rules/discussion/613305
+- 6th DML（ducnh279，107 票）：https://www.kaggle.com/competitions/jigsaw-agile-community-rules/discussion/613150
+- 7th（ktr，40 票）：https://www.kaggle.com/competitions/jigsaw-agile-community-rules/discussion/613215
+- 120th RAG（Chris Deotte，40 票）：https://www.kaggle.com/competitions/jigsaw-agile-community-rules/discussion/613168
+- 12th（losingself，39 票）：https://www.kaggle.com/competitions/jigsaw-agile-community-rules/discussion/613096
+- 3rd（Sergio Papadakis，35 票）：https://www.kaggle.com/competitions/jigsaw-agile-community-rules/discussion/613324
+- 未收录缺口（登记备查）：23 条 write-up 标记中的其余条目（含 2nd/4th/5th）
+
 ---
 
 ## jigsaw-toxic-severity-rating — 深读：Jigsaw Toxic Severity（验证 0.70 / 私榜 0.81 的悖论 —— 一场被泄漏污染的排序赛）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 Jigsaw Agreement with Annotators ｜ 队伍 2301 ｜ 截止 2022-02-07 ｜ Tier A ｜ 标签 nlp
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/jigsaw-toxic-severity-rating.md
 
 ### 一句话重述
 任务是对评论的**毒性严重程度做排序**（与标注者排序的一致性为指标，因标注者本身分歧，满分<1）。
@@ -2000,11 +2282,22 @@ Welcome 与 starter 模板围绕"手机/边缘设备上跑 text+audio+vision"；
 ### 图证（KStarter 仓库内路径）
 - ../../intel/jigsaw-toxic-severity-rating/bodies/286655_img/01.png — BERT 3D 结构图
 
+### 出处
+- 1st：https://www.kaggle.com/competitions/jigsaw-toxic-severity-rating/discussion/306274
+- 3rd：https://www.kaggle.com/competitions/jigsaw-toxic-severity-rating/discussion/306235
+- 4th：https://www.kaggle.com/competitions/jigsaw-toxic-severity-rating/discussion/306084
+- 7th：https://www.kaggle.com/competitions/jigsaw-toxic-severity-rating/discussion/306366
+- 14th：https://www.kaggle.com/competitions/jigsaw-toxic-severity-rating/discussion/306063
+- 指标理解（满分不是 1）：https://www.kaggle.com/competitions/jigsaw-toxic-severity-rating/discussion/287350
+- BERT 3D 图解：https://www.kaggle.com/competitions/jigsaw-toxic-severity-rating/discussion/286655
+- 历届方案汇总：https://www.kaggle.com/competitions/jigsaw-toxic-severity-rating/discussion/286333
+
 ---
 
 ## kaggle-llm-science-exam — LLM Science Exam 深读：检索侧决定上限（RAG 工程 × 数据共享 × 难例分诊）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 MAP@{K} ｜ 队伍 2664 ｜ 截止 2023-10-10 ｜ Tier A ｜ 标签 nlp,llm,science,ranking
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/kaggle-llm-science-exam.md
 > 材料基础：`digests/kaggle-llm-science-exam.md`（8 篇：60k 数据集 282 票 / 1st 短 239 / 1st 长 219 / 10th 93 / 3rd 84 / 5th 81 / Top100 73 / 4th 72；120 条讨论索引）+ 6 张图
 
 ### 一句话重述
@@ -2123,11 +2416,23 @@ train.csv 200 题被训练数据覆盖（0.99+ 不可用）；
 - 数据类：train.csv 200 太易不能当验证（4th）；失配/缺失 wiki 解析器（多队）。
 - 治理类：license 灰区（3rd 的 Platypus2 顾虑）。
 
+### 出处
+- 60k 数据集（282 票）：https://www.kaggle.com/competitions/kaggle-llm-science-exam/discussion/436383
+- 1st 短（239 票）：https://www.kaggle.com/competitions/kaggle-llm-science-exam/discussion/446240
+- 1st 长（219 票）：https://www.kaggle.com/competitions/kaggle-llm-science-exam/discussion/446422
+- 10th（93 票）：https://www.kaggle.com/competitions/kaggle-llm-science-exam/discussion/446248
+- 3rd（84 票）：https://www.kaggle.com/competitions/kaggle-llm-science-exam/discussion/446358
+- 5th（81 票）：https://www.kaggle.com/competitions/kaggle-llm-science-exam/discussion/446293
+- Top100（73 票）：https://www.kaggle.com/competitions/kaggle-llm-science-exam/discussion/446318
+- 4th（72 票）：https://www.kaggle.com/competitions/kaggle-llm-science-exam/discussion/446307
+- 缺口登记：440620、442595、426174、440908、424519、431786、424242、435602、444202、425681 未收录正文
+
 ---
 
 ## kaggle-measuring-agi — Measuring Progress Toward AGI – Cognitive Abilities 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标  ｜ 队伍 1063 ｜ 截止 2026-04-16 ｜ Tier B ｜ 标签 nlp
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/kaggle-measuring-agi.md
 > 材料基础：`digests/kaggle-measuring-agi.md`（6 篇正文：获奖公布 724918 / 收官 692562 / 投票权重争议 683674 / 提交失败 692560 / 校准 benchmark 683724 / 结果延期 716405；80 条主题索引）+ 1 张归档图
 
 ### 一句话重述
@@ -2195,11 +2500,24 @@ train.csv 200 题被训练数据覆盖（0.99+ 不可用）；
 ### 图证（KStarter 仓库内路径）
 - ../../intel/kaggle-measuring-agi/bodies/683674_img/01.png — 争议帖引用的社区回复截图
 
+### 出处
+- 获奖公布（22 票 / 43 评论）：https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918
+- 收官说明（25 票 / 41 评论）：https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/692562
+- 社区投票权重质疑（28 票 / 5 评论）：https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/683674
+- rubric 变更（22 票 / 2 评论）：https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/684184
+- 结果延期（23 票 / 12 评论）：https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/716405
+- 数据集私有需处理（10 票 / 66 评论）：https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/702378
+- 提交说明（12 票 / 37 评论）：https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/689547
+- 无法提交 write-up（1 票 / 0 评论）：https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/692560
+- Benchmarks FAQ（8 票 / 7 评论）：https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/682714
+- 产品反馈（7 票 / 63 评论）：https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/681731
+
 ---
 
 ## konwinski-prize — Konwinski Prize 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 K Prize Metric ｜ 队伍 617 ｜ 截止 2025-07-23 ｜ Tier B ｜ 标签 nlp
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/konwinski-prize.md
 > 材料基础：`digests/konwinski-prize.md`（6 篇正文：1st 568884 / 公开 2nd 568888 / 公开 4th 私榜 15th 568799 / 3rd 597207 / 8th 590920 / 赛事帖 551229；80 条主题索引）+ 9 张归档图
 
 ### 一句话重述
@@ -2263,11 +2581,24 @@ $1M 奖金、单人主办的"SWE-bench+"式比赛：给定真实 GitHub issue �
 - ../../intel/konwinski-prize/bodies/568884_img/01.png — 1st 的 Agentless 1.5 管线
 - ../../intel/konwinski-prize/bodies/568799_img/01.png — 超几何模拟的胜率
 
+### 出处
+- 1st（75 票 / 36 评论）：https://www.kaggle.com/competitions/konwinski-prize/discussion/568884
+- 公开 2nd（42 票 / 6 评论）：https://www.kaggle.com/competitions/konwinski-prize/discussion/568888
+- 公开 4th / 私榜 15th（23 票 / 5 评论）：https://www.kaggle.com/competitions/konwinski-prize/discussion/568799
+- 3rd（11 票）：https://www.kaggle.com/competitions/konwinski-prize/discussion/597207
+- 8th（13 票）：https://www.kaggle.com/competitions/konwinski-prize/discussion/590920
+- 80,036 条 SWE-agent 轨迹数据集（43 票）：https://www.kaggle.com/competitions/konwinski-prize/discussion/552605
+- 首个不为 -1 的 notebook（39 票 / 31 评论）：https://www.kaggle.com/competitions/konwinski-prize/discussion/561695
+- 从 LB 反推 (correct, wrong, skipped)（38 票）：https://www.kaggle.com/competitions/konwinski-prize/discussion/557148
+- starter notebook（29 票）：https://www.kaggle.com/competitions/konwinski-prize/discussion/553294
+- gigachad 比赛帖（84 票 / 22 评论）：https://www.kaggle.com/competitions/konwinski-prize/discussion/551229
+
 ---
 
 ## learning-agency-lab-automated-essay-scoring-2 — Essay Scoring 2.0 深读：双源数据不兼容 × QWK 阈值工程 × 小样本方差控制
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 Cohen Kappa Score ｜ 队伍 2706 ｜ 截止 2024-07-02 ｜ Tier A ｜ 标签 nlp,review,education
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/learning-agency-lab-automated-essay-scoring-2.md
 > 材料基础：`digests/learning-agency-lab-automated-essay-scoring-2.md`（8 篇：starter 218 票/更多数据 176/4th 95/2nd 总览 88/1st 86/6th/3rd/2nd 详版；120 条索引）+ 2 张图
 
 ### 一句话重述
@@ -2388,11 +2719,23 @@ starter：回归（num_labels=1）CV 更高；回归必须去 dropout；maxlen 1
 - 数据类：额外 Persuade 数据（1st/3rd 收益有限）；数据增强/半监督（6th）。
 - 工程类：最后 48h 才做效率方案（1st，ONNX 仍太慢）——**时间预算要留给提交选择与稳健性**。
 
+### 出处
+- starter（cdeotte，218 票）：https://www.kaggle.com/competitions/learning-agency-lab-automated-essay-scoring-2/discussion/497832
+- 更多数据（176 票）：https://www.kaggle.com/competitions/learning-agency-lab-automated-essay-scoring-2/discussion/496906
+- 4th（95 票）：https://www.kaggle.com/competitions/learning-agency-lab-automated-essay-scoring-2/discussion/516639
+- 2nd 总览（88 票）：https://www.kaggle.com/competitions/learning-agency-lab-automated-essay-scoring-2/discussion/516582
+- 1st（86 票）：https://www.kaggle.com/competitions/learning-agency-lab-automated-essay-scoring-2/discussion/516791
+- 6th：https://www.kaggle.com/competitions/learning-agency-lab-automated-essay-scoring-2/discussion/516814
+- 3rd：https://www.kaggle.com/competitions/learning-agency-lab-automated-essay-scoring-2/discussion/516631
+- 2nd 详版：https://www.kaggle.com/competitions/learning-agency-lab-automated-essay-scoring-2/discussion/516790
+- 缺口登记：502554、494935、499959、502279、498478、491101、493962 未收录正文
+
 ---
 
 ## linking-writing-processes-to-writing-quality — Linking Writing Processes to Writing Quality 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 Mean Squared Error ｜ 队伍 1876 ｜ 截止 2024-01-09 ｜ Tier B ｜ 标签 nlp
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/linking-writing-processes-to-writing-quality.md
 > 材料基础：`digests/linking-writing-processes-to-writing-quality.md`（6 篇正文：新 1st 466873 / 被取消资格的 1st 467154 / No place 466945 / 3rd 466906 / 3rd 另一篇 466775 / 23rd 466771；80 条主题索引）+ 6 张图
 
 ### 一句话重述
@@ -2457,11 +2800,20 @@ starter：回归（num_labels=1）CV 更高；回归必须去 dropout；maxlen 1
 - ../../intel/linking-writing-processes-to-writing-quality/bodies/466873_img/01.jpg — 新 1st 的方案流程
 - ../../intel/linking-writing-processes-to-writing-quality/bodies/466906_img/01.png — 3rd 的 CV-LB 关系
 
+### 出处
+- 新 1st（466873）：https://www.kaggle.com/competitions/linking-writing-processes-to-writing-quality/discussion/466873
+- 被取消资格的 1st（467154）：https://www.kaggle.com/competitions/linking-writing-processes-to-writing-quality/discussion/467154
+- No place（466945）：https://www.kaggle.com/competitions/linking-writing-processes-to-writing-quality/discussion/466945
+- 3rd（466906）：https://www.kaggle.com/competitions/linking-writing-processes-to-writing-quality/discussion/466906
+- 3rd 另一篇（466775）：https://www.kaggle.com/competitions/linking-writing-processes-to-writing-quality/discussion/466775
+- 23rd（466771）：https://www.kaggle.com/competitions/linking-writing-processes-to-writing-quality/discussion/466771
+
 ---
 
 ## llm-20-questions — LLM 20 Questions 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 llm_20_questions ｜ 队伍 832 ｜ 截止 2024-08-29 ｜ Tier B ｜ 标签 nlp,llm
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/llm-20-questions.md
 > 材料基础：`digests/llm-20-questions.md`（6 篇正文：9th 529525 / 2nd 529643 / 1st 531106 / 11th 529931 / 金牌动画 531062 / Starter 520429；80 条主题索引）+ 12 张图
 
 ### 一句话重述
@@ -2519,11 +2871,20 @@ starter：回归（num_labels=1）CV 更高；回归必须去 dropout；maxlen 1
 ### 图证（KStarter 仓库内路径）
 - ../../intel/llm-20-questions/bodies/531106_img/02.png — 私榜关键词概率热图
 
+### 出处
+- 9th（529525）：https://www.kaggle.com/competitions/llm-20-questions/discussion/529525
+- 2nd（529643）：https://www.kaggle.com/competitions/llm-20-questions/discussion/529643
+- 1st（531106）：https://www.kaggle.com/competitions/llm-20-questions/discussion/531106
+- 11th（529931）：https://www.kaggle.com/competitions/llm-20-questions/discussion/529931
+- 金牌动画（531062）：https://www.kaggle.com/competitions/llm-20-questions/discussion/531062
+- Starter（520429）：https://www.kaggle.com/competitions/llm-20-questions/discussion/520429
+
 ---
 
 ## llm-detect-ai-generated-text — LLM 生成文本检测深读：分布不可知时的"数据军备 + 域适应"
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 Roc Auc Score ｜ 队伍 4358 ｜ 截止 2024-01-22 ｜ Tier A ｜ 标签 nlp,cv,detection,llm,ranking,generative,synthetic
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/llm-detect-ai-generated-text.md
 > 材料基础：`digests/llm-detect-ai-generated-text.md`（8 节：1st 两版/2nd/3rd/4th/5th/8th/21st）+ 社区数据集帖（Radek 的 500 篇生成作文）
 
 ### 一句话重述
@@ -2623,11 +2984,24 @@ starter：回归（num_labels=1）CV 更高；回归必须去 dropout；maxlen 1
 ### 图证（KStarter 仓库内路径）
 - ../../intel/llm-detect-ai-generated-text/bodies/470224_img/01.png — ppl
 
+### 出处
+- 1st 短版（Raja Biswas，203 票）：https://www.kaggle.com/competitions/llm-detect-ai-generated-text/discussion/470121
+- 2nd（Guanshuo Xu，115 票）：https://www.kaggle.com/competitions/llm-detect-ai-generated-text/discussion/470395
+- 1st 完整版（Nicholas Broad 等，99 票）：https://www.kaggle.com/competitions/llm-detect-ai-generated-text/discussion/473295
+- 21st（Ali，87 票）：https://www.kaggle.com/competitions/llm-detect-ai-generated-text/discussion/470148
+- 5th（James Day，84 票）：https://www.kaggle.com/competitions/llm-detect-ai-generated-text/discussion/470093
+- 8th（Abdullah Meda，68 票）：https://www.kaggle.com/competitions/llm-detect-ai-generated-text/discussion/470224
+- 3rd（Yevhenii Maslov，67 票）：https://www.kaggle.com/competitions/llm-detect-ai-generated-text/discussion/470333
+- 4th（Ertuğrul Demir，66 票）：https://www.kaggle.com/competitions/llm-detect-ai-generated-text/discussion/470179
+- 社区数据帖（Radek Osmulski，500 篇生成作文）：https://www.kaggle.com/competitions/llm-detect-ai-generated-text/discussion/452155
+- 未收录缺口（登记备查）：22 条 write-up 标记中的其余条目
+
 ---
 
 ## llm-prompt-recovery — LLM Prompt Recovery 深读：当指标本身可被攻击
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 LLM Nerd-Off Sharpened Cosine Similarity ｜ 队伍 2175 ｜ 截止 2024-04-16 ｜ Tier A ｜ 标签 nlp,llm,retrieval
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/llm-prompt-recovery.md
 > 材料基础：`digests/llm-prompt-recovery.md`（5 节：1st/2nd/4th + 赛事经验帖 + 社区数据集汇总）+ 2 张图
 
 ### 一句话重述
@@ -2723,11 +3097,20 @@ starter：回归（num_labels=1）CV 更高；回归必须去 dropout；maxlen 1
 - ../../intel/llm-prompt-recovery/bodies/494343_img/01.png — focal point
 - ../../intel/llm-prompt-recovery/bodies/494497_img/01.png — pipeline
 
+### 出处
+- 1st（Khoi Nguyen，243 票）：https://www.kaggle.com/competitions/llm-prompt-recovery/discussion/494343
+- 数据集汇总（Kishan Vavdara，191 票）：https://www.kaggle.com/competitions/llm-prompt-recovery/discussion/481811
+- 2nd（Team Danube，107 票）：https://www.kaggle.com/competitions/llm-prompt-recovery/discussion/494497
+- 经验帖（Darien Schettler，105 票）：https://www.kaggle.com/competitions/llm-prompt-recovery/discussion/483916
+- 4th ST5 攻击（59 票）：https://www.kaggle.com/competitions/llm-prompt-recovery/discussion/494362
+- 未收录缺口（登记备查）：24 条 write-up 标记中的其余条目（含 3rd）
+
 ---
 
 ## llm-prompting-with-makersuite — LLM Prompting with MakerSuite 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Community ｜ 指标  ｜ 队伍 0 ｜ 截止 2023-11-06 ｜ Tier B ｜ 标签 nlp,llm
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/llm-prompting-with-makersuite.md
 > 材料基础：`digests/llm-prompting-with-makersuite.md`（6 篇正文：游戏/模拟赛巡礼 451608 / 获奖公布 457016 / 资源合集 447223 / MakerSuite 地区限制 446465 / BIPOC 机会 446695 / 玩笑 write-up 447146；38 条主题索引）+ 2 张归档图
 
 ### 一句话重述
@@ -2794,11 +3177,21 @@ MakerSuite 地区限制与 18+ 要求直接劝退巴西/欧洲选手，讨论热
 ### 图证（KStarter 仓库内路径）
 - ../../intel/llm-prompting-with-makersuite/bodies/446465_img/01.png — MakerSuite Access restricted
 
+### 出处
+- 获奖名单与评语（10 票 / 7 评论）：https://www.kaggle.com/competitions/llm-prompting-with-makersuite/discussion/457016
+- 资源合集（18 票 / 10 评论）：https://www.kaggle.com/competitions/llm-prompting-with-makersuite/discussion/447223
+- MakerSuite 地区限制（17 票 / 12 评论）：https://www.kaggle.com/competitions/llm-prompting-with-makersuite/discussion/446465
+- 欧洲不可用（7 票 / 1 评论）：https://www.kaggle.com/competitions/llm-prompting-with-makersuite/discussion/446473
+- 游戏/模拟赛巡礼（14 票 / 0 评论）：https://www.kaggle.com/competitions/llm-prompting-with-makersuite/discussion/451608
+- BIPOC 机会（13 票 / 0 评论）：https://www.kaggle.com/competitions/llm-prompting-with-makersuite/discussion/446695
+- 置顶 Q&A（9 票 / 23 评论）：https://www.kaggle.com/competitions/llm-prompting-with-makersuite/discussion/446450
+
 ---
 
 ## llms-you-cant-please-them-all — LLMs - You Can't Please Them All 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 LLMYCPTA metric 20241120 ｜ 队伍 1692 ｜ 截止 2025-03-04 ｜ Tier B ｜ 标签 nlp,llm
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/llms-you-cant-please-them-all.md
 > 材料基础：`digests/llms-you-cant-please-them-all.md`（6 篇正文：1st 80 / 旧指标 30.0 漏洞 71 / 5th 52 / 20.293 泄漏 49 / 泄漏质疑 46 / 3rd 39；80 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -2863,11 +3256,21 @@ conor：gemma/gemma/llama；3rd：最终用 Gemma2B/Gemma9B/Llama3B+prompt 对�
 - 999 的"零除错误"假设（5th）未被证实；纯数字触发 Submission Scoring Error 的预处理原因未知。
 - 泄漏事件的官方处置与最终榜单影响未收录；旧/新 metric 的切换细节缺失。
 
+### 出处
+- 1st（80 票）：https://www.kaggle.com/competitions/llms-you-cant-please-them-all/discussion/566372
+- 旧指标 30.0 exploit（71 票）：https://www.kaggle.com/competitions/llms-you-cant-please-them-all/discussion/555051
+- 5th（52 票）：https://www.kaggle.com/competitions/llms-you-cant-please-them-all/discussion/566322
+- 20.293 说明（49 票）：https://www.kaggle.com/competitions/llms-you-cant-please-them-all/discussion/563137
+- 泄漏质疑（46 票）：https://www.kaggle.com/competitions/llms-you-cant-please-them-all/discussion/562972
+- 3rd（39 票）：https://www.kaggle.com/competitions/llms-you-cant-please-them-all/discussion/566515
+- 缺口登记：指标公式帖、2nd/4th 方案、官方对泄漏的处理
+
 ---
 
 ## lmsys-chatbot-arena — LMSYS Chatbot Arena 深读：奖励模型起点 × 蒸馏 × A/B 对称性
 
 > 主题 nlp ｜ 类别 Research ｜ 指标 Log Loss ｜ 队伍 1849 ｜ 截止 2024-08-12 ｜ Tier A ｜ 标签 nlp,agent
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/lmsys-chatbot-arena.md
 > 材料基础：`digests/lmsys-chatbot-arena.md`（6 篇正文：16th/3rd/2nd/1st/9th/5th）+ 2 张图（本场图片资产极少）
 
 ### 一句话重述
@@ -2988,11 +3391,21 @@ TTA 交换收益：16th 第一步就 +0.015（0.941→0.926）；3rd ~0.007；2n
 - ../../intel/lmsys-chatbot-arena/bodies/527596_img/01.png — lora diagram
 - ../../intel/lmsys-chatbot-arena/bodies/527596_img/02.gif — parallel types
 
+### 出处
+- 16th（Chris Deotte）：https://www.kaggle.com/competitions/lmsys-chatbot-arena/discussion/527596
+- 1st（sayoulala）：https://www.kaggle.com/competitions/lmsys-chatbot-arena/discussion/527629
+- 2nd（tascj）：https://www.kaggle.com/competitions/lmsys-chatbot-arena/discussion/527685
+- 3rd（Mark Tenenholtz & Raja）：https://www.kaggle.com/competitions/lmsys-chatbot-arena/discussion/527766
+- 5th（Team Danube）：https://www.kaggle.com/competitions/lmsys-chatbot-arena/discussion/527669
+- 9th（Ebi）：https://www.kaggle.com/competitions/lmsys-chatbot-arena/discussion/527704
+- 未收录缺口（登记备查）：527595（18th）｜527627（21st）｜528288（19th）｜529067（4th）｜527591（26th）｜527938（156th）｜540876（13th）等
+
 ---
 
 ## make-data-count-finding-data-references — Make Data Count - Finding Data References 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Research ｜ 指标 82370_MDC_Global_F1 ｜ 队伍 1282 ｜ 截止 2025-09-09 ｜ Tier B ｜ 标签 nlp
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/make-data-count-finding-data-references.md
 > 材料基础：`digests/make-data-count-finding-data-references.md`（6 篇正文：1st 606853 / 2nd 606786 / 4th 606921 / 5th 606769 / 9th 606743 / 手工标注数据 586075；80 条主题索引）+ 3 张图
 
 ### 一句话重述
@@ -3058,11 +3471,21 @@ TTA 交换收益：16th 第一步就 +0.015（0.941→0.926）；3rd ~0.007；2n
 - ../../intel/make-data-count-finding-data-references/bodies/606786_img/01.png — 2nd 的阶段 1 验证分数
 - ../../intel/make-data-count-finding-data-references/bodies/606786_img/02.png — online-only table 中的 SAMN
 
+### 出处
+- 1st（61 票）：https://www.kaggle.com/competitions/make-data-count-finding-data-references/discussion/606853
+- 2nd（29 票）：https://www.kaggle.com/competitions/make-data-count-finding-data-references/discussion/606786
+- 4th（606921）：https://www.kaggle.com/competitions/make-data-count-finding-data-references/discussion/606921
+- 5th（46 票）：https://www.kaggle.com/competitions/make-data-count-finding-data-references/discussion/606769
+- 9th（606743）：https://www.kaggle.com/competitions/make-data-count-finding-data-references/discussion/606743
+- 手工重标数据（586075）：https://www.kaggle.com/competitions/make-data-count-finding-data-references/discussion/586075
+- 标签更新公告（28 票）：https://www.kaggle.com/competitions/make-data-count-finding-data-references/discussion/589314
+
 ---
 
 ## map-charting-student-math-misunderstandings — MAP 数学误解分类深读：标签空间工程 + 推理预算编排
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 MAP@{K} ｜ 队伍 1857 ｜ 截止 2025-10-15 ｜ Tier A ｜ 标签 nlp,ranking,education
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/map-charting-student-math-misunderstandings.md
 > 材料基础：`digests/map-charting-student-math-misunderstandings.md`（6 节：1st/3rd/6th/10th/18th + "测试题是否与训练相同"帖）+ 3 张图
 
 ### 一句话重述
@@ -3168,11 +3591,21 @@ TTA 交换收益：16th 第一步就 +0.015（0.941→0.926）；3rd ~0.007；2n
 - ../../intel/map-charting-student-math-misunderstandings/bodies/612096_img/01.png — pyramid
 - ../../intel/map-charting-student-math-misunderstandings/bodies/612059_img/01.svg — 3rd overview
 
+### 出处
+- 1st（tascj，191 票）：https://www.kaggle.com/competitions/map-charting-student-math-misunderstandings/discussion/612268
+- 题目结构/is_correct（Chris Deotte，98 票）：https://www.kaggle.com/competitions/map-charting-student-math-misunderstandings/discussion/589400
+- 18th 金字塔（Chris Deotte，81 票）：https://www.kaggle.com/competitions/map-charting-student-math-misunderstandings/discussion/612096
+- 3rd/公开第 1（monsaraida & Masaya，78 票）：https://www.kaggle.com/competitions/map-charting-student-math-misunderstandings/discussion/612059
+- 10th（64 票）：https://www.kaggle.com/competitions/map-charting-student-math-misunderstandings/discussion/612038
+- 6th Qwen-semble（Manan Jhaveri，44 票）：https://www.kaggle.com/competitions/map-charting-student-math-misunderstandings/discussion/612099
+- 未收录缺口（登记备查）：2nd/4th/5th/8th 等 16 条 write-up
+
 ---
 
 ## med-gemma-impact-challenge — The MedGemma Impact Challenge 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标  ｜ 队伍 872 ｜ 截止 2026-02-24 ｜ Tier B ｜ 标签 nlp,llm,medical
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/med-gemma-impact-challenge.md
 > 材料基础：`digests/med-gemma-impact-challenge.md`（6 篇正文：HAI-DEF 基础模型 667677 / 评分透明性请求 685138 / write-up 与页数 674799 / 医疗写作参考 667678 / 获奖延期 684112 / 3 页限制澄清 671156；80 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -3236,11 +3669,24 @@ TTA 交换收益：16th 第一步就 +0.015（0.941→0.926）；3rd ~0.007；2n
 - HAI-DEF 预后/分割能力的后续支持未定；
 - **图证缺口**：本场 0 张归档图，已登记。
 
+### 出处
+- HAI-DEF 基础模型清单（28 票 / 4 评论）：https://www.kaggle.com/competitions/med-gemma-impact-challenge/discussion/667677
+- 评分透明性请求（3 票 / 8 评论）：https://www.kaggle.com/competitions/med-gemma-impact-challenge/discussion/685138
+- 获奖延期（30 票 / 17 评论）：https://www.kaggle.com/competitions/med-gemma-impact-challenge/discussion/684112
+- 获奖公布（15 票 / 24 评论）：https://www.kaggle.com/competitions/med-gemma-impact-challenge/discussion/685002
+- 879 份提交讨论（6 票 / 16 评论）：https://www.kaggle.com/competitions/med-gemma-impact-challenge/discussion/678856
+- MedGemma 27B 部署挑战（5 票 / 11 评论）：https://www.kaggle.com/competitions/med-gemma-impact-challenge/discussion/673091
+- VertexAI 疑似故障（3 票 / 5 评论）：https://www.kaggle.com/competitions/med-gemma-impact-challenge/discussion/668731
+- 4B 微调塌缩（0 票 / 4 评论）：https://www.kaggle.com/competitions/med-gemma-impact-challenge/discussion/673582
+- 数据与 CC BY 4.0 许可（3 票 / 8 评论）：https://www.kaggle.com/competitions/med-gemma-impact-challenge/discussion/671596
+- 3 页限制澄清（1 票 / 1 评论）：https://www.kaggle.com/competitions/med-gemma-impact-challenge/discussion/671156
+
 ---
 
 ## meta-kaggle-hackathon — Meta Kaggle Hackathon 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标  ｜ 队伍 118 ｜ 截止 2025-07-21 ｜ Tier B ｜ 标签 nlp,review
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/meta-kaggle-hackathon.md
 > 材料基础：`digests/meta-kaggle-hackathon.md`（6 篇正文：获奖公告 598833 / 教育影响 582261 / 提交问题 589369+589854 / 许可更正 589996 / 模板请求 588045；46 条主题索引）+ 2 张归档图
 
 ### 一句话重述
@@ -3295,11 +3741,24 @@ URL 校验与 50 字符限制把自动生成链接挡在门外；必填媒体与
 ### 图证（KStarter 仓库内路径）
 - ../../intel/meta-kaggle-hackathon/bodies/589369_img/01.PNG — write-up URL 字段校验
 
+### 出处
+- 获奖公告（24 票 / 26 评论）：https://www.kaggle.com/competitions/meta-kaggle-hackathon/discussion/598833
+- 教育影响（21 票 / 2 评论）：https://www.kaggle.com/competitions/meta-kaggle-hackathon/discussion/582261
+- 提交问题（1 票）：https://www.kaggle.com/competitions/meta-kaggle-hackathon/discussion/589369
+- 无法提交 write-up（2 票）：https://www.kaggle.com/competitions/meta-kaggle-hackathon/discussion/589854
+- 许可更正（1 票）：https://www.kaggle.com/competitions/meta-kaggle-hackathon/discussion/589996
+- 模板请求（5 票）：https://www.kaggle.com/competitions/meta-kaggle-hackathon/discussion/588045
+- 介绍帖（16 票 / 3 评论）：https://www.kaggle.com/competitions/meta-kaggle-hackathon/discussion/581301
+- 起步材料（16 票 / 8 评论）：https://www.kaggle.com/competitions/meta-kaggle-hackathon/discussion/582208
+- notebook 未公开（6 票 / 7 评论）：https://www.kaggle.com/competitions/meta-kaggle-hackathon/discussion/590655
+- 结果时间（4 票 / 8 评论）：https://www.kaggle.com/competitions/meta-kaggle-hackathon/discussion/598615
+
 ---
 
 ## nbme-score-clinical-patient-notes — NBME - Score Clinical Patient Notes 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 Medical Board F-Beta ｜ 队伍 1471 ｜ 截止 2022-05-03 ｜ Tier B ｜ 标签 nlp,science,medical
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/nbme-score-clinical-patient-notes.md
 > 材料基础：`digests/nbme-score-clinical-patient-notes.md`（6 篇正文：2nd 323085 / 4th 322799 / 3rd 322832 / 1st 323095 / 20th 323094 / 实验帖 315707；80 条主题索引）+ 3 张图
 
 ### 一句话重述
@@ -3366,11 +3825,20 @@ URL 校验与 50 字符限制把自动生成链接挡在门外；必填媒体与
 ### 图证（KStarter 仓库内路径）
 - ../../intel/nbme-score-clinical-patient-notes/bodies/323095_img/01.jpeg — 1st 的模型管线
 
+### 出处
+- 2nd（174 票）：https://www.kaggle.com/competitions/nbme-score-clinical-patient-notes/discussion/323085
+- 4th（126 票）：https://www.kaggle.com/competitions/nbme-score-clinical-patient-notes/discussion/322799
+- 3rd（322832）：https://www.kaggle.com/competitions/nbme-score-clinical-patient-notes/discussion/322832
+- 1st（128 票）：https://www.kaggle.com/competitions/nbme-score-clinical-patient-notes/discussion/323095
+- 20th（323094）：https://www.kaggle.com/competitions/nbme-score-clinical-patient-notes/discussion/323094
+- 实验帖（315707）：https://www.kaggle.com/competitions/nbme-score-clinical-patient-notes/discussion/315707
+
 ---
 
 ## nvidia-nemotron-model-reasoning-challenge — Nemotron 推理赛深读：确定性求解器 → 可学习 CoT 轨迹
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 NVIDIA Nemotron Metric ｜ 队伍 4185 ｜ 截止 2026-06-15 ｜ Tier A ｜ 标签 nlp
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/nvidia-nemotron-model-reasoning-challenge.md
 > 材料基础：`digests/nvidia-nemotron-model-reasoning-challenge.md`（8 篇：1st 140 票/2nd/3rd/18th/10th/公 2 私 6/88th/7th；120 条索引）+ 进度奖正文 `bodies/689915.txt`（241 票）+ 11 张图
 
 ### 一句话重述
@@ -3497,11 +3965,24 @@ huikang：Tinker 产出适配器需转换（专家解融合、gate+x SVD、lm_he
 - 流程类：没有本地验证 → 探索发散与提交错选（18th/3rd/10th 的共识教训）；合成数据方向被 public 分误导而过早放弃（18th）。
 - 覆盖类：cryptarithm 求解器覆盖不足是多数队的上限（10th 9%、88th 9%、2nd 9.6%）。
 
+### 出处
+- 进度奖（huikang，241 票）：https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/689915
+- 1st（140 票）：https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/709231
+- 2nd：https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/711703
+- 3rd：https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/709136
+- 18th：https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/715330
+- 10th：https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/708535
+- 公 2/私 6：https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/709120
+- 88th：https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/708539
+- 7th：https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/712395
+- 缺口登记：690307、688461、684212、690161、684283、681745、698293、684192 未收录正文
+
 ---
 
 ## openai-gpt-oss-20b-red-teaming — OpenAI gpt-oss-20b Red Teaming Challenge 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标  ｜ 队伍 601 ｜ 截止 2025-08-26 ｜ Tier B ｜ 标签 nlp,llm,security
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/openai-gpt-oss-20b-red-teaming.md
 > 材料基础：`digests/openai-gpt-oss-20b-red-teaming.md`（6 篇正文：获奖公布 608537 / 攻击方法分类 608997 / 官方欢迎 596882 / 截止提醒与资产私有 600934 / 致谢 608430 / 单篇 or 多篇 write-up 格式 598454；80 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -3579,11 +4060,24 @@ huikang：Tinker 产出适配器需转换（专家解融合、gate+x SVD、lm_he
 - 具体触发 prompt 因敏感性未归档，复现性只能依赖各队外部 write-up；
 - **图证缺口**：本场 0 张归档图（社区提到的 OCR/图表均在站外数据集），已登记。
 
+### 出处
+- 获奖公布与评审说明（24 票 / 91 评论）：https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/discussion/608537
+- 攻击方法分层分类（4 票 / 5 评论）：https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/discussion/608997
+- 官方欢迎帖（39 票 / 50 评论）：https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/discussion/596882
+- 截止提醒与资产私有（13 票 / 41 评论）：https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/discussion/600934
+- 致谢 write-up（6 票 / 21 评论）：https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/discussion/608430
+- 单篇 or 多篇 write-up 格式（5 票 / 4 评论）：https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/discussion/598454
+- 官方 next steps（23 票 / 114 评论）：https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/discussion/602389
+- "20 名获奖者中 8 名走 jailbreak"（4 票 / 3 评论）：https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/discussion/608555
+- 145 队名单提问（6 票 / 1 评论）：https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/discussion/608750
+- write-up 标题-作者数据集（2 票 / 4 评论）：https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/discussion/608493
+
 ---
 
 ## pii-detection-removal-from-educational-data — PII Detection 深读：合成数据引擎 × 标签语义简化 × 规则后处理
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 TLAL_F_beta ｜ 队伍 2048 ｜ 截止 2024-04-23 ｜ Tier A ｜ 标签 nlp,cv,detection,education
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/pii-detection-removal-from-educational-data.md
 > 材料基础：`digests/pii-detection-removal-from-educational-data.md`（8 篇：外部数据影响 169 票/More data 134/1st 99/H2O LLM 85/9th 68/2nd 57/4th/5th + 效率方案；120 条索引）+ 1 张图
 
 ### 一句话重述
@@ -3710,11 +4204,23 @@ More data（134 票）：Mixtral 2,355 篇 **0.854→0.888**；
 - 2nd：多种增强（未进最终）。
 - 通用：不同 tokenizer 的对齐调试极其耗时（9th 的自述）。
 
+### 出处
+- 外部数据影响（169 票）：https://www.kaggle.com/competitions/pii-detection-removal-from-educational-data/discussion/473139
+- Mixtral 数据（134 票）：https://www.kaggle.com/competitions/pii-detection-removal-from-educational-data/discussion/472221
+- 1st（99 票）：https://www.kaggle.com/competitions/pii-detection-removal-from-educational-data/discussion/497374
+- 4th：https://www.kaggle.com/competitions/pii-detection-removal-from-educational-data/discussion/497367
+- 2nd（57 票）：https://www.kaggle.com/competitions/pii-detection-removal-from-educational-data/discussion/497352
+- 5th：https://www.kaggle.com/competitions/pii-detection-removal-from-educational-data/discussion/497306
+- 9th（68 票）：https://www.kaggle.com/competitions/pii-detection-removal-from-educational-data/discussion/497177
+- 效率方案：https://www.kaggle.com/competitions/pii-detection-removal-from-educational-data/discussion/497185
+- 缺口登记：473011、469493、470921、481135、470978、479971、478911 未收录正文
+
 ---
 
 ## us-patent-phrase-to-phrase-matching — US Patent Phrase to Phrase Matching 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 PearsonCorrelationCoefficient ｜ 队伍 1889 ｜ 截止 2022-06-20 ｜ Tier B ｜ 标签 nlp,retrieval
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/us-patent-phrase-to-phrase-matching.md
 > 材料基础：`digests/us-patent-phrase-to-phrase-matching.md`（8 篇正文：8th 332492 / 10th 332273 / 1st 332243 / 2nd 332234 / 5th prompt 332418 / 相关赛冠军 314320 / 代码被窃 337853 / context CSV 314306；80 条主题索引）+ 4 张图
 
 ### 一句话重述
@@ -3777,11 +4283,20 @@ More data（134 票）：Mixtral 2,355 篇 **0.854→0.888**；
 ### 图证（KStarter 仓库内路径）
 - ../../intel/us-patent-phrase-to-phrase-matching/bodies/332418_img/01.png — 5th 的 prompt 结构
 
+### 出处
+- 8th（332492）：https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching/discussion/332492
+- 10th（332273）：https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching/discussion/332273
+- 1st（332243）：https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching/discussion/332243
+- 2nd（332234）：https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching/discussion/332234
+- 5th prompt（332418）：https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching/discussion/332418
+- 代码被窃（337853）：https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching/discussion/337853
+
 ---
 
 ## uspto-explainable-ai — USPTO Explainable AI 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 USPTO 59575 ｜ 队伍 571 ｜ 截止 2024-07-24 ｜ Tier B ｜ 标签 nlp
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/uspto-explainable-ai.md
 > 材料基础：`digests/uspto-explainable-ai.md`（6 篇正文：1st 522233 / 2nd 522258 / 4th 522200 / 6th 522202 / 7th"Magic" 522199 / 5th 522201；80 条主题索引）+ 6 张图
 
 ### 一句话重述
@@ -3842,11 +4357,20 @@ Whoosh 无法承载 13M 专利全量索引；1st/2nd/6th 都写了自研（C++/c
 ### 图证（KStarter 仓库内路径）
 - ../../intel/uspto-explainable-ai/bodies/522258_img/01.png — 2nd 的三步查询合成流程
 
+### 出处
+- 1st（39 票）：https://www.kaggle.com/competitions/uspto-explainable-ai/discussion/522233
+- 2nd（29 票）：https://www.kaggle.com/competitions/uspto-explainable-ai/discussion/522258
+- 4th（44 票）：https://www.kaggle.com/competitions/uspto-explainable-ai/discussion/522200
+- 6th（24 票）：https://www.kaggle.com/competitions/uspto-explainable-ai/discussion/522202
+- 7th"Magic"（522199）：https://www.kaggle.com/competitions/uspto-explainable-ai/discussion/522199
+- Whoosh 技巧（44 票）：https://www.kaggle.com/competitions/uspto-explainable-ai/discussion/516104
+
 ---
 
 ## wsdm-cup-multilingual-chatbot-arena — WSDM Cup - Multilingual Chatbot Arena 轻量深读（Tier B）
 
 > 主题 nlp ｜ 类别 Featured ｜ 指标 Accuracy Score ｜ 队伍 950 ｜ 截止 2025-03-10 ｜ Tier B ｜ 标签 nlp,agent
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/wsdm-cup-multilingual-chatbot-arena.md
 > 材料基础：`digests/wsdm-cup-multilingual-chatbot-arena.md`（6 篇正文：3rd 567584 / 2nd 567948 / 7th 567589 / 6th、13k 样本帖、LMSYS 往届方案帖；80 条主题索引）+ 2 张图
 
 ### 一句话重述
@@ -3903,5 +4427,13 @@ Whoosh 无法承载 13M 专利全量索引；1st/2nd/6th 都写了自研（C++/c
 
 ### 图证（KStarter 仓库内路径）
 - ../../intel/wsdm-cup-multilingual-chatbot-arena/bodies/567589_img/01.png — 7th 的不确定性级联集成
+
+### 出处
+- 3rd（52 票）：https://www.kaggle.com/competitions/wsdm-cup-multilingual-chatbot-arena/discussion/567584
+- 2nd（29 票）：https://www.kaggle.com/competitions/wsdm-cup-multilingual-chatbot-arena/discussion/567948
+- 7th（32 票）：https://www.kaggle.com/competitions/wsdm-cup-multilingual-chatbot-arena/discussion/567589
+- 8.5k 开源模型样本（54 票）：https://www.kaggle.com/competitions/wsdm-cup-multilingual-chatbot-arena/discussion/552166
+- CV vs LB（31 票 / 105 评论）：https://www.kaggle.com/competitions/wsdm-cup-multilingual-chatbot-arena/discussion/552368
+- LMSYS 往届方案（31 票）：https://www.kaggle.com/competitions/wsdm-cup-multilingual-chatbot-arena/discussion/547480
 
 ---

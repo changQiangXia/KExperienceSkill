@@ -6,6 +6,7 @@
 ## UBC-OCEAN — UBC-OCEAN 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 Balanced Accuracy Score ｜ 队伍 1326 ｜ 截止 2024-01-03 ｜ Tier B ｜ 标签 cv,
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/UBC-OCEAN.md
 > 材料基础：`digests/UBC-OCEAN.md`（6 篇正文：1st Owkin 466455 / 13th 465358 / 8th 465382 / 基线 452165 / PNG 格式 452027 / 病理学家视角 445804；80 条主题索引）+ 7 张图
 
 ### 一句话重述
@@ -70,11 +71,20 @@ PNG 非金字塔 + 元数据缺失 + 8% 分辨率错误 + 数据质量投诉（5
 ### 图证（KStarter 仓库内路径）
 - ../../intel/UBC-OCEAN/bodies/466455_img/01.png — 1st 的流程总览
 
+### 出处
+- 1st Owkin（65 票）：https://www.kaggle.com/competitions/UBC-OCEAN/discussion/466455
+- 13th（48 票）：https://www.kaggle.com/competitions/UBC-OCEAN/discussion/465358
+- 8th（49 票）：https://www.kaggle.com/competitions/UBC-OCEAN/discussion/465382
+- 基线（86 票）：https://www.kaggle.com/competitions/UBC-OCEAN/discussion/452165
+- PNG 格式（45 票）：https://www.kaggle.com/competitions/UBC-OCEAN/discussion/452027
+- 病理学家视角（112 票）：https://www.kaggle.com/competitions/UBC-OCEAN/discussion/445804
+
 ---
 
 ## asl-fingerspelling — Google ASL Fingerspelling 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 PostProcessorKernelDesc ｜ 队伍 1314 ｜ 截止 2023-08-24 ｜ Tier B ｜ 标签 cv,
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/asl-fingerspelling.md
 > 材料基础：`digests/asl-fingerspelling.md`（6 篇正文：1st 434485 / 2nd 434588 / 5th 434415 / 3rd 434393 / Silver 434353 / 上届冠军 409438；80 条主题索引）+ 13 张图
 
 ### 一句话重述
@@ -140,11 +150,20 @@ encoder-decoder/CTC、CTC 分割/CutMix、RoPE、Data2vec 预训练、KD、beam 
 ### 图证（KStarter 仓库内路径）
 - ../../intel/asl-fingerspelling/bodies/434485_img/01.png — 1st 的模型架构
 
+### 出处
+- 1st（242 票）：https://www.kaggle.com/competitions/asl-fingerspelling/discussion/434485
+- 2nd（434588）：https://www.kaggle.com/competitions/asl-fingerspelling/discussion/434588
+- 5th（434415）：https://www.kaggle.com/competitions/asl-fingerspelling/discussion/434415
+- 3rd（434393）：https://www.kaggle.com/competitions/asl-fingerspelling/discussion/434393
+- Silver（98 票）：https://www.kaggle.com/competitions/asl-fingerspelling/discussion/434353
+- 上届冠军（91 票）：https://www.kaggle.com/competitions/asl-fingerspelling/discussion/409438
+
 ---
 
 ## benetech-making-graphs-accessible — Benetech - Making Graphs Accessible 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Featured ｜ 指标 Benetech Mixed Data Type Matching Score ｜ 队伍 608 ｜ 截止 2023-06-19 ｜ Tier B ｜ 标签 cv,retrieval
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/benetech-making-graphs-accessible.md
 > 材料基础：`digests/benetech-making-graphs-accessible.md`（6 篇正文：1st 418786 / 2nd 418430 / 3rd 418420 / 7th 418510 / 6th 418466 / 13th 418321 等；80 条主题索引）+ 10 张图
 
 ### 一句话重述
@@ -205,11 +224,20 @@ encoder-decoder/CTC、CTC 分割/CutMix、RoPE、Data2vec 预训练、KD、beam 
 ### 图证（KStarter 仓库内路径）
 - ../../intel/benetech-making-graphs-accessible/bodies/418430_img/01.png — 2nd 的两阶段训练管线
 
+### 出处
+- 1st（60 票）：https://www.kaggle.com/competitions/benetech-making-graphs-accessible/discussion/418786
+- 2nd（64 票）：https://www.kaggle.com/competitions/benetech-making-graphs-accessible/discussion/418430
+- 3rd（54 票）：https://www.kaggle.com/competitions/benetech-making-graphs-accessible/discussion/418420
+- 7th（51 票）：https://www.kaggle.com/competitions/benetech-making-graphs-accessible/discussion/418510
+- 6th（40 票）：https://www.kaggle.com/competitions/benetech-making-graphs-accessible/discussion/418466
+- Pix2Struct 训不起来（42 票 / 133 评论）：https://www.kaggle.com/competitions/benetech-making-graphs-accessible/discussion/406250
+
 ---
 
 ## biohub-cell-tracking-during-development — Biohub - Cell Tracking During Development 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 CZI Biohub Zebrafish 133605 ｜ 队伍 3947 ｜ 截止 2026-09-29 ｜ Tier B ｜ 标签 cv,wildlife
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/biohub-cell-tracking-during-development.md
 > 材料基础：`digests/biohub-cell-tracking-during-development.md`（6 篇正文：1st 744801 / 3rd 744484 / 5th 744549 / 14th 744486 / 12→95 名复盘 744912 / 欢迎帖 716062；80 条主题索引）+ 30+ 张图
 
 ### 一句话重述
@@ -269,11 +297,20 @@ encoder-decoder/CTC、CTC 分割/CutMix、RoPE、Data2vec 预训练、KD、beam 
 ### 图证（KStarter 仓库内路径）
 - ../../intel/biohub-cell-tracking-during-development/bodies/744801_img/01.png — 1st 的四段式追踪管线
 
+### 出处
+- 1st（76 票）：https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/744801
+- 3rd：https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/744484
+- 5th：https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/744549
+- 12→95 名复盘：https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/744912
+- 规则法第 7（48 票）：https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/716952
+- 分裂指标漏洞（36 票）：https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/727154
+
 ---
 
 ## blood-vessel-segmentation — Blood Vessel Segmentation（SenNet + HOA）轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 Surface Dice Metric ｜ 队伍 1149 ｜ 截止 2024-02-06 ｜ Tier B ｜ 标签 cv,segmentation
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/blood-vessel-segmentation.md
 > 材料基础：`digests/blood-vessel-segmentation.md`（6 篇正文：lb0.870 122 / 1st 100 / 3rd 69 / 4th 68 / 2nd 33 / 相似赛汇总；80 条主题索引）+ 11 张图
 
 ### 一句话重述
@@ -339,11 +376,20 @@ encoder-decoder/CTC、CTC 分割/CutMix、RoPE、Data2vec 预训练、KD、beam 
 - ../../intel/blood-vessel-segmentation/bodies/475657_img/03.png — 2nd 的公/私切片分布
 - ../../intel/blood-vessel-segmentation/bodies/475657_img/01.png — 2nd 的提交分数截图
 
+### 出处
+- 1st（100 票）：https://www.kaggle.com/competitions/blood-vessel-segmentation/discussion/475522
+- 3rd（69 票）：https://www.kaggle.com/competitions/blood-vessel-segmentation/discussion/475074
+- 4th（68 票）：https://www.kaggle.com/competitions/blood-vessel-segmentation/discussion/475052
+- 2nd（33 票）：https://www.kaggle.com/competitions/blood-vessel-segmentation/discussion/475657
+- lb0.870 实验帖（122 票）：https://www.kaggle.com/competitions/blood-vessel-segmentation/discussion/456118
+- 缺口登记：475657 的完整榜单讨论、hidden test 信息帖（43 票）、Surface DSC 帖（33 票）
+
 ---
 
 ## byu-locating-bacterial-flagellar-motors-2025 — BYU - Locating Bacterial Flagellar Motors 2025 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 BYU_BioPhysics_91249 ｜ 队伍 1136 ｜ 截止 2025-06-04 ｜ Tier B ｜ 标签 cv,science
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/byu-locating-bacterial-flagellar-motors-2025.md
 > 材料基础：`digests/byu-locating-bacterial-flagellar-motors-2025.md`（6 篇正文：1st 583143 / 3rd 583380 / 4th 583411 / 20th 583128 / 369th 583133 / 数据理解 567360；80 条主题索引）+ 18 张图
 
 ### 一句话重述
@@ -404,11 +450,20 @@ train_labels.csv 的不一致（60 票）、负样本里存在马达样结构（
 ### 图证（KStarter 仓库内路径）
 - ../../intel/byu-locating-bacterial-flagellar-motors-2025/bodies/583143_img/04.JPG — 分位数阈值下的提交分数
 
+### 出处
+- 1st（146 票）：https://www.kaggle.com/competitions/byu-locating-bacterial-flagellar-motors-2025/discussion/583143
+- 3rd（42 票）：https://www.kaggle.com/competitions/byu-locating-bacterial-flagellar-motors-2025/discussion/583380
+- 4th（42 票）：https://www.kaggle.com/competitions/byu-locating-bacterial-flagellar-motors-2025/discussion/583411
+- 20th（38 票）：https://www.kaggle.com/competitions/byu-locating-bacterial-flagellar-motors-2025/discussion/583128
+- 369th YOLO 基线（37 票）：https://www.kaggle.com/competitions/byu-locating-bacterial-flagellar-motors-2025/discussion/583133
+- 数据理解（69 票）：https://www.kaggle.com/competitions/byu-locating-bacterial-flagellar-motors-2025/discussion/567360
+
 ---
 
 ## czii-cryo-et-object-identification — CZII CryoET Object Identification 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Featured ｜ 指标 CZI_CryoET_ 84969 ｜ 队伍 931 ｜ 截止 2025-02-05 ｜ Tier B ｜ 标签 cv,
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/czii-cryo-et-object-identification.md
 > 材料基础：`digests/czii-cryo-et-object-identification.md`（6 篇正文：1st OD 561440 + 1st 分割 561510 / 2nd 561568 / 3rd 561417 / 4th 561401 / 9th 561431 等；80 条主题索引）+ 11 张图
 
 ### 一句话重述
@@ -472,11 +527,21 @@ train_labels.csv 的不一致（60 票）、负样本里存在马达样结构（
 ### 图证（KStarter 仓库内路径）
 - ../../intel/czii-cryo-et-object-identification/bodies/561440_img/01.png — 1st-OD 的逐类阈值曲线
 
+### 出处
+- 1st-OD（561440）：https://www.kaggle.com/competitions/czii-cryo-et-object-identification/discussion/561440
+- 1st-分割（103 票）：https://www.kaggle.com/competitions/czii-cryo-et-object-identification/discussion/561510
+- 2nd（44 票）：https://www.kaggle.com/competitions/czii-cryo-et-object-identification/discussion/561568
+- 3rd（53 票）：https://www.kaggle.com/competitions/czii-cryo-et-object-identification/discussion/561417
+- 4th（68 票）：https://www.kaggle.com/competitions/czii-cryo-et-object-identification/discussion/561401
+- 9th（51 票）：https://www.kaggle.com/competitions/czii-cryo-et-object-identification/discussion/561431
+- "卡在 benchmark 下"（98 票）：https://www.kaggle.com/competitions/czii-cryo-et-object-identification/discussion/547350
+
 ---
 
 ## fathomnet-out-of-sample-detection — FathomNet 2023（Out-of-Sample Detection）轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 FathomNet 2023 ｜ 队伍 69 ｜ 截止 2023-05-23 ｜ Tier B ｜ 标签 cv,detection,wildlife
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/fathomnet-out-of-sample-detection.md
 > 材料基础：`digests/fathomnet-out-of-sample-detection.md`（6 篇正文：4th 413092 / 新手入门 397069 / 标签错误 407400 / 往届相似赛 397024 / metric 修复 404769 / 组队 397070；29 条主题索引）+ 2 张归档图
 
 ### 一句话重述
@@ -539,11 +604,22 @@ train_labels.csv 的不一致（60 票）、负样本里存在马达样结构（
 - ../../intel/fathomnet-out-of-sample-detection/bodies/413092_img/01.png — 预处理后的类别分布
 - ../../intel/fathomnet-out-of-sample-detection/bodies/413092_img/02.png — OSD 概率分布
 
+### 出处
+- 4th 方案（5 票 / 0 评论）：https://www.kaggle.com/competitions/fathomnet-out-of-sample-detection/discussion/413092
+- 标签错误讨论（6 票 / 2 评论）：https://www.kaggle.com/competitions/fathomnet-out-of-sample-detection/discussion/407400
+- metric 修复与重算（3 票 / 0 评论）：https://www.kaggle.com/competitions/fathomnet-out-of-sample-detection/discussion/404769
+- 157/290 类无图（2 票 / 1 评论）：https://www.kaggle.com/competitions/fathomnet-out-of-sample-detection/discussion/398752
+- 往届相似赛（19 票 / 2 评论）：https://www.kaggle.com/competitions/fathomnet-out-of-sample-detection/discussion/397024
+- 新手入门（9 票 / 3 评论）：https://www.kaggle.com/competitions/fathomnet-out-of-sample-detection/discussion/397069
+- MAP@20 不一致（2 票 / 2 评论）：https://www.kaggle.com/competitions/fathomnet-out-of-sample-detection/discussion/410140
+- 下载脚本参数报错（2 票 / 10 评论）：https://www.kaggle.com/competitions/fathomnet-out-of-sample-detection/discussion/397071
+
 ---
 
 ## gan-getting-started — I'm Something of a Painter Myself（GAN Getting Started）轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Getting Started ｜ 指标 PostProcessorKernel ｜ 队伍 0 ｜ 截止 2026-06-30 ｜ Tier B ｜ 标签 cv,generative
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/gan-getting-started.md
 > 材料基础：`digests/gan-getting-started.md`（6 篇正文：GAN 资源大全 178253 / GAN 常见问题 180515 / 往届 GAN 赛经验 178182 / 基础阅读 178185 / 官方欢迎 178166 / 十大论文 185910；80 条主题索引）+ 1 张归档 GIF
 
 ### 一句话重述
@@ -603,11 +679,22 @@ zip 结构、images.zip 路径、output file not found 等问题反复出现。*
 - 数据集重复与个别图片异常（189404 / 196946）未定论；
 - **图证缺口**：唯一归档图是 GAN Lab 演示 **GIF（2.5MB）**，按规则不内嵌；已登记。
 
+### 出处
+- 官方欢迎与规则（53 票 / 40 评论）：https://www.kaggle.com/competitions/gan-getting-started/discussion/178166
+- GAN 资源大全（24 票 / 3 评论）：https://www.kaggle.com/competitions/gan-getting-started/discussion/178253
+- GAN 常见问题（49 票 / 11 评论）：https://www.kaggle.com/competitions/gan-getting-started/discussion/180515
+- 往届 GAN 赛经验（29 票 / 4 评论）：https://www.kaggle.com/competitions/gan-getting-started/discussion/178182
+- 基础阅读（25 票 / 5 评论）：https://www.kaggle.com/competitions/gan-getting-started/discussion/178185
+- 十大论文（23 票 / 7 评论）：https://www.kaggle.com/competitions/gan-getting-started/discussion/185910
+- 如何提交预测（3 票 / 5 评论）：https://www.kaggle.com/competitions/gan-getting-started/discussion/232028
+- CUT 替代方案（5 票 / 1 评论）：https://www.kaggle.com/competitions/gan-getting-started/discussion/180742
+
 ---
 
 ## geolifeclef-2022-lifeclef-2022-fgvc9 — GeoLifeCLEF 2022（LIFECLEF/FGVC9 物种分布预测）轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 MeanBestErrorAtK ｜ 队伍 52 ｜ 截止 2022-05-24 ｜ Tier B ｜ 标签 cv,geospatial
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/geolifeclef-2022-lifeclef-2022-fgvc9.md
 > 材料基础：`digests/geolifeclef-2022-lifeclef-2022-fgvc9.md`（6 篇正文：2nd 328637 / 1st 327055 / 资源汇编 312283 / working note 说明 325984 / .tif 处理 311983 / 往届挑战 312112；23 条主题索引）+ 2 张装饰性归档图
 
 ### 一句话重述
@@ -668,11 +755,21 @@ CLEF 要求可复现的技术报告，未通过可能被移出正式结果；同
 - 本场没有 3rd 及以后方案的归档正文；
 - **图证缺口**：归档图仅 2 张装饰性图片（Kaggle 毛衣与风景照），无分析证据，未内嵌；分析图证缺口已登记。
 
+### 出处
+- 1st 方案（11 票 / 5 评论）：https://www.kaggle.com/competitions/geolifeclef-2022-lifeclef-2022-fgvc9/discussion/327055
+- 2nd 方案（4 票 / 0 评论）：https://www.kaggle.com/competitions/geolifeclef-2022-lifeclef-2022-fgvc9/discussion/328637
+- working note 与纪律（3 票 / 0 评论）：https://www.kaggle.com/competitions/geolifeclef-2022-lifeclef-2022-fgvc9/discussion/325984
+- 资源汇编（8 票 / 2 评论）：https://www.kaggle.com/competitions/geolifeclef-2022-lifeclef-2022-fgvc9/discussion/312283
+- .tif 处理（11 票 / 3 评论）：https://www.kaggle.com/competitions/geolifeclef-2022-lifeclef-2022-fgvc9/discussion/311983
+- 往届挑战与论文（10 票 / 1 评论）：https://www.kaggle.com/competitions/geolifeclef-2022-lifeclef-2022-fgvc9/discussion/312112
+- 单标签误导讨论（3 票 / 6 评论）：https://www.kaggle.com/competitions/geolifeclef-2022-lifeclef-2022-fgvc9/discussion/325767
+
 ---
 
 ## geolifeclef-2024 — GeoLifeCLEF 2024 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 F-Score Beta (Micro) ｜ 队伍 51 ｜ 截止 2024-05-24 ｜ Tier B ｜ 标签 cv,geospatial
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/geolifeclef-2024.md
 > 材料基础：`digests/geolifeclef-2024.md`（6 篇正文：working note 邀请 506431 / 新手门槛吐槽 481283 / Discord 规则 480782 / 论文推荐 480732 / ClimateClef 数据 481485 / FGVC11 其他赛 486162；21 条主题索引）+ 1 张归档图
 
 ### 一句话重述
@@ -734,11 +831,21 @@ Seafile 下载脚本对新手不友好、GLC 模块不可用、加载耗时；�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/geolifeclef-2024/bodies/481283_img/01.png — download.py 报错截图
 
+### 出处
+- working note 邀请（8 票 / 4 评论）：https://www.kaggle.com/competitions/geolifeclef-2024/discussion/506431
+- 新手门槛吐槽（20 票 / 3 评论）：https://www.kaggle.com/competitions/geolifeclef-2024/discussion/481283
+- ClimateClef 数据集（20 票 / 4 评论）：https://www.kaggle.com/competitions/geolifeclef-2024/discussion/481485
+- Discord 规则（7 票 / 0 评论）：https://www.kaggle.com/competitions/geolifeclef-2024/discussion/480782
+- 论文推荐（4 票 / 3 评论）：https://www.kaggle.com/competitions/geolifeclef-2024/discussion/480732
+- FGVC11 赛群（5 票 / 0 评论）：https://www.kaggle.com/competitions/geolifeclef-2024/discussion/486162
+- 报告与排名问题（2 票 / 5 评论）：https://www.kaggle.com/competitions/geolifeclef-2024/discussion/507399
+
 ---
 
 ## google-research-identify-contrails-reduce-global-warming — Google Research - Identify Contrails 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 contrails_global_dice ｜ 队伍 954 ｜ 截止 2023-08-09 ｜ Tier B ｜ 标签 cv,retrieval,review
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/google-research-identify-contrails-reduce-global-warming.md
 > 材料基础：`digests/google-research-identify-contrails-reduce-global-warming.md`（6 篇正文：1st 430618 / 2nd 430491 / 3rd 430685 / 5th 430549 / 9th 430479 / 失败实验帖 414344；80 条主题索引）+ 7 张图
 
 ### 一句话重述
@@ -806,11 +913,21 @@ Seafile 下载脚本对新手不友好、GLC 模块不可用、加载耗时；�
 - ../../intel/google-research-identify-contrails-reduce-global-warming/bodies/430618_img/03.png — 1st 的四帧拼图输入
 - ../../intel/google-research-identify-contrails-reduce-global-warming/bodies/430491_img/01.png — 2nd 的三类架构与时序混合位置
 
+### 出处
+- 1st（430618）：https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming/discussion/430618
+- 2nd（111 票）：https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming/discussion/430491
+- 3rd（48 票）：https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming/discussion/430685
+- 5th（41 票）：https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming/discussion/430549
+- 9th（76 票）：https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming/discussion/430479
+- 失败实验帖（112 票）：https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming/discussion/414344
+- 单模 CV-LB 线程（47 票）：https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming/discussion/413153
+
 ---
 
 ## google-universal-image-embedding — Google Universal Image Embedding 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 PostProcessorKernelDesc ｜ 队伍 1022 ｜ 截止 2022-10-10 ｜ Tier B ｜ 标签 cv,retrieval
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/google-universal-image-embedding.md
 > 材料基础：`digests/google-universal-image-embedding.md`（6 篇正文：1st 359316 / 2nd 359525 / 4th 359487 / 5th 359161 / 10th 635 行处 / 数据集帖 715 行处；80 条主题索引）+ 6 张图
 
 ### 一句话重述
@@ -873,11 +990,20 @@ Seafile 下载脚本对新手不友好、GLC 模块不可用、加载耗时；�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/google-universal-image-embedding/bodies/359487_img/02.jpg — 4th 的双模型集成与降维
 
+### 出处
+- 1st（359316）：https://www.kaggle.com/competitions/google-universal-image-embedding/discussion/359316
+- 2nd（555 行处）：https://www.kaggle.com/competitions/google-universal-image-embedding/discussion/359525
+- 4th：https://www.kaggle.com/competitions/google-universal-image-embedding/discussion/359487
+- 5th（65 票）：https://www.kaggle.com/competitions/google-universal-image-embedding/discussion/359161
+- 外部数据帖（108 票）：https://www.kaggle.com/competitions/google-universal-image-embedding/discussion/337384
+- 自定义训练集（110 票）：https://www.kaggle.com/competitions/google-universal-image-embedding/discussion/336574
+
 ---
 
 ## happy-whale-and-dolphin — Happywhale - Whale and Dolphin Identification 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 MAP@{K} ｜ 队伍 1588 ｜ 截止 2022-04-18 ｜ Tier B ｜ 标签 cv,audio,ranking,wildlife
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/happy-whale-and-dolphin.md
 > 材料基础：`digests/happy-whale-and-dolphin.md`（6 篇正文：1st 320192 / 3rd 319896 / 19th 320298 / 往届方案 304504 / 降分辨率数据集 304686 / 裁剪数据集 319245 等；80 条主题索引）+ 7 张图
 
 ### 一句话重述
@@ -941,11 +1067,20 @@ Seafile 下载脚本对新手不友好、GLC 模块不可用、加载耗时；�
 - ../../intel/happy-whale-and-dolphin/bodies/320298_img/04.png — 19th 的六数据集嵌入加权
 - ../../intel/happy-whale-and-dolphin/bodies/320298_img/02.png — 19th 的六种裁剪示例
 
+### 出处
+- 1st（198 票）：https://www.kaggle.com/competitions/happy-whale-and-dolphin/discussion/320192
+- 3rd（319896）：https://www.kaggle.com/competitions/happy-whale-and-dolphin/discussion/319896
+- 19th（71 票）：https://www.kaggle.com/competitions/happy-whale-and-dolphin/discussion/320298
+- 物种列修复（176 票）：https://www.kaggle.com/competitions/happy-whale-and-dolphin/discussion/305574
+- 背鳍数据集（142 票）：https://www.kaggle.com/competitions/happy-whale-and-dolphin/discussion/310153
+- 9 CV 技巧（168 票）：https://www.kaggle.com/competitions/happy-whale-and-dolphin/discussion/310105
+
 ---
 
 ## herbarium-2022-fgvc9 — Herbarium 2022（FGVC9 植物标本细粒度分类）轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 F-Score (Macro) ｜ 队伍 134 ｜ 截止 2022-05-30 ｜ Tier B ｜ 标签 cv,agriculture
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/herbarium-2022-fgvc9.md
 > 材料基础：`digests/herbarium-2022-fgvc9.md`（6 篇正文：上手 notebook 合集 323794 / 可解释细粒度与 machine teaching 308406 / 1st 329299 / 往届 notebook 307745 / JSON→Pandas 307804 / 往届获奖 307624；39 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -1006,11 +1141,22 @@ FGVC workshop 的主题包含 human-in-the-loop、machine teaching 与可解释�
 - Competitive wrap-up（329802）没有正文；
 - **图证缺口**：本场 0 张归档图，已登记。
 
+### 出处
+- 1st 方案（5 票 / 1 评论）：https://www.kaggle.com/competitions/herbarium-2022-fgvc9/discussion/329299
+- 上手 notebook 合集（15 票 / 7 评论）：https://www.kaggle.com/competitions/herbarium-2022-fgvc9/discussion/323794
+- 往届 notebook（38 票 / 18 评论）：https://www.kaggle.com/competitions/herbarium-2022-fgvc9/discussion/307745
+- 往届获奖方案（18 票 / 9 评论）：https://www.kaggle.com/competitions/herbarium-2022-fgvc9/discussion/307624
+- JSON→Pandas（18 票 / 8 评论）：https://www.kaggle.com/competitions/herbarium-2022-fgvc9/discussion/307804
+- 可解释细粒度与 machine teaching（16 票 / 2 评论）：https://www.kaggle.com/competitions/herbarium-2022-fgvc9/discussion/308406
+- 训练图规模（11 票 / 17 评论）：https://www.kaggle.com/competitions/herbarium-2022-fgvc9/discussion/307615
+- 数据重复/泄漏（0 票 / 7 评论）：https://www.kaggle.com/competitions/herbarium-2022-fgvc9/discussion/323906
+
 ---
 
 ## hotel-id-to-combat-human-trafficking-2022-fgvc9 — Hotel-ID to Combat Human Trafficking 2022（FGVC9）轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 MAP@{K} ｜ 队伍 82 ｜ 截止 2022-05-30 ｜ Tier B ｜ 标签 cv,ranking
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/hotel-id-to-combat-human-trafficking-2022-fgvc9.md
 > 材料基础：`digests/hotel-id-to-combat-human-trafficking-2022-fgvc9.md`（6 篇正文：1st 328281 / 公开私榜 3rd 328237 / 往届资源 313362 / 2nd 328345 / 奖牌争议 314885 / 往届实效提问 316799；29 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -1072,11 +1218,22 @@ FGVC workshop 的主题包含 human-in-the-loop、machine teaching 与可解释�
 - 外部数据（FGVC8/Hotel50K）许可与规则细节未归档；
 - **图证缺口**：本场 0 张归档图（目录为空），已登记。
 
+### 出处
+- 1st：BlendFlip + 5 模型集成（30 票 / 8 评论）：https://www.kaggle.com/competitions/hotel-id-to-combat-human-trafficking-2022-fgvc9/discussion/328281
+- 2nd 方案（11 票 / 0 评论）：https://www.kaggle.com/competitions/hotel-id-to-combat-human-trafficking-2022-fgvc9/discussion/328345
+- 公开/私榜 3rd（16 票 / 8 评论）：https://www.kaggle.com/competitions/hotel-id-to-combat-human-trafficking-2022-fgvc9/discussion/328237
+- 奖牌/奖金争议（26 票 / 8 评论）：https://www.kaggle.com/competitions/hotel-id-to-combat-human-trafficking-2022-fgvc9/discussion/314885
+- 往届实效提问（16 票 / 3 评论）：https://www.kaggle.com/competitions/hotel-id-to-combat-human-trafficking-2022-fgvc9/discussion/316799
+- 往届资源汇编（16 票 / 1 评论）：https://www.kaggle.com/competitions/hotel-id-to-combat-human-trafficking-2022-fgvc9/discussion/313362
+- 掩码用法讨论（6 票 / 12 评论）：https://www.kaggle.com/competitions/hotel-id-to-combat-human-trafficking-2022-fgvc9/discussion/313547
+- 重复图（5 票 / 3 评论）：https://www.kaggle.com/competitions/hotel-id-to-combat-human-trafficking-2022-fgvc9/discussion/324699
+
 ---
 
 ## hubmap-hacking-the-human-vasculature — HuBMAP Vasculature 深读：噪声标注利用 × bbox-first × dilation 之谜
 
 > 主题 cv ｜ 类别 Research ｜ 指标 OpenImagesObjDetectionSegmentationAP ｜ 队伍 1021 ｜ 截止 2023-07-31 ｜ Tier A ｜ 标签 cv,segmentation,detection
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/hubmap-hacking-the-human-vasculature.md
 > 材料基础：`digests/hubmap-hacking-the-human-vasculature.md`（6 篇正文：3rd/1st/9th/7th + 上届冠军索引帖 + GM 心情帖；80 条讨论索引）+ 9 张图（428447×4 / 429060×1 / 430242×4）
 
 ### 一句话重述
@@ -1190,11 +1347,21 @@ FGVC workshop 的主题包含 human-in-the-loop、machine teaching 与可解释�
 - 模型选择：YOLOv8 在 7th 处失败；Puzzle 提交不可行（7th）。
 - 数据用法：ds1-only + dilation 有害（7th/9th）——**先把"训练集构成"与"后处理方向"对齐，再谈模型**。
 
+### 出处
+- 3rd（Nischay，61 票）：https://www.kaggle.com/competitions/hubmap-hacking-the-human-vasculature/discussion/430242
+- 1st（82 票）：https://www.kaggle.com/competitions/hubmap-hacking-the-human-vasculature/discussion/429060
+- 7th（63 票）：https://www.kaggle.com/competitions/hubmap-hacking-the-human-vasculature/discussion/428295
+- 9th（43 票）：https://www.kaggle.com/competitions/hubmap-hacking-the-human-vasculature/discussion/428447
+- 上届冠军索引（44 票）：https://www.kaggle.com/competitions/hubmap-hacking-the-human-vasculature/discussion/412307
+- GM 心情帖（219 票，指向 3rd）：https://www.kaggle.com/competitions/hubmap-hacking-the-human-vasculature/discussion/428296
+- 缺口登记（未收录正文）：2nd(429240)、4th(428994)、419143、**dilation 讨论(416901)**、428392(public 9th/private 295th)、412316 等
+
 ---
 
 ## hubmap-organ-segmentation — HuBMAP + HPA - Organ Segmentation 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 Dice ｜ 队伍 1174 ｜ 截止 2022-09-22 ｜ Tier B ｜ 标签 cv,segmentation,generative
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/hubmap-organ-segmentation.md
 > 材料基础：`digests/hubmap-organ-segmentation.md`（4 篇正文：3rd 354683 / 4th 354851 / 2nd 354857 / 往届总结 433 行处等；80 条主题索引）+ 2 张图
 
 ### 一句话重述
@@ -1252,11 +1419,20 @@ host 明确点题：4th 的标题直接是"染色归一化就是全部"；3rd �
 ### 图证（KStarter 仓库内路径）
 - ../../intel/hubmap-organ-segmentation/bodies/332941_img/01.png — 各主干在 5 器官上的逐折基准
 
+### 出处
+- 3rd（70 票）：https://www.kaggle.com/competitions/hubmap-organ-segmentation/discussion/354683
+- 4th（50 票）：https://www.kaggle.com/competitions/hubmap-organ-segmentation/discussion/354851
+- 2nd（56 票）：https://www.kaggle.com/competitions/hubmap-organ-segmentation/discussion/354857
+- HPA/HuBMAP 数据质疑（78 票）：https://www.kaggle.com/competitions/hubmap-organ-segmentation/discussion/332714
+- 外部数据源（55 票）：https://www.kaggle.com/competitions/hubmap-organ-segmentation/discussion/333886
+- 1st（未入库，待补）：https://www.kaggle.com/competitions/hubmap-organ-segmentation/discussion/356201
+
 ---
 
 ## image-matching-challenge-2022 — Image Matching Challenge 2022 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 Image Matching Challenge pose mAA ｜ 队伍 642 ｜ 截止 2022-06-02 ｜ Tier B ｜ 标签 cv,retrieval
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/image-matching-challenge-2022.md
 > 材料基础：`digests/image-matching-challenge-2022.md`（5 篇正文：1st 329131 / 2nd 329317 / 4th 328798 / 9th 328796 / 10th 328903 等；80 条主题索引）+ 15 张图
 
 ### 一句话重述
@@ -1320,11 +1496,20 @@ SuperGlue 的许可证不允许获奖 → 4th 专门准备"去 SuperGlue"的提�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/image-matching-challenge-2022/bodies/329131_img/01.png — 1st 的两阶段匹配框架
 
+### 出处
+- 1st（329131）：https://www.kaggle.com/competitions/image-matching-challenge-2022/discussion/329131
+- 2nd（45 票）：https://www.kaggle.com/competitions/image-matching-challenge-2022/discussion/329317
+- 4th（43 票）：https://www.kaggle.com/competitions/image-matching-challenge-2022/discussion/328798
+- 9th（51 票）：https://www.kaggle.com/competitions/image-matching-challenge-2022/discussion/328796
+- 基础矩阵科普（94 票）：https://www.kaggle.com/competitions/image-matching-challenge-2022/discussion/316975
+- LoFTR 微调（70 票）：https://www.kaggle.com/competitions/image-matching-challenge-2022/discussion/320219
+
 ---
 
 ## image-matching-challenge-2023 — Image Matching Challenge 2023 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 imc2023 ｜ 队伍 494 ｜ 截止 2023-06-12 ｜ Tier B ｜ 标签 cv,retrieval
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/image-matching-challenge-2023.md
 > 材料基础：`digests/image-matching-challenge-2023.md`（6 篇正文：1st 417407 / 2nd 416873 / 5th 416816 / 3rd、4th、6th 等节；80 条主题索引）+ 15 张图
 
 ### 一句话重述
@@ -1386,11 +1571,20 @@ SuperGlue 的许可证不允许获奖 → 4th 专门准备"去 SuperGlue"的提�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/image-matching-challenge-2023/bodies/417407_img/01.png — 1st 的粗到精 SfM 框架
 
+### 出处
+- 1st（417407）：https://www.kaggle.com/competitions/image-matching-challenge-2023/discussion/417407
+- 2nd（49 票）：https://www.kaggle.com/competitions/image-matching-challenge-2023/discussion/416873
+- 5th（44 票）：https://www.kaggle.com/competitions/image-matching-challenge-2023/discussion/416816
+- 3rd（29 票）：https://www.kaggle.com/competitions/image-matching-challenge-2023/discussion/417191
+- 6th（29 票）：https://www.kaggle.com/competitions/image-matching-challenge-2023/discussion/417045
+- SfM 学习材料（75 票）：https://www.kaggle.com/competitions/image-matching-challenge-2023/discussion/401497
+
 ---
 
 ## image-matching-challenge-2024 — Image Matching Challenge 2024 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 mAA-on-camera-centers-with-registration ｜ 队伍 929 ｜ 截止 2024-06-03 ｜ Tier B ｜ 标签 cv,retrieval
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/image-matching-challenge-2024.md
 > 材料基础：`digests/image-matching-challenge-2024.md`（6 篇正文：1st 510084 / 2nd 510499 / 3rd 510338 / 4th 510611 / 5th 510603 / 8th 509902；80 条主题索引）+ 12 张图
 
 ### 一句话重述
@@ -1455,11 +1649,20 @@ SfM 在透明/反光物体上直接失效；1st/2nd 用"排序 + 圆周布相机
 - ../../intel/image-matching-challenge-2024/bodies/510084_img/01.png — 1st 的参考管线
 - ../../intel/image-matching-challenge-2024/bodies/510084_img/05.png — 1st 的透明场景相机圆周假设
 
+### 出处
+- 1st（510084）：https://www.kaggle.com/competitions/image-matching-challenge-2024/discussion/510084
+- 2nd（44 票）：https://www.kaggle.com/competitions/image-matching-challenge-2024/discussion/510499
+- 3rd（31 票）：https://www.kaggle.com/competitions/image-matching-challenge-2024/discussion/510338
+- 4th（46 票）：https://www.kaggle.com/competitions/image-matching-challenge-2024/discussion/510611
+- 5th（31 票）：https://www.kaggle.com/competitions/image-matching-challenge-2024/discussion/510603
+- 8th（58 票）：https://www.kaggle.com/competitions/image-matching-challenge-2024/discussion/509902
+
 ---
 
 ## image-matching-challenge-2025 — Image Matching Challenge 2025 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 IMC 2025 Metric ｜ 队伍 943 ｜ 截止 2025-06-02 ｜ Tier B ｜ 标签 cv,retrieval
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/image-matching-challenge-2025.md
 > 材料基础：`digests/image-matching-challenge-2025.md`（6 篇正文：1st 583058 / 4th 582959 / 10th 582898 / 11th 583097 / 理论入门 573183 / 往届方案 571280；70 条主题索引）+ 15 张图
 
 ### 一句话重述
@@ -1519,11 +1722,21 @@ IMC 2025 的技术分水岭是**3D 几何基础模型（MASt3R/VGGT）**：1st �
 ### 图证（KStarter 仓库内路径）
 - ../../intel/image-matching-challenge-2025/bodies/583058_img/01.png — 1st 的 MASt3R 管线
 
+### 出处
+- 1st（583058）：https://www.kaggle.com/competitions/image-matching-challenge-2025/discussion/583058
+- 4th（35 票）：https://www.kaggle.com/competitions/image-matching-challenge-2025/discussion/582959
+- 10th（32 票）：https://www.kaggle.com/competitions/image-matching-challenge-2025/discussion/582898
+- 11th（33 票）：https://www.kaggle.com/competitions/image-matching-challenge-2025/discussion/583097
+- 理论入门（57 票）：https://www.kaggle.com/competitions/image-matching-challenge-2025/discussion/573183
+- 往届方案（42 票）：https://www.kaggle.com/competitions/image-matching-challenge-2025/discussion/571280
+- VGGT 跟踪（28 票）：https://www.kaggle.com/competitions/image-matching-challenge-2025/discussion/582968
+
 ---
 
 ## isic-2024-challenge — ISIC 2024 深读：GBDT 元模型 × 图像 OOF 特征 × 患者内相对化
 
 > 主题 cv ｜ 类别 Research ｜ 指标 ISIC pAUC-aboveTPR ｜ 队伍 2739 ｜ 截止 2024-09-06 ｜ Tier A ｜ 标签 cv,ranking
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/isic-2024-challenge.md
 > 材料基础：`digests/isic-2024-challenge.md`（6 篇正文：1st/2nd/9th/12th + 296 票数据帖 + 67 票增广帖；80 条讨论索引）+ 10 张图（533196×5 / 532642×2 / 517141×3）
 
 ### 一句话重述
@@ -1652,11 +1865,21 @@ IMC 2025 的技术分水岭是**3D 几何基础模型（MASt3R/VGGT）**：1st �
 - ../../intel/isic-2024-challenge/bodies/532642_img/01.png — 12th 的 best LB 模型结构：GLCM + KNN + 加噪 OOF + 4 GBDT（topic 532642）
 - ../../intel/isic-2024-challenge/bodies/517141_img/03.png — microscope 增广示例：正/负样本（topic 517141）
 
+### 出处
+- 1st（149 票）：https://www.kaggle.com/competitions/isic-2024-challenge/discussion/533196
+- 2nd（71 票）：https://www.kaggle.com/competitions/isic-2024-challenge/discussion/532704
+- 9th（81 票）：https://www.kaggle.com/competitions/isic-2024-challenge/discussion/532577
+- 12th（65 票）：https://www.kaggle.com/competitions/isic-2024-challenge/discussion/532642
+- 数据帖（296 票）：https://www.kaggle.com/competitions/isic-2024-challenge/discussion/515356
+- 增广帖（67 票）：https://www.kaggle.com/competitions/isic-2024-challenge/discussion/517141
+- 缺口登记（未收录正文）：3rd(532919) / 4th(532760) / 7th(532687) / 8th(532728) / 11th(532595) / 13th(532654) / 54th(532644) / Benchmarking(527023) / LB probing(517139) / Public1st-Private24th(532564) 等
+
 ---
 
 ## iwildcam2022-fgvc9 — iWildCam 2022（FGVC9 野生动物计数）轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 Mean Absolute Error ｜ 队伍 24 ｜ 截止 2022-05-30 ｜ Tier B ｜ 标签 cv,wildlife
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/iwildcam2022-fgvc9.md
 > 材料基础：`digests/iwildcam2022-fgvc9.md`（6 篇正文：9th 328526 / 往届参考 314736 / 起步 notebook 323139 / 1st 328965 / DeepMAC 掩码公告 316483 / DeepMAC 数据询问 315980；16 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -1715,11 +1938,21 @@ IMC 2025 的技术分水岭是**3D 几何基础模型（MASt3R/VGGT）**：1st �
 - DeepMAC 是否被前排普遍使用无数据；
 - **图证缺口**：本场 0 张归档图，已登记。
 
+### 出处
+- 1st 方案（4 票 / 0 评论）：https://www.kaggle.com/competitions/iwildcam2022-fgvc9/discussion/328965
+- 9th 方案（3 票 / 0 评论）：https://www.kaggle.com/competitions/iwildcam2022-fgvc9/discussion/328526
+- 往届参考合集（16 票 / 0 评论）：https://www.kaggle.com/competitions/iwildcam2022-fgvc9/discussion/314736
+- 起步 notebook（5 票 / 3 评论）：https://www.kaggle.com/competitions/iwildcam2022-fgvc9/discussion/323139
+- DeepMAC 掩码公告（5 票 / 1 评论）：https://www.kaggle.com/competitions/iwildcam2022-fgvc9/discussion/316483
+- 数据重复（0 票 / 3 评论）：https://www.kaggle.com/competitions/iwildcam2022-fgvc9/discussion/324436
+- 序列乱序（0 票 / 4 评论）：https://www.kaggle.com/competitions/iwildcam2022-fgvc9/discussion/324425
+
 ---
 
 ## mayo-clinic-strip-ai — Mayo Clinic STRIP AI 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 Weighted Multiclass Loss ｜ 队伍 888 ｜ 截止 2022-10-05 ｜ Tier B ｜ 标签 cv,classification
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/mayo-clinic-strip-ai.md
 > 材料基础：`digests/mayo-clinic-strip-ai.md`（5 篇正文：1st 357892 / 2nd 358089 / 5th 358029 + 秘方 357877 / 25th 357898 等；80 条主题索引）+ 3 张图
 
 ### 一句话重述
@@ -1783,11 +2016,20 @@ IMC 2025 的技术分水岭是**3D 几何基础模型（MASt3R/VGGT）**：1st �
 ### 图证（KStarter 仓库内路径）
 - ../../intel/mayo-clinic-strip-ai/bodies/358029_img/02.png — log-loss 的惩罚/奖励分区
 
+### 出处
+- 1st（67 票）：https://www.kaggle.com/competitions/mayo-clinic-strip-ai/discussion/357892
+- 2nd（358089）：https://www.kaggle.com/competitions/mayo-clinic-strip-ai/discussion/358089
+- 5th（33 票）：https://www.kaggle.com/competitions/mayo-clinic-strip-ai/discussion/358029
+- 5th 秘方（357877）：https://www.kaggle.com/competitions/mayo-clinic-strip-ai/discussion/357877
+- 25th MIL（357898）：https://www.kaggle.com/competitions/mayo-clinic-strip-ai/discussion/357898
+- "数据里有信号吗"（58 票）：https://www.kaggle.com/competitions/mayo-clinic-strip-ai/discussion/336260
+
 ---
 
 ## neurips-2023-machine-unlearning — NeurIPS 2023 Machine Unlearning 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 56167-unlearn-metric ｜ 队伍 1188 ｜ 截止 2023-11-29 ｜ Tier B ｜ 标签 cv,education
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/neurips-2023-machine-unlearning.md
 > 材料基础：`digests/neurips-2023-machine-unlearning.md`（6 篇正文：6th 458740 / 2nd 458721 / 5th 458531 / 12th 458648 / 论文合集 438660 / 奖牌争议 438567；80 条主题索引）+ 8 张归档图
 
 ### 一句话重述
@@ -1852,11 +2094,24 @@ IMC 2025 的技术分水岭是**3D 几何基础模型（MASt3R/VGGT）**：1st �
 - ../../intel/neurips-2023-machine-unlearning/bodies/458740_img/01.png — 层间权重余弦相似度
 - ../../intel/neurips-2023-machine-unlearning/bodies/458648_img/01.png — 双教师 bad teaching 流程
 
+### 出处
+- 6th（13 票）：https://www.kaggle.com/competitions/neurips-2023-machine-unlearning/discussion/458740
+- 2nd（35 票 / 17 评论）：https://www.kaggle.com/competitions/neurips-2023-machine-unlearning/discussion/458721
+- 5th（30 票）：https://www.kaggle.com/competitions/neurips-2023-machine-unlearning/discussion/458531
+- 12th 公榜 / 相似度采样 bad teaching（14 票）：https://www.kaggle.com/competitions/neurips-2023-machine-unlearning/discussion/458648
+- 相关论文与代码合集（45 票）：https://www.kaggle.com/competitions/neurips-2023-machine-unlearning/discussion/438660
+- 无积分/奖牌争议（50 票 / 34 评论）：https://www.kaggle.com/competitions/neurips-2023-machine-unlearning/discussion/438567
+- 公开 notebook 同质化（23 票）：https://www.kaggle.com/competitions/neurips-2023-machine-unlearning/discussion/442946
+- 提交评分失败（14 票 / 12 评论）：https://www.kaggle.com/competitions/neurips-2023-machine-unlearning/discussion/442093
+- 少 epoch 更好（16 票 / 13 评论）：https://www.kaggle.com/competitions/neurips-2023-machine-unlearning/discussion/441318
+- 指标复现（13 票）：https://www.kaggle.com/competitions/neurips-2023-machine-unlearning/discussion/453735
+
 ---
 
 ## nfl-big-data-bowl-2023 — NFL Big Data Bowl 2023 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Community ｜ 指标  ｜ 队伍 0 ｜ 截止 2023-01-09 ｜ Tier B ｜ 标签 cv,sports
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/nfl-big-data-bowl-2023.md
 > 材料基础：`digests/nfl-big-data-bowl-2023.md`（6 篇正文：历届获奖 361175 / finalists 公告 382941 / 官方 demo 360659 / 选题清单 365497 / 官方欢迎 359079 / film review 362714；47 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -1915,11 +2170,22 @@ Metric 要新指标，Coaching 要战术洞察，Undergrad 看学术规范；fin
 - 最终 8 名 finalist 的现场排名未归档；
 - **图证缺口**：本场 0 张归档图（官方 demo 的 ExamplePlay.gif 未归档），已登记。
 
+### 出处
+- 官方欢迎（72 票 / 70 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2023/discussion/359079
+- finalists 公告（18 票 / 6 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2023/discussion/382941
+- 官方 demo notebook（18 票 / 0 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2023/discussion/360659
+- 选题清单（21 票 / 0 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2023/discussion/365497
+- 历届获奖方案（23 票 / 2 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2023/discussion/361175
+- film review（25 票 / 0 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2023/discussion/362714
+- NFL/ML 论文清单（14 票 / 6 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2023/discussion/359945
+- bias concerns（-1 票 / 18 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2023/discussion/359200
+
 ---
 
 ## nfl-big-data-bowl-2024 — NFL Big Data Bowl 2024 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Community ｜ 指标  ｜ 队伍 0 ｜ 截止 2024-01-08 ｜ Tier B ｜ 标签 cv,sports
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/nfl-big-data-bowl-2024.md
 > 材料基础：`digests/nfl-big-data-bowl-2024.md`（6 篇正文：术语表 447174 / 擒抱技术 448833 / 进攻球员评估与 EPA 447660 / 生态工具与历史冠军 446946 / 赛后总结 468229 / 官方欢迎 446943；80 条主题索引）+ 1 张归档图
 
 ### 一句话重述
@@ -1984,11 +2250,23 @@ StatsBomb 公开数据与 All-22 影片是否可用被公开询问，官方答�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/nfl-big-data-bowl-2024/bodies/448833_img/01.webp — Types of Tackles
 
+### 出处
+- 官方欢迎（19 票 / 18 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2024/discussion/446943
+- 术语表（20 票 / 3 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2024/discussion/447174
+- 擒抱技术与计数口径（19 票 / 6 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2024/discussion/448833
+- 进攻球员评估与 EPA（16 票 / 0 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2024/discussion/447660
+- 生态工具与历史冠军（17 票 / 0 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2024/discussion/446946
+- 赛后总结（16 票 / 2 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2024/discussion/468229
+- finalist 公告（14 票 / 20 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2024/discussion/472712
+- 规则与分数不公开（3 票 / 3 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2024/discussion/472752
+- 数据差异（14 票 / 6 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2024/discussion/447639
+
 ---
 
 ## nfl-big-data-bowl-2025 — NFL Big Data Bowl 2025 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Community ｜ 指标  ｜ 队伍 0 ｜ 截止 2025-01-06 ｜ Tier B ｜ 标签 cv,sports
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/nfl-big-data-bowl-2025.md
 > 材料基础：`digests/nfl-big-data-bowl-2025.md`（6 篇正文：上手资源 539795 / 历届方案 539785 / 官方欢迎与建议 539921 / 直播 539775 / 赛季数据疑问 539822 / 获奖公布 560137；72 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -2047,11 +2325,22 @@ coaching track 的图表/幻灯片规则、2000 词附录计法、提交失败�
 - 各赛道（metric/undergrad/coaching）的评审权重未公开；
 - **图证缺口**：本场 0 张归档图，已登记。
 
+### 出处
+- 官方欢迎与建议（17 票 / 17 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2025/discussion/539921
+- 上手资源汇编（22 票 / 6 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2025/discussion/539795
+- 历届方案索引（9 票 / 1 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2025/discussion/539785
+- 2025 vs 2024 特征变化（6 票 / 0 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2025/discussion/539787
+- 赛季数据疑问（14 票 / 2 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2025/discussion/539822
+- notebook spam（8 票 / 9 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2025/discussion/540670
+- coaching track 提交格式（0 票 / 8 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2025/discussion/548189
+- 获奖公布（9 票 / 8 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2025/discussion/560137
+
 ---
 
 ## nfl-big-data-bowl-2026-analytics — NFL Big Data Bowl 2026 – Analytics Track 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Featured ｜ 指标  ｜ 队伍 277 ｜ 截止 2025-12-17 ｜ Tier B ｜ 标签 cv,review,sports
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/nfl-big-data-bowl-2026-analytics.md
 > 材料基础：`digests/nfl-big-data-bowl-2026-analytics.md`（6 篇正文：起步与 Discord 609278 / 2025 冠军 AMA 与补充数据 614950 / 官方欢迎 609370 / 结果延期询问 670213 / 编辑已提交 writeup 663242 / 获奖公布 670745；41 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -2110,11 +2399,21 @@ ball_land 不一致、player_to_predict/frame/orientation/acceleration 等被逐
 - 2027 预告内容未归档；
 - **图证缺口**：本场 0 张归档图，已登记。
 
+### 出处
+- 官方欢迎（8 票 / 12 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-analytics/discussion/609370
+- 2025 冠军 AMA 与补充数据（5 票 / 1 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-analytics/discussion/614950
+- 结果延期询问（16 票 / 0 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-analytics/discussion/670213
+- 获奖公布（8 票 / 2 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-analytics/discussion/670745
+- 编辑已提交 writeup（0 票 / 1 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-analytics/discussion/663242
+- ball_land 不一致（1 票 / 4 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-analytics/discussion/610834
+- 提交系统未配置（0 票 / 3 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-analytics/discussion/663170
+
 ---
 
 ## nfl-big-data-bowl-2026-prediction — NFL Big Data Bowl 2026 - Prediction 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Featured ｜ 指标 NFL_2025 ｜ 队伍 1899 ｜ 截止 2026-01-06 ｜ Tier B ｜ 标签 cv,sports
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/nfl-big-data-bowl-2026-prediction.md
 > 材料基础：`digests/nfl-big-data-bowl-2026-prediction.md`（6 篇正文：1st 651604 / 3rd 668048 / 4th-5th 651814 / 5th 1059 行处 / 33rd 651530；80 条主题索引）+ 7 张图
 
 ### 一句话重述
@@ -2173,11 +2472,20 @@ ball_land 不一致、player_to_predict/frame/orientation/acceleration 等被逐
 ### 图证（KStarter 仓库内路径）
 - ../../intel/nfl-big-data-bowl-2026-prediction/bodies/668048_img/01.png — 3rd 的双路径时空模型
 
+### 出处
+- 1st（651604）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-prediction/discussion/651604
+- 3rd（45 票）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-prediction/discussion/668048
+- 4th/5th（43 票）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-prediction/discussion/651814
+- 33rd（32 票）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-prediction/discussion/651530
+- Model architectures（57 票 / 57 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-prediction/discussion/610240
+- 在线训练/结构性泄漏（54 票）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-prediction/discussion/612263
+
 ---
 
 ## nfl-health-and-safety-helmet-assignment — NFL Helmet Assignment 深读：检测→几何映射→配准→跟踪四段式
 
 > 主题 cv ｜ 类别 Featured ｜ 指标 NFL Helmet Identification ｜ 队伍 825 ｜ 截止 2021-11-02 ｜ Tier A ｜ 标签 cv,science,medical,sports
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/nfl-health-and-safety-helmet-assignment.md
 > 材料基础：`digests/nfl-health-and-safety-helmet-assignment.md`（6 篇：1st 327 票/欢迎 86/2nd 76/9th 64/10th 61/上届冠军索引 59；80 条讨论索引）+ 10 张图（可用 5：284940×3 / 284945×1 / 285112×6；1st 图未入库）
 
 ### 一句话重述
@@ -2291,11 +2599,21 @@ ball_land 不一致、player_to_predict/frame/orientation/acceleration 等被逐
 - 9th：FairMOT、ByteTrack、Tracktor++、YOLOX detector、速度/加速度/朝向数据、Jersey number（未尝试）、相机矩阵优化（局部极小）；yolo 训练无验证集。
 - 1st/2nd/10th：未列出（缺口）。
 
+### 出处
+- 1st（327 票）：https://www.kaggle.com/competitions/nfl-health-and-safety-helmet-assignment/discussion/284975
+- 欢迎帖（86 票）：https://www.kaggle.com/competitions/nfl-health-and-safety-helmet-assignment/discussion/263939
+- 2nd（76 票）：https://www.kaggle.com/competitions/nfl-health-and-safety-helmet-assignment/discussion/285112
+- 9th（64 票）：https://www.kaggle.com/competitions/nfl-health-and-safety-helmet-assignment/discussion/284940
+- 10th（61 票）：https://www.kaggle.com/competitions/nfl-health-and-safety-helmet-assignment/discussion/284945
+- 上届冠军索引（59 票）：https://www.kaggle.com/competitions/nfl-health-and-safety-helmet-assignment/discussion/263991
+- 缺口登记：3rd(285076)、4th(285007)、5th(285286) 未收录正文；1st 的 6 张图未入库
+
 ---
 
 ## nfl-player-contact-detection — NFL Player Contact Detection 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Featured ｜ 指标 Matthews correlation coefficient ｜ 队伍 939 ｜ 截止 2023-03-01 ｜ Tier B ｜ 标签 cv,detection,sports
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/nfl-player-contact-detection.md
 > 材料基础：`digests/nfl-player-contact-detection.md`（6 篇正文：2nd Hydrogen 391740 / 6th TK 391620 / 1st 391635 / 14th 391609 / 往届索引 370685 / 4th K_mat 391719；80 条主题索引）+ 8 张图
 
 ### 一句话重述
@@ -2356,11 +2674,20 @@ PG 加追踪无增益；PG 因此能用更长时序（23 vs 18 帧）。**裁决
 ### 图证（KStarter 仓库内路径）
 - ../../intel/nfl-player-contact-detection/bodies/391740_img/01.png — 2nd 的 CNN 架构
 
+### 出处
+- 2nd Team Hydrogen（391740）：https://www.kaggle.com/competitions/nfl-player-contact-detection/discussion/391740
+- 6th TK&penguin46（391620）：https://www.kaggle.com/competitions/nfl-player-contact-detection/discussion/391620
+- 1st（391635）：https://www.kaggle.com/competitions/nfl-player-contact-detection/discussion/391635
+- 14th（391609）：https://www.kaggle.com/competitions/nfl-player-contact-detection/discussion/391609
+- 往届索引（370685）：https://www.kaggle.com/competitions/nfl-player-contact-detection/discussion/370685
+- 4th K_mat 可视化（391719）：https://www.kaggle.com/competitions/nfl-player-contact-detection/discussion/391719
+
 ---
 
 ## openai-to-z-challenge — OpenAI to Z Challenge（亚马逊考古发现）轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Featured ｜ 指标  ｜ 队伍 225 ｜ 截止 2025-06-29 ｜ Tier B ｜ 标签 cv,
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/openai-to-z-challenge.md
 > 材料基础：`digests/openai-to-z-challenge.md`（2 篇正文：Starter materials 579189 / Who is paying for API? 579187；80 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -2419,11 +2746,26 @@ PG 加追踪无增益；PG 因此能用更长时序（23 vs 18 帧）。**裁决
 - 私有 notebook/数据许可问题（589010）未解决；
 - **图证缺口**：本场 0 张归档图，已登记。
 
+### 出处
+- Who is paying for API?（48 票 / 23 评论）：https://www.kaggle.com/competitions/openai-to-z-challenge/discussion/579187
+- Starter materials（38 票 / 12 评论）：https://www.kaggle.com/competitions/openai-to-z-challenge/discussion/579189
+- Introducing Kaggle Hackathons!（19 票 / 6 评论）：https://www.kaggle.com/competitions/openai-to-z-challenge/discussion/579068
+- 低门槛讨论（35 票 / 14 评论）：https://www.kaggle.com/competitions/openai-to-z-challenge/discussion/579173
+- 别想一口吃成胖子（14 票 / 2 评论）：https://www.kaggle.com/competitions/openai-to-z-challenge/discussion/579267
+- NASA Amazon LiDAR → DTM（18 票 / 5 评论）：https://www.kaggle.com/competitions/openai-to-z-challenge/discussion/581299
+- DEM is all you need（2 票 / 3 评论）：https://www.kaggle.com/competitions/openai-to-z-challenge/discussion/587383
+- OpenAI 源文件幻觉（2 票 / 6 评论）：https://www.kaggle.com/competitions/openai-to-z-challenge/discussion/584626
+- RAG-LLM approach（4 票 / 2 评论）：https://www.kaggle.com/competitions/openai-to-z-challenge/discussion/580234
+- Winners Announced（13 票 / 60 评论）：https://www.kaggle.com/competitions/openai-to-z-challenge/discussion/602618
+- Thank you and Next Steps（19 票 / 19 评论）：https://www.kaggle.com/competitions/openai-to-z-challenge/discussion/587178
+- 评审方式提问（3 票 / 2 评论）：https://www.kaggle.com/competitions/openai-to-z-challenge/discussion/580055
+
 ---
 
 ## petfinder-pawpularity-score — 深读：PetFinder Pawpularity（小信号回归里的"锚、头、辅、重"）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 Root Mean Squared Error ｜ 队伍 3537 ｜ 截止 2022-01-14 ｜ Tier A ｜ 标签 cv,
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/petfinder-pawpularity-score.md
 
 ### 一句话重述
 预测宠物照片的"可爱度"（1–100，RMSE）。目标主观、元数据弱、信号小（可学区间约 17–18）。**先立锚**：全预测 38.04（训练均值）的 RMSE=20.59——任何低于它的模型才算有预测力。
@@ -2482,11 +2824,19 @@ PG 加追踪无增益；PG 因此能用更长时序（23 vs 18 帧）。**裁决
 - ../../intel/petfinder-pawpularity-score/bodies/301015_img/04.png — multitask
 - ../../intel/petfinder-pawpularity-score/bodies/301015_img/02.png — preprocess
 
+### 出处
+- 1st：https://www.kaggle.com/competitions/petfinder-pawpularity-score/discussion/301686
+- Tricks 汇编：https://www.kaggle.com/competitions/petfinder-pawpularity-score/discussion/288896
+- 6th 多任务：https://www.kaggle.com/competitions/petfinder-pawpularity-score/discussion/301015
+- Public1st/Private5th：https://www.kaggle.com/competitions/petfinder-pawpularity-score/discussion/300928
+- 18th：https://www.kaggle.com/competitions/petfinder-pawpularity-score/discussion/300942
+
 ---
 
 ## physionet-ecg-image-digitization — PhysioNet ECG Image Digitization 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 Physionet ECG Signal Extraction Metric ｜ 队伍 1424 ｜ 截止 2026-01-22 ｜ Tier B ｜ 标签 cv
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/physionet-ecg-image-digitization.md
 > 材料基础：`digests/physionet-ecg-image-digitization.md`（6 篇正文：1st 669584 / 2nd 669871 / 3rd 669668 / 6th 669562 / 7th 669548 / 设计贴 613540；80 条主题索引）+ 13 张图
 
 ### 一句话重述
@@ -2552,11 +2902,21 @@ PG 加追踪无增益；PG 因此能用更长时序（23 vs 18 帧）。**裁决
 - ../../intel/physionet-ecg-image-digitization/bodies/669871_img/03.png — 2nd 的 OOF 预测叠加
 - ../../intel/physionet-ecg-image-digitization/bodies/669584_img/01.png — 1st 的标准化输入
 
+### 出处
+- 1st（73 票）：https://www.kaggle.com/competitions/physionet-ecg-image-digitization/discussion/669584
+- 2nd（36 票）：https://www.kaggle.com/competitions/physionet-ecg-image-digitization/discussion/669871
+- 3rd（31 票）：https://www.kaggle.com/competitions/physionet-ecg-image-digitization/discussion/669668
+- 6th（30 票）：https://www.kaggle.com/competitions/physionet-ecg-image-digitization/discussion/669562
+- 7th（48 票）：https://www.kaggle.com/competitions/physionet-ecg-image-digitization/discussion/669548
+- 设计讨论（40 票）：https://www.kaggle.com/competitions/physionet-ecg-image-digitization/discussion/613540
+- open→secret sauce（39 票）：https://www.kaggle.com/competitions/physionet-ecg-image-digitization/discussion/624054
+
 ---
 
 ## planttraits2024 — PlantTraits2024（植物性状多目标回归）轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 R2 Score ｜ 队伍 398 ｜ 截止 2024-06-02 ｜ Tier B ｜ 标签 cv,agriculture
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/planttraits2024.md
 > 材料基础：`digests/planttraits2024.md`（6 篇正文：植物表型综述 473745 / 1st PlantHydra 510393 / 6th AutoGluon 510143 / 9th DINOv2+CatBoost 510188 / 测试集更新与重算 486503 / 提交列顺序 487985；58 条主题索引）+ 3 张归档图
 
 ### 一句话重述
@@ -2624,11 +2984,22 @@ sample_submission 刷榜导致换测试集+重置 LB；列顺序错位造成 CV/
 ### 图证（KStarter 仓库内路径）
 - ../../intel/planttraits2024/bodies/510393_img/02.png — PlantHydra 分层学习率调度
 
+### 出处
+- 1st PlantHydra（29 票 / 13 评论）：https://www.kaggle.com/competitions/planttraits2024/discussion/510393
+- 6th AutoGluon（9 票 / 4 评论）：https://www.kaggle.com/competitions/planttraits2024/discussion/510143
+- 9th DINOv2+CatBoost（9 票 / 1 评论）：https://www.kaggle.com/competitions/planttraits2024/discussion/510188
+- 测试集更新与重算（13 票 / 13 评论）：https://www.kaggle.com/competitions/planttraits2024/discussion/486503
+- 提交列顺序（13 票 / 3 评论）：https://www.kaggle.com/competitions/planttraits2024/discussion/487985
+- 植物表型综述（37 票 / 13 评论）：https://www.kaggle.com/competitions/planttraits2024/discussion/473745
+- R² 只计正值规则（3 票 / 1 评论）：https://www.kaggle.com/competitions/planttraits2024/discussion/481308
+- 极端标签值处理（9 票 / 10 评论）：https://www.kaggle.com/competitions/planttraits2024/discussion/478549
+
 ---
 
 ## recodai-luc-scientific-image-forgery-detection — RECOD.ai-LUC Scientific Image Forgery Detection 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 RecodAI F1 ｜ 队伍 1564 ｜ 截止 2026-04-22 ｜ Tier B ｜ 标签 cv,detection
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/recodai-luc-scientific-image-forgery-detection.md
 > 材料基础：`digests/recodai-luc-scientific-image-forgery-detection.md`（6 篇正文：1st 695702 / 2nd 694397 / 65th 694442 / 29th 694168 / 私榜 3rd 674890 / DCT 综述 613066；80 条主题索引）+ 12 张归档图
 
 ### 一句话重述
@@ -2695,11 +3066,23 @@ authentic 图错报为伪造 = 1.0 直接归零；伪造图按实例 F1 且多�
 - ../../intel/recodai-luc-scientific-image-forgery-detection/bodies/695702_img/02.png — 公私榜选择
 - ../../intel/recodai-luc-scientific-image-forgery-detection/bodies/695702_img/11.png — 条带级掩码合并启发式
 
+### 出处
+- 1st（37 票）：https://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection/discussion/695702
+- 2nd（15 票）：https://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection/discussion/694397
+- 65th DINOv2（8 票）：https://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection/discussion/694442
+- 29th 分割 + 指标工程（7 票）：https://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection/discussion/694168
+- 私榜 3rd / 公榜 8th（7 票）：https://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection/discussion/674890
+- DCT copy-move 文献（38 票）：https://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection/discussion/613066
+- 指标争议（10 票）：https://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection/discussion/641092
+- 掩码含源+目标说明（10 票）：https://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection/discussion/613200
+- train vs supplemental 差异（7 票）：https://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection/discussion/657899
+
 ---
 
 ## rsna-2022-cervical-spine-fracture-detection — RSNA 2022 颈椎骨折深读：87 例掩码撬动 2k 例粗标签的标签工程
 
 > 主题 cv ｜ 类别 Featured ｜ 指标 Weighted Mean Columnwise Log Loss ｜ 队伍 883 ｜ 截止 2022-10-27 ｜ Tier A ｜ 标签 cv,detection,geospatial
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/rsna-2022-cervical-spine-fracture-detection.md
 > 材料基础：`digests/rsna-2022-cervical-spine-fracture-detection.md`（6 篇：1st/1st-code/3rd/5th/6th + 数据详解帖；80 条讨论索引）+ 10 张图（340612×4 / 362607×4 / 362643×2）
 
 ### 一句话重述
@@ -2806,11 +3189,21 @@ authentic 图错报为伪造 = 1.0 直接归零；伪造图按实例 F1 且多�
 - 数据类：mask 当额外通道（6th 列为无效——与 1st 用 mask 通道有效相反，说明配置依赖）；遮掉非分割区（6th）；undersampling（3rd）；骨折 bbox（全员弃用）。
 - 组织类：速通依赖复用；无复用则 11 天不可行。
 
+### 出处
+- 1st（haqishen，222 票）：https://www.kaggle.com/competitions/rsna-2022-cervical-spine-fracture-detection/discussion/362607
+- 数据详解（179 票）：https://www.kaggle.com/competitions/rsna-2022-cervical-spine-fracture-detection/discussion/340612
+- 1st code（147 票）：https://www.kaggle.com/competitions/rsna-2022-cervical-spine-fracture-detection/discussion/362787
+- 3rd（darraghdog，59 票）：https://www.kaggle.com/competitions/rsna-2022-cervical-spine-fracture-detection/discussion/362643
+- 6th（i-pan，59 票）：https://www.kaggle.com/competitions/rsna-2022-cervical-spine-fracture-detection/discussion/362651
+- 5th Speedrun（51 票）：https://www.kaggle.com/competitions/rsna-2022-cervical-spine-fracture-detection/discussion/363232
+- 缺口登记（未收录正文）：2nd(365115)、4th(364837)、8th(362669)、32nd(362593)、metric weights(340392)、3D renderings(350244)、anatomy(340439)、vertebrae detection(348241)
+
 ---
 
 ## rsna-2023-abdominal-trauma-detection — RSNA 2023 Abdominal Trauma Detection 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Featured ｜ 指标 RSNA Trauma Metric ｜ 队伍 1125 ｜ 截止 2023-10-15 ｜ Tier B ｜ 标签 cv,detection,geospatial
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/rsna-2023-abdominal-trauma-detection.md
 > 材料基础：`digests/rsna-2023-abdominal-trauma-detection.md`（6 篇正文：1st 447449 / 2nd 447453 / 10th 447450 / 3rd 447464 / 往届汇编 427233 / PNG 数据 427427；80 条主题索引）+ 7 张图
 
 ### 一句话重述
@@ -2872,11 +3265,20 @@ authentic 图错报为伪造 = 1.0 直接归零；伪造图按实例 F1 且多�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/rsna-2023-abdominal-trauma-detection/bodies/447453_img/01.png — 2nd 的两段式管线
 
+### 出处
+- 1st（447449）：https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection/discussion/447449
+- 2nd（447453）：https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection/discussion/447453
+- 10th（447450）：https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection/discussion/447450
+- 3rd（447464）：https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection/discussion/447464
+- 往届汇编（427233）：https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection/discussion/427233
+- PNG 数据（427427）：https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection/discussion/427427
+
 ---
 
 ## rsna-2024-lumbar-spine-degenerative-classification — RSNA 2024 腰椎 MRI 深读：两阶段定位 × 级联误差吸收 × 按条件拆模型
 
 > 主题 cv ｜ 类别 Featured ｜ 指标 RSNA Lumbar Metric 71549 ｜ 队伍 1874 ｜ 截止 2024-10-08 ｜ Tier A ｜ 标签 cv,classification,generative,geospatial
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/rsna-2024-lumbar-spine-degenerative-classification.md
 > 材料基础：`digests/rsna-2024-lumbar-spine-degenerative-classification.md`（1st/2nd/3rd/4th 四篇完整方案 + starter 阅读清单 + 124 票实验占位帖；80 条讨论索引）+ 20 张图（539443×3 / 539452×3 / 539453×5 / 540091×9）
 
 ### 一句话重述
@@ -2997,11 +3399,21 @@ authentic 图错报为伪造 = 1.0 直接归零；伪造图按实例 F1 且多�
 - ../../intel/rsna-2024-lumbar-spine-degenerative-classification/bodies/539452_img/01.png — 2nd 的轴向 YOLOX 区域检测（topic 539452）
 - ../../intel/rsna-2024-lumbar-spine-degenerative-classification/bodies/539453_img/05.png — 3rd 的后处理参数搜索：Optuna slice plot（topic 539453）
 
+### 出处
+- 1st（NANACHI，105 票）：https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification/discussion/540091
+- 2nd（yujiariyasu，98 票）：https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification/discussion/539452
+- 4th（tattaka + yu4u，76 票）：https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification/discussion/539443
+- 3rd（Moyasii，65 票）：https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification/discussion/539453
+- Starter 阅读清单（137 票）：https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification/discussion/503433
+- [placeholder] 参考论文（124 票）：https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification/discussion/519628
+- 未收录方案帖（缺口登记）：539472 / 539439 / 539486 / 539548 / 539690 / 539459 / 541279（7 条 write-up 候选，见 §8 悬案 1）
+
 ---
 
 ## rsna-breast-cancer-detection — RSNA 乳腺 X 光筛查深读：不确定指标下的选择游戏
 
 > 主题 cv ｜ 类别 Featured ｜ 指标 Probabilistic F-Score Beta (Micro) ｜ 队伍 1687 ｜ 截止 2023-02-27 ｜ Tier A ｜ 标签 cv,detection,medical,geospatial
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/rsna-breast-cancer-detection.md
 > 材料基础：`digests/rsna-breast-cancer-detection.md`（8 节：1st/2nd/4th/6th/9th + 乳腺影像入门 + 往届 RSNA 索引 + 硬件实验帖）+ 19 张图（含 3 张 SVG 结构图）
 
 ### 一句话重述
@@ -3109,11 +3521,23 @@ authentic 图错报为伪造 = 1.0 直接归零；伪造图按实例 F1 且多�
 - ../../intel/rsna-breast-cancer-detection/bodies/392449_img/01.jpg — preprocess
 - ../../intel/rsna-breast-cancer-detection/bodies/390974_img/03.svg — models
 
+### 出处
+- 1st（Đăng Nguyễn Hồng）：https://www.kaggle.com/competitions/rsna-breast-cancer-detection/discussion/392449
+- 2nd（sakaku）：https://www.kaggle.com/competitions/rsna-breast-cancer-detection/discussion/391676
+- 4th（Dieter）：https://www.kaggle.com/competitions/rsna-breast-cancer-detection/discussion/391208
+- 6th（RabotniKuma 队）：https://www.kaggle.com/competitions/rsna-breast-cancer-detection/discussion/390974
+- 9th（Remek & Andrij）：https://www.kaggle.com/competitions/rsna-breast-cancer-detection/discussion/390966
+- 乳腺影像入门：https://www.kaggle.com/competitions/rsna-breast-cancer-detection/discussion/369262
+- 往届 RSNA 冠军索引（Radek Osmulski）：https://www.kaggle.com/competitions/rsna-breast-cancer-detection/discussion/369103
+- 硬件实验帖：https://www.kaggle.com/competitions/rsna-breast-cancer-detection/discussion/370333
+- 未收录缺口（登记备查）：3rd/5th/7th/8th 等方案
+
 ---
 
 ## rsna-intracranial-aneurysm-detection — RSNA Intracranial Aneurysm Detection 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Featured ｜ 指标 Mean Weighted Columnwise AUCROC ｜ 队伍 1147 ｜ 截止 2025-10-14 ｜ Tier B ｜ 标签 cv,detection,ranking,geospatial
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/rsna-intracranial-aneurysm-detection.md
 > 材料基础：`digests/rsna-intracranial-aneurysm-detection.md`（3+ 篇正文：1st 611846 / 9th 611908 / 5th 611849 / 3rd 611856 / 4th 611893 / 临床背景 591648；80 条主题索引）+ 30+ 张图
 
 ### 一句话重述
@@ -3176,11 +3600,20 @@ authentic 图错报为伪造 = 1.0 直接归零；伪造图按实例 F1 且多�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/rsna-intracranial-aneurysm-detection/bodies/611846_img/03.png — 1st 的 ROI 分类器结构
 
+### 出处
+- 1st（611846）：https://www.kaggle.com/competitions/rsna-intracranial-aneurysm-detection/discussion/611846
+- 9th（47 票）：https://www.kaggle.com/competitions/rsna-intracranial-aneurysm-detection/discussion/611908
+- 5th（54 票，含代码）：https://www.kaggle.com/competitions/rsna-intracranial-aneurysm-detection/discussion/611849
+- 3rd（46 票）：https://www.kaggle.com/competitions/rsna-intracranial-aneurysm-detection/discussion/611856
+- 4th（44 票）：https://www.kaggle.com/competitions/rsna-intracranial-aneurysm-detection/discussion/611893
+- 临床背景（90 票）：https://www.kaggle.com/competitions/rsna-intracranial-aneurysm-detection/discussion/591648
+
 ---
 
 ## rsna-miccai-brain-tumor-radiogenomic-classification — RSNA-MICCAI Brain Tumor Radiogenomic Classification 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Featured ｜ 指标 Area Under Receiver Operating Characteristic Curve ｜ 队伍 1555 ｜ 截止 2021-10-15 ｜ Tier B ｜ 标签 cv,classification,science,medical,geospatial
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/rsna-miccai-brain-tumor-radiogenomic-classification.md
 > 材料基础：`digests/rsna-miccai-brain-tumor-radiogenomic-classification.md`（6 篇正文：12th 279832 / 1st 281347 / 论文 252833 / 往届金牌 252838 / DICOM→PNG 253000 / 往届数据集 253056；80 条主题索引）+ 1 张图
 
 ### 一句话重述
@@ -3241,11 +3674,21 @@ authentic 图错报为伪造 = 1.0 直接归零；伪造图按实例 F1 且多�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/rsna-miccai-brain-tumor-radiogenomic-classification/bodies/279832_img/01.png — 12th 的预测相关性矩阵
 
+### 出处
+- 12th（279832）：https://www.kaggle.com/competitions/rsna-miccai-brain-tumor-radiogenomic-classification/discussion/279832
+- 1st（281347）：https://www.kaggle.com/competitions/rsna-miccai-brain-tumor-radiogenomic-classification/discussion/281347
+- 论文帖（252833）：https://www.kaggle.com/competitions/rsna-miccai-brain-tumor-radiogenomic-classification/discussion/252833
+- 往届金牌（252838）：https://www.kaggle.com/competitions/rsna-miccai-brain-tumor-radiogenomic-classification/discussion/252838
+- DICOM→PNG（253000）：https://www.kaggle.com/competitions/rsna-miccai-brain-tumor-radiogenomic-classification/discussion/253000
+- 往届数据集（253056）：https://www.kaggle.com/competitions/rsna-miccai-brain-tumor-radiogenomic-classification/discussion/253056
+- 未收录正文：269396（作弊账号）、252843（MRI 拍摄差异）、252838（往届金牌索引）
+
 ---
 
 ## sartorius-cell-instance-segmentation — Sartorius Cell Instance Segmentation 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Featured ｜ 指标 IntersectionOverUnionObjectSegmentation ｜ 队伍 1505 ｜ 截止 2021-12-30 ｜ Tier B ｜ 标签 cv,segmentation
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/sartorius-cell-instance-segmentation.md
 > 材料基础：`digests/sartorius-cell-instance-segmentation.md`（5 篇正文：1st 298869 / 2nd 297988 / 3rd cellpose 297984 / 5th 298081 / 标注噪声 281205；80 条主题索引）+ 11 张图
 
 ### 一句话重述
@@ -3309,11 +3752,20 @@ astro 类标注最脏，有人整理出干净 mask 并公开（125 票）。**�
 ### 图证（KStarter 仓库内路径）
 - ../../intel/sartorius-cell-instance-segmentation/bodies/281205_img/01.png — 同一预测在两种标注下的 IoU 差异
 
+### 出处
+- 1st（101 票）：https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation/discussion/298869
+- 2nd（146 票）：https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation/discussion/297988
+- 3rd "Go with the flow"（124 票）：https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation/discussion/297984
+- 5th（84 票）：https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation/discussion/298081
+- 标注噪声（174 票）：https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation/discussion/281205
+- 干净的 astro mask（125 票）：https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation/discussion/291371
+
 ---
 
 ## sorghum-id-fgvc-9 — Sorghum ID FGVC9（高粱品种细粒度分类）轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 Categorization Accuracy ｜ 队伍 252 ｜ 截止 2022-05-30 ｜ Tier B ｜ 标签 cv,agriculture
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/sorghum-id-fgvc-9.md
 > 材料基础：`digests/sorghum-id-fgvc-9.md`（6 篇正文：3rd 328593 / 2nd 329414 / 1st 329049 / 主办方 PhD 招募 320481 / 71GB→14GB JPEG 数据集 313266 / 求 top1% 代码 328477；38 条主题索引）+ 2 张归档图
 
 ### 一句话重述
@@ -3376,11 +3828,22 @@ astro 类标注最脏，有人整理出干净 mask 并公开（125 票）。**�
 - ../../intel/sorghum-id-fgvc-9/bodies/328593_img/01.jpg — 3rd 方案管线
 - ../../intel/sorghum-id-fgvc-9/bodies/328593_img/02.png — IBN-Net 变体结构
 
+### 出处
+- 3rd 方案（12 票 / 7 评论）：https://www.kaggle.com/competitions/sorghum-id-fgvc-9/discussion/328593
+- 2nd 方案（5 票 / 0 评论）：https://www.kaggle.com/competitions/sorghum-id-fgvc-9/discussion/329414
+- 1st 方案（6 票 / 4 评论）：https://www.kaggle.com/competitions/sorghum-id-fgvc-9/discussion/329049
+- 71GB→14GB JPEG（13 票 / 11 评论）：https://www.kaggle.com/competitions/sorghum-id-fgvc-9/discussion/313266
+- 测试图缺失（10 票 / 10 评论）：https://www.kaggle.com/competitions/sorghum-id-fgvc-9/discussion/313438
+- CSV 与目录不匹配（6 票 / 7 评论）：https://www.kaggle.com/competitions/sorghum-id-fgvc-9/discussion/313543
+- Kaggle API 数据不可用（4 票 / 10 评论）：https://www.kaggle.com/competitions/sorghum-id-fgvc-9/discussion/313691
+- PhD/研究机会（15 票 / 1 评论）：https://www.kaggle.com/competitions/sorghum-id-fgvc-9/discussion/320481
+
 ---
 
 ## stable-diffusion-image-to-prompts — Stable Diffusion - Image to Prompts 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Featured ｜ 指标 MeanCosineSimilarity ｜ 队伍 1231 ｜ 截止 2023-05-15 ｜ Tier B ｜ 标签 cv,nlp,llm,retrieval,generative
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/stable-diffusion-image-to-prompts.md
 > 材料基础：`digests/stable-diffusion-image-to-prompts.md`（6 篇正文：1st 411237 / 2nd 410606 / 3rd 410686 / 11th 765 行处 / 起步指南 831 行处 / 数据集帖；80 条主题索引）+ 1 张图
 
 ### 一句话重述
@@ -3439,11 +3902,20 @@ DiffusionDB-2M 上传、3 万对数据、SD2 生成图、ChatGPT 生成对等帖
 ### 图证（KStarter 仓库内路径）
 - ../../intel/stable-diffusion-image-to-prompts/bodies/410606_img/01.png — 2nd 的两阶段训练与集成管线
 
+### 出处
+- 1st（121 票）：https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts/discussion/411237
+- 2nd（96 票）：https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts/discussion/410606
+- 3rd：https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts/discussion/410686
+- DiffusionDB-2M（138 票）：https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts/discussion/388080
+- 30K 图像-提示词对（102 票）：https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts/discussion/391500
+- 如何到 0.58+：https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts/discussion/398529
+
 ---
 
 ## tensorflow-great-barrier-reef — TensorFlow Great Barrier Reef 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 CSIROObjectDetectionFBeta ｜ 队伍 2025 ｜ 截止 2022-02-14 ｜ Tier B ｜ 标签 cv,detection
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/tensorflow-great-barrier-reef.md
 > 材料基础：`digests/tensorflow-great-barrier-reef.md`（6 篇正文：往届检测冠军汇总 289999 / 3rd Hydrogen 307707 / Kaggle 教训 297863 / 1st "Trust CV" 307878 / 5th Poisson 308007 / YOLOv5 高分辨率 300638；80 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -3506,11 +3978,20 @@ DiffusionDB-2M 上传、3 万对数据、SD2 生成图、ChatGPT 生成对等帖
 - F2 的精确实现（1st 提供了自己的版本）与官方差异未核。
 - 5th 的 GAN 受限于 unique 海星数量的假设未做受控实验。
 
+### 出处
+- 往届检测冠军汇总（289999）：https://www.kaggle.com/competitions/tensorflow-great-barrier-reef/discussion/289999
+- 3rd Team Hydrogen（307707）：https://www.kaggle.com/competitions/tensorflow-great-barrier-reef/discussion/307707
+- Kaggle 教训（297863）：https://www.kaggle.com/competitions/tensorflow-great-barrier-reef/discussion/297863
+- 1st Trust CV（307878）：https://www.kaggle.com/competitions/tensorflow-great-barrier-reef/discussion/307878
+- 5th Poisson（308007）：https://www.kaggle.com/competitions/tensorflow-great-barrier-reef/discussion/308007
+- YOLOv5 高分辨率（300638）：https://www.kaggle.com/competitions/tensorflow-great-barrier-reef/discussion/300638
+
 ---
 
 ## uw-madison-gi-tract-image-segmentation — UWMGI 2022 深读：部分标注分层 × CLS 门控 × 2.5D/3D 融合
 
 > 主题 cv ｜ 类别 Research ｜ 指标 Dice3DHausdorff ｜ 队伍 1548 ｜ 截止 2022-07-14 ｜ Tier A ｜ 标签 cv,segmentation
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/uw-madison-gi-tract-image-segmentation.md
 > 材料基础：`digests/uw-madison-gi-tract-image-segmentation.md`（6 篇：MONAI-3D/资源汇总/1st/2.5D/5th/3rd；80 条讨论索引）+ 3 张图（337197×1 / 320060×2）
 
 ### 一句话重述
@@ -3620,11 +4101,21 @@ MONAI：v1–v3 以旧 Dice 选模（local 0.8789→0.9108），新指标下只�
 - 资源类：无 3D（3rd 遗憾）；Kaggle GPU 两个月单模型仅 ~0.875（3rd 的自述曲线说明"大模型+租卡"阶段的必要性）。
 - 隐藏提示：1st 明确"部分模型不用错误标注 case"——数据清洗是与架构同级的杠杆。
 
+### 出处
+- 3D MONAI（yiheng，162 票）：https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation/discussion/325646
+- 资源汇总（140 票）：https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation/discussion/320060
+- 1st（127 票）：https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation/discussion/337197
+- 1st 2.5D 部分（56 票）：https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation/discussion/337217
+- 5th（46 票）：https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation/discussion/337268
+- 3rd（45 票）：https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation/discussion/337468
+- 缺口登记（未收录正文）：2nd(337400)、322549、323921、320692、329396、326035、Incorrect masks(319963/321979)、LB could be wrong(324934)、Hausdorff usage(319215)、330336 等
+
 ---
 
 ## vesuvius-challenge-ink-detection — Vesuvius 墨迹检测深读：深度不变性 × 几何对齐 × 校准
 
 > 主题 cv ｜ 类别 Featured ｜ 指标 DiceFBeta ｜ 队伍 1249 ｜ 截止 2023-06-14 ｜ Tier A ｜ 标签 cv,detection
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/vesuvius-challenge-ink-detection.md
 > 材料基础：`digests/vesuvius-challenge-ink-detection.md`（6 节：1st/2nd/6th/9th/11th + 自制碳化纸莎草帖）+ 18 张图
 
 ### 一句话重述
@@ -3733,11 +4224,21 @@ MONAI：v1–v3 以旧 Dice 选模（local 0.8789→0.9108），新指标下只�
 - ../../intel/vesuvius-challenge-ink-detection/bodies/417496_img/05.png — threshold sweep
 - ../../intel/vesuvius-challenge-ink-detection/bodies/417496_img/06.png — before
 
+### 出处
+- 1st（ryches，112 票）：https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection/discussion/417496
+- 6th（chumajin，84 票）：https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection/discussion/417274
+- 2nd（tattaka 队，76 票）：https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection/discussion/417255
+- 9th（hengck23，43 票）：https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection/discussion/417361
+- 11th（tk，33 票）：https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection/discussion/417281
+- 自制碳化纸莎草（136 票）：https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection/discussion/407545
+- 未收录缺口（登记备查）：417430（7th）｜417536（3rd）｜417779（4th）｜417642（5th）｜417448（top solutions 讨论）
+
 ---
 
 ## vesuvius-challenge-surface-detection — Vesuvius Challenge - Surface Detection 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Research ｜ 指标 Vesuvius 2025 Metric ｜ 队伍 1391 ｜ 截止 2026-02-27 ｜ Tier B ｜ 标签 cv,detection
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/vesuvius-challenge-surface-detection.md
 > 材料基础：`digests/vesuvius-challenge-surface-detection.md`（6 篇正文：5th 679360 / 1st 679238 / 4th 679222 / Bronze 679221 / placeholder 651532 / 3D Viewer 663144；80 条主题索引）+ 7 张图
 
 ### 一句话重述
@@ -3801,11 +4302,20 @@ SDF 天然编码距离信息，阈值扫描可在 Surface Dice 与拓扑间平�
 - ../../intel/vesuvius-challenge-surface-detection/bodies/679360_img/01.png — SDF 目标与高斯权重
 - ../../intel/vesuvius-challenge-surface-detection/bodies/679238_img/01.jpg — 高度图补大洞
 
+### 出处
+- 5th（679360）：https://www.kaggle.com/competitions/vesuvius-challenge-surface-detection/discussion/679360
+- 1st（679238）：https://www.kaggle.com/competitions/vesuvius-challenge-surface-detection/discussion/679238
+- 4th（679222）：https://www.kaggle.com/competitions/vesuvius-challenge-surface-detection/discussion/679222
+- Bronze（679221）：https://www.kaggle.com/competitions/vesuvius-challenge-surface-detection/discussion/679221
+- placeholder（651532）：https://www.kaggle.com/competitions/vesuvius-challenge-surface-detection/discussion/651532
+- 3D Viewer（663144）：https://www.kaggle.com/competitions/vesuvius-challenge-surface-detection/discussion/663144
+
 ---
 
 ## wikipedia-image-caption — Wikipedia Image/Caption Matching 轻量深读（Tier B）
 
 > 主题 cv ｜ 类别 Playground ｜ 指标 NDCG@{K} ｜ 队伍 105 ｜ 截止 2021-12-09 ｜ Tier B ｜ 标签 cv,nlp,retrieval,ranking
+> 深读原文（KStarter）：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/wikipedia-image-caption.md
 > 材料基础：`digests/wikipedia-image-caption.md`（6 篇正文：Shopee 相似赛方案总汇 283917 / 相似赛索引 272091 / 大数据图像处理 272204 / starter notebook 汇编 273309 / captioning 论文与实现 272172 / 官方欢迎 272023；32 条主题索引）+ 0 张归档图
 
 ### 一句话重述
@@ -3863,5 +4373,15 @@ test 图下载失败、test embedding 疑似错误、提交格式难、大量 0.
 - 公开 notebook 一周限制对最终名次的影响未知；
 - 内存/数据集版本更新（272501）的影响未量化；
 - **图证缺口**：本场 0 张归档图，已登记。
+
+### 出处
+- 官方欢迎（16 票 / 16 评论）：https://www.kaggle.com/competitions/wikipedia-image-caption/discussion/272023
+- Shopee 方案总汇（5 票 / 0 评论）：https://www.kaggle.com/competitions/wikipedia-image-caption/discussion/283917
+- 相似赛索引（13 票 / 4 评论）：https://www.kaggle.com/competitions/wikipedia-image-caption/discussion/272091
+- 大规模图像处理（14 票 / 6 评论）：https://www.kaggle.com/competitions/wikipedia-image-caption/discussion/272204
+- starter 汇编（17 票 / 3 评论）：https://www.kaggle.com/competitions/wikipedia-image-caption/discussion/273309
+- captioning 论文与代码（14 票 / 1 评论）：https://www.kaggle.com/competitions/wikipedia-image-caption/discussion/272172
+- 多语言 BERT + 图像 embedding（10 票 / 5 评论）：https://www.kaggle.com/competitions/wikipedia-image-caption/discussion/277601
+- test 图下载问题（5 票 / 6 评论）：https://www.kaggle.com/competitions/wikipedia-image-caption/discussion/287955
 
 ---

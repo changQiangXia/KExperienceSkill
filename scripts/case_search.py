@@ -109,6 +109,8 @@ def main() -> int:
         if card:
             for k in card.get("key_numbers", [])[:2]:
                 print(f"     · {k['claim']}: {k['value'][:160]} [{k['source']}]")
+            for s in card.get("sources", [])[:1]:
+                print(f"     link: [{s['label'][:60]}]({s['url']})")
         print(f"     deep: {r['deep_doc']}")
     return 0
 

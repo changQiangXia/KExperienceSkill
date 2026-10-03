@@ -49,3 +49,13 @@
 - 允许（视规则）：公开讨论区信息、官方允许的外部数据、结构探针、fallback/selection 规则；
 - 禁止：泄漏标签、私有数据、违反共享规则的代码/数据、钻平台漏洞（如 sample_submission 套利那类导致重算/换测试集的玩法）；
 - 不确定时发帖问主办方；把回复存档进实验台账。
+
+## 链接索引（来源佐证）
+
+> 自动生成：本文档提到的比赛及其题解链接（Kaggle discussion，最多 3 条）+ KStarter 深读原文。
+
+- **playground-series-s3e22**（tabular/Playground｜F1 Score）
+  - [Onboarding materials（62 票 / 28 评论）](https://www.kaggle.com/competitions/playground-series-s3e22/discussion/438603)
+  - [兽医 AI/Cox 文献（32 票 / 4 评论）](https://www.kaggle.com/competitions/playground-series-s3e22/discussion/438620)
+  - [Inferring the LB shakeup（36 票 / 11 评论）](https://www.kaggle.com/competitions/playground-series-s3e22/discussion/444654)
+  - [KStarter 深读原文](https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s3e22.md)
