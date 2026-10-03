@@ -16,6 +16,7 @@ description: Kaggle 上分决策与经验迁移。面对新比赛时，从 264 �
 
 1. **建事实底座**：任务/指标实现/数据结构/评测约束/平台规则 → Competition Card（`references/improvement-plan-protocol.md` 阶段 1）。
 2. **检索经验**：用 `scripts/case_search.py --deep`、`scripts/case_card.py` 与 `references/case-index.md` 找 3–5 个结构类比场次；读 `references/case-books/<theme>.md`（264 场逐场深讲解）、`references/case-deep-dives.md`（精选深案例）、`references/cross-case-playbook.md`（13 个跨场对比专题），以及在 KStarter 仓库（https://github.com/changQiangXia/KStarter）中的 `analysis/deep/<slug>.md` 原文。
+   同时查**同类型选手经验层**：`references/people-routing.md`（8 领域 → 先找谁 + 该类型高复现决策项）与 `scripts/gm_claim_search.py`（364 条 GM 断言快照，`--strict-units 2` 只看技法组合级复现）；有选手间冲突时以 `references/people-tensions.md` 的条件化裁决为准。
 3. **诊断现状**：指标数学结构（`references/metric-arbitrage.md`）、验证可信度（`references/validation-to-lb.md`）、当前 baseline 与 CV-LB 关系；先修测量，再做模型。
 4. **生成假设**：从 `references/idea-playbook.md` 按症状（S1–S28）取 3–7 条候选，用 `references/technique-transfer.md` + `scripts/technique_lookup.py` 查技法的支持/反例与第一步实验，用 `references/mechanisms.md` 写清机制、用 `references/boundaries.md` 判断有效侧/失效侧；每条 = 机制 + 类比证据（slug+数字+证据等级）+ 证伪实验 + 期望收益 + 成本 + 风险 + kill 标准；可参考 `references/worked-plans.md` 的五个完整样例。
 5. **排序执行**：按 expected gain / hour 排序（`references/score-gain-ladder.md`），一次一个变量；按 `references/experiment-protocol.md` 做配对实验（同折同种子、MDE、kill 标准），台账记录（`assets/experiment_ledger_template.csv`、`assets/experiment_card_template.md`）。
@@ -73,6 +74,8 @@ description: Kaggle 上分决策与经验迁移。面对新比赛时，从 264 �
 - 公开情报差分 → `references/public-intel-differential.md`
 - 顶层规律速查（60 条） → `references/top-rules.md`
 - 40 项故障预检 → `references/failure-preflight.md`
+- 选手经验层路由（8 领域：先找人 + 高复现决策项） → `references/people-routing.md`；断言检索 → `scripts/gm_claim_search.py --domain cv --strict-units 2`；数据 → `assets/gm_claims_snapshot.csv` / `assets/people_manifest.json`
+- 选手经验层口径（证据等级 / 复现度双口径 / flags） → `references/people-evidence.md`；选手间冲突裁决（12 组张力） → `references/people-tensions.md`
 - 提交 CSV 体检 → `scripts/submission_guard.py`
 - 折文件/台账生成 → `scripts/experiment_harness.py`；OOF 指标 + bootstrap CI + 配对比较 → `scripts/oof_report.py`
 - 台账/收官模板 → `assets/experiment_ledger_template.csv`、`assets/endgame_checklist.md`
@@ -89,6 +92,10 @@ description: Kaggle 上分决策与经验迁移。面对新比赛时，从 264 �
 - **矛盾**：与其他帖子冲突或口径不一致。
 
 引用经验时写明来源 slug；跨领域迁移时必须给反例与失效条件。
+
+引用选手断言（`people-*` / `gm_claim_search.py`）时额外标注复现度：`strict ≥2`（同领域另一单位复现了
+≥2 个相同具体技法）优先采纳；只有广义 `replication ≥2` 的按"弱复现"处理，并先查 `people-tensions.md`
+是否有相反裁决。C 级断言只作为"技法被使用"的旁证，不作为增益证据。
 
 ## Definition of Done
 
