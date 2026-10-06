@@ -18,6 +18,7 @@
 | 评审制 / 研究 / Hackathon | `references/case-books/science.md` + `other.md` | S28 | 评审闭环写作、复现演练、消融与失败路径 |
 | Agent-Config / LLM 应用赛 | `references/case-books/nlp.md` + `sim-agent.md` | S25、S28 | schema 本地校验、预算工作流、模型挂载保护 |
 | 优化 / 黑箱 / 安全 | `references/case-books/sim-agent.md` + `science.md` | S27 | 代理评分器、结构探测、最弱环分析 |
+| **任意类型：想用编码 agent / vibe coding 提效** | `references/agent-kaggle-playbook.md` | — | 四种拓扑（副驾/双 agent/群体/调度器）、合规红线、事务门与泄漏审计 |
 
 **规则**：同类型优先（CV 先看 CV、NLP 先看 NLP）；跨类型迁移必须给出反例与证伪实验，不能只凭相似。
 
@@ -47,6 +48,8 @@
 1. **归类**：写下任务/指标/数据结构/评测约束，对照上表找到你的类型。
 2. **检索**：从同类型案例里挑 3–5 场，读它们的深讲解与题解链接。
 3. **出方案**：生成计划骨架 → 填假设（机制/证据/证伪实验/kill 标准）→ 用协议验证。
+   若要交给编码 agent 执行：先读 `references/agent-kaggle-playbook.md` 选拓扑，套 `assets/agent_spec_template.md`，
+   并按 `assets/agent_workflow_checklist.md` 过合规与验收。
 
 ```bash
 # 按类型/指标找类比案例（--deep 会检索完整案例卡）
@@ -94,15 +97,18 @@ references/
   people-evidence.md         选手经验层的证据分级 / 复现度双口径 / flags 说明
   people-tensions.md         12 组选手间冲突裁决（谁在什么条件下对）
   champion-solutions.md      冠军方案索引（187 场覆盖场内，按主题 + 历史精选 + 代码/Notebook 参考）
+  agent-kaggle-playbook.md   用编码 agent 打 Kaggle：决策表 / 四种拓扑 / 失败模式 / 预算 KPI
 scripts/                     检索、计划、实验、校验工具（见上）；gm_claim_search.py 查 GM 断言快照
 assets/                      案例索引/案例卡/技法地图/台账/收官清单 + gm_claims_snapshot.csv（364 条）
                              / external_solution_links.csv（4768 条外链）/ people_manifest.json
+                             / agent_spec_template.md（任务规格）+ agent_workflow_checklist.md（开跑/收官清单）
 tools/                       sync_people_layer.py（同步选手经验层）；import_external_links.py（导入外部题解索引）
 ```
 
 ## 两条纪律
 
 - **证据分级**：官方 > 图证 > 原文数字 > 自述；矛盾项标注。每个案例都附 Kaggle 讨论题解链接与 KStarter 深读链接（全库 1002 条链接已校验）；`case_card.py` 还会列出该场未收录过的外部高排名题解（前 8 条）。
+- **agent 自述重算**：agent/LLM 相关的名次与增益多为自述（如 s6e8 的 agent 编排），引用前按 `agent-kaggle-playbook.md` 的证据等级与 `experiment-protocol.md` 复核。
 - **可证伪**：每条建议都有 kill 标准与第一步实验；一次只改一个变量；连续两轮无 OOF 增益就回到诊断。
 
 ## 数据来源与致谢

@@ -158,6 +158,9 @@
 
 **迁移动作**：① 按评审标准写交付；② 复现演练；③ 基座能力边界与部署方案；④ 预算/schema 本地校验；⑤ 提前 48h 提交。
 
+> 相关：本章讲"比赛类型是 agent"（提交 Agent Config）；"用编码 agent 打比赛"（vibe coding → agentic engineering）是另一条线，
+> 见 `agent-kaggle-playbook.md`（T1–T4 拓扑、合规红线 birdclef-2026 101st 取消资格、事务门与泄漏审计）。
+
 ## 11. 跨领域迁移检查表（把经验变成改进方案）
 
 面对新比赛，对每个候选经验问六件事：

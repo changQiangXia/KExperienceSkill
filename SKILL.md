@@ -10,6 +10,7 @@ description: Kaggle 上分决策与经验迁移。面对新比赛时，从 264 �
 - 目标：在规则允许范围内，最大化**最终排行榜名次/奖项**；public LB 是测量工具，不是目标。
 - 本 skill 的输出是**改进方案**：每条建议都有机制、类比证据、可证伪实验、成本与风险；没有证据的只写"假设"。
 - 执行层（Kaggle CLI、GPU/TPU offload、producer/consumer notebook、提交重跑）交给执行型 skill（如 `agentic-kaggle-skill`）；本 skill 决定打什么、先打什么、何时停。
+- 与编码 agent 协作时默认契约：**人定路线/验收/合规，agent 做实现与实验**（拓扑与护栏见 `references/agent-kaggle-playbook.md`）。
 - **规则优先**：任何泄漏、探榜、外部数据或提交套利前先确认比赛规则；不合规的分数不算分数。
 
 ## 核心循环（每个新比赛都走一遍）
@@ -19,7 +20,7 @@ description: Kaggle 上分决策与经验迁移。面对新比赛时，从 264 �
    同时查**同类型选手经验层**：`references/people-routing.md`（8 领域 → 先找谁 + 该类型高复现决策项）与 `scripts/gm_claim_search.py`（364 条 GM 断言快照，`--strict-units 2` 只看技法组合级复现）；有选手间冲突时以 `references/people-tensions.md` 的条件化裁决为准。
 3. **诊断现状**：指标数学结构（`references/metric-arbitrage.md`）、验证可信度（`references/validation-to-lb.md`）、当前 baseline 与 CV-LB 关系；先修测量，再做模型。
 4. **生成假设**：从 `references/idea-playbook.md` 按症状（S1–S28）取 3–7 条候选，用 `references/technique-transfer.md` + `scripts/technique_lookup.py` 查技法的支持/反例与第一步实验，用 `references/mechanisms.md` 写清机制、用 `references/boundaries.md` 判断有效侧/失效侧；每条 = 机制 + 类比证据（slug+数字+证据等级）+ 证伪实验 + 期望收益 + 成本 + 风险 + kill 标准；可参考 `references/worked-plans.md` 的五个完整样例。
-5. **排序执行**：按 expected gain / hour 排序（`references/score-gain-ladder.md`），一次一个变量；按 `references/experiment-protocol.md` 做配对实验（同折同种子、MDE、kill 标准），台账记录（`assets/experiment_ledger_template.csv`、`assets/experiment_card_template.md`）。
+5. **排序执行**：按 expected gain / hour 排序（`references/score-gain-ladder.md`），一次一个变量；按 `references/experiment-protocol.md` 做配对实验（同折同种子、MDE、kill 标准），台账记录（`assets/experiment_ledger_template.csv`、`assets/experiment_card_template.md`）。用编码 agent 执行时：先按 `references/agent-kaggle-playbook.md` 选拓扑（T1–T4），填 `assets/agent_spec_template.md`，过 `assets/agent_workflow_checklist.md`；规则禁止自动化提交时禁用自动链路。
 6. **输出 Improvement Plan**：按 `references/improvement-plan-protocol.md` 阶段 5 的模板交付；多 agent 协作按阶段 6 的角色与交接物执行。
 7. **收官保护**：提交组合/对冲、格式体检、冻结协议（`references/submission-portfolio.md`、`assets/endgame_checklist.md`、`scripts/submission_guard.py`）。
 
@@ -52,6 +53,7 @@ description: Kaggle 上分决策与经验迁移。面对新比赛时，从 264 �
 | top-K/AUC/NDCG | 排序与校准不变融合；追加预测可能白赚 |
 | 公开方案饱和、大家分差不多 | 找差分：数据/后处理/验证口径（`public-intel-differential.md`） |
 | 经验不敢直接迁移 | 按 `experience-book.md` §11 六问 + 证伪实验 |
+| 想用编码 agent 迁移脚本/跑批量实验 | 先查 `agent-kaggle-playbook.md` 的决策表与合规红线，再按 T1–T4 选拓扑 + 事务门 |
 
 ## 资源路由
 
@@ -77,6 +79,7 @@ description: Kaggle 上分决策与经验迁移。面对新比赛时，从 264 �
 - 选手经验层路由（8 领域：先找人 + 高复现决策项） → `references/people-routing.md`；断言检索 → `scripts/gm_claim_search.py --domain cv --strict-units 2`；数据 → `assets/gm_claims_snapshot.csv` / `assets/people_manifest.json`
 - 选手经验层口径（证据等级 / 复现度双口径 / flags） → `references/people-evidence.md`；选手间冲突裁决（12 组张力） → `references/people-tensions.md`
 - 外部题解层（kaggle-solutions：冠军/高排名 write-up 与 notebook，4768 条） → `assets/external_solution_links.csv`；冠军索引 → `references/champion-solutions.md`；案例卡已内联（`scripts/case_card.py` 显示每场未收录过的前 8 条）
+- 编码 agent 打 Kaggle（vibe coding → agentic engineering） → `references/agent-kaggle-playbook.md`（决策表 / T1–T4 拓扑 / 失败模式 / 预算 KPI）；规格模板 → `assets/agent_spec_template.md`；检查清单 → `assets/agent_workflow_checklist.md`
 - 提交 CSV 体检 → `scripts/submission_guard.py`
 - 折文件/台账生成 → `scripts/experiment_harness.py`；OOF 指标 + bootstrap CI + 配对比较 → `scripts/oof_report.py`
 - 台账/收官模板 → `assets/experiment_ledger_template.csv`、`assets/endgame_checklist.md`

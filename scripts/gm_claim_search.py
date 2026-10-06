@@ -6,6 +6,7 @@
   python scripts/gm_claim_search.py --domain cv --strict-units 2      # 只要技法组合级复现
   python scripts/gm_claim_search.py --tag 伪标签 --level A --limit 10
   python scripts/gm_claim_search.py --query "时间切分" --json
+  python scripts/gm_claim_search.py --query "codex|claude|agent" --min-units 1   # agent 工作流条目
 
 复现度：replication = 同领域使用任一具体技法的单位数；strict_replication = 同领域同时复现
 ≥2 个具体技法的单位数（含自身，≥2 视为技法组合级复现）。
