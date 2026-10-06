@@ -9,12 +9,12 @@
 
 | 你的比赛类型 | 先读案例书 | 思路库（症状） | 常用技法 |
 | --- | --- | --- | --- |
-| 表格 / 合成数据（Playground） | `references/case-books/tabular.md` | S6、S12–S18 | 中位数后处理、档位吸附、清洗三件套、异质集成 |
+| 表格 / 合成数据（Playground） | `references/case-books/tabular.md` | S6、S12–S18 | 中位数后处理、档位吸附、清洗三件套、异质集成；进阶：CIR 校准、FFT-AUC 融合、base_margin 残差（`tabular-advanced-recipes.md`） |
 | CV 分类 / 细粒度 | `references/case-books/cv.md` | S17、S19 | 高分辨率、IBN/直方图、ArcFace、身份辅助任务 |
 | 检测 / 分割 / 计数 / 检索 | `references/case-books/cv.md` | S24 | 密度分层阈值、OSD 未知类、阈值后处理、检索 vs logits |
 | NLP / LLM | `references/case-books/nlp.md` | S25 | 约束测试、TIR/大候选投票、蒸馏、输出解析 |
 | 时序 / 金融 / 在线 | `references/case-books/tabular.md` + `science.md` | S5 | 时间切分+purge、在线学习、组合/风险层 |
-| 模拟对战 / RL Agent | `references/case-books/sim-agent.md` | S26 | 规则基线、课程+热启动、对手多样性、拐点早停 |
+| 模拟对战 / RL Agent | `references/case-books/sim-agent.md` | S26 | 规则基线、课程+热启动、对手多样性、拐点早停；工程层：模拟器加速、联赛、NF4 量化部署（`sim-engineering.md`） |
 | 评审制 / 研究 / Hackathon | `references/case-books/science.md` + `other.md` | S28 | 评审闭环写作、复现演练、消融与失败路径 |
 | Agent-Config / LLM 应用赛 | `references/case-books/nlp.md` + `sim-agent.md` | S25、S28 | schema 本地校验、预算工作流、模型挂载保护 |
 | 优化 / 黑箱 / 安全 | `references/case-books/sim-agent.md` + `science.md` | S27 | 代理评分器、结构探测、最弱环分析 |
@@ -48,8 +48,8 @@
 1. **归类**：写下任务/指标/数据结构/评测约束，对照上表找到你的类型。
 2. **检索**：从同类型案例里挑 3–5 场，读它们的深讲解与题解链接。
 3. **出方案**：生成计划骨架 → 填假设（机制/证据/证伪实验/kill 标准）→ 用协议验证。
-   若要交给编码 agent 执行：先读 `references/agent-kaggle-playbook.md` 选拓扑，套 `assets/agent_spec_template.md`，
-   并按 `assets/agent_workflow_checklist.md` 过合规与验收。
+   若要交给编码 agent 执行：先读 `references/agent-kaggle-playbook.md` 选拓扑，套 `assets/agent_spec_template.md`
+   与 `assets/agent_prompt_templates.md`（取证/建模/堆叠/审计模板），并按 `assets/agent_workflow_checklist.md` 过合规与验收。
 
 ```bash
 # 按类型/指标找类比案例（--deep 会检索完整案例卡）
@@ -98,10 +98,13 @@ references/
   people-tensions.md         12 组选手间冲突裁决（谁在什么条件下对）
   champion-solutions.md      冠军方案索引（187 场覆盖场内，按主题 + 历史精选 + 代码/Notebook 参考）
   agent-kaggle-playbook.md   用编码 agent 打 Kaggle：决策表 / 四种拓扑 / 失败模式 / 预算 KPI
+  tabular-advanced-recipes.md  表格赛高级配方：生成器取证 / 嵌套 TE / CIR+Ridge / FFT-AUC / base_margin / Fréchet / lexrank
+  sim-engineering.md         模拟赛工程：加速层级 / 多实体架构 / PPO+联赛 / NF4 量化与部署兜底
 scripts/                     检索、计划、实验、校验工具（见上）；gm_claim_search.py 查 GM 断言快照
 assets/                      案例索引/案例卡/技法地图/台账/收官清单 + gm_claims_snapshot.csv（364 条）
                              / external_solution_links.csv（4768 条外链）/ people_manifest.json
                              / agent_spec_template.md（任务规格）+ agent_workflow_checklist.md（开跑/收官清单）
+                             / agent_prompt_templates.md（取证/建模/堆叠/审计提示词）
 tools/                       sync_people_layer.py（同步选手经验层）；import_external_links.py（导入外部题解索引）
 ```
 

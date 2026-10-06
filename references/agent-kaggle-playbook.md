@@ -4,6 +4,8 @@
 > 证据来源：KStarter 264 场深读（Tier A/B）+ 50 名 GM 断言层；每个数字都带 slug 与 topic，自述证据单独标注。
 > 配套：[assets/agent_spec_template.md](../assets/agent_spec_template.md)（任务规格模板）、
 > [assets/agent_workflow_checklist.md](../assets/agent_workflow_checklist.md)（开跑/收官检查清单）。
+> 角色分工、7 阶段流水线、护栏与审计协议另参考 [kei-kochiya/kaggle-skills](https://github.com/kei-kochiya/kaggle-skills)（MIT）
+> 的 KGMON 工作流（见 2.5/3.5/3.7 节，均为外部自述证据）。
 
 ## 0. 三条硬结论
 
@@ -26,6 +28,57 @@
 | 规则禁止自动化提交 / 要求披露 | **禁用自动链路**，只留人审 | 先读规则与 FAQ | birdclef-2026 101st 被取消资格（48 票帖） |
 
 > 通用前提：agent 提速的是"局部迭代"；**路线判断、配额与最终提交永远归人**（KStarter `playbook/00-通用方法论.md` §10.5）。
+
+## 2.5 角色分工矩阵（多 LLM 专精）
+
+S6E3 冠军战役（外部自述：4×A100、30 天、60 万行代码、850 模型）把模型按认知强项分工，而不是"一个模型全干"：
+
+| 角色 | 典型模型（外部原文） | 具体任务 | 可检查产出 |
+| --- | --- | --- | --- |
+| 吞吐与广度 | Gemini 3.1 | 同时摄取 39 个公开 notebook；跑 50 个自动 EDA 脚本；标出小数位/数字分布/计费异常 | EDA 报告 + 差异清单 |
+| 数学与取证 | GPT-5.4 | 生成器逆向（snap 差值）、radix 交互公式、Benford 似然、领域方程残差 | 公式 + 验证脚本 |
+| 深架构与调试 | Claude Opus 4.6 | 25 个 DL 家族、自定义层/NTPLinear/PBLD 等、CUDA 与 L-BFGS 失败处理 | 可训练脚本 + 断言 |
+| 执行与规模 | 4×A100 + 流水线 | GPU 前向爬山 850 → 154 模型；4 级堆叠；全量再训练 | OOF/提交 + 台账 |
+
+原则：**跨家族分工**（不同家族各有盲点，见 3.7 审计）；每个角色只交"可检查文件"，不交口头结论。
+
+## 3.5 运行护栏（把纪律写成代码）
+
+规模越大，纪律越要程序化（外部工作流原文）：
+
+1. **5×5 嵌套 CV**：所有依赖标签的变换（目标编码、snap 频率、DAE latent）必须在折内拟合；
+   跨折统计是 agent 最常见的泄漏方式。
+2. **维度与 NaN 断言**：每个脚本结尾 `assert oof.shape[0] == N_train`、`assert test.shape[0] == N_test`、
+   `assert not np.isnan(...)`；形状错了直接终止。
+3. **数值兜底**：堆叠大量共线 logit 时，求解器会线搜索失败——clip logit 到 ±30、强 L2（C=0.01）、
+   tol=1e-4、失败回退到稳定求解器。
+4. **指标纯度**：honest OOF；拒绝"全量拟合后报分"；公榜只做提交决策，不做训练信号。
+5. **检查点配对**：OOF（`.npy`）与 test 预测（`.npy`）成对序列化 + 折哈希，审计可复算。
+
+## 3.6 KGMON 7 阶段（已夺冠流水线，S6E3）
+
+1. 自动 EDA + 合成生成器逆向（snap/小数位/Benford）；
+2. 基线动物园：摄取 39 个社区 archetype；
+3. GPU 特征工程：snap、模 10 位、radix、嵌套 TE；
+4. GPU 前向爬山：850 候选 → 154 入选；
+5. 4 级层次堆叠：L1–3 OOF → L4 cuML 逻辑回归；
+6. 伪标签 + 多种子秩融合；
+7. 全量再训练（epoch 缩放）。
+
+映射到本 skill：阶段 3 用 [tabular-advanced-recipes.md](tabular-advanced-recipes.md)，阶段 4/5 用
+[technique-transfer.md](technique-transfer.md) 与 [metric-arbitrage.md](metric-arbitrage.md)，
+阶段 6 用 [experiment-protocol.md](experiment-protocol.md)。
+
+## 3.7 双 Agent 审计 + 两段漏斗（探索速度与验证纪律兼得）
+
+- **跨家族只读审计**：执行 agent 与审计 agent 必须来自不同模型家族（如 Codex 审 Claude），审计方只读运行；
+  同家族自审会继承同款盲点。
+- **8 条提交门**（审计清单）：① 特征标签泄漏 ② 打分折选择偏差 ③ OOF/测试长度一致 ④ 行序保持
+  ⑤ 堆叠嵌套完整 ⑥ 公榜反馈泄漏 ⑦ 伪标签来源（OOF teacher 隔离） ⑧ 折哈希/种子与台账一致。
+- **两段漏斗**：
+  - Stage 1（快筛）：新假设只在 Fold 0 对照基线；通过再验 Fold 1；两折都正才进 finalist（淘汰 ~80% 假设）；
+  - Stage 2（严筛）：完整 5 折 + 嵌套 meta，要求 ≥4/5 折为正且均值增益 > 0，并通过全部 8 条审计后才能生成提交。
+- 反例：单 agent 全严格流程会把探索速度拖死——外部案例曾在一个分数上卡 23 天（自述）。
 
 ## 2. 四种拓扑（按自主度递增）
 
@@ -117,6 +170,11 @@ python scripts/gm_claim_search.py --query "agent|llm" --min-units 1 --limit 20
 # sim-agent.md：google-code-golf-2025（4th）/ neurogolf-2026（1st/9th）
 # audio.md：birdclef-2026（101st 取消资格 = 合规反例）
 # science 案例：rogii-wellbore-geology-prediction（agent 参与 + 泄漏教训）
+
+# 配套参考
+# references/tabular-advanced-recipes.md  表格赛高级配方（CIR/FFT-AUC/base_margin/Fréchet/lexrank）
+# references/sim-engineering.md           模拟赛工程（加速/架构/联赛/量化部署）
+# assets/agent_prompt_templates.md        agent 提示词模板（取证/建模/堆叠/审计/两段漏斗）
 ```
 
 ## 链接索引（来源佐证）
@@ -142,3 +200,4 @@ python scripts/gm_claim_search.py --query "agent|llm" --min-units 1 --limit 20
 - cdeotte s6e2「69th Place - ChatGPT Vibe Coding!」：https://www.kaggle.com/competitions/playground-series-s6e2/discussion/679367
 - cdeotte vesuvius「Bronze Medal - ChatGPT Vibe Coding!」：https://www.kaggle.com/competitions/vesuvius-challenge-surface-detection/discussion/679221
 - KStarter 深读原文：https://github.com/changQiangXia/KStarter/blob/main/analysis/deep/playground-series-s6e8.md
+- 外部工作流（KGMON 7 阶段 / 角色矩阵 / 护栏 / 双 agent 审计）：https://github.com/kei-kochiya/kaggle-skills/blob/main/Handbook/workflows/llm-agentic-kaggle-workflow.md

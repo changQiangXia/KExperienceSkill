@@ -54,6 +54,8 @@ description: Kaggle 上分决策与经验迁移。面对新比赛时，从 264 �
 | 公开方案饱和、大家分差不多 | 找差分：数据/后处理/验证口径（`public-intel-differential.md`） |
 | 经验不敢直接迁移 | 按 `experience-book.md` §11 六问 + 证伪实验 |
 | 想用编码 agent 迁移脚本/跑批量实验 | 先查 `agent-kaggle-playbook.md` 的决策表与合规红线，再按 T1–T4 选拓扑 + 事务门 |
+| 表格赛要压最后一截（校准/融合/残差） | 查 `tabular-advanced-recipes.md`（CIR、FFT-AUC、base_margin、Fréchet、lexrank），先过同折对照 |
+| 模拟赛超时/吞吐/部署受限 | 查 `sim-engineering.md`（加速层级、单次多玩家前向、NF4 量化、兜底断路器） |
 
 ## 资源路由
 
@@ -80,6 +82,9 @@ description: Kaggle 上分决策与经验迁移。面对新比赛时，从 264 �
 - 选手经验层口径（证据等级 / 复现度双口径 / flags） → `references/people-evidence.md`；选手间冲突裁决（12 组张力） → `references/people-tensions.md`
 - 外部题解层（kaggle-solutions：冠军/高排名 write-up 与 notebook，4768 条） → `assets/external_solution_links.csv`；冠军索引 → `references/champion-solutions.md`；案例卡已内联（`scripts/case_card.py` 显示每场未收录过的前 8 条）
 - 编码 agent 打 Kaggle（vibe coding → agentic engineering） → `references/agent-kaggle-playbook.md`（决策表 / T1–T4 拓扑 / 失败模式 / 预算 KPI）；规格模板 → `assets/agent_spec_template.md`；检查清单 → `assets/agent_workflow_checklist.md`
+- 表格赛高级配方（生成器取证 / 嵌套 TE / CIR+Ridge / FFT-AUC / base_margin / Fréchet+lexrank / 软伪标签） → `references/tabular-advanced-recipes.md`
+- 模拟赛工程（加速层级与 parity / 多实体注意力 / PPO 联赛 / NF4 量化与部署兜底） → `references/sim-engineering.md`
+- agent 提示词模板（生成器逆向 / PyTorch 合成 / 爬山堆叠 / 独立审计 / 两段漏斗） → `assets/agent_prompt_templates.md`
 - 提交 CSV 体检 → `scripts/submission_guard.py`
 - 折文件/台账生成 → `scripts/experiment_harness.py`；OOF 指标 + bootstrap CI + 配对比较 → `scripts/oof_report.py`
 - 台账/收官模板 → `assets/experiment_ledger_template.csv`、`assets/endgame_checklist.md`
