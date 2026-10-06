@@ -75,6 +75,9 @@ S6E3 冠军战役（外部自述：4×A100、30 天、60 万行代码、850 模�
   同家族自审会继承同款盲点。
 - **8 条提交门**（审计清单）：① 特征标签泄漏 ② 打分折选择偏差 ③ OOF/测试长度一致 ④ 行序保持
   ⑤ 堆叠嵌套完整 ⑥ 公榜反馈泄漏 ⑦ 伪标签来源（OOF teacher 隔离） ⑧ 折哈希/种子与台账一致。
+  其中可机器化的部分（长度/NaN/行序/折覆盖/折哈希/平局率/单特征泄漏烟雾测试）直接跑
+  `python scripts/agent_audit.py --oof oof.npy --test pred.npy --test-ids test_ids.csv --sample sample_submission.csv --folds folds.npy`；
+  FAIL 即禁止生成提交，人工/独立审计 agent 再补 ⑥⑦ 与流程合规。
 - **两段漏斗**：
   - Stage 1（快筛）：新假设只在 Fold 0 对照基线；通过再验 Fold 1；两折都正才进 finalist（淘汰 ~80% 假设）；
   - Stage 2（严筛）：完整 5 折 + 嵌套 meta，要求 ≥4/5 折为正且均值增益 > 0，并通过全部 8 条审计后才能生成提交。

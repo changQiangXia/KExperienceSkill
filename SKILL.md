@@ -85,6 +85,7 @@ description: Kaggle 上分决策与经验迁移。面对新比赛时，从 264 �
 - 表格赛高级配方（生成器取证 / 嵌套 TE / CIR+Ridge / FFT-AUC / base_margin / Fréchet+lexrank / 软伪标签） → `references/tabular-advanced-recipes.md`
 - 模拟赛工程（加速层级与 parity / 多实体注意力 / PPO 联赛 / NF4 量化与部署兜底） → `references/sim-engineering.md`
 - agent 提示词模板（生成器逆向 / PyTorch 合成 / 爬山堆叠 / 独立审计 / 两段漏斗） → `assets/agent_prompt_templates.md`
+- agent 产物审计（长度/NaN/行序/折覆盖/折哈希/平局率/单特征泄漏烟雾测试） → `scripts/agent_audit.py`（FAIL 即禁止提交）
 - 提交 CSV 体检 → `scripts/submission_guard.py`
 - 折文件/台账生成 → `scripts/experiment_harness.py`；OOF 指标 + bootstrap CI + 配对比较 → `scripts/oof_report.py`
 - 台账/收官模板 → `assets/experiment_ledger_template.csv`、`assets/endgame_checklist.md`

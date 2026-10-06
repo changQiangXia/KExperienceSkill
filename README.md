@@ -100,7 +100,7 @@ references/
   agent-kaggle-playbook.md   用编码 agent 打 Kaggle：决策表 / 四种拓扑 / 失败模式 / 预算 KPI
   tabular-advanced-recipes.md  表格赛高级配方：生成器取证 / 嵌套 TE / CIR+Ridge / FFT-AUC / base_margin / Fréchet / lexrank
   sim-engineering.md         模拟赛工程：加速层级 / 多实体架构 / PPO+联赛 / NF4 量化与部署兜底
-scripts/                     检索、计划、实验、校验工具（见上）；gm_claim_search.py 查 GM 断言快照
+scripts/                     检索、计划、实验、校验工具（见上）；gm_claim_search.py 查 GM 断言快照；agent_audit.py 审 agent 产物
 assets/                      案例索引/案例卡/技法地图/台账/收官清单 + gm_claims_snapshot.csv（364 条）
                              / external_solution_links.csv（4768 条外链）/ people_manifest.json
                              / agent_spec_template.md（任务规格）+ agent_workflow_checklist.md（开跑/收官清单）
