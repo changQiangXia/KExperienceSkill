@@ -93,14 +93,16 @@ references/
   people-routing.md          按比赛类型找人：8 领域 → 先找人 + 高复现决策项（严格复现优先）
   people-evidence.md         选手经验层的证据分级 / 复现度双口径 / flags 说明
   people-tensions.md         12 组选手间冲突裁决（谁在什么条件下对）
+  champion-solutions.md      冠军方案索引（187 场覆盖场内，按主题 + 历史精选 + 代码/Notebook 参考）
 scripts/                     检索、计划、实验、校验工具（见上）；gm_claim_search.py 查 GM 断言快照
-assets/                      案例索引/案例卡/技法地图/台账/收官清单 + gm_claims_snapshot.csv（364 条）/ people_manifest.json
-tools/                       sync_people_layer.py（从 KStarter 重新同步选手经验层）
+assets/                      案例索引/案例卡/技法地图/台账/收官清单 + gm_claims_snapshot.csv（364 条）
+                             / external_solution_links.csv（4768 条外链）/ people_manifest.json
+tools/                       sync_people_layer.py（同步选手经验层）；import_external_links.py（导入外部题解索引）
 ```
 
 ## 两条纪律
 
-- **证据分级**：官方 > 图证 > 原文数字 > 自述；矛盾项标注。每个案例都附 Kaggle 讨论题解链接与 KStarter 深读链接（全库 1002 条链接已校验）。
+- **证据分级**：官方 > 图证 > 原文数字 > 自述；矛盾项标注。每个案例都附 Kaggle 讨论题解链接与 KStarter 深读链接（全库 1002 条链接已校验）；`case_card.py` 还会列出该场未收录过的外部高排名题解（前 8 条）。
 - **可证伪**：每条建议都有 kill 标准与第一步实验；一次只改一个变量；连续两轮无 OOF 增益就回到诊断。
 
 ## 数据来源与致谢
@@ -108,4 +110,7 @@ tools/                       sync_people_layer.py（从 KStarter 重新同步选
 经验来自 [KStarter](https://github.com/changQiangXia/KStarter)：264 场 write-up 深读（Tier A 60 + Tier B 204）
 与四件套（THEORY / claims / lineage / limitations）；选手经验层来自 50 名 GM 的 152 条 ≥50 票主题帖
 （551 条断言、94 份 dossier、40 份决策画像、8 本领域 playbook，快照时点 KStarter commit `9950188`）。
+外部题解层来自 [faridrashidi/kaggle-solutions](https://github.com/faridrashidi/kaggle-solutions)（MIT License,
+Farid Rashidi）：721 场 / 4768 条链接中，264 场覆盖场内 2402 条；本仓库只保留链接与元数据派生，
+未收录过的前 8 条已内联进案例卡（`assets/external_solution_links.csv` 为全量）。
 本仓库只做提炼与检索，深读原文以 KStarter 为准。

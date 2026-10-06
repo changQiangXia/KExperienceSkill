@@ -9,13 +9,38 @@ assets/case_cards.jsonl —— 每场一条，含关键数字、共识/分歧裁
 from __future__ import annotations
 
 import argparse
+import collections
 import csv
 import json
 import pathlib
 import re
 
 SKILL = pathlib.Path(__file__).resolve().parent.parent
+EXTERNAL = SKILL / "assets" / "external_solution_links.csv"
 HEADING = re.compile(r"^(#{1,4})\s+(.*)$")
+
+
+def rank_num(rank: str) -> int:
+    match = re.search(r"\d+", rank or "")
+    return int(match.group(0)) if match else 10**6
+
+
+def load_external_links() -> dict[str, list[dict[str, str]]]:
+    """外部题解（kaggle-solutions 索引）：每场取未收录过的前 8 条，按排名排序。"""
+    if not EXTERNAL.exists():
+        return {}
+    grouped: dict[str, list[dict[str, str]]] = collections.defaultdict(list)
+    for row in csv.DictReader(EXTERNAL.open(encoding="utf-8")):
+        if row["flag"] == "legacy_blog" or "kaggle.com" not in row["domain"] or row["already_in_skill"] == "1":
+            continue
+        grouped[row["slug"]].append(row)
+    out = {}
+    for slug, items in grouped.items():
+        items.sort(key=lambda r: (rank_num(r["rank"]), r["link_kind"] != "description"))
+        out[slug] = [
+            {"rank": r["rank"], "kind": r["link_kind"], "url": r["url"]} for r in items[:8]
+        ]
+    return out
 
 
 def parse_tables(lines: list[str]):
@@ -137,6 +162,7 @@ def main() -> int:
         print("ERROR: 先运行 tools/build_case_index.py")
         return 1
     index = list(csv.DictReader(index_path.open(encoding="utf-8")))
+    external = load_external_links()
 
     cards = []
     for row in index:
@@ -151,7 +177,10 @@ def main() -> int:
             k["urls"] = [
                 f"https://www.kaggle.com/competitions/{row['slug']}/discussion/{tid}" for tid in ids
             ]
-        cards.append({**row, **parsed})
+        card = {**row, **parsed}
+        if external.get(row["slug"]):
+            card["external_links"] = external[row["slug"]]
+        cards.append(card)
 
     out = SKILL / "assets" / "case_cards.jsonl"
     with out.open("w", encoding="utf-8") as fh:
@@ -167,6 +196,13 @@ def main() -> int:
             sum(1 for c in cards if c["failures"]),
             sum(1 for c in cards if c["evidence"]),
             sum(1 for c in cards if c["sources"]),
+        )
+    )
+    print(
+        "external: %d cards with external links, %d links"
+        % (
+            sum(1 for c in cards if c.get("external_links")),
+            sum(len(c.get("external_links", [])) for c in cards),
         )
     )
     return 0

@@ -65,6 +65,10 @@ def main() -> int:
     print("\n## 题解链接（来源佐证）")
     for s in card.get("sources", []):
         print(f"- [{s['label']}]({s['url']})")
+    if card.get("external_links"):
+        print("\n## 外部题解（kaggle-solutions，未收录过的）")
+        for link in card["external_links"]:
+            print(f"- [rank {link['rank']}｜{link['kind']}]({link['url']})")
     if card.get("deep_doc_url"):
         print(f"- [KStarter 深读原文]({card['deep_doc_url']})")
     return 0

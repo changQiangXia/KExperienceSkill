@@ -109,8 +109,11 @@ def main() -> int:
         if card:
             for k in card.get("key_numbers", [])[:2]:
                 print(f"     · {k['claim']}: {k['value'][:160]} [{k['source']}]")
-            for s in card.get("sources", [])[:1]:
-                print(f"     link: [{s['label'][:60]}]({s['url']})")
+            for src in card.get("sources", [])[:1]:
+                print(f"     link: [{src['label'][:60]}]({src['url']})")
+            ext = card.get("external_links", [])
+            if ext:
+                print(f"     ext: {len(ext)} 条外部题解（rank {ext[0]['rank']}–{ext[-1]['rank']}；见 case_card.py）")
         print(f"     deep: {r['deep_doc']}")
     return 0
 

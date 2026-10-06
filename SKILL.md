@@ -76,6 +76,7 @@ description: Kaggle 上分决策与经验迁移。面对新比赛时，从 264 �
 - 40 项故障预检 → `references/failure-preflight.md`
 - 选手经验层路由（8 领域：先找人 + 高复现决策项） → `references/people-routing.md`；断言检索 → `scripts/gm_claim_search.py --domain cv --strict-units 2`；数据 → `assets/gm_claims_snapshot.csv` / `assets/people_manifest.json`
 - 选手经验层口径（证据等级 / 复现度双口径 / flags） → `references/people-evidence.md`；选手间冲突裁决（12 组张力） → `references/people-tensions.md`
+- 外部题解层（kaggle-solutions：冠军/高排名 write-up 与 notebook，4768 条） → `assets/external_solution_links.csv`；冠军索引 → `references/champion-solutions.md`；案例卡已内联（`scripts/case_card.py` 显示每场未收录过的前 8 条）
 - 提交 CSV 体检 → `scripts/submission_guard.py`
 - 折文件/台账生成 → `scripts/experiment_harness.py`；OOF 指标 + bootstrap CI + 配对比较 → `scripts/oof_report.py`
 - 台账/收官模板 → `assets/experiment_ledger_template.csv`、`assets/endgame_checklist.md`
@@ -96,6 +97,9 @@ description: Kaggle 上分决策与经验迁移。面对新比赛时，从 264 �
 引用选手断言（`people-*` / `gm_claim_search.py`）时额外标注复现度：`strict ≥2`（同领域另一单位复现了
 ≥2 个相同具体技法）优先采纳；只有广义 `replication ≥2` 的按"弱复现"处理，并先查 `people-tensions.md`
 是否有相反裁决。C 级断言只作为"技法被使用"的旁证，不作为增益证据。
+
+外部题解（`champion-solutions.md` / `assets/external_solution_links.csv`，来源 kaggle-solutions，MIT）
+只作为**线索与佐证入口**：链接本身是证据，数字与机制仍要回 Kaggle 原文或 KStarter 深读核对后再引用。
 
 ## Definition of Done
 
