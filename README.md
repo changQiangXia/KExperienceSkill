@@ -28,6 +28,7 @@
 （551 条断言 → 364 条可检索快照，其中技法组合级复现 184 条）。`严` = 同领域其他选手独立复现了
 **≥2 个相同具体技法**的证据单位数，严越高越该优先采纳；完整列表见 `references/people-routing.md`，
 口径见 `references/people-evidence.md`，冲突裁决见 `references/people-tensions.md`。
+想看"这 50 人整体怎么打"（7 阶段主循环 / 8 领域变体 / 6 种选手原型）见 `references/gm-generalized-process.md`。
 
 | 你的比赛类型 | 先找人（快照条数） | 高复现决策项（严=组合级复现单位数） | 规模 |
 | --- | --- | --- | --- |
@@ -96,6 +97,7 @@ references/
   people-routing.md          按比赛类型找人：8 领域 → 先找人 + 高复现决策项（严格复现优先）
   people-evidence.md         选手经验层的证据分级 / 复现度双口径 / flags 说明
   people-tensions.md         12 组选手间冲突裁决（谁在什么条件下对）
+  gm-generalized-process.md  前 50 GM 的可泛化流程：7 阶段主循环 + 8 领域变体 + 6 种选手原型
   champion-solutions.md      冠军方案索引（187 场覆盖场内，按主题 + 历史精选 + 代码/Notebook 参考）
   agent-kaggle-playbook.md   用编码 agent 打 Kaggle：决策表 / 四种拓扑 / 失败模式 / 预算 KPI
   tabular-advanced-recipes.md  表格赛高级配方：生成器取证 / 嵌套 TE / CIR+Ridge / FFT-AUC / base_margin / Fréchet / lexrank

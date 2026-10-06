@@ -78,7 +78,7 @@ description: Kaggle 上分决策与经验迁移。面对新比赛时，从 264 �
 - 公开情报差分 → `references/public-intel-differential.md`
 - 顶层规律速查（60 条） → `references/top-rules.md`
 - 40 项故障预检 → `references/failure-preflight.md`
-- 选手经验层路由（8 领域：先找人 + 高复现决策项） → `references/people-routing.md`；断言检索 → `scripts/gm_claim_search.py --domain cv --strict-units 2`；数据 → `assets/gm_claims_snapshot.csv` / `assets/people_manifest.json`
+- 选手经验层路由（8 领域：先找人 + 高复现决策项） → `references/people-routing.md`；整体流程骨架（7 阶段 + 领域变体 + 选手原型） → `references/gm-generalized-process.md`；断言检索 → `scripts/gm_claim_search.py --domain cv --strict-units 2`；数据 → `assets/gm_claims_snapshot.csv` / `assets/people_manifest.json`
 - 选手经验层口径（证据等级 / 复现度双口径 / flags） → `references/people-evidence.md`；选手间冲突裁决（12 组张力） → `references/people-tensions.md`
 - 外部题解层（kaggle-solutions：冠军/高排名 write-up 与 notebook，4768 条） → `assets/external_solution_links.csv`；冠军索引 → `references/champion-solutions.md`；案例卡已内联（`scripts/case_card.py` 显示每场未收录过的前 8 条）
 - 编码 agent 打 Kaggle（vibe coding → agentic engineering） → `references/agent-kaggle-playbook.md`（决策表 / T1–T4 拓扑 / 失败模式 / 预算 KPI）；规格模板 → `assets/agent_spec_template.md`；检查清单 → `assets/agent_workflow_checklist.md`
