@@ -1,6 +1,6 @@
 # 案例书：science（25 场）
 
-> 由 KStarter 深读文档生成：每场含一句话重述、全量数字账、逐方案对照矩阵、共识/分歧与裁决全文、证据分级、悬案与失败学、图证路径与出处。
+> 由 KStarter 深读文档生成：每场含一句话重述、全量数字账、逐方案对照矩阵、共识/分歧与裁决全文、证据分级、悬案与失败学、图证路径、出处与外部题解。
 > 用途：为新比赛找结构类比时，先读本册，再回 KStarter 深读原文核对。
 
 ## MABe-mouse-behavior-detection — MABe Mouse Behavior Detection 轻量深读（Tier B）
@@ -76,6 +76,16 @@ CNN-Transformer（7th）vs CNN+RNN/SqueezeFormer（2nd）vs LSTM（3rd）都能�
 - 睡鼠笔记（53 票）：https://www.kaggle.com/competitions/MABe-mouse-behavior-detection/discussion/608753
 - 1D 检测占位（42 票）：https://www.kaggle.com/competitions/MABe-mouse-behavior-detection/discussion/609063
 
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/MABe-mouse-behavior-detection/writeups/2nd-place-solution
+- rank 3｜description：https://www.kaggle.com/c/MABe-mouse-behavior-detection/writeups/3rd-place-solution
+- rank 4｜description：https://www.kaggle.com/c/MABe-mouse-behavior-detection/writeups/4th-place-solution-xgb-nn-ensemble
+- rank 5｜description：https://www.kaggle.com/c/MABe-mouse-behavior-detection/writeups/5th-place-gnn-egocentric-squeezeformer
+- rank 7｜description：https://www.kaggle.com/c/MABe-mouse-behavior-detection/writeups/7th-place-gold-cnn-transformer-with-invariant-fe
+- rank 9｜description：https://www.kaggle.com/c/MABe-mouse-behavior-detection/writeups/9th-place-gold
+- rank 10｜description：https://www.kaggle.com/c/MABe-mouse-behavior-detection/writeups/10th-place-solution-st-gcn-transformer
+- rank 12｜description：https://www.kaggle.com/c/MABe-mouse-behavior-detection/writeups/12th-place-solution
+
 ---
 
 ## amp-parkinsons-disease-progression-prediction — AMP-Parkinson's Disease Progression Prediction 轻量深读（Tier B）
@@ -149,6 +159,11 @@ CNN-Transformer（7th）vs CNN+RNN/SqueezeFormer（2nd）vs LSTM（3rd）都能�
 - 13th：https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction/discussion/411436
 - Top89（非泄漏）：https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction/discussion/411561
 - 找对照组（76 票）：https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction/discussion/411388
+
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/amp-parkinsons-disease-progression-prediction/discussion/411546
+- rank 9｜description：https://www.kaggle.com/c/amp-parkinsons-disease-progression-prediction/discussion/411380
+- rank 12｜description：https://www.kaggle.com/c/amp-parkinsons-disease-progression-prediction/discussion/411394
 
 ---
 
@@ -279,6 +294,16 @@ CNN-Transformer（7th）vs CNN+RNN/SqueezeFormer（2nd）vs LSTM（3rd）都能�
 - 4th（27 票）：https://www.kaggle.com/competitions/ariel-data-challenge-2024/discussion/544471
 - 缺口登记（未收录正文）：543679(7th)、523708、523664、529533、528247、528114、528066、540248 等
 
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/ariel-data-challenge-2024/discussion/543944
+- rank 7｜description：https://www.kaggle.com/c/ariel-data-challenge-2024/discussion/543679
+- rank 8｜description：https://www.kaggle.com/c/ariel-data-challenge-2024/discussion/543776
+- rank 9｜description：https://www.kaggle.com/c/ariel-data-challenge-2024/discussion/543983
+- rank 10｜description：https://www.kaggle.com/c/ariel-data-challenge-2024/discussion/544189
+- rank 15｜description：https://www.kaggle.com/c/ariel-data-challenge-2024/discussion/543754
+- rank 17｜description：https://www.kaggle.com/c/ariel-data-challenge-2024/discussion/543763
+- rank 18｜description：https://www.kaggle.com/c/ariel-data-challenge-2024/discussion/543675
+
 ---
 
 ## ariel-data-challenge-2025 — Ariel Data Challenge 2025 轻量深读（Tier B）
@@ -349,6 +374,16 @@ CNN-Transformer（7th）vs CNN+RNN/SqueezeFormer（2nd）vs LSTM（3rd）都能�
 - ArielML（591278）：https://www.kaggle.com/competitions/ariel-data-challenge-2025/discussion/591278
 - 9th（609443）：https://www.kaggle.com/competitions/ariel-data-challenge-2025/discussion/609443
 - 3rd（32 票）：https://www.kaggle.com/competitions/ariel-data-challenge-2025/discussion/609252
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/ariel-data-challenge-2025/writeups/1st-place-solution-bayesian-inference-of-course
+- rank 2｜description：https://www.kaggle.com/c/ariel-data-challenge-2025/writeups/2nd-place-solution
+- rank 3｜description：https://www.kaggle.com/c/ariel-data-challenge-2025/writeups/3rd-place-solution
+- rank 5｜description：https://www.kaggle.com/c/ariel-data-challenge-2025/writeups/5th-place-solution
+- rank 6｜description：https://www.kaggle.com/c/ariel-data-challenge-2025/writeups/6th-solution-writeup
+- rank 7｜description：https://www.kaggle.com/c/ariel-data-challenge-2025/writeups/7st-place-solution
+- rank 8｜description：https://www.kaggle.com/c/ariel-data-challenge-2025/writeups/8th-place-solution
+- rank 9｜description：https://www.kaggle.com/c/ariel-data-challenge-2025/writeups/9th-solution
 
 ---
 
@@ -425,6 +460,16 @@ CNN-Transformer（7th）vs CNN+RNN/SqueezeFormer（2nd）vs LSTM（3rd）都能�
 - 3rd（78 票）：https://www.kaggle.com/competitions/birdclef-2024/discussion/511905
 - 5th（57 票）：https://www.kaggle.com/competitions/birdclef-2024/discussion/511535
 - Xeno 补充数据（85 票）：https://www.kaggle.com/competitions/birdclef-2024/discussion/491687
+
+### 外部题解（kaggle-solutions）
+- rank 6｜description：https://www.kaggle.com/c/birdclef-2024/discussion/511527
+- rank 7｜description：https://www.kaggle.com/c/birdclef-2024/discussion/511540
+- rank 8｜description：https://www.kaggle.com/c/birdclef-2024/discussion/511528
+- rank 9｜description：https://www.kaggle.com/c/birdclef-2024/discussion/511510
+- rank 10｜description：https://www.kaggle.com/c/birdclef-2024/discussion/511596
+- rank 11｜description：https://www.kaggle.com/c/birdclef-2024/discussion/511499
+- rank 15｜description：https://www.kaggle.com/c/birdclef-2024/discussion/511559
+- rank 18｜description：https://www.kaggle.com/c/birdclef-2024/discussion/511851
 
 ---
 
@@ -503,6 +548,12 @@ IA 解释帖说明层级与权重；2nd 直接把本体图搬进推理（按图�
 - ESM2 末层嵌入（47 票）：https://www.kaggle.com/competitions/cafa-5-protein-function-prediction/discussion/406168
 - 蛋白语言模型（41 票）：https://www.kaggle.com/competitions/cafa-5-protein-function-prediction/discussion/402565
 
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/cafa-5-protein-function-prediction/discussion/433732
+- rank 5｜description：https://www.kaggle.com/c/cafa-5-protein-function-prediction/discussion/463009
+- rank 9｜description：https://www.kaggle.com/c/cafa-5-protein-function-prediction/discussion/462605
+- rank 13｜description：https://www.kaggle.com/c/cafa-5-protein-function-prediction/discussion/434333
+
 ---
 
 ## cafa-6-protein-function-prediction — CAFA 6 Protein Function Prediction 轻量深读（Tier B）
@@ -574,6 +625,15 @@ IA 解释帖说明层级与权重；2nd 直接把本体图搬进推理（按图�
 - GAF 基线（22 票）：https://www.kaggle.com/competitions/cafa-6-protein-function-prediction/discussion/613138
 - 时间平移验证（16 票）：https://www.kaggle.com/competitions/cafa-6-protein-function-prediction/discussion/614668
 - CAFA-evaluator（21 票）：https://www.kaggle.com/competitions/cafa-6-protein-function-prediction/discussion/612097
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/cafa-6-protein-function-prediction/writeups/1st-place-solution-for-the-cafa-6-protein-function
+- rank 2｜description：https://www.kaggle.com/c/cafa-6-protein-function-prediction/writeups/2nd-solution-of-cafa-6-py-boost-gcn-articles-da
+- rank 3｜description：https://www.kaggle.com/c/cafa-6-protein-function-prediction/writeups/what-happened
+- rank 4｜description：https://www.kaggle.com/c/cafa-6-protein-function-prediction/writeups/4st-place-solution-for-the-cafa-6-protein-function
+- rank 5｜description：https://www.kaggle.com/c/cafa-6-protein-function-prediction/writeups/5th-place-solution
+- rank 6｜description：https://www.kaggle.com/c/cafa-6-protein-function-prediction/writeups/6th-place-solution-for-the-cafa-6-protein-function
+- rank 41｜description：https://www.kaggle.com/c/cafa-6-protein-function-prediction/writeups/41st-place-solution-for-the-cafa-6-protein-functio
 
 ---
 
@@ -654,6 +714,16 @@ IA 解释帖说明层级与权重；2nd 直接把本体图搬进推理（按图�
 - 按采样日期分组（132 票）：https://www.kaggle.com/competitions/csiro-biomass/discussion/615401
 - Height/Dead 假设检验（86 票）：https://www.kaggle.com/competitions/csiro-biomass/discussion/650736
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/csiro-biomass/writeups/1st-place-solution
+- rank 2｜description：https://www.kaggle.com/c/csiro-biomass/writeups/2nd-weakly-supervised-semantic-segmentation-sy
+- rank 3｜description：https://www.kaggle.com/c/csiro-biomass/writeups/3rd-place-solution
+- rank 4｜description：https://www.kaggle.com/c/csiro-biomass/writeups/physics-constrained-regression-integrating-biolog
+- rank 5｜description：https://www.kaggle.com/c/csiro-biomass/writeups/5th-place-solution
+- rank 6｜description：https://www.kaggle.com/c/csiro-biomass/writeups/a-scalar-regression-pipeline-based-on-dinov3
+- rank 7｜description：https://www.kaggle.com/c/csiro-biomass/writeups/8th-place-solution-singledual-ttt
+- rank 8｜description：https://www.kaggle.com/c/csiro-biomass/writeups/8th-place-solution-csiro-image2biomass
+
 ---
 
 ## equity-post-HCT-survival-predictions — Equity in Post-HCT Survival Predictions 轻量深读（Tier B）
@@ -724,6 +794,16 @@ efs=0 是"至少存活到 efs_time"的删失观测；4th 用 Kaplan-Meier 累积
 - 3rd（566574）：https://www.kaggle.com/competitions/equity-post-HCT-survival-predictions/discussion/566574
 - 4th（566528）：https://www.kaggle.com/competitions/equity-post-HCT-survival-predictions/discussion/566528
 - 2nd（115 票）：https://www.kaggle.com/competitions/equity-post-HCT-survival-predictions/discussion/566522
+
+### 外部题解（kaggle-solutions）
+- rank 5｜description：https://www.kaggle.com/c/equity-post-HCT-survival-predictions/discussion/568339
+- rank 6｜description：https://www.kaggle.com/c/equity-post-HCT-survival-predictions/discussion/566686
+- rank 9｜description：https://www.kaggle.com/c/equity-post-HCT-survival-predictions/discussion/566948
+- rank 11｜description：https://www.kaggle.com/c/equity-post-HCT-survival-predictions/discussion/566624
+- rank 12｜description：https://www.kaggle.com/c/equity-post-HCT-survival-predictions/discussion/566584
+- rank 15｜description：https://www.kaggle.com/c/equity-post-HCT-survival-predictions/discussion/566756
+- rank 16｜description：https://www.kaggle.com/c/equity-post-HCT-survival-predictions/discussion/567643
+- rank 22｜description：https://www.kaggle.com/c/equity-post-HCT-survival-predictions/discussion/566769
 
 ---
 
@@ -851,6 +931,16 @@ float32 下溢风险（361312 帖，未收录）暗示数据尺度陷阱。
 - 3rd（40 票）：https://www.kaggle.com/competitions/g2net-detecting-continuous-gravitational-waves/discussion/376233
 - 缺口登记（未收录正文）：347052、370202、376022、373973、375369、361312、363280 等
 
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/g2net-detecting-continuous-gravitational-waves/discussion/376504
+- rank 4｜description：https://www.kaggle.com/c/g2net-detecting-continuous-gravitational-waves/discussion/376357
+- rank 5｜description：https://www.kaggle.com/c/g2net-detecting-continuous-gravitational-waves/discussion/376022
+- rank 8｜description：https://www.kaggle.com/c/g2net-detecting-continuous-gravitational-waves/discussion/376253
+- rank 10｜description：https://www.kaggle.com/c/g2net-detecting-continuous-gravitational-waves/discussion/376052
+- rank 11｜description：https://www.kaggle.com/c/g2net-detecting-continuous-gravitational-waves/discussion/375981
+- rank 12｜description：https://www.kaggle.com/c/g2net-detecting-continuous-gravitational-waves/discussion/375961
+- rank 13｜description：https://www.kaggle.com/c/g2net-detecting-continuous-gravitational-waves/discussion/376724
+
 ---
 
 ## icecube-neutrinos-in-deep-ice — IceCube - Neutrinos in Deep Ice 轻量深读（Tier B）
@@ -921,6 +1011,16 @@ float32 下溢风险（361312 帖，未收录）暗示数据尺度陷阱。
 - 1st（77 票）：https://www.kaggle.com/competitions/icecube-neutrinos-in-deep-ice/discussion/402976
 - 10th（402969）：https://www.kaggle.com/competitions/icecube-neutrinos-in-deep-ice/discussion/402969
 - 9th（41 票）：https://www.kaggle.com/competitions/icecube-neutrinos-in-deep-ice/discussion/402849
+
+### 外部题解（kaggle-solutions）
+- rank 5｜description：https://www.kaggle.com/c/icecube-neutrinos-in-deep-ice/discussion/403398
+- rank 6｜description：https://www.kaggle.com/c/icecube-neutrinos-in-deep-ice/discussion/403153
+- rank 8｜description：https://www.kaggle.com/c/icecube-neutrinos-in-deep-ice/discussion/403713
+- rank 12｜description：https://www.kaggle.com/c/icecube-neutrinos-in-deep-ice/discussion/403000
+- rank 13｜description：https://www.kaggle.com/c/icecube-neutrinos-in-deep-ice/discussion/405563
+- rank 14｜description：https://www.kaggle.com/c/icecube-neutrinos-in-deep-ice/discussion/402973
+- rank 15｜description：https://www.kaggle.com/c/icecube-neutrinos-in-deep-ice/discussion/405034
+- rank 16｜description：https://www.kaggle.com/c/icecube-neutrinos-in-deep-ice/discussion/402861
 
 ---
 
@@ -1057,6 +1157,14 @@ Two tips：**float32 下溢**（必须保 float64）；
 - 泄漏治理请求（51 票）：https://www.kaggle.com/competitions/leap-atmospheric-physics-ai-climsim/discussion/519249
 - 缺口登记（未收录正文）：511911、508630、501829、506490、519184、494968 等
 
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/leap-atmospheric-physics-ai-climsim/discussion/523077
+- rank 7｜description：https://www.kaggle.com/c/leap-atmospheric-physics-ai-climsim/discussion/524111
+- rank 8｜description：https://www.kaggle.com/c/leap-atmospheric-physics-ai-climsim/discussion/523223
+- rank 11｜description：https://www.kaggle.com/c/leap-atmospheric-physics-ai-climsim/discussion/523087
+- rank 27｜description：https://www.kaggle.com/c/leap-atmospheric-physics-ai-climsim/discussion/523129
+- rank 47｜description：https://www.kaggle.com/c/leap-atmospheric-physics-ai-climsim/discussion/523105
+
 ---
 
 ## leash-BELKA — LEASH - BELKA（DNA 编码库结合预测）轻量深读（Tier B）
@@ -1131,6 +1239,11 @@ host 公告修改评分指标。**裁决**：指标变更后要重估所有历�
 - 988th（42 票）：https://www.kaggle.com/competitions/leash-BELKA/discussion/519135
 - 训练集瘦身（90 票）：https://www.kaggle.com/competitions/leash-BELKA/discussion/491472
 - 指标变更（68 票）：https://www.kaggle.com/competitions/leash-BELKA/discussion/503232
+
+### 外部题解（kaggle-solutions）
+- rank 8｜description：https://www.kaggle.com/c/leash-BELKA/discussion/519815
+- rank 11｜description：https://www.kaggle.com/c/leash-BELKA/discussion/518993
+- rank 27｜description：https://www.kaggle.com/c/leash-BELKA/discussion/519191
 
 ---
 
@@ -1220,6 +1333,16 @@ host 公告修改评分指标。**裁决**：指标变更后要重估所有历�
 - 10th（16 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2026/discussion/689044
 - 银牌 19th（13 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2026/discussion/689174
 - 缺口登记：678938（赛制更新）、683453（榜单完成）、680969（数据错误）、689808、689849
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/march-machine-learning-mania-2026/writeups/march-machine-learning-mania-2026-1st-place-solut
+- rank 2｜description：https://www.kaggle.com/c/march-machine-learning-mania-2026/writeups/2nd-place-solution-for-the-march-machine-learning
+- rank 3｜description：https://www.kaggle.com/c/march-machine-learning-mania-2026/writeups/3rd-place-solution-march-machine-learning-mania
+- rank 4｜description：https://www.kaggle.com/c/march-machine-learning-mania-2026/writeups/4th-place-solution-for-the-march-machine-learning
+- rank 5｜description：https://www.kaggle.com/c/march-machine-learning-mania-2026/writeups/march-machine-learning-mania-2026-5nd-place-solut
+- rank 6｜description：https://www.kaggle.com/c/march-machine-learning-mania-2026/writeups/6th-place-solution-march-machine-learning-mania-20
+- rank 7｜description：https://www.kaggle.com/c/march-machine-learning-mania-2026/writeups/7th-place-solution
+- rank 8｜description：https://www.kaggle.com/c/march-machine-learning-mania-2026/writeups/8th-place-march-machine-learning-mania-2026
 
 ---
 
@@ -1358,6 +1481,16 @@ host 公告修改评分指标。**裁决**：指标变更后要重估所有历�
 - 3rd（hongyu Guo）：https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/discussion/607991
 - 缺口登记（未收录正文）：587318、607784、585884、588643、607769、608250、593755、607778 等
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/neurips-open-polymer-prediction-2025/writeups/1st-place-solution
+- rank 2｜description：https://www.kaggle.com/c/neurips-open-polymer-prediction-2025/writeups/2nd-place-solution
+- rank 3｜description：https://www.kaggle.com/c/neurips-open-polymer-prediction-2025/writeups/3rd-place-solution
+- rank 4｜description：https://www.kaggle.com/c/neurips-open-polymer-prediction-2025/writeups/4th-place-solution-lightgbm-with-smiles-derived-fe
+- rank 5｜description：https://www.kaggle.com/c/neurips-open-polymer-prediction-2025/writeups/a-hybrid-physicsmachine-learning-framework-for-pol
+- rank 6｜description：https://www.kaggle.com/c/neurips-open-polymer-prediction-2025/writeups/6th-place-solution
+- rank 8｜description：https://www.kaggle.com/c/neurips-open-polymer-prediction-2025/writeups/8th-place-solution-no-tg-post-processing
+- rank 10｜description：https://www.kaggle.com/c/neurips-open-polymer-prediction-2025/writeups/10th-place-solution-a-feature-centric-approach-wit
+
 ---
 
 ## novozymes-enzyme-stability-prediction — Novozymes Enzyme Stability Prediction 轻量深读（Tier B）
@@ -1429,6 +1562,12 @@ host 公告修改评分指标。**裁决**：指标变更后要重估所有历�
 - 2nd（私榜 0.577）：https://www.kaggle.com/competitions/novozymes-enzyme-stability-prediction/discussion/376134
 - 训练数据含同类突变（122 票）：https://www.kaggle.com/competitions/novozymes-enzyme-stability-prediction/discussion/355209
 - AF2 预测（71 票）：https://www.kaggle.com/competitions/novozymes-enzyme-stability-prediction/discussion/361816
+
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/novozymes-enzyme-stability-prediction/discussion/375964
+- rank 6｜description：https://www.kaggle.com/c/novozymes-enzyme-stability-prediction/discussion/375900
+- rank 8｜description：https://www.kaggle.com/c/novozymes-enzyme-stability-prediction/discussion/376070
+- rank 11｜description：https://www.kaggle.com/c/novozymes-enzyme-stability-prediction/discussion/376147
 
 ---
 
@@ -1558,6 +1697,16 @@ host 公告修改评分指标。**裁决**：指标变更后要重估所有历�
 - 2nd（senkin，95 票）：https://www.kaggle.com/competitions/open-problems-multimodal/discussion/366453
 - 3rd（makotu，70 票）：https://www.kaggle.com/competitions/open-problems-multimodal/discussion/366428
 - 缺口登记（未收录正文）：Leak in public test set(349867)、Private 0.773 lessons(366395)、It is a time series(363052)、7th(366471)、Exploiting the column names(349242)、364408、12th(366455)、Data Update and Rescore(350933)、 chronicles(348311)、ATAC-Gene(349559)
+
+### 外部题解（kaggle-solutions）
+- rank 4｜code：https://www.kaggle.com/c/open-problems-multimodal/discussion/366460
+- rank 5｜description：https://www.kaggle.com/c/open-problems-multimodal/discussion/366409
+- rank 6｜description：https://www.kaggle.com/c/open-problems-multimodal/discussion/366417
+- rank 7｜description：https://www.kaggle.com/c/open-problems-multimodal/discussion/366471
+- rank 8｜description：https://www.kaggle.com/c/open-problems-multimodal/discussion/366667
+- rank 11｜description：https://www.kaggle.com/c/open-problems-multimodal/discussion/366455
+- rank 12｜description：https://www.kaggle.com/c/open-problems-multimodal/discussion/366504
+- rank 13｜description：https://www.kaggle.com/c/open-problems-multimodal/discussion/366392
 
 ---
 
@@ -1693,6 +1842,14 @@ host 公告修改评分指标。**裁决**：指标变更后要重估所有历�
 - 3rd（33 票）：https://www.kaggle.com/competitions/open-problems-single-cell-perturbations/discussion/458750
 - 评审奖提问：https://www.kaggle.com/competitions/open-problems-single-cell-perturbations/discussion/456239
 - 缺口登记（未收录正文）：458661、454700、445883、457753、456943、440177、441550、458916 等
+
+### 外部题解（kaggle-solutions）
+- rank 7｜description：https://www.kaggle.com/c/open-problems-single-cell-perturbations/discussion/459623
+- rank 8｜description：https://www.kaggle.com/c/open-problems-single-cell-perturbations/discussion/459618
+- rank 15｜description：https://www.kaggle.com/c/open-problems-single-cell-perturbations/discussion/459588
+- rank 18｜description：https://www.kaggle.com/c/open-problems-single-cell-perturbations/discussion/458661
+- rank 21｜description：https://www.kaggle.com/c/open-problems-single-cell-perturbations/discussion/458764
+- rank 44｜description：https://www.kaggle.com/c/open-problems-single-cell-perturbations/discussion/458888
 
 ---
 
@@ -1937,6 +2094,16 @@ MIT/EPA/CCAI 各自数据有 starter、缺 notebook、列名含义（`alt_prec`�
 - 问题图示（Zacchaeus）：https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction/discussion/697418
 - 未收录缺口（登记备查）：733480（4th）｜733522（5th）｜733281（8th）｜733150（9th）｜733315（10th）｜733182（34th）｜733307（48→407 复盘）等
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/rogii-wellbore-geology-prediction/writeups/1st-place-solution
+- rank 2｜description：https://www.kaggle.com/c/rogii-wellbore-geology-prediction/writeups/2nd-place-solution-anchorcnn-conditional-probab
+- rank 3｜description：https://www.kaggle.com/c/rogii-wellbore-geology-prediction/writeups/3rd-place-solution
+- rank 4｜description：https://www.kaggle.com/c/rogii-wellbore-geology-prediction/writeups/4th-place-solution
+- rank 5｜description：https://www.kaggle.com/c/rogii-wellbore-geology-prediction/writeups/5th-place-solution
+- rank 6｜description：https://www.kaggle.com/c/rogii-wellbore-geology-prediction/writeups/6th-place-diverse-gr-representations-91-pfs
+- rank 7｜description：https://www.kaggle.com/c/rogii-wellbore-geology-prediction/writeups/7th-place-solution-hmm-unet-agent-is-all-you
+- rank 8｜description：https://www.kaggle.com/c/rogii-wellbore-geology-prediction/writeups/8th-place-pf-ranker
+
 ---
 
 ## stanford-ribonanza-rna-folding — Stanford Ribonanza 深读：BPP 结构先验注入 × 长度外推 × 相似性 CV
@@ -2084,6 +2251,16 @@ MIT/EPA/CCAI 各自数据有 starter、缺 notebook、列名含义（`alt_prec`�
 - 8th（27 票）：https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/discussion/460222
 - 缺口登记（未收录正文）：3rd(460403)、444653、460301、460285、451158、451853、454397、458478、460130 等
 
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/stanford-ribonanza-rna-folding/discussion/460403
+- rank 5｜description：https://www.kaggle.com/c/stanford-ribonanza-rna-folding/discussion/460250
+- rank 6｜description：https://www.kaggle.com/c/stanford-ribonanza-rna-folding/discussion/460392
+- rank 10｜description：https://www.kaggle.com/c/stanford-ribonanza-rna-folding/discussion/463352
+- rank 11｜description：https://www.kaggle.com/c/stanford-ribonanza-rna-folding/discussion/460192
+- rank 15｜description：https://www.kaggle.com/c/stanford-ribonanza-rna-folding/discussion/460130
+- rank 16｜description：https://www.kaggle.com/c/stanford-ribonanza-rna-folding/discussion/460545
+- rank 18｜description：https://www.kaggle.com/c/stanford-ribonanza-rna-folding/discussion/460383
+
 ---
 
 ## stanford-rna-3d-folding — Stanford RNA 3D Folding (Part 1) 轻量深读（Tier B）
@@ -2169,6 +2346,16 @@ MIT/EPA/CCAI 各自数据有 starter、缺 notebook、列名含义（`alt_prec`�
 - 训练数据更新（13 票）：https://www.kaggle.com/competitions/stanford-rna-3d-folding/discussion/575109
 - 赛后总结（23 票）：https://www.kaggle.com/competitions/stanford-rna-3d-folding/discussion/609187
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/stanford-rna-3d-folding/writeups/1st-place-solution
+- rank 2｜description：https://www.kaggle.com/c/stanford-rna-3d-folding/writeups/2nd-place-solution
+- rank 3｜description：https://www.kaggle.com/c/stanford-rna-3d-folding/writeups/3rd-place-solution
+- rank 5｜description：https://www.kaggle.com/c/stanford-rna-3d-folding/writeups/5th-place-solution
+- rank 6｜description：https://www.kaggle.com/c/stanford-rna-3d-folding/writeups/6th-place-solution
+- rank 7｜description：https://www.kaggle.com/c/stanford-rna-3d-folding/writeups/7th-place-solution-ensemble-of-two-protenix-model
+- rank 8｜description：https://www.kaggle.com/c/stanford-rna-3d-folding/writeups/8th-solution
+- rank 9｜description：https://www.kaggle.com/c/stanford-rna-3d-folding/writeups/10th-place-solution-d4t4-team
+
 ---
 
 ## stanford-rna-3d-folding-2 — Stanford RNA 3D Folding Part 2 轻量深读（Tier B）
@@ -2244,6 +2431,16 @@ Part 1 总结称"模板法回归"是最大惊喜；本场 1st 把 TBM 当长序�
 - RNAPro 管线（26 票）：https://www.kaggle.com/competitions/stanford-rna-3d-folding-2/discussion/668412
 - host 欢迎帖：https://www.kaggle.com/competitions/stanford-rna-3d-folding-2/discussion/666382
 - 移动靶争议（15 票 / 37 评论）：https://www.kaggle.com/competitions/stanford-rna-3d-folding-2/discussion/686651
+
+### 外部题解（kaggle-solutions）
+- rank 5｜description：https://www.kaggle.com/c/stanford-rna-3d-folding-2/writeups/5th-place-solution-stanford-rna-3d-folding-part
+- rank 6｜description：https://www.kaggle.com/c/stanford-rna-3d-folding-2/writeups/6th-place-solution
+- rank 7｜description：https://www.kaggle.com/c/stanford-rna-3d-folding-2/writeups/7th-place-solution
+- rank 8｜description：https://www.kaggle.com/c/stanford-rna-3d-folding-2/writeups/8th-place-solution-tbm-and-protenix
+- rank 9｜description：https://www.kaggle.com/c/stanford-rna-3d-folding-2/writeups/optimize-diversity-when-representation-is-limited
+- rank 10｜description：https://www.kaggle.com/c/stanford-rna-3d-folding-2/writeups/10th-place-solution
+- rank 16｜description：https://www.kaggle.com/c/stanford-rna-3d-folding-2/writeups/16th-place-solution
+- rank 19｜description：https://www.kaggle.com/c/stanford-rna-3d-folding-2/writeups/19th-place-solution
 
 ---
 
@@ -2359,6 +2556,16 @@ Chris 的气球类比 + 300 曲线可视化：C=顺应性（C=50 软→压力低
 - 2nd 逆 PID（166 票）：https://www.kaggle.com/competitions/ventilator-pressure-prediction/discussion/285283
 - 9th Laplace（ryomak，123 票）：https://www.kaggle.com/competitions/ventilator-pressure-prediction/discussion/285353
 - 未收录缺口（登记备查）：285278（4th PID hacking）｜285402（5th）｜285282（6th）｜285965（1st code）｜285639（金牌要点复盘）
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/ventilator-pressure-prediction/discussion/287200
+- rank 1｜code：https://www.kaggle.com/c/ventilator-pressure-prediction/discussion/285965
+- rank 4｜description：https://www.kaggle.com/c/ventilator-pressure-prediction/discussion/285278
+- rank 5｜description：https://www.kaggle.com/c/ventilator-pressure-prediction/discussion/285402
+- rank 6｜description：https://www.kaggle.com/c/ventilator-pressure-prediction/discussion/285282
+- rank 10｜code：https://www.kaggle.com/c/ventilator-pressure-prediction/discussion/285336
+- rank 11｜description：https://www.kaggle.com/c/ventilator-pressure-prediction/discussion/285320
+- rank 13｜description：https://www.kaggle.com/c/ventilator-pressure-prediction/discussion/285435
 
 ---
 
@@ -2496,5 +2703,15 @@ Chris 的气球类比 + 300 曲线可视化：C=顺应性（C=50 软→压力低
 - 2nd（jeroencottaar，49 票）：https://www.kaggle.com/competitions/waveform-inversion/discussion/587950
 - 20th（46 票）：https://www.kaggle.com/competitions/waveform-inversion/discussion/587402
 - 缺口登记（未收录正文）：587500(4th)、587443(5th)、587460(6th)、572329、583896、582801、572434、583217、578305 等
+
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/waveform-inversion/discussion/587500
+- rank 5｜description：https://www.kaggle.com/c/waveform-inversion/discussion/587443
+- rank 6｜description：https://www.kaggle.com/c/waveform-inversion/discussion/587460
+- rank 10｜description：https://www.kaggle.com/c/waveform-inversion/discussion/587412
+- rank 12｜description：https://www.kaggle.com/c/waveform-inversion/discussion/587404
+- rank 14｜description：https://www.kaggle.com/c/waveform-inversion/discussion/587529
+- rank 15｜description：https://www.kaggle.com/c/waveform-inversion/discussion/587511
+- rank 22｜description：https://www.kaggle.com/c/waveform-inversion/discussion/587417
 
 ---

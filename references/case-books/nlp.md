@@ -1,6 +1,6 @@
 # 案例书：nlp（47 场）
 
-> 由 KStarter 深读文档生成：每场含一句话重述、全量数字账、逐方案对照矩阵、共识/分歧与裁决全文、证据分级、悬案与失败学、图证路径与出处。
+> 由 KStarter 深读文档生成：每场含一句话重述、全量数字账、逐方案对照矩阵、共识/分歧与裁决全文、证据分级、悬案与失败学、图证路径、出处与外部题解。
 > 用途：为新比赛找结构类比时，先读本册，再回 KStarter 深读原文核对。
 
 ## AI4Code — Google AI4Code 轻量深读（Tier B）
@@ -79,6 +79,16 @@ Jupyter notebook 中 **code 单元顺序已知**，要把 **markdown 单元排�
 - 1st（360501）：https://www.kaggle.com/competitions/AI4Code/discussion/360501
 - 开源（326970）：https://www.kaggle.com/competitions/AI4Code/discussion/326970
 - 缺口登记：3rd–10th 方案、325205（比赛意图讨论）
+
+### 外部题解（kaggle-solutions）
+- rank 3｜code：https://www.kaggle.com/c/AI4Code/discussion/367600
+- rank 5｜description：https://www.kaggle.com/c/AI4Code/discussion/365587
+- rank 6｜code：https://www.kaggle.com/c/AI4Code/discussion/368500
+- rank 9｜code：https://www.kaggle.com/c/AI4Code/discussion/368190
+- rank 10｜code：https://www.kaggle.com/c/AI4Code/discussion/368997
+- rank 15｜code：https://www.kaggle.com/c/AI4Code/discussion/343714
+- rank 18｜code：https://www.kaggle.com/c/AI4Code/discussion/354336
+- rank 19｜code：https://www.kaggle.com/c/AI4Code/discussion/344230
 
 ---
 
@@ -199,6 +209,16 @@ Jupyter notebook 中 **code 单元顺序已知**，要把 **markdown 单元排�
 - 奖项流程（Elizabeth Park）：https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks/discussion/739078
 - 未收录缺口（登记备查）：24 条 write-up 标记中的其余条目（2nd/3rd/5th/6th/8th/9th 等）
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/ai-agent-security-multi-step-tool-attacks/writeups/1st-place-solution
+- rank 2｜description：https://www.kaggle.com/c/ai-agent-security-multi-step-tool-attacks/writeups/aas-2nd-no-shake-plz-no-shake-yes
+- rank 4｜description：https://www.kaggle.com/c/ai-agent-security-multi-step-tool-attacks/writeups/4th-place-solution
+- rank 5｜description：https://www.kaggle.com/c/ai-agent-security-multi-step-tool-attacks/writeups/compiling-user-messages-into-faster-tool-calls
+- rank 6｜description：https://www.kaggle.com/c/ai-agent-security-multi-step-tool-attacks/writeups/6th-place-solution
+- rank 7｜description：https://www.kaggle.com/c/ai-agent-security-multi-step-tool-attacks/writeups/7th-place-solution-transfer-was-the-real-attack
+- rank 9｜description：https://www.kaggle.com/c/ai-agent-security-multi-step-tool-attacks/writeups/9th-place-solution-what-the-defense-could-see
+- rank 10｜description：https://www.kaggle.com/c/ai-agent-security-multi-step-tool-attacks/writeups/10th-place-solution
+
 ---
 
 ## ai-mathematical-olympiad-prize — AI Mathematical Olympiad Prize 轻量深读（Tier B）
@@ -269,6 +289,11 @@ on-policy KTO 让模型比 SFT 好"几个百分点"（公榜 27/50）；RLOO 没
 - 分数方差（70 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-prize/discussion/509388
 - SymPy（86 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-prize/discussion/494713
 - 入门资源（177 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-prize/discussion/488264
+
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/ai-mathematical-olympiad-prize/discussion/518960
+- rank 36｜description：https://www.kaggle.com/c/ai-mathematical-olympiad-prize/discussion/516966
+- rank 41｜description：https://www.kaggle.com/c/ai-mathematical-olympiad-prize/discussion/516868
 
 ---
 
@@ -347,6 +372,15 @@ TensorRT-LLM+FP8（1st）vs lmdeploy+AWQ4+KV8（2nd）vs vLLM V1（3rd/8th）。
 - 4th（573671）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-2/discussion/573671
 - 8th（65 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-2/discussion/571356
 - 本地其他 write-up：5th 574262、7th 572760、11th 573086、17th 573071、20th 575172、21st 571289
+
+### 外部题解（kaggle-solutions）
+- rank 5｜description：https://www.kaggle.com/c/ai-mathematical-olympiad-progress-prize-2/discussion/574262
+- rank 7｜description：https://www.kaggle.com/c/ai-mathematical-olympiad-progress-prize-2/discussion/572760
+- rank 9｜description：https://www.kaggle.com/c/ai-mathematical-olympiad-progress-prize-2/discussion/571252
+- rank 11｜description：https://www.kaggle.com/c/ai-mathematical-olympiad-progress-prize-2/discussion/573086
+- rank 18｜description：https://www.kaggle.com/c/ai-mathematical-olympiad-progress-prize-2/discussion/573071
+- rank 20｜description：https://www.kaggle.com/c/ai-mathematical-olympiad-progress-prize-2/discussion/575172
+- rank 22｜description：https://www.kaggle.com/c/ai-mathematical-olympiad-progress-prize-2/discussion/571289
 
 ---
 
@@ -437,6 +471,11 @@ TensorRT-LLM+FP8（1st）vs lmdeploy+AWQ4+KV8（2nd）vs vLLM V1（3rd/8th）。
 - 私榜重跑（51 票 / 70 评论）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3/discussion/693267
 - H100 滥用治理（35 票）：https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3/discussion/668407
 
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/ai-mathematical-olympiad-progress-prize-3/writeups/less-prompting-more-trust
+- rank 6｜description：https://www.kaggle.com/c/ai-mathematical-olympiad-progress-prize-3/writeups/entropy-weighted-self-consistency-for-olympiad-lev
+- rank 14｜description：https://www.kaggle.com/c/ai-mathematical-olympiad-progress-prize-3/writeups/inference-time-engineering-for-imo-level-mathemati
+
 ---
 
 ## arc-prize-2024 — ARC Prize 2024 轻量深读（Tier B）
@@ -509,6 +548,11 @@ TensorRT-LLM+FP8（1st）vs lmdeploy+AWQ4+KV8（2nd）vs vLLM V1（3rd/8th）。
 - 21st：https://www.kaggle.com/competitions/arc-prize-2024/discussion/550209
 - 用 LLM 得 33 分（50 票）：https://www.kaggle.com/competitions/arc-prize-2024/discussion/512910
 - 400k 合成题（41 票）：https://www.kaggle.com/competitions/arc-prize-2024/discussion/543953
+
+### 外部题解（kaggle-solutions）
+- rank 5｜description：https://www.kaggle.com/c/arc-prize-2024/discussion/550336
+- rank 13｜description：https://www.kaggle.com/c/arc-prize-2024/discussion/546302
+- rank 34｜description：https://www.kaggle.com/c/arc-prize-2024/discussion/545886
 
 ---
 
@@ -593,6 +637,13 @@ ARChitects 发现 AR 顺序生成不可回改、难处理全局重构，转向�
 - 隐藏测试可能只有 1 个训练样本（32 票）：https://www.kaggle.com/competitions/arc-prize-2025/discussion/578736
 - 测试集编辑（20 票）：https://www.kaggle.com/competitions/arc-prize-2025/discussion/573301
 - Post comp update（20 票）：https://www.kaggle.com/competitions/arc-prize-2025/discussion/652927
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/arc-prize-2025/writeups/nvarc
+- rank 3｜description：https://www.kaggle.com/c/arc-prize-2025/writeups/mindsai-and-tufa-labs-arc-prize-2025-solution
+- rank 4｜description：https://www.kaggle.com/c/arc-prize-2025/writeups/arc-prize-2025-competition-writeup-5th-place
+- rank 5｜description：https://www.kaggle.com/c/arc-prize-2025/writeups/exploring-the-combination-of-search-and-learn-for
+- rank 6｜description：https://www.kaggle.com/c/arc-prize-2025/writeups/lb10-00-with-small-change-to-2024architects
 
 ---
 
@@ -742,6 +793,16 @@ ARChitects 发现 AR 顺序生成不可回改、难处理全局重构，转向�
 - 噪声标签（65 票）：https://www.kaggle.com/competitions/chaii-hindi-and-tamil-question-answering/discussion/264395
 - Tamil Jaccard（51 票）：https://www.kaggle.com/competitions/chaii-hindi-and-tamil-question-answering/discussion/264831
 
+### 外部题解（kaggle-solutions）
+- rank 3｜code：https://www.kaggle.com/c/chaii-hindi-and-tamil-question-answering/discussion/287929
+- rank 4｜description：https://www.kaggle.com/c/chaii-hindi-and-tamil-question-answering/discussion/287911
+- rank 6｜code：https://www.kaggle.com/c/chaii-hindi-and-tamil-question-answering/discussion/288442
+- rank 7｜description：https://www.kaggle.com/c/chaii-hindi-and-tamil-question-answering/discussion/287948
+- rank 8｜description：https://www.kaggle.com/c/chaii-hindi-and-tamil-question-answering/discussion/289511
+- rank 9｜description：https://www.kaggle.com/c/chaii-hindi-and-tamil-question-answering/discussion/288110
+- rank 10｜description：https://www.kaggle.com/c/chaii-hindi-and-tamil-question-answering/discussion/288001
+- rank 12｜description：https://www.kaggle.com/c/chaii-hindi-and-tamil-question-answering/discussion/288058
+
 ---
 
 ## commonlit-evaluate-student-summaries — CommonLit 摘要评估深读：主题多样性 × Head Mask × 长上下文鲁棒性
@@ -884,6 +945,16 @@ ARChitects 发现 AR 顺序生成不可回改、难处理全局重构，转向�
 - 3rd（43 票）：https://www.kaggle.com/competitions/commonlit-evaluate-student-summaries/discussion/446686
 - 7th：https://www.kaggle.com/competitions/commonlit-evaluate-student-summaries/discussion/446534
 - 缺口登记（未收录正文）：1st 详细版（未发布）、424162、433208、430705、431545、424330、432815、424372 等
+
+### 外部题解（kaggle-solutions）
+- rank 8｜description：https://www.kaggle.com/c/commonlit-evaluate-student-summaries/discussion/446712
+- rank 11｜description：https://www.kaggle.com/c/commonlit-evaluate-student-summaries/discussion/446776
+- rank 12｜description：https://www.kaggle.com/c/commonlit-evaluate-student-summaries/discussion/447254
+- rank 14｜description：https://www.kaggle.com/c/commonlit-evaluate-student-summaries/discussion/446818
+- rank 16｜description：https://www.kaggle.com/c/commonlit-evaluate-student-summaries/discussion/446872
+- rank 17｜description：https://www.kaggle.com/c/commonlit-evaluate-student-summaries/discussion/446648
+- rank 19｜description：https://www.kaggle.com/c/commonlit-evaluate-student-summaries/discussion/446512
+- rank 20｜description：https://www.kaggle.com/c/commonlit-evaluate-student-summaries/discussion/446676
 
 ---
 
@@ -1107,6 +1178,16 @@ ARChitects 发现 AR 顺序生成不可回改、难处理全局重构，转向�
 - 15th（16 票）：https://www.kaggle.com/competitions/deep-past-initiative-machine-translation/discussion/684819
 - 缺口登记：665209、684425、664948、680686、672511、664177、668619、684189、678899、663233、663357 未收录正文
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/deep-past-initiative-machine-translation/writeups/dpc-1st-data-quality-dictates-everything
+- rank 2｜description：https://www.kaggle.com/c/deep-past-initiative-machine-translation/writeups/2nd-place-data-centric-akkadian-nmt
+- rank 3｜description：https://www.kaggle.com/c/deep-past-initiative-machine-translation/writeups/3rd-synthetic-data-to-teach-oa-fundamentals
+- rank 4｜description：https://www.kaggle.com/c/deep-past-initiative-machine-translation/writeups/fourth-place-solution-writeup
+- rank 5｜description：https://www.kaggle.com/c/deep-past-initiative-machine-translation/writeups/5th-solution
+- rank 6｜description：https://www.kaggle.com/c/deep-past-initiative-machine-translation/writeups/dpc-6th-solution
+- rank 7｜description：https://www.kaggle.com/c/deep-past-initiative-machine-translation/writeups/short-7th-place-note
+- rank 8｜description：https://www.kaggle.com/c/deep-past-initiative-machine-translation/writeups/8th-place-solution-2-stage-fine-tuning-high-qua
+
 ---
 
 ## drawing-with-llms — Drawing with LLMs 轻量深读（Tier B）
@@ -1181,6 +1262,16 @@ ARChitects 发现 AR 顺序生成不可回改、难处理全局重构，转向�
 - 13th（38 票）：https://www.kaggle.com/competitions/drawing-with-llms/discussion/581032
 - OCR-Exploit（79 票）：https://www.kaggle.com/competitions/drawing-with-llms/discussion/565396
 - 指标更新（54 票）：https://www.kaggle.com/competitions/drawing-with-llms/discussion/567872
+
+### 外部题解（kaggle-solutions）
+- rank 5｜description：https://www.kaggle.com/c/drawing-with-llms/discussion/581128
+- rank 8｜description：https://www.kaggle.com/c/drawing-with-llms/discussion/581095
+- rank 9｜description：https://www.kaggle.com/c/drawing-with-llms/discussion/581061
+- rank 10｜description：https://www.kaggle.com/c/drawing-with-llms/discussion/581213
+- rank 14｜description：https://www.kaggle.com/c/drawing-with-llms/discussion/581063
+- rank 15｜description：https://www.kaggle.com/c/drawing-with-llms/discussion/581051
+- rank 16｜description：https://www.kaggle.com/c/drawing-with-llms/discussion/581094
+- rank 18｜description：https://www.kaggle.com/c/drawing-with-llms/discussion/582286
 
 ---
 
@@ -1309,6 +1400,16 @@ tricks 帖：iterative hard mining + 大 batch 是核心；
 - 7th（59 票）：https://www.kaggle.com/competitions/eedi-mining-misconceptions-in-mathematics/discussion/551388
 - 缺口登记：533764、533728、546978、539458、550619、550223、541222、533790 未收录正文
 
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/eedi-mining-misconceptions-in-mathematics/discussion/551651
+- rank 4｜description：https://www.kaggle.com/c/eedi-mining-misconceptions-in-mathematics/discussion/551559
+- rank 6｜description：https://www.kaggle.com/c/eedi-mining-misconceptions-in-mathematics/discussion/551565
+- rank 8｜description：https://www.kaggle.com/c/eedi-mining-misconceptions-in-mathematics/discussion/551412
+- rank 9｜description：https://www.kaggle.com/c/eedi-mining-misconceptions-in-mathematics/discussion/551420
+- rank 10｜description：https://www.kaggle.com/c/eedi-mining-misconceptions-in-mathematics/discussion/551722
+- rank 11｜description：https://www.kaggle.com/c/eedi-mining-misconceptions-in-mathematics/discussion/551424
+- rank 12｜description：https://www.kaggle.com/c/eedi-mining-misconceptions-in-mathematics/discussion/551429
+
 ---
 
 ## feedback-prize-2021 — Feedback Prize 2021 深读：两级架构 × 跨域融合
@@ -1432,6 +1533,16 @@ tricks 帖：iterative hard mining + 大 batch 是核心；
 - 相关赛事汇总（Jonathan Besomi，69 票）：https://www.kaggle.com/competitions/feedback-prize-2021/discussion/295193
 - 未收录缺口（登记备查）：313201（9th）｜313718（10th）｜313184（11th）｜316071（8th）｜313229（55th）｜313833（12th）｜313242（全解汇总）等
 
+### 外部题解（kaggle-solutions）
+- rank 5｜description：https://www.kaggle.com/c/feedback-prize-2021/discussion/313478
+- rank 7｜code：https://www.kaggle.com/c/feedback-prize-2021/discussion/315887
+- rank 8｜description：https://www.kaggle.com/c/feedback-prize-2021/discussion/316071
+- rank 9｜description：https://www.kaggle.com/c/feedback-prize-2021/discussion/313201
+- rank 10｜description：https://www.kaggle.com/c/feedback-prize-2021/discussion/313718
+- rank 11｜code：https://www.kaggle.com/c/feedback-prize-2021/discussion/313184
+- rank 12｜code：https://www.kaggle.com/c/feedback-prize-2021/discussion/313833
+- rank 15｜code：https://www.kaggle.com/c/feedback-prize-2021/discussion/313253
+
 ---
 
 ## feedback-prize-effectiveness — Feedback Prize - Effectiveness 轻量深读（Tier B）
@@ -1517,6 +1628,16 @@ tricks 帖：iterative hard mining + 大 batch 是核心；
 - Efficiency 1st（75 票）：https://www.kaggle.com/competitions/feedback-prize-effectiveness/discussion/347537
 - 3rd 短版（62 票）：https://www.kaggle.com/competitions/feedback-prize-effectiveness/discussion/347371
 - 缺口登记：338271、333277、332438、347713、327251
+
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/feedback-prize-effectiveness/discussion/347692
+- rank 5｜description：https://www.kaggle.com/c/feedback-prize-effectiveness/discussion/347379
+- rank 5｜description：https://www.kaggle.com/c/feedback-prize-effectiveness/discussion/347369
+- rank 5｜description：https://www.kaggle.com/c/feedback-prize-effectiveness/discussion/347387
+- rank 6｜description：https://www.kaggle.com/c/feedback-prize-effectiveness/discussion/352458
+- rank 7｜description：https://www.kaggle.com/c/feedback-prize-effectiveness/discussion/347488
+- rank 7｜description：https://www.kaggle.com/c/feedback-prize-effectiveness/discussion/347891
+- rank 11｜description：https://www.kaggle.com/c/feedback-prize-effectiveness/discussion/347386
 
 ---
 
@@ -1645,6 +1766,16 @@ tricks 帖：iterative hard mining + 大 batch 是核心；
 - 访谈索引（Sanyam Bhutani，55 票）：https://www.kaggle.com/competitions/feedback-prize-english-language-learning/discussion/348957
 - 新奖试点（Mark McDonald，53 票）：https://www.kaggle.com/competitions/feedback-prize-english-language-learning/discussion/369307
 - 未收录缺口（登记备查）：369621（4th）｜369567（6th）｜369646（效率 1st）｜369440（13th）｜369368（单模双种子）等
+
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/feedback-prize-english-language-learning/discussion/369621
+- rank 6｜code：https://www.kaggle.com/c/feedback-prize-english-language-learning/discussion/369567
+- rank 7｜description：https://www.kaggle.com/c/feedback-prize-english-language-learning/discussion/369736
+- rank 8｜description：https://www.kaggle.com/c/feedback-prize-english-language-learning/discussion/369524
+- rank 9｜description：https://www.kaggle.com/c/feedback-prize-english-language-learning/discussion/369956
+- rank 10｜description：https://www.kaggle.com/c/feedback-prize-english-language-learning/discussion/369373
+- rank 11｜code：https://www.kaggle.com/c/feedback-prize-english-language-learning/discussion/369409
+- rank 12｜description：https://www.kaggle.com/c/feedback-prize-english-language-learning/discussion/369565
 
 ---
 
@@ -2218,6 +2349,16 @@ Welcome 与 starter 模板围绕"手机/边缘设备上跑 text+audio+vision"；
 - 3rd（Sergio Papadakis，35 票）：https://www.kaggle.com/competitions/jigsaw-agile-community-rules/discussion/613324
 - 未收录缺口（登记备查）：23 条 write-up 标记中的其余条目（含 2nd/4th/5th）
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/jigsaw-agile-community-rules/writeups/1st-place-solution
+- rank 2｜description：https://www.kaggle.com/c/jigsaw-agile-community-rules/writeups/2nd-place-solution
+- rank 3｜description：https://www.kaggle.com/c/jigsaw-agile-community-rules/writeups/3rd-place-solution
+- rank 4｜description：https://www.kaggle.com/c/jigsaw-agile-community-rules/writeups/4th-place-solution
+- rank 5｜description：https://www.kaggle.com/c/jigsaw-agile-community-rules/writeups/5th-place-solution-diverse-ensemble
+- rank 6｜description：https://www.kaggle.com/c/jigsaw-agile-community-rules/writeups/6th-place-solution
+- rank 7｜description：https://www.kaggle.com/c/jigsaw-agile-community-rules/writeups/7th-place-solution
+- rank 8｜description：https://www.kaggle.com/c/jigsaw-agile-community-rules/writeups/8th-place-solution-qwen3-14b3-llama2-13b1-b
+
 ---
 
 ## jigsaw-toxic-severity-rating — 深读：Jigsaw Toxic Severity（验证 0.70 / 私榜 0.81 的悖论 —— 一场被泄漏污染的排序赛）
@@ -2291,6 +2432,16 @@ Welcome 与 starter 模板围绕"手机/边缘设备上跑 text+audio+vision"；
 - 指标理解（满分不是 1）：https://www.kaggle.com/competitions/jigsaw-toxic-severity-rating/discussion/287350
 - BERT 3D 图解：https://www.kaggle.com/competitions/jigsaw-toxic-severity-rating/discussion/286655
 - 历届方案汇总：https://www.kaggle.com/competitions/jigsaw-toxic-severity-rating/discussion/286333
+
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/jigsaw-toxic-severity-rating/discussion/308938
+- rank 5｜code：https://www.kaggle.com/c/jigsaw-toxic-severity-rating/discussion/306390
+- rank 6｜code：https://www.kaggle.com/c/jigsaw-toxic-severity-rating/discussion/306926
+- rank 9｜description：https://www.kaggle.com/c/jigsaw-toxic-severity-rating/discussion/306187
+- rank 10｜description：https://www.kaggle.com/c/jigsaw-toxic-severity-rating/discussion/306373
+- rank 11｜description：https://www.kaggle.com/c/jigsaw-toxic-severity-rating/discussion/306228
+- rank 12｜code：https://www.kaggle.com/c/jigsaw-toxic-severity-rating/discussion/306325
+- rank 24｜description：https://www.kaggle.com/c/jigsaw-toxic-severity-rating/discussion/306205
 
 ---
 
@@ -2426,6 +2577,16 @@ train.csv 200 题被训练数据覆盖（0.99+ 不可用）；
 - Top100（73 票）：https://www.kaggle.com/competitions/kaggle-llm-science-exam/discussion/446318
 - 4th（72 票）：https://www.kaggle.com/competitions/kaggle-llm-science-exam/discussion/446307
 - 缺口登记：440620、442595、426174、440908、424519、431786、424242、435602、444202、425681 未收录正文
+
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/kaggle-llm-science-exam/discussion/448256
+- rank 6｜description：https://www.kaggle.com/c/kaggle-llm-science-exam/discussion/447647
+- rank 7｜description：https://www.kaggle.com/c/kaggle-llm-science-exam/discussion/447155
+- rank 11｜description：https://www.kaggle.com/c/kaggle-llm-science-exam/discussion/446660
+- rank 12｜description：https://www.kaggle.com/c/kaggle-llm-science-exam/discussion/446301
+- rank 13｜description：https://www.kaggle.com/c/kaggle-llm-science-exam/discussion/446231
+- rank 14｜description：https://www.kaggle.com/c/kaggle-llm-science-exam/discussion/446484
+- rank 15｜description：https://www.kaggle.com/c/kaggle-llm-science-exam/discussion/446816
 
 ---
 
@@ -2593,6 +2754,15 @@ $1M 奖金、单人主办的"SWE-bench+"式比赛：给定真实 GitHub issue �
 - starter notebook（29 票）：https://www.kaggle.com/competitions/konwinski-prize/discussion/553294
 - gigachad 比赛帖（84 票 / 22 评论）：https://www.kaggle.com/competitions/konwinski-prize/discussion/551229
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/konwinski-prize/writeups/eduardo-rocha-de-andrade-1st-place-solution-write-
+- rank 2｜description：https://www.kaggle.com/c/konwinski-prize/writeups/camaro-public-2nd-place-solution
+- rank 3｜description：https://www.kaggle.com/c/konwinski-prize/writeups/3rd-place-solution
+- rank 4｜description：https://www.kaggle.com/c/konwinski-prize/writeups/4th-place-solution
+- rank 5｜description：https://www.kaggle.com/c/konwinski-prize/writeups/5th-place-solution
+- rank 8｜description：https://www.kaggle.com/c/konwinski-prize/writeups/first-lucky-gold-8th-place-solution
+- rank 15｜description：https://www.kaggle.com/c/konwinski-prize/writeups/graphninjas-public-4th-place-private-15th-place-so
+
 ---
 
 ## learning-agency-lab-automated-essay-scoring-2 — Essay Scoring 2.0 深读：双源数据不兼容 × QWK 阈值工程 × 小样本方差控制
@@ -2730,6 +2900,12 @@ starter：回归（num_labels=1）CV 更高；回归必须去 dropout；maxlen 1
 - 2nd 详版：https://www.kaggle.com/competitions/learning-agency-lab-automated-essay-scoring-2/discussion/516790
 - 缺口登记：502554、494935、499959、502279、498478、491101、493962 未收录正文
 
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/learning-agency-lab-automated-essay-scoring-2/discussion/517014
+- rank 5｜description：https://www.kaggle.com/c/learning-agency-lab-automated-essay-scoring-2/discussion/516922
+- rank 7｜description：https://www.kaggle.com/c/learning-agency-lab-automated-essay-scoring-2/discussion/516872
+- rank 15｜description：https://www.kaggle.com/c/learning-agency-lab-automated-essay-scoring-2/discussion/516642
+
 ---
 
 ## linking-writing-processes-to-writing-quality — Linking Writing Processes to Writing Quality 轻量深读（Tier B）
@@ -2808,6 +2984,16 @@ starter：回归（num_labels=1）CV 更高；回归必须去 dropout；maxlen 1
 - 3rd 另一篇（466775）：https://www.kaggle.com/competitions/linking-writing-processes-to-writing-quality/discussion/466775
 - 23rd（466771）：https://www.kaggle.com/competitions/linking-writing-processes-to-writing-quality/discussion/466771
 
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/linking-writing-processes-to-writing-quality/discussion/466961
+- rank 6｜description：https://www.kaggle.com/c/linking-writing-processes-to-writing-quality/discussion/467848
+- rank 7｜description：https://www.kaggle.com/c/linking-writing-processes-to-writing-quality/discussion/466941
+- rank 10｜description：https://www.kaggle.com/c/linking-writing-processes-to-writing-quality/discussion/467328
+- rank 12｜description：https://www.kaggle.com/c/linking-writing-processes-to-writing-quality/discussion/466993
+- rank 15｜description：https://www.kaggle.com/c/linking-writing-processes-to-writing-quality/discussion/467674
+- rank 18｜description：https://www.kaggle.com/c/linking-writing-processes-to-writing-quality/discussion/466789
+- rank 36｜description：https://www.kaggle.com/c/linking-writing-processes-to-writing-quality/discussion/466839
+
 ---
 
 ## llm-20-questions — LLM 20 Questions 轻量深读（Tier B）
@@ -2878,6 +3064,16 @@ starter：回归（num_labels=1）CV 更高；回归必须去 dropout；maxlen 1
 - 11th（529931）：https://www.kaggle.com/competitions/llm-20-questions/discussion/529931
 - 金牌动画（531062）：https://www.kaggle.com/competitions/llm-20-questions/discussion/531062
 - Starter（520429）：https://www.kaggle.com/competitions/llm-20-questions/discussion/520429
+
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/llm-20-questions/discussion/531387
+- rank 4｜description：https://www.kaggle.com/c/llm-20-questions/discussion/531883
+- rank 5｜description：https://www.kaggle.com/c/llm-20-questions/discussion/531128
+- rank 10｜description：https://www.kaggle.com/c/llm-20-questions/discussion/531569
+- rank 20｜description：https://www.kaggle.com/c/llm-20-questions/discussion/531083
+- rank 21｜description：https://www.kaggle.com/c/llm-20-questions/discussion/531104
+- rank 26｜description：https://www.kaggle.com/c/llm-20-questions/discussion/531081
+- rank 45｜description：https://www.kaggle.com/c/llm-20-questions/discussion/530996
 
 ---
 
@@ -2996,6 +3192,16 @@ starter：回归（num_labels=1）CV 更高；回归必须去 dropout；maxlen 1
 - 社区数据帖（Radek Osmulski，500 篇生成作文）：https://www.kaggle.com/competitions/llm-detect-ai-generated-text/discussion/452155
 - 未收录缺口（登记备查）：22 条 write-up 标记中的其余条目
 
+### 外部题解（kaggle-solutions）
+- rank 6｜description：https://www.kaggle.com/c/llm-detect-ai-generated-text/discussion/471831
+- rank 7｜description：https://www.kaggle.com/c/llm-detect-ai-generated-text/discussion/470643
+- rank 9｜description：https://www.kaggle.com/c/llm-detect-ai-generated-text/discussion/470255
+- rank 12｜description：https://www.kaggle.com/c/llm-detect-ai-generated-text/discussion/470396
+- rank 13｜description：https://www.kaggle.com/c/llm-detect-ai-generated-text/discussion/470593
+- rank 14｜description：https://www.kaggle.com/c/llm-detect-ai-generated-text/discussion/470193
+- rank 18｜description：https://www.kaggle.com/c/llm-detect-ai-generated-text/discussion/470061
+- rank 19｜description：https://www.kaggle.com/c/llm-detect-ai-generated-text/discussion/470181
+
 ---
 
 ## llm-prompt-recovery — LLM Prompt Recovery 深读：当指标本身可被攻击
@@ -3104,6 +3310,16 @@ starter：回归（num_labels=1）CV 更高；回归必须去 dropout；maxlen 1
 - 经验帖（Darien Schettler，105 票）：https://www.kaggle.com/competitions/llm-prompt-recovery/discussion/483916
 - 4th ST5 攻击（59 票）：https://www.kaggle.com/competitions/llm-prompt-recovery/discussion/494362
 - 未收录缺口（登记备查）：24 条 write-up 标记中的其余条目（含 3rd）
+
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/llm-prompt-recovery/discussion/494621
+- rank 5｜description：https://www.kaggle.com/c/llm-prompt-recovery/discussion/499079
+- rank 6｜description：https://www.kaggle.com/c/llm-prompt-recovery/discussion/494755
+- rank 7｜description：https://www.kaggle.com/c/llm-prompt-recovery/discussion/494650
+- rank 10｜description：https://www.kaggle.com/c/llm-prompt-recovery/discussion/494689
+- rank 12｜description：https://www.kaggle.com/c/llm-prompt-recovery/discussion/494526
+- rank 19｜description：https://www.kaggle.com/c/llm-prompt-recovery/discussion/494536
+- rank 42｜description：https://www.kaggle.com/c/llm-prompt-recovery/discussion/494641
 
 ---
 
@@ -3265,6 +3481,16 @@ conor：gemma/gemma/llama；3rd：最终用 Gemma2B/Gemma9B/Llama3B+prompt 对�
 - 3rd（39 票）：https://www.kaggle.com/competitions/llms-you-cant-please-them-all/discussion/566515
 - 缺口登记：指标公式帖、2nd/4th 方案、官方对泄漏的处理
 
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/llms-you-cant-please-them-all/discussion/566602
+- rank 4｜description：https://www.kaggle.com/c/llms-you-cant-please-them-all/discussion/566479
+- rank 7｜description：https://www.kaggle.com/c/llms-you-cant-please-them-all/discussion/566643
+- rank 8｜description：https://www.kaggle.com/c/llms-you-cant-please-them-all/discussion/566333
+- rank 9｜description：https://www.kaggle.com/c/llms-you-cant-please-them-all/discussion/566469
+- rank 11｜description：https://www.kaggle.com/c/llms-you-cant-please-them-all/discussion/566386
+- rank 12｜description：https://www.kaggle.com/c/llms-you-cant-please-them-all/discussion/566380
+- rank 13｜description：https://www.kaggle.com/c/llms-you-cant-please-them-all/discussion/567031
+
 ---
 
 ## lmsys-chatbot-arena — LMSYS Chatbot Arena 深读：奖励模型起点 × 蒸馏 × A/B 对称性
@@ -3400,6 +3626,14 @@ TTA 交换收益：16th 第一步就 +0.015（0.941→0.926）；3rd ~0.007；2n
 - 9th（Ebi）：https://www.kaggle.com/competitions/lmsys-chatbot-arena/discussion/527704
 - 未收录缺口（登记备查）：527595（18th）｜527627（21st）｜528288（19th）｜529067（4th）｜527591（26th）｜527938（156th）｜540876（13th）等
 
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/lmsys-chatbot-arena/discussion/529067
+- rank 18｜description：https://www.kaggle.com/c/lmsys-chatbot-arena/discussion/527595
+- rank 19｜description：https://www.kaggle.com/c/lmsys-chatbot-arena/discussion/528288
+- rank 21｜description：https://www.kaggle.com/c/lmsys-chatbot-arena/discussion/527627
+- rank 22｜description：https://www.kaggle.com/c/lmsys-chatbot-arena/discussion/527673
+- rank 26｜description：https://www.kaggle.com/c/lmsys-chatbot-arena/discussion/527591
+
 ---
 
 ## make-data-count-finding-data-references — Make Data Count - Finding Data References 轻量深读（Tier B）
@@ -3479,6 +3713,16 @@ TTA 交换收益：16th 第一步就 +0.015（0.941→0.926）；3rd ~0.007；2n
 - 9th（606743）：https://www.kaggle.com/competitions/make-data-count-finding-data-references/discussion/606743
 - 手工重标数据（586075）：https://www.kaggle.com/competitions/make-data-count-finding-data-references/discussion/586075
 - 标签更新公告（28 票）：https://www.kaggle.com/competitions/make-data-count-finding-data-references/discussion/589314
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/make-data-count-finding-data-references/writeups/1st-place-solution
+- rank 2｜description：https://www.kaggle.com/c/make-data-count-finding-data-references/writeups/2nd-place-solution
+- rank 3｜description：https://www.kaggle.com/c/make-data-count-finding-data-references/writeups/3rd-place-solution
+- rank 4｜description：https://www.kaggle.com/c/make-data-count-finding-data-references/writeups/4th-place-solution
+- rank 5｜description：https://www.kaggle.com/c/make-data-count-finding-data-references/writeups/5th-place-by-standing-on-the-shoulders-of-giants
+- rank 6｜description：https://www.kaggle.com/c/make-data-count-finding-data-references/writeups/6th-place-solution
+- rank 7｜description：https://www.kaggle.com/c/make-data-count-finding-data-references/writeups/7th-place-solution
+- rank 8｜description：https://www.kaggle.com/c/make-data-count-finding-data-references/writeups/8th-place-solution
 
 ---
 
@@ -3599,6 +3843,16 @@ TTA 交换收益：16th 第一步就 +0.015（0.941→0.926）；3rd ~0.007；2n
 - 10th（64 票）：https://www.kaggle.com/competitions/map-charting-student-math-misunderstandings/discussion/612038
 - 6th Qwen-semble（Manan Jhaveri，44 票）：https://www.kaggle.com/competitions/map-charting-student-math-misunderstandings/discussion/612099
 - 未收录缺口（登记备查）：2nd/4th/5th/8th 等 16 条 write-up
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/map-charting-student-math-misunderstandings/writeups/1st-place-solution
+- rank 2｜description：https://www.kaggle.com/c/map-charting-student-math-misunderstandings/writeups/map2025-private-and-public-2nd
+- rank 3｜description：https://www.kaggle.com/c/map-charting-student-math-misunderstandings/writeups/3rd-place-solution
+- rank 4｜description：https://www.kaggle.com/c/map-charting-student-math-misunderstandings/writeups/4th-place-solution-single-model-pb-0-948-lb-0-951
+- rank 5｜description：https://www.kaggle.com/c/map-charting-student-math-misunderstandings/writeups/5th-place-solution
+- rank 6｜description：https://www.kaggle.com/c/map-charting-student-math-misunderstandings/writeups/mananjhaveri-map-6th-place-solution
+- rank 7｜description：https://www.kaggle.com/c/map-charting-student-math-misunderstandings/writeups/private-7th-public-10th-place-solution
+- rank 8｜description：https://www.kaggle.com/c/map-charting-student-math-misunderstandings/writeups/8th-place-solution
 
 ---
 
@@ -3833,6 +4087,16 @@ URL 校验与 50 字符限制把自动生成链接挡在门外；必填媒体与
 - 20th（323094）：https://www.kaggle.com/competitions/nbme-score-clinical-patient-notes/discussion/323094
 - 实验帖（315707）：https://www.kaggle.com/competitions/nbme-score-clinical-patient-notes/discussion/315707
 
+### 外部题解（kaggle-solutions）
+- rank 2｜code：https://www.kaggle.com/c/nbme-score-clinical-patient-notes/discussion/322893
+- rank 5｜description：https://www.kaggle.com/c/nbme-score-clinical-patient-notes/discussion/322875
+- rank 6｜description：https://www.kaggle.com/c/nbme-score-clinical-patient-notes/discussion/323237
+- rank 7｜description：https://www.kaggle.com/c/nbme-score-clinical-patient-notes/discussion/322829
+- rank 8｜description：https://www.kaggle.com/c/nbme-score-clinical-patient-notes/discussion/322962
+- rank 9｜description：https://www.kaggle.com/c/nbme-score-clinical-patient-notes/discussion/322891
+- rank 11｜code：https://www.kaggle.com/c/nbme-score-clinical-patient-notes/discussion/322804
+- rank 13｜description：https://www.kaggle.com/c/nbme-score-clinical-patient-notes/discussion/323074
+
 ---
 
 ## nvidia-nemotron-model-reasoning-challenge — Nemotron 推理赛深读：确定性求解器 → 可学习 CoT 轨迹
@@ -3976,6 +4240,16 @@ huikang：Tinker 产出适配器需转换（专家解融合、gate+x SVD、lm_he
 - 88th：https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/708539
 - 7th：https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge/discussion/712395
 - 缺口登记：690307、688461、684212、690161、684283、681745、698293、684192 未收录正文
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/nvidia-nemotron-model-reasoning-challenge/writeups/1st-place-solution
+- rank 2｜description：https://www.kaggle.com/c/nvidia-nemotron-model-reasoning-challenge/writeups/2nd-place-solution
+- rank 2｜description：https://www.kaggle.com/c/nvidia-nemotron-model-reasoning-challenge/writeups/2nd-public-6th-private-place-solution
+- rank 3｜description：https://www.kaggle.com/c/nvidia-nemotron-model-reasoning-challenge/writeups/3rd-place-solution
+- rank 4｜description：https://www.kaggle.com/c/nvidia-nemotron-model-reasoning-challenge/writeups/4th-place-solution
+- rank 5｜description：https://www.kaggle.com/c/nvidia-nemotron-model-reasoning-challenge/writeups/domdolus-tolus-solution
+- rank 7｜description：https://www.kaggle.com/c/nvidia-nemotron-model-reasoning-challenge/writeups/7th-place-solution-solving-bitmanipulation-via-st
+- rank 9｜description：https://www.kaggle.com/c/nvidia-nemotron-model-reasoning-challenge/writeups/9th-place-solution-human-auditable-cot
 
 ---
 
@@ -4215,6 +4489,16 @@ More data（134 票）：Mixtral 2,355 篇 **0.854→0.888**；
 - 效率方案：https://www.kaggle.com/competitions/pii-detection-removal-from-educational-data/discussion/497185
 - 缺口登记：473011、469493、470921、481135、470978、479971、478911 未收录正文
 
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/pii-detection-removal-from-educational-data/discussion/497482
+- rank 6｜description：https://www.kaggle.com/c/pii-detection-removal-from-educational-data/discussion/498304
+- rank 7｜description：https://www.kaggle.com/c/pii-detection-removal-from-educational-data/discussion/497310
+- rank 12｜description：https://www.kaggle.com/c/pii-detection-removal-from-educational-data/discussion/498130
+- rank 13｜description：https://www.kaggle.com/c/pii-detection-removal-from-educational-data/discussion/497371
+- rank 14｜description：https://www.kaggle.com/c/pii-detection-removal-from-educational-data/discussion/497968
+- rank 21｜description：https://www.kaggle.com/c/pii-detection-removal-from-educational-data/discussion/497258
+- rank 22｜description：https://www.kaggle.com/c/pii-detection-removal-from-educational-data/discussion/497180
+
 ---
 
 ## us-patent-phrase-to-phrase-matching — US Patent Phrase to Phrase Matching 轻量深读（Tier B）
@@ -4291,6 +4575,16 @@ More data（134 票）：Mixtral 2,355 篇 **0.854→0.888**；
 - 5th prompt（332418）：https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching/discussion/332418
 - 代码被窃（337853）：https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching/discussion/337853
 
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/us-patent-phrase-to-phrase-matching/discussion/332420
+- rank 7｜description：https://www.kaggle.com/c/us-patent-phrase-to-phrase-matching/discussion/332928
+- rank 11｜description：https://www.kaggle.com/c/us-patent-phrase-to-phrase-matching/discussion/332567
+- rank 23｜description：https://www.kaggle.com/c/us-patent-phrase-to-phrase-matching/discussion/332270
+- rank 27｜description：https://www.kaggle.com/c/us-patent-phrase-to-phrase-matching/discussion/334797
+- rank 31｜description：https://www.kaggle.com/c/us-patent-phrase-to-phrase-matching/discussion/332355
+- rank 40｜description：https://www.kaggle.com/c/us-patent-phrase-to-phrase-matching/discussion/332654
+- rank 52｜description：https://www.kaggle.com/c/us-patent-phrase-to-phrase-matching/discussion/333425
+
 ---
 
 ## uspto-explainable-ai — USPTO Explainable AI 轻量深读（Tier B）
@@ -4365,6 +4659,16 @@ Whoosh 无法承载 13M 专利全量索引；1st/2nd/6th 都写了自研（C++/c
 - 7th"Magic"（522199）：https://www.kaggle.com/competitions/uspto-explainable-ai/discussion/522199
 - Whoosh 技巧（44 票）：https://www.kaggle.com/competitions/uspto-explainable-ai/discussion/516104
 
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/uspto-explainable-ai/discussion/522639
+- rank 5｜description：https://www.kaggle.com/c/uspto-explainable-ai/discussion/522201
+- rank 10｜description：https://www.kaggle.com/c/uspto-explainable-ai/discussion/522208
+- rank 11｜description：https://www.kaggle.com/c/uspto-explainable-ai/discussion/522207
+- rank 12｜description：https://www.kaggle.com/c/uspto-explainable-ai/discussion/522301
+- rank 13｜description：https://www.kaggle.com/c/uspto-explainable-ai/discussion/522359
+- rank 18｜description：https://www.kaggle.com/c/uspto-explainable-ai/discussion/522380
+- rank 22｜description：https://www.kaggle.com/c/uspto-explainable-ai/discussion/522327
+
 ---
 
 ## wsdm-cup-multilingual-chatbot-arena — WSDM Cup - Multilingual Chatbot Arena 轻量深读（Tier B）
@@ -4435,5 +4739,13 @@ Whoosh 无法承载 13M 专利全量索引；1st/2nd/6th 都写了自研（C++/c
 - 8.5k 开源模型样本（54 票）：https://www.kaggle.com/competitions/wsdm-cup-multilingual-chatbot-arena/discussion/552166
 - CV vs LB（31 票 / 105 评论）：https://www.kaggle.com/competitions/wsdm-cup-multilingual-chatbot-arena/discussion/552368
 - LMSYS 往届方案（31 票）：https://www.kaggle.com/competitions/wsdm-cup-multilingual-chatbot-arena/discussion/547480
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/wsdm-cup-multilingual-chatbot-arena/discussion/569902
+- rank 4｜description：https://www.kaggle.com/c/wsdm-cup-multilingual-chatbot-arena/discussion/568522
+- rank 5｜description：https://www.kaggle.com/c/wsdm-cup-multilingual-chatbot-arena/discussion/567856
+- rank 6｜description：https://www.kaggle.com/c/wsdm-cup-multilingual-chatbot-arena/discussion/567600
+- rank 12｜description：https://www.kaggle.com/c/wsdm-cup-multilingual-chatbot-arena/discussion/567614
+- rank 34｜description：https://www.kaggle.com/c/wsdm-cup-multilingual-chatbot-arena/discussion/568535
 
 ---

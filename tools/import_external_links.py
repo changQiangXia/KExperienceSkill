@@ -18,18 +18,22 @@ import collections
 import csv
 import pathlib
 import re
-import subprocess
 import time
 from urllib.parse import urlparse
 
 SKILL = pathlib.Path(__file__).resolve().parent.parent
-# 扫描"已收录"时排除的派生文件：external 资产/冠军索引/案例卡（案例卡会内联本次导入的外链，
-# 若参与扫描会把"新链接"误判成"已收录"，形成反馈环）。
-DERIVED = {
+# 扫描"已收录"时排除的派生文件/片段：external 资产、冠军索引、案例卡；案例书里的
+# "### 外部题解（kaggle-solutions）"小节也整段跳过。否则导入结果会自我强化，把新链接误判成已收录。
+DERIVED_FILES = {
     "assets/external_solution_links.csv",
     "references/champion-solutions.md",
     "assets/case_cards.jsonl",
 }
+EXTERNAL_SECTION = "### 外部题解（kaggle-solutions）"
+SCAN_TOP = ["README.md", "SKILL.md"]
+SCAN_DIRS = ["references", "scripts", "tools", "agents", "assets"]
+URL_RE = re.compile(r"https://www\.kaggle\.com/[A-Za-z0-9/_.?=&%#-]*")
+HEADING_RE = re.compile(r"^#{2,4} ")
 FIELDS = [
     "slug", "in_case_index", "theme", "year", "category", "rank", "link_kind",
     "url", "domain", "flag", "already_in_skill",
@@ -49,25 +53,29 @@ def rank_num(rank: str) -> int:
 
 
 def scan_skill_urls() -> set[str]:
-    """扫描本仓库策展文档里已出现的 Kaggle URL（排除派生文件，防反馈环）。"""
-    excludes = [f":(exclude){path}" for path in sorted(DERIVED)]
-    cmd = [
-        "git", "-C", str(SKILL), "grep", "-ohI", "-E",
-        r"https://www\.kaggle\.com/[A-Za-z0-9/_.?=&%#-]*", "--", ".", *excludes,
-    ]
-    try:
-        out = subprocess.run(cmd, capture_output=True, text=True, check=True).stdout
-        return {canonical(line) for line in out.splitlines() if line.strip()}
-    except (subprocess.CalledProcessError, FileNotFoundError):
-        urls: set[str] = set()
-        for path in SKILL.rglob("*"):
-            if not path.is_file() or path.suffix not in {".md", ".csv", ".json", ".py", ".yaml"}:
-                continue
-            rel = path.relative_to(SKILL).as_posix()
-            if rel in DERIVED or rel.startswith(".git/"):
-                continue
-            urls |= {canonical(u) for u in re.findall(r"https://www\.kaggle\.com/[A-Za-z0-9/_.?=&%#-]*", path.read_text(encoding="utf-8", errors="ignore"))}
-        return urls
+    """扫描本仓库策展文档里已出现的 Kaggle URL（排除派生文件与外链小节，防反馈环）。"""
+    files = [SKILL / name for name in SCAN_TOP]
+    for folder in SCAN_DIRS:
+        files += [p for p in (SKILL / folder).rglob("*") if p.is_file()]
+    urls: set[str] = set()
+    for path in files:
+        rel = path.relative_to(SKILL).as_posix()
+        if rel in DERIVED_FILES or path.suffix not in {".md", ".csv", ".json", ".py", ".yaml", ".yml", ".txt"}:
+            continue
+        text = path.read_text(encoding="utf-8", errors="ignore")
+        if path.suffix == ".md" and EXTERNAL_SECTION in text:
+            kept, skip = [], False
+            for line in text.splitlines():
+                if line.strip() == EXTERNAL_SECTION:
+                    skip = True
+                    continue
+                if skip and HEADING_RE.match(line):
+                    skip = False
+                if not skip:
+                    kept.append(line)
+            text = "\n".join(kept)
+        urls |= {canonical(u) for u in URL_RE.findall(text)}
+    return urls
 
 
 def usable(row: dict) -> bool:

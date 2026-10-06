@@ -1,6 +1,6 @@
 # 案例书：sim-agent（22 场）
 
-> 由 KStarter 深读文档生成：每场含一句话重述、全量数字账、逐方案对照矩阵、共识/分歧与裁决全文、证据分级、悬案与失败学、图证路径与出处。
+> 由 KStarter 深读文档生成：每场含一句话重述、全量数字账、逐方案对照矩阵、共识/分歧与裁决全文、证据分级、悬案与失败学、图证路径、出处与外部题解。
 > 用途：为新比赛找结构类比时，先读本册，再回 KStarter 深读原文核对。
 
 ## ai-village-capture-the-flag-defcon31 — AI Village Capture the Flag @ DEF CON 31 轻量深读（Tier B）
@@ -78,6 +78,16 @@ Pixelated 攻击的是 OCR→LLM 文本拼接（未转义 XML）；Spanglish 用
 - 4th（18 票）：https://www.kaggle.com/competitions/ai-village-capture-the-flag-defcon31/discussion/454480
 - 3rd（17 票，未入库）：https://www.kaggle.com/competitions/ai-village-capture-the-flag-defcon31/discussion/454720
 - 参考帖（46 票）：https://www.kaggle.com/competitions/ai-village-capture-the-flag-defcon31/discussion/446004
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/ai-village-capture-the-flag-defcon31/discussion/454545
+- rank 5｜description：https://www.kaggle.com/c/ai-village-capture-the-flag-defcon31/discussion/455206
+- rank 7｜description：https://www.kaggle.com/c/ai-village-capture-the-flag-defcon31/discussion/454578
+- rank 8｜description：https://www.kaggle.com/c/ai-village-capture-the-flag-defcon31/discussion/454466
+- rank 10｜description：https://www.kaggle.com/c/ai-village-capture-the-flag-defcon31/discussion/455174
+- rank 18｜description：https://www.kaggle.com/c/ai-village-capture-the-flag-defcon31/discussion/454655
+- rank 21｜description：https://www.kaggle.com/c/ai-village-capture-the-flag-defcon31/discussion/454399
+- rank 22｜description：https://www.kaggle.com/c/ai-village-capture-the-flag-defcon31/discussion/454367
 
 ---
 
@@ -192,6 +202,12 @@ WAF（逐字符触发检测边界）、Inference（手写字符 → server 预�
 - 分享禁令（13 票）：https://www.kaggle.com/competitions/ai-village-ctf/discussion/344845
 - 同系列对照：`digests/ai-village-capture-the-flag-defcon31.md`（2023，1344 队、25 flags）
 - 未收录正文的关键讨论（真实 topic id，供后续定点补采/图片层参考）：351806、351801、343582、347149、346451、343964、352068、343947、343654、352466
+
+### 外部题解（kaggle-solutions）
+- rank 2｜code：https://www.kaggle.com/c/ai-village-ctf/discussion/352622
+- rank 3｜code：https://www.kaggle.com/c/ai-village-ctf/discussion/352819
+- rank 5｜code：https://www.kaggle.com/c/ai-village-ctf/discussion/355510
+- rank 10｜code：https://www.kaggle.com/c/ai-village-ctf/discussion/351840
 
 ---
 
@@ -345,6 +361,11 @@ gemini-2.5-* 只支持单工具、deepseek-r1-0528 不支持工具、Anthropic �
 - 环境变更质疑（25 票 / 22 评论）：https://www.kaggle.com/competitions/fide-google-efficiency-chess-ai-challenge/discussion/556777
 - 64KiB 未强制 bug（22 票）：https://www.kaggle.com/competitions/fide-google-efficiency-chess-ai-challenge/discussion/558075
 
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/fide-google-efficiency-chess-ai-challenge/discussion/569891
+- rank 3｜description：https://www.kaggle.com/c/fide-google-efficiency-chess-ai-challenge/discussion/569874
+- rank 49｜description：https://www.kaggle.com/c/fide-google-efficiency-chess-ai-challenge/discussion/566862
+
 ---
 
 ## google-code-golf-2025 — Google Code Golf Championship 2025 轻量深读（Tier B）
@@ -417,6 +438,14 @@ gemini-2.5-* 只支持单工具、deepseek-r1-0528 不支持工具、Anthropic �
 - 单题分数共享（44 票）：https://www.kaggle.com/competitions/google-code-golf-2025/discussion/596679
 - 最后三天（31 票）：https://www.kaggle.com/competitions/google-code-golf-2025/discussion/613583
 - 1st（未入库，待补）：https://www.kaggle.com/competitions/google-code-golf-2025/discussion/614092
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/google-code-golf-2025/writeups/cgi
+- rank 4｜description：https://www.kaggle.com/c/google-code-golf-2025/writeups/parallel-sampling-rule-based-prompt-generation
+- rank 5｜description：https://www.kaggle.com/c/google-code-golf-2025/writeups/himagine-the-future-5th-place-writeup
+- rank 9｜description：https://www.kaggle.com/c/google-code-golf-2025/writeups/9th-place-write-up
+- rank 15｜description：https://www.kaggle.com/c/google-code-golf-2025/writeups/15th-place-solution
+- rank 25｜description：https://www.kaggle.com/c/google-code-golf-2025/writeups/getting-to-rank-25-by-teaching-llms-to-golf
 
 ---
 
@@ -501,6 +530,14 @@ Kore 是"飞船 + 船坞 + kore 资源"的 1v1 对抗模拟赛：469 队提交 a
 - 2 周收敛（14 票）：https://www.kaggle.com/competitions/kore-2022/discussion/336801
 - Top 40 每日分数（15 票）：https://www.kaggle.com/competitions/kore-2022/discussion/327155
 - 规则方案索引：2nd 340994 / 3rd 342296 / 4th 340157 / 5th 339979 / 10th 340159 / 15–20th 336826 / 60th 340115
+
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/kore-2022/discussion/340994
+- rank 3｜description：https://www.kaggle.com/c/kore-2022/discussion/342296
+- rank 4｜description：https://www.kaggle.com/c/kore-2022/discussion/340157
+- rank 5｜code：https://www.kaggle.com/c/kore-2022/discussion/339979
+- rank 10｜description：https://www.kaggle.com/c/kore-2022/discussion/340159
+- rank 17｜code：https://www.kaggle.com/c/kore-2022/discussion/336826
 
 ---
 
@@ -653,6 +690,16 @@ Kore 2022 的 **beta 预览赛**（无现金/积分/奖牌）：4 人舰队资�
 - 8th：https://www.kaggle.com/competitions/lux-ai-2021/discussion/294603
 - 16th 规则补丁：https://www.kaggle.com/competitions/lux-ai-2021/discussion/293835
 - 开源引擎 + RL Gym（63 票）：https://www.kaggle.com/competitions/lux-ai-2021/discussion/267351
+
+### 外部题解（kaggle-solutions）
+- rank 11｜description：https://www.kaggle.com/c/lux-ai-2021/discussion/296306
+- rank 12｜description：https://www.kaggle.com/c/lux-ai-2021/discussion/296406
+- rank 15｜description：https://www.kaggle.com/c/lux-ai-2021/discussion/293953
+- rank 20｜code：https://www.kaggle.com/c/lux-ai-2021/discussion/294098
+- rank 25｜description：https://www.kaggle.com/c/lux-ai-2021/discussion/295242
+- rank 25｜description：https://www.kaggle.com/c/lux-ai-2021/discussion/293836
+- rank 34｜description：https://www.kaggle.com/c/lux-ai-2021/discussion/294003
+- rank 43｜description：https://www.kaggle.com/c/lux-ai-2021/discussion/294070
 
 ---
 
@@ -814,6 +861,12 @@ Kaggle VM 单核、匹配用 CPU；FLG 的整个方案围绕推理速度设计�
 - 防诈骗警示（8 票）：https://www.kaggle.com/competitions/lux-ai-season-2/discussion/381975
 - 往届顶尖方案索引：https://www.kaggle.com/competitions/lux-ai-season-2/discussion/381184
 
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/lux-ai-season-2/discussion/405476
+- rank 3｜description：https://www.kaggle.com/c/lux-ai-season-2/discussion/404921
+- rank 6｜description：https://www.kaggle.com/c/lux-ai-season-2/discussion/405245
+- rank 15｜description：https://www.kaggle.com/c/lux-ai-season-2/discussion/407723
+
 ---
 
 ## lux-ai-season-2-neurips-stage-2 — Lux AI Season 2 – NeurIPS Stage 2 轻量深读（Tier B）
@@ -972,6 +1025,12 @@ nebula 漂移/能量削减/视野缩减、sap dropoff、得分点位都不可直
 - 4th IL（569928）：https://www.kaggle.com/competitions/lux-ai-season-3/discussion/569928
 - 3rd IL（568494）：https://www.kaggle.com/competitions/lux-ai-season-3/discussion/568494
 
+### 外部题解（kaggle-solutions）
+- rank 5｜description：https://www.kaggle.com/c/lux-ai-season-3/discussion/571111
+- rank 8｜description：https://www.kaggle.com/c/lux-ai-season-3/discussion/570673
+- rank 10｜description：https://www.kaggle.com/c/lux-ai-season-3/discussion/570196
+- rank 25｜description：https://www.kaggle.com/c/lux-ai-season-3/discussion/567581
+
 ---
 
 ## maze-crawler — Maze Crawler 轻量深读（Tier B）
@@ -1055,6 +1114,12 @@ nebula 漂移/能量削减/视野缩减、sap dropoff、得分点位都不可直
 - 环境本地/线上不一致（0 票 / 3 评论）：https://www.kaggle.com/competitions/maze-crawler/discussion/701737
 - 5th/7th 规则型 bot（2 票 / 4 评论）：https://www.kaggle.com/competitions/maze-crawler/discussion/708834
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/maze-crawler/writeups/maze-crawler-1st-place-preliminary-solution-wr
+- rank 3｜description：https://www.kaggle.com/c/maze-crawler/writeups/maze-crawler-3rd-place-solution-writeup
+- rank 7｜description：https://www.kaggle.com/c/maze-crawler/writeups/7th-place-global-task-optimization-hungarian-mat
+- rank 12｜description：https://www.kaggle.com/c/maze-crawler/writeups/5th-place-a-rules-based-bot-without-much-search
+
 ---
 
 ## neurogolf-2026 — NeuroGolf 2026 轻量深读（Tier B）
@@ -1129,6 +1194,16 @@ nebula 漂移/能量削减/视野缩减、sap dropoff、得分点位都不可直
 - 焦点帖（44 票）：https://www.kaggle.com/competitions/neurogolf-2026/discussion/724795
 - 骗局帖（77 票）：https://www.kaggle.com/competitions/neurogolf-2026/discussion/726541
 - LB 10000 漏洞帖（42 票）：https://www.kaggle.com/competitions/neurogolf-2026/discussion/696377
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/neurogolf-2026/writeups/1st-place-kaggle-agent
+- rank 2｜description：https://www.kaggle.com/c/neurogolf-2026/writeups/work-in-progress-2nd-place-neurogolf-team
+- rank 3｜description：https://www.kaggle.com/c/neurogolf-2026/writeups/3rd-place-solution-writeup
+- rank 4｜description：https://www.kaggle.com/c/neurogolf-2026/writeups/4th-place-solution-writeup
+- rank 5｜description：https://www.kaggle.com/c/neurogolf-2026/writeups/6th-place-solution-claudex
+- rank 6｜description：https://www.kaggle.com/c/neurogolf-2026/writeups/7th-place-solution-slow-and-steady
+- rank 7｜description：https://www.kaggle.com/c/neurogolf-2026/writeups/8th-place-writeup-draft
+- rank 8｜description：https://www.kaggle.com/c/neurogolf-2026/writeups/8th-place-gold-pavel-and-crodoc
 
 ---
 
@@ -1247,6 +1322,16 @@ nebula 漂移/能量削减/视野缩减、sap dropoff、得分点位都不可直
 - Nebraskinator：https://www.kaggle.com/competitions/orbit-wars/discussion/713126
 - RL lessons（Lin Myat Ko）：https://www.kaggle.com/competitions/orbit-wars/discussion/697725
 - 索引与缺口（未扩采，登记备查）：https://www.kaggle.com/competitions/orbit-wars/discussion/723739 ｜ 728348 ｜ 727619 ｜ 727595 ｜ 727854 ｜ 727715 ｜ 714276 ｜ 714226
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/orbit-wars/writeups/1st-place-solution-scaling-reinforcement-learnin
+- rank 2｜description：https://www.kaggle.com/c/orbit-wars/writeups/2nd-place-solution-for-orbit-wars
+- rank 3｜description：https://www.kaggle.com/c/orbit-wars/writeups/3rd-place-ab-in-den-orbit
+- rank 5｜description：https://www.kaggle.com/c/orbit-wars/writeups/orbit-wars-5th-place-solution
+- rank 6｜description：https://www.kaggle.com/c/orbit-wars/writeups/6th-rl-league-search-with-a-custom-edge-atte
+- rank 7｜description：https://www.kaggle.com/c/orbit-wars/writeups/7th-place-solution-how-structured-experiments-sa
+- rank 8｜description：https://www.kaggle.com/c/orbit-wars/writeups/8th-place-how-i-made-ender
+- rank 9｜description：https://www.kaggle.com/c/orbit-wars/writeups/9th-place-solution-end-to-end-jax-ppo
 
 ---
 
@@ -1373,6 +1458,9 @@ Magist：GA 生成"不寻常牌组"但**不稳定**，最终跟随顶级榜牌�
 - Team Magist（37 票）：https://www.kaggle.com/competitions/pokemon-tcg-ai-battle/discussion/735593
 - 27th（32 票）：https://www.kaggle.com/competitions/pokemon-tcg-ai-battle/discussion/738158
 - 未收录正文的关键讨论（真实 topic id，供后续定点补采/图片层参考）：712621、724362、709160、729926、735822、736361、735123、717697、716045、708586
+
+### 外部题解（kaggle-solutions）
+- rank 15｜description：https://www.kaggle.com/c/pokemon-tcg-ai-battle/writeups/15th-place-solution
 
 ---
 
@@ -1532,6 +1620,10 @@ TSP 基线帖把"重叠"变成非对称距离；3rd 进一步固定归属把 504
 - 2440 下界（57 票）：https://www.kaggle.com/competitions/santa-2021/discussion/294139
 - 至少 2440（67 票）：https://www.kaggle.com/competitions/santa-2021/discussion/292841
 
+### 外部题解（kaggle-solutions）
+- rank 5｜code：https://www.kaggle.com/c/santa-2021/discussion/300572
+- rank 21｜description：https://www.kaggle.com/c/santa-2021/discussion/300901
+
 ---
 
 ## santa-2022 — Santa 2022 - The Christmas Card Conundrum 轻量深读（Tier B）
@@ -1604,6 +1696,9 @@ TSP 基线帖把"重叠"变成非对称距离；3rd 进一步固定归属把 504
 - 9th（30 票）：https://www.kaggle.com/competitions/santa-2022/discussion/379150
 - Web Visualizer（107 票）：https://www.kaggle.com/competitions/santa-2022/discussion/369788
 - TSP 下界（42 票）：https://www.kaggle.com/competitions/santa-2022/discussion/378537
+
+### 外部题解（kaggle-solutions）
+- rank 8｜description：https://www.kaggle.com/c/santa-2022/discussion/379511
 
 ---
 
@@ -1678,6 +1773,11 @@ BBFS 让 wreath_12/12 首次可解（省 RAM、快于单向 BFS）；wreath_6/6�
 - 16th（33 票）：https://www.kaggle.com/competitions/santa-2023/discussion/472489
 - 直接 ML 距离思路（29 票）：https://www.kaggle.com/competitions/santa-2023/discussion/466399
 - 缺口登记：472386 的方法细节、1st 完整分数表、2nd/3rd 方案；未收录正文：A* 搜索 462317（29 票）、Heuristic Transformer 464694（27 票）、ML approach for all puzzles 472606（24 票）、Best achievable score 两帖（62/43 票）
+
+### 外部题解（kaggle-solutions）
+- rank 12｜description：https://www.kaggle.com/c/santa-2023/discussion/473094
+- rank 14｜description：https://www.kaggle.com/c/santa-2023/discussion/472437
+- rank 25｜description：https://www.kaggle.com/c/santa-2023/discussion/472530
 
 ---
 
@@ -1792,6 +1892,16 @@ sample 5 团队在赛期发布思路，评论区出现"会把 gold zone 填满�
 - 5th CPMP（43 票）：https://www.kaggle.com/competitions/santa-2024/discussion/560597
 - sample 5 团队解（41 票）：https://www.kaggle.com/competitions/santa-2024/discussion/559339
 - 未收录正文的关键讨论（真实 topic id，供后续定点补采/图片层参考）：560540、560565、560620、560536、560531、560542、551818、556784、551902、555881、547676、547505、557817、555545、550287、550429
+
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/santa-2024/discussion/560540
+- rank 3｜description：https://www.kaggle.com/c/santa-2024/discussion/560620
+- rank 4｜description：https://www.kaggle.com/c/santa-2024/discussion/560536
+- rank 7｜description：https://www.kaggle.com/c/santa-2024/discussion/561091
+- rank 9｜description：https://www.kaggle.com/c/santa-2024/discussion/560601
+- rank 10｜description：https://www.kaggle.com/c/santa-2024/discussion/560531
+- rank 11｜description：https://www.kaggle.com/c/santa-2024/discussion/560542
+- rank 13｜description：https://www.kaggle.com/c/santa-2024/discussion/560683
 
 ---
 
@@ -1912,5 +2022,15 @@ sample 5 团队在赛期发布思路，评论区出现"会把 gold zone 填满�
 - 对称解（saharan，46 票）：https://www.kaggle.com/competitions/santa-2025/discussion/664824
 - 不对称实验（A HS，41 票）：https://www.kaggle.com/competitions/santa-2025/discussion/666880
 - 未收录缺口（登记备查）：2nd/4th–11th 等约 29 条 write-up
+
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/santa-2025/writeups/third-place-solution-a-customized-sparrow-algorit
+- rank 4｜description：https://www.kaggle.com/c/santa-2025/writeups/4th-place-hybrid-packing-with-sparrow-manual-str
+- rank 8｜description：https://www.kaggle.com/c/santa-2025/writeups/santa25-8th-place
+- rank 9｜description：https://www.kaggle.com/c/santa-2025/writeups/exploiting-homogeneity-in-feasibility-driven-polyg
+- rank 11｜description：https://www.kaggle.com/c/santa-2025/writeups/11th-place-solution
+- rank 12｜description：https://www.kaggle.com/c/santa-2025/writeups/santa25-12th-place
+- rank 13｜description：https://www.kaggle.com/c/santa-2025/writeups/13th-place-santa25-billiard-customized-sparrow
+- rank 14｜description：https://www.kaggle.com/c/santa-2025/writeups/santa25-14th-place-custom-simulated-annealing
 
 ---

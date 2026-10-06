@@ -1,6 +1,6 @@
 # 案例书：other（6 场）
 
-> 由 KStarter 深读文档生成：每场含一句话重述、全量数字账、逐方案对照矩阵、共识/分歧与裁决全文、证据分级、悬案与失败学、图证路径与出处。
+> 由 KStarter 深读文档生成：每场含一句话重述、全量数字账、逐方案对照矩阵、共识/分歧与裁决全文、证据分级、悬案与失败学、图证路径、出处与外部题解。
 > 用途：为新比赛找结构类比时，先读本册，再回 KStarter 深读原文核对。
 
 ## 2023-kaggle-ai-report — 2023 Kaggle AI Report 轻量深读（Tier B）
@@ -255,6 +255,9 @@ Kaggle 第六届年度调查的"最佳分析 notebook"赛：用当年问卷（�
 - 奖项公告（33 票 / 40 评论）：https://www.kaggle.com/competitions/kaggle-survey-2022/discussion/372587
 - 官方 Q&A（25 票 / 41 评论）：https://www.kaggle.com/competitions/kaggle-survey-2022/discussion/358116
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/kaggle-survey-2022/discussion/375837
+
 ---
 
 ## nfl-big-data-bowl-2022 — NFL Big Data Bowl 2022 轻量深读（Tier B）
@@ -415,5 +418,15 @@ Kaggle 第六届年度调查的"最佳分析 notebook"赛：用当年问卷（�
 - 科普（101 票，layout/tile 定义）：https://www.kaggle.com/competitions/predict-ai-model-runtime/discussion/435631
 - 数据更新（33 票）：https://www.kaggle.com/competitions/predict-ai-model-runtime/discussion/443581
 - 测试采样泄漏（13 票）：https://www.kaggle.com/competitions/predict-ai-model-runtime/discussion/456090
+
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/predict-ai-model-runtime/discussion/456365
+- rank 3｜description：https://www.kaggle.com/c/predict-ai-model-runtime/discussion/456377
+- rank 5｜description：https://www.kaggle.com/c/predict-ai-model-runtime/discussion/456093
+- rank 7｜description：https://www.kaggle.com/c/predict-ai-model-runtime/discussion/456673
+- rank 8｜description：https://www.kaggle.com/c/predict-ai-model-runtime/discussion/456645
+- rank 9｜description：https://www.kaggle.com/c/predict-ai-model-runtime/discussion/456206
+- rank 13｜description：https://www.kaggle.com/c/predict-ai-model-runtime/discussion/458370
+- rank 14｜description：https://www.kaggle.com/c/predict-ai-model-runtime/discussion/456105
 
 ---

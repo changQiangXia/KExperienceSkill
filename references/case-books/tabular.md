@@ -1,6 +1,6 @@
 # 案例书：tabular（107 场）
 
-> 由 KStarter 深读文档生成：每场含一句话重述、全量数字账、逐方案对照矩阵、共识/分歧与裁决全文、证据分级、悬案与失败学、图证路径与出处。
+> 由 KStarter 深读文档生成：每场含一句话重述、全量数字账、逐方案对照矩阵、共识/分歧与裁决全文、证据分级、悬案与失败学、图证路径、出处与外部题解。
 > 用途：为新比赛找结构类比时，先读本册，再回 KStarter 深读原文核对。
 
 ## amex-default-prediction — 深读：Amex Default Prediction（用借来的数据、洗出的噪声、拼出的冠军）
@@ -73,6 +73,16 @@
 - 10th：https://www.kaggle.com/competitions/amex-default-prediction/discussion/347668
 - 13th：https://www.kaggle.com/competitions/amex-default-prediction/discussion/348014
 - 14th：https://www.kaggle.com/competitions/amex-default-prediction/discussion/347641
+
+### 外部题解（kaggle-solutions）
+- rank 5｜description：https://www.kaggle.com/c/amex-default-prediction/discussion/348118
+- rank 9｜description：https://www.kaggle.com/c/amex-default-prediction/discussion/350538
+- rank 11｜description：https://www.kaggle.com/c/amex-default-prediction/discussion/347786
+- rank 12｜description：https://www.kaggle.com/c/amex-default-prediction/discussion/347740
+- rank 12｜description：https://www.kaggle.com/c/amex-default-prediction/discussion/348058
+- rank 15｜description：https://www.kaggle.com/c/amex-default-prediction/discussion/347908
+- rank 16｜description：https://www.kaggle.com/c/amex-default-prediction/discussion/347858
+- rank 17｜description：https://www.kaggle.com/c/amex-default-prediction/discussion/347850
 
 ---
 
@@ -147,6 +157,16 @@ GCN、复杂几何增广、CutMix/MixUp（变长标签无法配对）、KD 均�
 - 44th silver（73 票）：https://www.kaggle.com/competitions/asl-signs/discussion/406302
 - pytorch 实验（128 票）：https://www.kaggle.com/competitions/asl-signs/discussion/391265
 - 可复现代码（72 票）：https://www.kaggle.com/competitions/asl-signs/discussion/406978
+
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/asl-signs/discussion/406568
+- rank 4｜description：https://www.kaggle.com/c/asl-signs/discussion/406673
+- rank 5｜description：https://www.kaggle.com/c/asl-signs/discussion/406491
+- rank 8｜description：https://www.kaggle.com/c/asl-signs/discussion/406411
+- rank 9｜description：https://www.kaggle.com/c/asl-signs/discussion/406343
+- rank 10｜description：https://www.kaggle.com/c/asl-signs/discussion/406434
+- rank 11｜description：https://www.kaggle.com/c/asl-signs/discussion/406657
+- rank 12｜description：https://www.kaggle.com/c/asl-signs/discussion/406300
 
 ---
 
@@ -339,6 +359,16 @@ feedback-2021 中 WBF 是夺冠关键；本场 4th Nikhil：WBF 公开 +0.003、
 - 4th penguin46（64 票）：https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states/discussion/459597
 - 未收录缺口（登记备查）：38 条 write-up 标记中的其余条目（5th/6th/8th/9th 等）
 
+### 外部题解（kaggle-solutions）
+- rank 5｜description：https://www.kaggle.com/c/child-mind-institute-detect-sleep-states/discussion/459766
+- rank 6｜description：https://www.kaggle.com/c/child-mind-institute-detect-sleep-states/discussion/459604
+- rank 8｜description：https://www.kaggle.com/c/child-mind-institute-detect-sleep-states/discussion/460617
+- rank 9｜description：https://www.kaggle.com/c/child-mind-institute-detect-sleep-states/discussion/460372
+- rank 10｜description：https://www.kaggle.com/c/child-mind-institute-detect-sleep-states/discussion/459894
+- rank 13｜description：https://www.kaggle.com/c/child-mind-institute-detect-sleep-states/discussion/459703
+- rank 14｜description：https://www.kaggle.com/c/child-mind-institute-detect-sleep-states/discussion/460274
+- rank 15｜description：https://www.kaggle.com/c/child-mind-institute-detect-sleep-states/discussion/460177
+
 ---
 
 ## child-mind-institute-problematic-internet-use — CMI Problematic Internet Use 深读：高方差评分下的稳健工程
@@ -449,6 +479,14 @@ QWK 验证帖：多分类目标 0.2643/0.265 → 自定义目标 0.45187/0.401�
 - 14th（Laura Romar，20 票）：https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use/discussion/552517
 - 5th（peyman，14 票）：https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use/discussion/552656
 - 未收录缺口（登记备查）：17 条 write-up 标记中的其余条目
+
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/child-mind-institute-problematic-internet-use/discussion/552677
+- rank 4｜description：https://www.kaggle.com/c/child-mind-institute-problematic-internet-use/discussion/552861
+- rank 6｜description：https://www.kaggle.com/c/child-mind-institute-problematic-internet-use/discussion/553146
+- rank 8｜description：https://www.kaggle.com/c/child-mind-institute-problematic-internet-use/discussion/552760
+- rank 9｜description：https://www.kaggle.com/c/child-mind-institute-problematic-internet-use/discussion/552890
+- rank 11｜description：https://www.kaggle.com/c/child-mind-institute-problematic-internet-use/discussion/553030
 
 ---
 
@@ -562,6 +600,16 @@ QWK 验证帖：多分类目标 0.2643/0.265 → 自定义目标 0.45187/0.401�
 - 12th（Ruby，53 票）：https://www.kaggle.com/competitions/cmi-detect-behavior-with-sensor-data/discussion/603564
 - 未收录缺口（登记备查）：31 条 write-up 标记中的其余条目（3rd/7th–11th 等）
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/cmi-detect-behavior-with-sensor-data/writeups/cmi-1st-place-solution
+- rank 2｜description：https://www.kaggle.com/c/cmi-detect-behavior-with-sensor-data/writeups/2nd-place-solution
+- rank 3｜description：https://www.kaggle.com/c/cmi-detect-behavior-with-sensor-data/writeups/3rd-place-solution
+- rank 4｜description：https://www.kaggle.com/c/cmi-detect-behavior-with-sensor-data/writeups/4th-place-solution
+- rank 5｜description：https://www.kaggle.com/c/cmi-detect-behavior-with-sensor-data/writeups/5th-solution
+- rank 6｜description：https://www.kaggle.com/c/cmi-detect-behavior-with-sensor-data/writeups/6th-place-solution
+- rank 7｜description：https://www.kaggle.com/c/cmi-detect-behavior-with-sensor-data/writeups/7th-place-solution
+- rank 8｜description：https://www.kaggle.com/c/cmi-detect-behavior-with-sensor-data/writeups/8th-place-solution-and-competition-walkthrough
+
 ---
 
 ## dfl-bundesliga-data-shootout — DFL Bundesliga Data Shootout 轻量深读（Tier B）
@@ -633,6 +681,11 @@ QWK 验证帖：多分类目标 0.2643/0.265 → 自定义目标 0.45187/0.401�
 - 5th（41 票）：https://www.kaggle.com/competitions/dfl-bundesliga-data-shootout/discussion/360331
 - 视频分类入门（75 票）：https://www.kaggle.com/competitions/dfl-bundesliga-data-shootout/discussion/347266
 - 外部数据（40 票）：https://www.kaggle.com/competitions/dfl-bundesliga-data-shootout/discussion/340836
+
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/dfl-bundesliga-data-shootout/discussion/360573
+- rank 6｜description：https://www.kaggle.com/c/dfl-bundesliga-data-shootout/discussion/360872
+- rank 34｜description：https://www.kaggle.com/c/dfl-bundesliga-data-shootout/discussion/359855
 
 ---
 
@@ -751,6 +804,16 @@ unidecode（128 票工具帖）被 4th/7th/1st 广泛使用；7th 做了语言�
 - 4th（59 票）：https://www.kaggle.com/competitions/foursquare-location-matching/discussion/335810
 - 缺口登记：324653、321992、319620、335799、336518、329472 未收录正文
 
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/foursquare-location-matching/discussion/336072
+- rank 2｜description：https://www.kaggle.com/c/foursquare-location-matching/discussion/336090
+- rank 2｜code：https://www.kaggle.com/c/foursquare-location-matching/discussion/336062
+- rank 6｜description：https://www.kaggle.com/c/foursquare-location-matching/discussion/348399
+- rank 8｜description：https://www.kaggle.com/c/foursquare-location-matching/discussion/335928
+- rank 9｜description：https://www.kaggle.com/c/foursquare-location-matching/discussion/336415
+- rank 11｜description：https://www.kaggle.com/c/foursquare-location-matching/discussion/335924
+- rank 12｜description：https://www.kaggle.com/c/foursquare-location-matching/discussion/336051
+
 ---
 
 ## g-research-crypto-forecasting — G-Research Crypto Forecasting 轻量深读（Tier B）
@@ -827,6 +890,10 @@ unidecode（128 票工具帖）被 4th/7th/1st 广泛使用；7th 做了语言�
 - 初始思路（294 票）：https://www.kaggle.com/competitions/g-research-crypto-forecasting/discussion/284903
 - 额外数据（117 票）：https://www.kaggle.com/competitions/g-research-crypto-forecasting/discussion/285726
 - Jane Street 迁移（286676）：https://www.kaggle.com/competitions/g-research-crypto-forecasting/discussion/286676
+
+### 外部题解（kaggle-solutions）
+- rank 9｜description：https://www.kaggle.com/c/g-research-crypto-forecasting/discussion/324180
+- rank all solutions｜kernel：https://www.kaggle.com/c/g-research-crypto-forecasting/discussion/327751
 
 ---
 
@@ -943,6 +1010,14 @@ Chris：线性模型只用于人口 >25k；3rd：只训 Top 90% 大县，小县�
 - Hugo 复盘（24 票）：https://www.kaggle.com/competitions/godaddy-microbusiness-density-forecasting/discussion/394822
 - 2nd 数据清洗（Daniel Phalen，19 票）：https://www.kaggle.com/competitions/godaddy-microbusiness-density-forecasting/discussion/395264
 - 未收录缺口（登记备查）：17 条 write-up 标记中的其余条目
+
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/godaddy-microbusiness-density-forecasting/discussion/394821
+- rank 10｜description：https://www.kaggle.com/c/godaddy-microbusiness-density-forecasting/discussion/418770
+- rank 11｜description：https://www.kaggle.com/c/godaddy-microbusiness-density-forecasting/discussion/417803
+- rank 35｜description：https://www.kaggle.com/c/godaddy-microbusiness-density-forecasting/discussion/418657
+- rank 44｜description：https://www.kaggle.com/c/godaddy-microbusiness-density-forecasting/discussion/418355
+- rank 48｜description：https://www.kaggle.com/c/godaddy-microbusiness-density-forecasting/discussion/417946
 
 ---
 
@@ -1066,6 +1141,16 @@ pos:neg≈1:300（3rd）→ 保留 30× 正样本；1st：每周 100–200 万�
 - 4th（Hongwei Zhang，65 票）：https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/discussion/324094
 - 未收录缺口（登记备查）：324098（5th）｜324127（9th）｜324084（11th）｜324278（Giba）｜324152（22nd 单 LGBM）｜324486（top-10 汇总）等
 
+### 外部题解（kaggle-solutions）
+- rank 5｜description：https://www.kaggle.com/c/h-and-m-personalized-fashion-recommendations/discussion/324098
+- rank 6｜description：https://www.kaggle.com/c/h-and-m-personalized-fashion-recommendations/discussion/324278
+- rank 8｜description：https://www.kaggle.com/c/h-and-m-personalized-fashion-recommendations/discussion/324185
+- rank 9｜description：https://www.kaggle.com/c/h-and-m-personalized-fashion-recommendations/discussion/324127
+- rank 10｜description：https://www.kaggle.com/c/h-and-m-personalized-fashion-recommendations/discussion/324223
+- rank 11｜code：https://www.kaggle.com/c/h-and-m-personalized-fashion-recommendations/discussion/324084
+- rank 12｜description：https://www.kaggle.com/c/h-and-m-personalized-fashion-recommendations/discussion/324310
+- rank 13｜description：https://www.kaggle.com/c/h-and-m-personalized-fashion-recommendations/discussion/324207
+
 ---
 
 ## hms-harmful-brain-activity-classification — 深读：HMS 有害脑活动分类（标签来源双位移 + 频谱逆向工程）
@@ -1137,6 +1222,16 @@ pos:neg≈1:300（3rd）→ 保留 30× 正样本；1st：每周 100–200 万�
 - 2nd：https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/discussion/492254
 - 8th：https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/discussion/492482
 - 1st：https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/discussion/492560
+
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/hms-harmful-brain-activity-classification/discussion/492240
+- rank 5｜description：https://www.kaggle.com/c/hms-harmful-brain-activity-classification/discussion/492652
+- rank 6｜description：https://www.kaggle.com/c/hms-harmful-brain-activity-classification/discussion/492619
+- rank 7｜description：https://www.kaggle.com/c/hms-harmful-brain-activity-classification/discussion/492281
+- rank 9｜description：https://www.kaggle.com/c/hms-harmful-brain-activity-classification/discussion/492429
+- rank 10｜description：https://www.kaggle.com/c/hms-harmful-brain-activity-classification/discussion/492207
+- rank 11｜description：https://www.kaggle.com/c/hms-harmful-brain-activity-classification/discussion/492301
+- rank 12｜description：https://www.kaggle.com/c/hms-harmful-brain-activity-classification/discussion/492603
 
 ---
 
@@ -1348,6 +1443,9 @@ pos:neg≈1:300（3rd）→ 保留 30× 正样本；1st：每周 100–200 万�
 - EDA（47 票）：https://www.kaggle.com/competitions/hull-tactical-market-prediction/discussion/610981
 - "顶级方案在哪"（1177）：https://www.kaggle.com/competitions/hull-tactical-market-prediction/discussion/717746
 
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/hull-tactical-market-prediction/writeups/4th-place-technical-model-no-learning-short-te
+
 ---
 
 ## icr-identify-age-related-conditions — ICR - Identifying Age-Related Conditions 轻量深读（Tier B）
@@ -1418,6 +1516,16 @@ pos:neg≈1:300（3rd）→ 保留 30× 正样本；1st：每周 100–200 万�
 - 3rd（430978）：https://www.kaggle.com/competitions/icr-identify-age-related-conditions/discussion/430978
 - 6th（431048）：https://www.kaggle.com/competitions/icr-identify-age-related-conditions/discussion/431048
 - 5th（430907）：https://www.kaggle.com/competitions/icr-identify-age-related-conditions/discussion/430907
+
+### 外部题解（kaggle-solutions）
+- rank 7｜description：https://www.kaggle.com/c/icr-identify-age-related-conditions/discussion/431028
+- rank 8｜description：https://www.kaggle.com/c/icr-identify-age-related-conditions/discussion/430897
+- rank 13｜description：https://www.kaggle.com/c/icr-identify-age-related-conditions/discussion/431312
+- rank 15｜description：https://www.kaggle.com/c/icr-identify-age-related-conditions/discussion/431415
+- rank 17｜description：https://www.kaggle.com/c/icr-identify-age-related-conditions/discussion/430937
+- rank 19｜description：https://www.kaggle.com/c/icr-identify-age-related-conditions/discussion/431099
+- rank 28｜description：https://www.kaggle.com/c/icr-identify-age-related-conditions/discussion/433013
+- rank 30｜description：https://www.kaggle.com/c/icr-identify-age-related-conditions/discussion/432084
 
 ---
 
@@ -1496,6 +1604,9 @@ pos:neg≈1:300（3rd）→ 保留 30× 正样本；1st：每周 100–200 万�
 - CatBoost 在线训练（60 票）：https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/discussion/556544
 - 往届金融赛方案汇总（48 票）：https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/discussion/541003
 
+### 外部题解（kaggle-solutions）
+- rank 8｜description：https://www.kaggle.com/c/jane-street-real-time-market-data-forecasting/writeups/evgeniia-grigoreva-private-lb-8th-solution
+
 ---
 
 ## jpx-tokyo-stock-exchange-prediction — JPX Tokyo Stock Exchange Prediction 轻量深读（Tier B）
@@ -1563,6 +1674,10 @@ host 整理了上一届 JQuants 冠军代码；社区高票帖"猜测冠军方�
 - 幸运冠军（67 票）：https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/discussion/320323
 - 做空除权日（45 票）：https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/discussion/320836
 - 无泄漏 CV（74 票）：https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/discussion/324217
+
+### 外部题解（kaggle-solutions）
+- rank 2｜code：https://www.kaggle.com/c/jpx-tokyo-stock-exchange-prediction/discussion/361482
+- rank 8｜code：https://www.kaggle.com/c/jpx-tokyo-stock-exchange-prediction/discussion/361127
 
 ---
 
@@ -1646,6 +1761,16 @@ host 整理了上一届 JQuants 冠军代码；社区高票帖"猜测冠军方�
 - 主题上下文（81 票）：https://www.kaggle.com/competitions/learning-equality-curriculum-recommendations/discussion/376873
 - Stage1/2 CV vs LB（74 票）：https://www.kaggle.com/competitions/learning-equality-curriculum-recommendations/discussion/381509
 
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/learning-equality-curriculum-recommendations/discussion/394984
+- rank 5｜description：https://www.kaggle.com/c/learning-equality-curriculum-recommendations/discussion/394827
+- rank 10｜description：https://www.kaggle.com/c/learning-equality-curriculum-recommendations/discussion/395190
+- rank 12｜description：https://www.kaggle.com/c/learning-equality-curriculum-recommendations/discussion/394886
+- rank 17｜description：https://www.kaggle.com/c/learning-equality-curriculum-recommendations/discussion/394910
+- rank 28｜description：https://www.kaggle.com/c/learning-equality-curriculum-recommendations/discussion/394955
+- rank 31｜description：https://www.kaggle.com/c/learning-equality-curriculum-recommendations/discussion/394807
+- rank 32｜description：https://www.kaggle.com/c/learning-equality-curriculum-recommendations/discussion/395018
+
 ---
 
 ## march-machine-learning-mania-2023 — March Machine Learning Mania 2023 轻量深读（Tier B）
@@ -1714,6 +1839,14 @@ host 整理了上一届 JQuants 冠军代码；社区高票帖"猜测冠军方�
 - 官方计分（74 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2023/discussion/395257
 - 538 外部数据（74 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2023/discussion/388323
 - 正则化与 Brier（23 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2023/discussion/395600
+
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/march-machine-learning-mania-2023/discussion/401641
+- rank 4｜description：https://www.kaggle.com/c/march-machine-learning-mania-2023/discussion/401588
+- rank 6｜description：https://www.kaggle.com/c/march-machine-learning-mania-2023/discussion/400709
+- rank 7｜description：https://www.kaggle.com/c/march-machine-learning-mania-2023/discussion/400116
+- rank 8｜description：https://www.kaggle.com/c/march-machine-learning-mania-2023/discussion/400834
+- rank 9｜description：https://www.kaggle.com/c/march-machine-learning-mania-2023/discussion/400151
 
 ---
 
@@ -1785,6 +1918,14 @@ host 整理了上一届 JQuants 冠军代码；社区高票帖"猜测冠军方�
 - 比赛设计（35 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2024/discussion/481750
 - 提交/选择问题（27 票）：https://www.kaggle.com/competitions/march-machine-learning-mania-2024/discussion/485935
 
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/march-machine-learning-mania-2024/discussion/495101
+- rank 4｜description：https://www.kaggle.com/c/march-machine-learning-mania-2024/discussion/494407
+- rank 5｜description：https://www.kaggle.com/c/march-machine-learning-mania-2024/discussion/497162
+- rank 6｜description：https://www.kaggle.com/c/march-machine-learning-mania-2024/discussion/497514
+- rank 7｜description：https://www.kaggle.com/c/march-machine-learning-mania-2024/discussion/493841
+- rank 8｜description：https://www.kaggle.com/c/march-machine-learning-mania-2024/discussion/493041
+
 ---
 
 ## march-machine-learning-mania-2025 — March Machine Learning Mania 2025 轻量深读（Tier B）
@@ -1854,6 +1995,14 @@ NCAA 淘汰赛胜负概率预测（Brier）。真正考点与此前一致：**�
 - 4th（572466）：https://www.kaggle.com/competitions/march-machine-learning-mania-2025/discussion/572466
 - 可视化器（568862）：https://www.kaggle.com/competitions/march-machine-learning-mania-2025/discussion/568862
 - "第一名吓人"（569369）：https://www.kaggle.com/competitions/march-machine-learning-mania-2025/discussion/569369
+
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/march-machine-learning-mania-2025/discussion/572528
+- rank 3｜description：https://www.kaggle.com/c/march-machine-learning-mania-2025/discussion/572553
+- rank 5｜description：https://www.kaggle.com/c/march-machine-learning-mania-2025/discussion/572909
+- rank 6｜description：https://www.kaggle.com/c/march-machine-learning-mania-2025/discussion/572482
+- rank 7｜description：https://www.kaggle.com/c/march-machine-learning-mania-2025/discussion/572540
+- rank 8｜description：https://www.kaggle.com/c/march-machine-learning-mania-2025/discussion/572535
 
 ---
 
@@ -1928,6 +2077,12 @@ NCAA 淘汰赛胜负概率预测（Brier）。真正考点与此前一致：**�
 - 6th 队伍嵌入（317114）：https://www.kaggle.com/competitions/mens-march-mania-2022/discussion/317114
 - 往届夺冠方案（308513）：https://www.kaggle.com/competitions/mens-march-mania-2022/discussion/308513
 - 538 外部评分（54 票）：https://www.kaggle.com/competitions/mens-march-mania-2022/discussion/309917
+
+### 外部题解（kaggle-solutions）
+- rank 2｜code：https://www.kaggle.com/c/mens-march-mania-2022/discussion/318779
+- rank 3｜code：https://www.kaggle.com/c/mens-march-mania-2022/discussion/318302
+- rank 17｜code：https://www.kaggle.com/c/mens-march-mania-2022/discussion/317903
+- rank 54｜description：https://www.kaggle.com/c/mens-march-mania-2022/discussion/317077
 
 ---
 
@@ -2005,6 +2160,16 @@ NCAA 淘汰赛胜负概率预测（Brier）。真正考点与此前一致：**�
 - 无泄漏 CV（16 票）：https://www.kaggle.com/competitions/mitsui-commodity-prediction-challenge/discussion/591530
 - 数据集更新（13 票 / 38 评论）：https://www.kaggle.com/competitions/mitsui-commodity-prediction-challenge/discussion/603716
 - 退市股票 target 对（18 票）：https://www.kaggle.com/competitions/mitsui-commodity-prediction-challenge/discussion/606650
+
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/mitsui-commodity-prediction-challenge/writeups/3-rd-place-solution-directional-trends-over-vola
+- rank 5｜description：https://www.kaggle.com/c/mitsui-commodity-prediction-challenge/writeups/zlf-solution-of-the-mitsui-commodity-predict
+- rank 6｜description：https://www.kaggle.com/c/mitsui-commodity-prediction-challenge/writeups/artem777-in-mitsui-6th-Place
+- rank 7｜description：https://www.kaggle.com/c/mitsui-commodity-prediction-challenge/writeups/tatru-in-mitsui-and-co-commodity-prediction
+- rank 8｜description：https://www.kaggle.com/c/mitsui-commodity-prediction-challenge/writeups/transformer-based-solution
+- rank 14｜description：https://www.kaggle.com/c/mitsui-commodity-prediction-challenge/writeups/mitsui-14th-place-submission
+- rank 15｜description：https://www.kaggle.com/c/mitsui-commodity-prediction-challenge/writeups/mitsui-and-co-commodity-prediction-challenge-15th
+- rank 25｜description：https://www.kaggle.com/c/mitsui-commodity-prediction-challenge/writeups/25th-place-silver-mitsui-commodity-prediction
 
 ---
 
@@ -2084,6 +2249,11 @@ NCAA 淘汰赛胜负概率预测（Brier）。真正考点与此前一致：**�
 - 15th：https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/discussion/276137
 - 3rd：https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/discussion/278676
 - GNN：https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/discussion/275185
+
+### 外部题解（kaggle-solutions）
+- rank 3｜code：https://www.kaggle.com/c/optiver-realized-volatility-prediction/discussion/278588
+- rank 7｜description：https://www.kaggle.com/c/optiver-realized-volatility-prediction/discussion/276506
+- rank 18｜description：https://www.kaggle.com/c/optiver-realized-volatility-prediction/discussion/275169
 
 ---
 
@@ -2168,6 +2338,10 @@ top-300 重要性（1st）、分组增量（9th）、分模型筛选（30th：Ca
 - 14th（31 票）：https://www.kaggle.com/competitions/optiver-trading-at-the-close/discussion/485985
 - 30th（25 票）：https://www.kaggle.com/competitions/optiver-trading-at-the-close/discussion/462650
 - 缺口登记：442851、457721、462639、450626、444516、441590
+
+### 外部题解（kaggle-solutions）
+- rank 14｜description：https://www.kaggle.com/c/optiver-trading-at-the-close/discussion/462653
+- rank 15｜description：https://www.kaggle.com/c/optiver-trading-at-the-close/discussion/486086
 
 ---
 
@@ -2300,6 +2474,16 @@ Sirius：MLP（0.598）不进最终融合；GRU/预训练 item embedding 全失�
 - 2nd ONODERA 部分（90 票）：https://www.kaggle.com/competitions/otto-recommender-system/discussion/382790
 - 20th（kiccho，90 票）：https://www.kaggle.com/competitions/otto-recommender-system/discussion/382771
 - 未收录缺口（登记备查）：**384022（1st）**｜383769（7th）｜382839（2nd senkin13）｜382975（3rd Theo）｜384120（6th）｜383792/383130（9th）｜383382（16th）｜372976（H&M 汇总）等
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/otto-recommender-system/discussion/384022
+- rank 4｜description：https://www.kaggle.com/c/otto-recommender-system/discussion/382783
+- rank 6｜description：https://www.kaggle.com/c/otto-recommender-system/discussion/384120
+- rank 7｜description：https://www.kaggle.com/c/otto-recommender-system/discussion/383769
+- rank 8｜description：https://www.kaggle.com/c/otto-recommender-system/discussion/383130
+- rank 9｜description：https://www.kaggle.com/c/otto-recommender-system/discussion/383792
+- rank 10｜description：https://www.kaggle.com/c/otto-recommender-system/discussion/382851
+- rank 11｜description：https://www.kaggle.com/c/otto-recommender-system/discussion/383374
 
 ---
 
@@ -2450,6 +2634,15 @@ Sirius：MLP（0.598）不进最终融合；GRU/预训练 item embedding 全失�
 - 概率校准（28 票 / 5 评论）：https://www.kaggle.com/competitions/playground-series-s3e10/discussion/393861
 - 去掉异常值（22 票 / 21 评论）：https://www.kaggle.com/competitions/playground-series-s3e10/discussion/393093
 
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/playground-series-s3e10/discussion/396346
+- rank 7｜description：https://www.kaggle.com/c/playground-series-s3e10/discussion/396261
+- rank 8｜description：https://www.kaggle.com/c/playground-series-s3e10/discussion/396425
+- rank 9｜description：https://www.kaggle.com/c/playground-series-s3e10/discussion/396374
+- rank 10｜description：https://www.kaggle.com/c/playground-series-s3e10/discussion/396263
+- rank 13｜description：https://www.kaggle.com/c/playground-series-s3e10/discussion/396319
+- rank 19｜description：https://www.kaggle.com/c/playground-series-s3e10/discussion/396471
+
 ---
 
 ## playground-series-s3e11 — Playground Series S3E11（门店成本预测）轻量深读（Tier B）
@@ -2530,6 +2723,9 @@ Sirius：MLP（0.598）不进最终融合；GRU/预训练 item embedding 全失�
 - 回归赛冠军汇编（19 票）：https://www.kaggle.com/competitions/playground-series-s3e11/discussion/396123
 - 人工数据质疑（26 票）：https://www.kaggle.com/competitions/playground-series-s3e11/discussion/397431
 
+### 外部题解（kaggle-solutions）
+- rank 7｜description：https://www.kaggle.com/c/playground-series-s3e11/discussion/399463
+
 ---
 
 ## playground-series-s3e12 — Playground Series S3E12（极小数据分类）轻量深读（Tier B）
@@ -2607,6 +2803,9 @@ Sirius：MLP（0.598）不进最终融合；GRU/预训练 item embedding 全失�
 - #14（3 票）：https://www.kaggle.com/competitions/playground-series-s3e12/discussion/402467
 - #24（7 票）：https://www.kaggle.com/competitions/playground-series-s3e12/discussion/402398
 - #8（11 票）：https://www.kaggle.com/competitions/playground-series-s3e12/discussion/402416
+
+### 外部题解（kaggle-solutions）
+- rank 5｜description：https://www.kaggle.com/c/playground-series-s3e12/discussion/402403
 
 ---
 
@@ -2690,6 +2889,12 @@ Sirius：MLP（0.598）不进最终融合；GRU/预训练 item embedding 全失�
 - #1 公私榜位移（32 票）：https://www.kaggle.com/competitions/playground-series-s3e13/discussion/406433
 - LDA 基线（21 票）：https://www.kaggle.com/competitions/playground-series-s3e13/discussion/405435
 - 医疗知识警告（35 票 / 24 评论）：https://www.kaggle.com/competitions/playground-series-s3e13/discussion/403728
+
+### 外部题解（kaggle-solutions）
+- rank 15｜description：https://www.kaggle.com/c/playground-series-s3e13/discussion/406395
+- rank 29｜description：https://www.kaggle.com/c/playground-series-s3e13/discussion/406366
+- rank 31｜description：https://www.kaggle.com/c/playground-series-s3e13/discussion/405616
+- rank 58｜description：https://www.kaggle.com/c/playground-series-s3e13/discussion/406396
 
 ---
 
@@ -2843,6 +3048,12 @@ PLS/PCA 线性投影反复出现；LADRegression（最小绝对偏差，天然�
 - 基础 FE/插补思路（31 票 / 16 评论）：https://www.kaggle.com/competitions/playground-series-s3e15/discussion/411353
 - CHF 关联式（29 票 / 29 评论）：https://www.kaggle.com/competitions/playground-series-s3e15/discussion/410793
 
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/playground-series-s3e15/discussion/414027
+- rank 6｜description：https://www.kaggle.com/c/playground-series-s3e15/discussion/413839
+- rank 9｜description：https://www.kaggle.com/c/playground-series-s3e15/discussion/413808
+- rank 11｜description：https://www.kaggle.com/c/playground-series-s3e15/discussion/413977
+
 ---
 
 ## playground-series-s3e16 — Playground Series S3E16（鲍鱼年龄预测）轻量深读（Tier B）
@@ -2914,6 +3125,9 @@ MAE 指标下 5th 用 **LADRegression**（最小绝对偏差）作为集成器�
 - 11th（273 行处）：https://www.kaggle.com/competitions/playground-series-s3e16/discussion/416819
 - 特征工程 1.33708（48 票）：https://www.kaggle.com/competitions/playground-series-s3e16/discussion/415721
 - round or not（37 票）：https://www.kaggle.com/competitions/playground-series-s3e16/discussion/413971
+
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/playground-series-s3e16/discussion/416783
 
 ---
 
@@ -2993,6 +3207,9 @@ MAE 指标下 5th 用 **LADRegression**（最小绝对偏差）作为集成器�
 - 不平衡策略（37 票 / 22 评论）：https://www.kaggle.com/competitions/playground-series-s3e17/discussion/416923
 - Product ID 讨论（18 票 / 12 评论）：https://www.kaggle.com/competitions/playground-series-s3e17/discussion/416774
 - 重复观测（15 票）：https://www.kaggle.com/competitions/playground-series-s3e17/discussion/416919
+
+### 外部题解（kaggle-solutions）
+- rank 47｜description：https://www.kaggle.com/c/playground-series-s3e17/discussion/419708
 
 ---
 
@@ -3150,6 +3367,16 @@ EC2 AUC 约 0.58–0.59，仅略好于全 1 分类器；11th 的集成无法超�
 - 数据漂移提醒（19 票）：https://www.kaggle.com/competitions/playground-series-s3e19/discussion/423657
 - 国家份额与人均 GDP（19 票）：https://www.kaggle.com/competitions/playground-series-s3e19/discussion/423725
 - 打印变量名技巧（43 票）：https://www.kaggle.com/competitions/playground-series-s3e19/discussion/426258
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/playground-series-s3e19/discussion/428311
+- rank 4｜description：https://www.kaggle.com/c/playground-series-s3e19/discussion/428335
+- rank 5｜description：https://www.kaggle.com/c/playground-series-s3e19/discussion/428347
+- rank 7｜description：https://www.kaggle.com/c/playground-series-s3e19/discussion/428514
+- rank 8｜description：https://www.kaggle.com/c/playground-series-s3e19/discussion/428368
+- rank 9｜description：https://www.kaggle.com/c/playground-series-s3e19/discussion/428300
+- rank 16｜description：https://www.kaggle.com/c/playground-series-s3e19/discussion/428438
+- rank 17｜description：https://www.kaggle.com/c/playground-series-s3e19/discussion/428433
 
 ---
 
@@ -3379,6 +3606,9 @@ Kaggle 罕见的赛制：**模型固定、只允许改数据**——用数据清
 - 伪标签有效（32 票 / 15 评论）：https://www.kaggle.com/competitions/playground-series-s3e21/discussion/433531
 - 原始 train 数据可能有危险（32 票 / 11 评论）：https://www.kaggle.com/competitions/playground-series-s3e21/discussion/434969
 - 不该信公榜（20 票 / 27 评论）：https://www.kaggle.com/competitions/playground-series-s3e21/discussion/434376
+
+### 外部题解（kaggle-solutions）
+- rank 33｜description：https://www.kaggle.com/c/playground-series-s3e21/discussion/438745
 
 ---
 
@@ -3784,6 +4014,9 @@ MedAE 只取单点，若测试含与训练重复的行，会直接决定分数�
 - 新类别特征（22 票）：https://www.kaggle.com/competitions/playground-series-s3e26/discussion/459860
 - Cox PH 生存分析（21 票）：https://www.kaggle.com/competitions/playground-series-s3e26/discussion/460069
 
+### 外部题解（kaggle-solutions）
+- rank 39｜description：https://www.kaggle.com/c/playground-series-s3e26/discussion/464876
+
 ---
 
 ## playground-series-s3e3 — Playground Series S3E3（员工流失预测）轻量深读（Tier B）
@@ -3860,6 +4093,11 @@ MedAE 只取单点，若测试含与训练重复的行，会直接决定分数�
 - 公榜 34 正例（28 票）：https://www.kaggle.com/competitions/playground-series-s3e3/discussion/379492
 - 风险因子（17 票）：https://www.kaggle.com/competitions/playground-series-s3e3/discussion/378994
 - 洗牌讨论（15 票 / 15 评论）：https://www.kaggle.com/competitions/playground-series-s3e3/discussion/380729
+
+### 外部题解（kaggle-solutions）
+- rank 12｜description：https://www.kaggle.com/c/playground-series-s3e3/discussion/379347
+- rank 38｜description：https://www.kaggle.com/c/playground-series-s3e3/discussion/380748
+- rank 39｜description：https://www.kaggle.com/c/playground-series-s3e3/discussion/380738
 
 ---
 
@@ -3943,6 +4181,9 @@ train/test 窗口不重叠（0–33.5h vs 33.5–48h）；380771 明确建议"�
 - 对抗验证（25 票 / 16 评论）：https://www.kaggle.com/competitions/playground-series-s3e4/discussion/381089
 - 完美 CV 讨论（21 票 / 34 评论）：https://www.kaggle.com/competitions/playground-series-s3e4/discussion/381415
 
+### 外部题解（kaggle-solutions）
+- rank 36｜description：https://www.kaggle.com/c/playground-series-s3e4/discussion/382493
+
 ---
 
 ## playground-series-s3e5 — Playground Series S3E5（葡萄酒质量评级）轻量深读（Tier B）
@@ -4021,6 +4262,12 @@ train/test 窗口不重叠（0–33.5h vs 33.5–48h）；380771 明确建议"�
 - 回归处理（29 票 / 9 评论）：https://www.kaggle.com/competitions/playground-series-s3e5/discussion/382525
 - Rounder 集成（34 票 / 8 评论）：https://www.kaggle.com/competitions/playground-series-s3e5/discussion/382960
 
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/playground-series-s3e5/discussion/388011
+- rank 13｜description：https://www.kaggle.com/c/playground-series-s3e5/discussion/386657
+- rank 16｜description：https://www.kaggle.com/c/playground-series-s3e5/discussion/386745
+- rank 24｜description：https://www.kaggle.com/c/playground-series-s3e5/discussion/386789
+
 ---
 
 ## playground-series-s3e6 — Playground Series S3E6（巴黎房价）轻量深读（Tier B）
@@ -4094,6 +4341,10 @@ squareMeters 相关性 ~0.53、重要性 ~99%；FE 尝试均无增益。**裁决
 - 三类房型（16 票 / 5 评论）：https://www.kaggle.com/competitions/playground-series-s3e6/discussion/384412
 - `made` 异常值（16 票 / 16 评论）：https://www.kaggle.com/competitions/playground-series-s3e6/discussion/384251
 - 准重复行（17 票 / 6 评论）：https://www.kaggle.com/competitions/playground-series-s3e6/discussion/386116
+
+### 外部题解（kaggle-solutions）
+- rank 8｜description：https://www.kaggle.com/c/playground-series-s3e6/discussion/389139
+- rank 43｜description：https://www.kaggle.com/c/playground-series-s3e6/discussion/389155
 
 ---
 
@@ -4173,6 +4424,9 @@ squareMeters 相关性 ~0.53、重要性 ~99%；FE 尝试均无增益。**裁决
 - 日期异常修复（29 票 / 15 评论）：https://www.kaggle.com/competitions/playground-series-s3e7/discussion/386655
 - 冲突 booking_status 重复（16 票 / 11 评论）：https://www.kaggle.com/competitions/playground-series-s3e7/discussion/386686
 
+### 外部题解（kaggle-solutions）
+- rank 15｜description：https://www.kaggle.com/c/playground-series-s3e7/discussion/390977
+
 ---
 
 ## playground-series-s3e8 — Playground Series S3E8（宝石价格预测）轻量深读（Tier B）
@@ -4250,6 +4504,9 @@ squareMeters 相关性 ~0.53、重要性 ~99%；FE 尝试均无增益。**裁决
 - 帮助想法汇编（26 票 / 8 评论）：https://www.kaggle.com/competitions/playground-series-s3e8/discussion/390882
 - 有序数值化（18 票 / 2 评论）：https://www.kaggle.com/competitions/playground-series-s3e8/discussion/389174
 - 1st（15 票，未收录正文）：https://www.kaggle.com/competitions/playground-series-s3e8/discussion/392926
+
+### 外部题解（kaggle-solutions）
+- rank 7｜description：https://www.kaggle.com/c/playground-series-s3e8/discussion/392937
 
 ---
 
@@ -4716,6 +4973,9 @@ LLM 写出的"通用好方案"789 名；人主导的类别化/CatBoost 残差提
 - 洗牌分析（37 票）：https://www.kaggle.com/competitions/playground-series-s4e2/discussion/480792
 - 有序标签讨论（19 票 / 28 评论）：https://www.kaggle.com/competitions/playground-series-s4e2/discussion/475438
 
+### 外部题解（kaggle-solutions）
+- rank 19｜description：https://www.kaggle.com/c/playground-series-s4e2/discussion/482075
+
 ---
 
 ## playground-series-s4e3 — Playground Series S4E3（钢板缺陷预测）轻量深读（Tier B）
@@ -4862,6 +5122,9 @@ LLM 写出的"通用好方案"789 名；人主导的类别化/CatBoost 残差提
 - log1p+MSE vs MSLE（42 票）：https://www.kaggle.com/competitions/playground-series-s4e4/discussion/488283
 - 系统性误差（29 票 / 8 评论）：https://www.kaggle.com/competitions/playground-series-s4e4/discussion/491196
 
+### 外部题解（kaggle-solutions）
+- rank 8｜description：https://www.kaggle.com/c/playground-series-s4e4/discussion/499258
+
 ---
 
 ## playground-series-s4e5 — Playground Series S4E5（洪水概率预测）轻量深读（Tier B）
@@ -4934,6 +5197,9 @@ LLM 写出的"通用好方案"789 名；人主导的类别化/CatBoost 残差提
 - AGP 2nd H2O（36 票）：https://www.kaggle.com/competitions/playground-series-s4e5/discussion/500549
 - 首个有用的特征（499274）：https://www.kaggle.com/competitions/playground-series-s4e5/discussion/499274
 - Poisson 讨论（31 票）：https://www.kaggle.com/competitions/playground-series-s4e5/discussion/499244
+
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/playground-series-s4e5/discussion/509044
 
 ---
 
@@ -5008,6 +5274,9 @@ Tilii 把三分类概率压成带符号置信度后用相关/KS/散点判断成�
 - 集成多样性（70 票）：https://www.kaggle.com/competitions/playground-series-s4e6/discussion/512220
 - 两个最重要特征（61 票）：https://www.kaggle.com/competitions/playground-series-s4e6/discussion/509073
 - 3rd 单 XGB（30 票）：https://www.kaggle.com/competitions/playground-series-s4e6/discussion/515983
+
+### 外部题解（kaggle-solutions）
+- rank 10｜description：https://www.kaggle.com/c/playground-series-s4e6/discussion/515980
 
 ---
 
@@ -5087,6 +5356,12 @@ Cross Sellers 的三种策略里"补充数据整份加进每个折"最好；2nd 
 - 4th（48 票）：https://www.kaggle.com/competitions/playground-series-s4e7/discussion/516265
 - 23rd（35 票）：https://www.kaggle.com/competitions/playground-series-s4e7/discussion/516413
 
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/playground-series-s4e7/discussion/523661
+- rank 6｜description：https://www.kaggle.com/c/playground-series-s4e7/discussion/523484
+- rank 8｜description：https://www.kaggle.com/c/playground-series-s4e7/discussion/523486
+- rank 9｜description：https://www.kaggle.com/c/playground-series-s4e7/discussion/523403
+
 ---
 
 ## playground-series-s4e8 — Playground S4E8（蘑菇可食性）轻量深读（Tier B）
@@ -5158,6 +5433,12 @@ AGP 把舍入从 6→8 位做 tiebreak；主赛 1st 记录 0.0001–0.0002 的 C
 - 主赛 #4（531343）：https://www.kaggle.com/competitions/playground-series-s4e8/discussion/531343
 - AGP 3rd KAN（524709）：https://www.kaggle.com/competitions/playground-series-s4e8/discussion/524709
 - 缺失特征（523474）：https://www.kaggle.com/competitions/playground-series-s4e8/discussion/523474
+
+### 外部题解（kaggle-solutions）
+- rank 6｜description：https://www.kaggle.com/c/playground-series-s4e8/discussion/531330
+- rank 8｜description：https://www.kaggle.com/c/playground-series-s4e8/discussion/531374
+- rank 10｜description：https://www.kaggle.com/c/playground-series-s4e8/discussion/531424
+- rank 19｜description：https://www.kaggle.com/c/playground-series-s4e8/discussion/531347
 
 ---
 
@@ -5238,6 +5519,11 @@ TE 帖给出嵌套折规范（外层 5 折 × 内层 5 折，测试集用全训�
 - AutoML GP 3rd：https://www.kaggle.com/competitions/playground-series-s4e9/discussion/532758
 - 缺口登记：2nd/3rd 主赛方案、Warning: Average Fold RMSE 帖（63 票）
 
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/playground-series-s4e9/discussion/537349
+- rank 3｜description：https://www.kaggle.com/c/playground-series-s4e9/discussion/537029
+- rank 5｜description：https://www.kaggle.com/c/playground-series-s4e9/discussion/537173
+
 ---
 
 ## playground-series-s5e1 — Playground Series S5E1（销售预测）轻量深读（Tier B）
@@ -5308,6 +5594,12 @@ TE 帖给出嵌套折规范（外层 5 折 × 内层 5 折，测试集用全训�
 - Transformer 0.052（80 票）：https://www.kaggle.com/competitions/playground-series-s5e1/discussion/559314
 - 显然的分解（72 票）：https://www.kaggle.com/competitions/playground-series-s5e1/discussion/554349
 - 四舍五入（30 票）：https://www.kaggle.com/competitions/playground-series-s5e1/discussion/555149
+
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/playground-series-s5e1/discussion/560535
+- rank 4｜description：https://www.kaggle.com/c/playground-series-s5e1/discussion/560692
+- rank 6｜description：https://www.kaggle.com/c/playground-series-s5e1/discussion/560653
+- rank 11｜description：https://www.kaggle.com/c/playground-series-s5e1/discussion/560569
 
 ---
 
@@ -5384,6 +5676,15 @@ TE 帖给出嵌套折规范（外层 5 折 × 内层 5 折，测试集用全训�
 - 14th（614089）：https://www.kaggle.com/competitions/playground-series-s5e10/discussion/614089
 - XGB 残差提升（67 票）：https://www.kaggle.com/competitions/playground-series-s5e10/discussion/610828
 - 高值被低估（46 票）：https://www.kaggle.com/competitions/playground-series-s5e10/discussion/610422
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/playground-series-s5e10/writeups/1st-place-i-think-it-was-genetic-programming
+- rank 3｜description：https://www.kaggle.com/c/playground-series-s5e10/writeups/3rd-place-from-base-to-stacking-a-multilevel-ens
+- rank 4｜description：https://www.kaggle.com/c/playground-series-s5e10/writeups/4th-place-residual-xgboost-meta-nn-hill-clim
+- rank 5｜description：https://www.kaggle.com/c/playground-series-s5e10/writeups/5th-place-one-hundred-folds
+- rank 7｜description：https://www.kaggle.com/c/playground-series-s5e10/writeups/7th-place-ridge
+- rank 8｜description：https://www.kaggle.com/c/playground-series-s5e10/writeups/8th-place-solution-for-s5e10-predict-road-acciden
+- rank 14｜description：https://www.kaggle.com/c/playground-series-s5e10/writeups/s5e10-14th-place-solution
 
 ---
 
@@ -5463,6 +5764,15 @@ TE 帖给出嵌套折规范（外层 5 折 × 内层 5 折，测试集用全训�
 - 单模 vs 集成（36 票）：https://www.kaggle.com/competitions/playground-series-s5e11/discussion/636012
 - 模型正交性（22 票）：https://www.kaggle.com/competitions/playground-series-s5e11/discussion/614412
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/playground-series-s5e11/writeups/1st-place-a-lot-of-features-a-lot-of-models-an
+- rank 2｜description：https://www.kaggle.com/c/playground-series-s5e11/writeups/2nd-place-solution-7-models-but-1-was-also-enou
+- rank 4｜description：https://www.kaggle.com/c/playground-series-s5e11/writeups/4th-place-solution
+- rank 5｜description：https://www.kaggle.com/c/playground-series-s5e11/writeups/5th-place-solution-xgb-lgbm-tabm5seeds-ag
+- rank 6｜description：https://www.kaggle.com/c/playground-series-s5e11/writeups/6-solution-ensembling-was-the-key
+- rank 8｜description：https://www.kaggle.com/c/playground-series-s5e11/writeups/rank8-approach-trust-the-cv-score
+- rank 10｜description：https://www.kaggle.com/c/playground-series-s5e11/writeups/a-10th-place-experiment
+
 ---
 
 ## playground-series-s5e12 — 深读：S5E12 糖尿病预测（ID 位移 + 概念漂移 —— "被故意破坏的数据"）
@@ -5534,6 +5844,11 @@ TE 帖给出嵌套折规范（外层 5 折 × 内层 5 折，测试集用全训�
 - 盲融诊断（CDF/KS）：https://www.kaggle.com/competitions/playground-series-s5e12/discussion/651787
 - EDA→Baseline：https://www.kaggle.com/competitions/playground-series-s5e12/discussion/648186
 - 新手路线图：https://www.kaggle.com/competitions/playground-series-s5e12/discussion/650676
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/playground-series-s5e12/writeups/1st-place-solution-hill-climbing-ridge-ensembl
+- rank 2｜description：https://www.kaggle.com/c/playground-series-s5e12/writeups/2nd-place-solution-winning-based-on-id-shift-an
+- rank 4｜description：https://www.kaggle.com/c/playground-series-s5e12/writeups/add-tabm-for-diversity
 
 ---
 
@@ -5694,6 +6009,9 @@ TE 帖给出嵌套折规范（外层 5 折 × 内层 5 折，测试集用全训�
 - 标签错误（41 票 / 21 评论）：https://www.kaggle.com/competitions/playground-series-s5e3/discussion/565634
 - 原始数据来源识别（38 票）：https://www.kaggle.com/competitions/playground-series-s5e3/discussion/566908
 
+### 外部题解（kaggle-solutions）
+- rank 6｜description：https://www.kaggle.com/c/playground-series-s5e3/discussion/571216
+
 ---
 
 ## playground-series-s5e4 — Playground Series S5E4（播客收听时长）轻量深读（Tier B）
@@ -5780,6 +6098,9 @@ ELM 占 90%+ 信号、缺失 11.6%，使"有/无 ELM"成为两个情景。1st �
 - 小数位模式（27 票）：https://www.kaggle.com/competitions/playground-series-s5e4/discussion/574925
 - 极端离群与 cap 建议（11 票）：https://www.kaggle.com/competitions/playground-series-s5e4/discussion/571827
 
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/playground-series-s5e4/discussion/575782
+
 ---
 
 ## playground-series-s5e5 — Playground Series S5E5 轻量深读（Tier B）
@@ -5854,6 +6175,16 @@ ELM 占 90%+ 信号、缺失 11.6%，使"有/无 ELM"成为两个情景。1st �
 - How To Ensemble with RMSLE（140 票）：https://www.kaggle.com/competitions/playground-series-s5e5/discussion/576111
 - 往届方案洞察（49 票）：https://www.kaggle.com/competitions/playground-series-s5e5/discussion/576731
 
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/playground-series-s5e5/discussion/582848
+- rank 4｜description：https://www.kaggle.com/c/playground-series-s5e5/discussion/582594
+- rank 5｜description：https://www.kaggle.com/c/playground-series-s5e5/discussion/582564
+- rank 8｜description：https://www.kaggle.com/c/playground-series-s5e5/discussion/582631
+- rank 9｜description：https://www.kaggle.com/c/playground-series-s5e5/discussion/582596
+- rank 17｜description：https://www.kaggle.com/c/playground-series-s5e5/discussion/582546
+- rank 22｜description：https://www.kaggle.com/c/playground-series-s5e5/discussion/582604
+- rank 38｜description：https://www.kaggle.com/c/playground-series-s5e5/discussion/582892
+
 ---
 
 ## playground-series-s5e6 — Playground Series S5E6（最优化肥推荐）轻量深读（Tier B）
@@ -5926,6 +6257,15 @@ EDA 帖指出数值列近乎无相关、但按类别有中位数位移 → 比�
 - 5th（24 票）：https://www.kaggle.com/competitions/playground-series-s5e6/discussion/587392
 - N/P/K 比率信号（68 票）：https://www.kaggle.com/competitions/playground-series-s5e6/discussion/583189
 - 原始数据噪声质疑（46 票）：https://www.kaggle.com/competitions/playground-series-s5e6/discussion/582632
+
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/playground-series-s5e6/discussion/587405
+- rank 6｜description：https://www.kaggle.com/c/playground-series-s5e6/discussion/587414
+- rank 7｜description：https://www.kaggle.com/c/playground-series-s5e6/discussion/587573
+- rank 10｜description：https://www.kaggle.com/c/playground-series-s5e6/discussion/587739
+- rank 21｜description：https://www.kaggle.com/c/playground-series-s5e6/discussion/587409
+- rank 22｜description：https://www.kaggle.com/c/playground-series-s5e6/discussion/587476
+- rank 28｜description：https://www.kaggle.com/c/playground-series-s5e6/discussion/587391
 
 ---
 
@@ -6003,6 +6343,9 @@ Top-3 的核心之一是 0.40 阈值；另有"概率校准提分"专帖。**裁�
 - 怪异结局（25 票 / 20 评论）：https://www.kaggle.com/competitions/playground-series-s5e7/discussion/593994
 - 心理测量背景（33 票 / 19 评论）：https://www.kaggle.com/competitions/playground-series-s5e7/discussion/587413
 
+### 外部题解（kaggle-solutions）
+- rank 42｜description：https://www.kaggle.com/c/playground-series-s5e7/writeups/3rd-place-solution-predict-the-introverts-from-the
+
 ---
 
 ## playground-series-s5e8 — Playground Series S5E8 轻量深读（Tier B）
@@ -6076,6 +6419,16 @@ Top-3 的核心之一是 0.40 阈值；另有"概率校准提分"专帖。**裁�
 - 15th（21 票）：https://www.kaggle.com/competitions/playground-series-s5e8/discussion/603179
 - QuantileDMatrix（69 票）：https://www.kaggle.com/competitions/playground-series-s5e8/discussion/600048
 - 反盲混（34 票）：https://www.kaggle.com/competitions/playground-series-s5e8/discussion/596696
+
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/playground-series-s5e8/writeups/2nd-place-yet-another-ensemble
+- rank 3｜description：https://www.kaggle.com/c/playground-series-s5e8/writeups/3rd-place-solution-oof-stacking-autogluon
+- rank 4｜description：https://www.kaggle.com/c/playground-series-s5e8/writeups/4th-place-solution
+- rank 5｜description：https://www.kaggle.com/c/playground-series-s5e8/writeups/rank-3-public-rank-5-private-approach
+- rank 6｜description：https://www.kaggle.com/c/playground-series-s5e8/writeups/6th-place-solution-oof-stacking-with-lgbm
+- rank 8｜description：https://www.kaggle.com/c/playground-series-s5e8/writeups/8th-place-hill-climb-selected-meta-learners
+- rank 10｜description：https://www.kaggle.com/c/playground-series-s5e8/writeups/10th-place-node-neural-oblivious-decision-ensemble
+- rank 11｜description：https://www.kaggle.com/c/playground-series-s5e8/writeups/11th-place-solution-autogluon-with-two-feature-set
 
 ---
 
@@ -6160,6 +6513,9 @@ MIR 帖提供了节拍估计文献与 DJ 用途，但随机目标检验表明原
 - CV-LB relation thread（20 票 / 44 评论）：https://www.kaggle.com/competitions/playground-series-s5e9/discussion/603432
 - 26.38 vs 26.39（2 票 / 6 评论）：https://www.kaggle.com/competitions/playground-series-s5e9/discussion/608579
 
+### 外部题解（kaggle-solutions）
+- rank 26｜description：https://www.kaggle.com/c/playground-series-s5e9/writeups/26th-place-fe-pseudo-labels-residuals
+
 ---
 
 ## playground-series-s6e1 — Playground Series S6E1（学生考试成绩）轻量深读（Tier B）
@@ -6231,6 +6587,16 @@ EDA 帖指出大量线性关系（图 1）；"恢复原始数据模型"帖（44 
 - EDA（78 票）：https://www.kaggle.com/competitions/playground-series-s6e1/discussion/665965
 - 恢复原始数据模型（44 票）：https://www.kaggle.com/competitions/playground-series-s6e1/discussion/665915
 - Tobit 截尾（25 票）：https://www.kaggle.com/competitions/playground-series-s6e1/discussion/667296
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/playground-series-s6e1/writeups/1st-place-ive-ran-out-of-catchy-phrases-v
+- rank 2｜description：https://www.kaggle.com/c/playground-series-s6e1/writeups/2nd-place-nns-sometimes-work-better-than-gbms
+- rank 3｜description：https://www.kaggle.com/c/playground-series-s6e1/writeups/3rd-place-135-oofs
+- rank 4｜description：https://www.kaggle.com/c/playground-series-s6e1/writeups/first-loser-aka-4th-place
+- rank 5｜description：https://www.kaggle.com/c/playground-series-s6e1/writeups/5th-place-feature-driven-diversity-and-iterative-e
+- rank 6｜description：https://www.kaggle.com/c/playground-series-s6e1/writeups/6th-place-a-lot-of-features-a-lot-of-ensembling
+- rank 7｜description：https://www.kaggle.com/c/playground-series-s6e1/writeups/private-7-diversity-ensemble-and-cv-trust
+- rank 13｜description：https://www.kaggle.com/c/playground-series-s6e1/writeups/13th-place-diversityslop
 
 ---
 
@@ -6311,6 +6677,16 @@ LR+OHE 即 0.95550（4th）；无 FE 的 FM 只差 0.00009（22nd）；4th 的 8
 - 69th（27 票）：https://www.kaggle.com/competitions/playground-series-s6e2/discussion/679367
 - 缺口登记：673079、673774、671274、673762、679364
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/playground-series-s6e2/writeups/1st-place-solution-diversity-selection-and-t
+- rank 2｜description：https://www.kaggle.com/c/playground-series-s6e2/writeups/2nd-place-solution-avoid-leaks-and-overfitting
+- rank 3｜description：https://www.kaggle.com/c/playground-series-s6e2/writeups/3rd-place-solution
+- rank 4｜description：https://www.kaggle.com/c/playground-series-s6e2/writeups/4th-place-solution
+- rank 8｜description：https://www.kaggle.com/c/playground-series-s6e2/writeups/8th-place-ensemble-and-trustcv
+- rank 10｜description：https://www.kaggle.com/c/playground-series-s6e2/writeups/10th-rank-solution-playground-series-s6e2
+- rank 12｜description：https://www.kaggle.com/c/playground-series-s6e2/writeups/top-12-finish-2-score-wise
+- rank 15｜description：https://www.kaggle.com/c/playground-series-s6e2/writeups/15th-place-solution
+
 ---
 
 ## playground-series-s6e3 — Playground Series S6E3（电信客户流失）轻量深读（Tier B）
@@ -6382,6 +6758,16 @@ LR+OHE 即 0.95550（4th）；无 FE 的 FM 只差 0.00009（22nd）；4th 的 8
 - 盲混之争（39 票）：https://www.kaggle.com/competitions/playground-series-s6e3/discussion/679672
 - YDF 默认参数（31 票）：https://www.kaggle.com/competitions/playground-series-s6e3/discussion/679983
 - GNN starter（36 票）：https://www.kaggle.com/competitions/playground-series-s6e3/discussion/680622
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/playground-series-s6e3/writeups/1st-place-gpt5-4-gemini3-1-claudeopus4-6-kgm
+- rank 3｜description：https://www.kaggle.com/c/playground-series-s6e3/writeups/3rd-place-solution-an-ensemble-of-100-oofs
+- rank 5｜description：https://www.kaggle.com/c/playground-series-s6e3/writeups/5th-place-solution-149-models-6-meta-models
+- rank 9｜description：https://www.kaggle.com/c/playground-series-s6e3/writeups/9th-place-solution
+- rank 16｜description：https://www.kaggle.com/c/playground-series-s6e3/writeups/16th-place-solution-ridge-ensembling
+- rank 17｜description：https://www.kaggle.com/c/playground-series-s6e3/writeups/17th-place-solution
+- rank 18｜description：https://www.kaggle.com/c/playground-series-s6e3/writeups/18th-place-many-oofs-neural-networks-over-gbdts
+- rank 21｜description：https://www.kaggle.com/c/playground-series-s6e3/writeups/21st-place-solution-final-blend-selection-with-ri
 
 ---
 
@@ -6465,6 +6851,16 @@ LR+OHE 即 0.95550（4th）；无 FE 的 FM 只差 0.00009（22nd）；4th 的 8
 - 公榜只有 1800 个 High（23 票）：https://www.kaggle.com/competitions/playground-series-s6e4/discussion/687069
 - 阈值调优（19 票）：https://www.kaggle.com/competitions/playground-series-s6e4/discussion/687082
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/playground-series-s6e4/writeups/1st-place-one-vs-rest-approach
+- rank 2｜description：https://www.kaggle.com/c/playground-series-s6e4/writeups/2nd-place-claude-code-and-codex-gpu-logreg
+- rank 3｜description：https://www.kaggle.com/c/playground-series-s6e4/writeups/error-diversity-matters-200-model-stacking-soluti
+- rank 4｜description：https://www.kaggle.com/c/playground-series-s6e4/writeups/4th-place-more-ensemblers-than-models
+- rank 5｜description：https://www.kaggle.com/c/playground-series-s6e4/writeups/5th-place-solution-writeup-ai-for-large-scale-ex
+- rank 12｜description：https://www.kaggle.com/c/playground-series-s6e4/writeups/12th-place-solution-stacked-ensemble-with-ordered
+- rank 19｜description：https://www.kaggle.com/c/playground-series-s6e4/writeups/19nd-place-ensemble-of-29-models
+- rank 24｜description：https://www.kaggle.com/c/playground-series-s6e4/writeups/24th-place-a-heavy-stacking-approach-with-166-oof
+
 ---
 
 ## playground-series-s6e5 — Playground Series S6E5（F1 进站预测）轻量深读（Tier B）
@@ -6546,6 +6942,16 @@ LR+OHE 即 0.95550（4th）；无 FE 的 FM 只差 0.00009（22nd）；4th 的 8
 - Rank17（18 票）：https://www.kaggle.com/competitions/playground-series-s6e5/discussion/703529
 - Stacking stacked predictions（11 票）：https://www.kaggle.com/competitions/playground-series-s6e5/discussion/703542
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/playground-series-s6e5/writeups/1st-place-by-the-skin-of-my-teeth
+- rank 2｜description：https://www.kaggle.com/c/playground-series-s6e5/writeups/2nd-place-autonomous-codex-yolo
+- rank 4｜description：https://www.kaggle.com/c/playground-series-s6e5/writeups/4th-place-5-day-rush
+- rank 5｜description：https://www.kaggle.com/c/playground-series-s6e5/writeups/5th-place-solution-a-99-model-logit-stack
+- rank 7｜description：https://www.kaggle.com/c/playground-series-s6e5/writeups/7th-place-solution
+- rank 8｜description：https://www.kaggle.com/c/playground-series-s6e5/writeups/l5-ensemble
+- rank 10｜description：https://www.kaggle.com/c/playground-series-s6e5/writeups/stacking-stacked-predictions
+- rank 11｜description：https://www.kaggle.com/c/playground-series-s6e5/writeups/11th-place-in-the-midst-of-entrance-exams
+
 ---
 
 ## playground-series-s6e6 — Playground Series S6E6 轻量深读（Tier B）
@@ -6620,6 +7026,16 @@ LR+OHE 即 0.95550（4th）；无 FE 的 FM 只差 0.00009（22nd）；4th 的 8
 - GPU LR stacker 模板（35 票）：https://www.kaggle.com/competitions/playground-series-s6e6/discussion/704014
 - TabPFN-3 基线（21 票）：https://www.kaggle.com/competitions/playground-series-s6e6/discussion/703686
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/playground-series-s6e6/writeups/1st-place-mission-300-accomplished
+- rank 6｜description：https://www.kaggle.com/c/playground-series-s6e6/writeups/6th-place-solution-trusting-the-oof-plateau
+- rank 8｜description：https://www.kaggle.com/c/playground-series-s6e6/writeups/8th-place-solution
+- rank 9｜description：https://www.kaggle.com/c/playground-series-s6e6/writeups/9th-place-solution
+- rank 12｜description：https://www.kaggle.com/c/playground-series-s6e6/writeups/12th-place
+- rank 22｜description：https://www.kaggle.com/c/playground-series-s6e6/writeups/22nd-place-solution
+- rank 23｜description：https://www.kaggle.com/c/playground-series-s6e6/writeups/23rd-private-merci-chris-deotte
+- rank 24｜description：https://www.kaggle.com/c/playground-series-s6e6/writeups/24th-place-solution
+
 ---
 
 ## playground-series-s6e7 — Playground Series S6E7（学生健康风险）轻量深读（Tier B）
@@ -6691,6 +7107,13 @@ LR+OHE 即 0.95550（4th）；无 FE 的 FM 只差 0.00009（22nd）；4th 的 8
 - Rank11 approach（22 票）：https://www.kaggle.com/competitions/playground-series-s6e7/discussion/731745
 - 9 notebook 研究轨迹（19 票）：https://www.kaggle.com/competitions/playground-series-s6e7/discussion/719199
 - "为什么 86% 准确率只得 0.33"（8 票）：https://www.kaggle.com/competitions/playground-series-s6e7/discussion/717018
+
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/playground-series-s6e7/writeups/2nd-place-solution
+- rank 4｜description：https://www.kaggle.com/c/playground-series-s6e7/writeups/4th-place-from-414-to-4-trusting-oof-when-the
+- rank 11｜description：https://www.kaggle.com/c/playground-series-s6e7/writeups/rank11-approach
+- rank 29｜description：https://www.kaggle.com/c/playground-series-s6e7/writeups/29th-place-ft-transformer-exact-value-target-en
+- rank 36｜description：https://www.kaggle.com/c/playground-series-s6e7/writeups/pss6e7-cv-blending
 
 ---
 
@@ -6773,6 +7196,13 @@ LR+OHE 即 0.95550（4th）；无 FE 的 FM 只差 0.00009（22nd）；4th 的 8
 - 0.97101 NN 分数溯源（14 票）：https://www.kaggle.com/competitions/playground-series-s6e8/discussion/735404
 - stringified TE + 秩平均（9 票）：https://www.kaggle.com/competitions/playground-series-s6e8/discussion/734063
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/playground-series-s6e8/writeups/1st-place-distributed-intelligence-nvidia-infe
+- rank 2｜description：https://www.kaggle.com/c/playground-series-s6e8/writeups/2nd-place-solution
+- rank 7｜description：https://www.kaggle.com/c/playground-series-s6e8/writeups/7th-place-many-models-one-simple-stack
+- rank 14｜description：https://www.kaggle.com/c/playground-series-s6e8/writeups/14th-place-278-shared-oof-sets-36-own-models
+- rank 25｜description：https://www.kaggle.com/c/playground-series-s6e8/writeups/public-18-private-25-approach
+
 ---
 
 ## playground-series-s6e9 — Playground Series S6E9（电动车购买预测）轻量深读（Tier B）
@@ -6848,6 +7278,16 @@ LR+OHE 即 0.95550（4th）；无 FE 的 FM 只差 0.00009（22nd）；4th 的 8
 - 8th：https://www.kaggle.com/competitions/playground-series-s6e9/discussion/744923
 - 10th（19 票）：https://www.kaggle.com/competitions/playground-series-s6e9/discussion/744826
 - Simpson 悖论（31 票）：https://www.kaggle.com/competitions/playground-series-s6e9/discussion/738991
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/playground-series-s6e9/writeups/1st-place-the-ai-relay
+- rank 2｜description：https://www.kaggle.com/c/playground-series-s6e9/writeups/2nd-place-solution
+- rank 3｜description：https://www.kaggle.com/c/playground-series-s6e9/writeups/3rd-place-solution-feature-engineering-and-logis
+- rank 6｜description：https://www.kaggle.com/c/playground-series-s6e9/writeups/6th-place-solution-ps6e9
+- rank 8｜description：https://www.kaggle.com/c/playground-series-s6e9/writeups/8th-place-solution
+- rank 9｜description：https://www.kaggle.com/c/playground-series-s6e9/writeups/9th-place-solution
+- rank 10｜description：https://www.kaggle.com/c/playground-series-s6e9/writeups/10th-place-solution
+- rank 12｜description：https://www.kaggle.com/c/playground-series-s6e9/writeups/rank12-approach
 
 ---
 
@@ -6973,6 +7413,13 @@ LR+OHE 即 0.95550（4th）；无 FE 的 FM 只差 0.00009（22nd）；4th 的 8
 - 13th（26 票）：https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/discussion/499364
 - 未收录正文的关键讨论（真实 topic id，供后续定点补采/图片层参考）：468654、455189、470238、472515、482656、483313、499206、455833、460848、468201、461505、455999
 
+### 外部题解（kaggle-solutions）
+- rank 6｜description：https://www.kaggle.com/c/predict-energy-behavior-of-prosumers/discussion/499397
+- rank 7｜description：https://www.kaggle.com/c/predict-energy-behavior-of-prosumers/discussion/499649
+- rank 26｜description：https://www.kaggle.com/c/predict-energy-behavior-of-prosumers/discussion/499475
+- rank 37｜description：https://www.kaggle.com/c/predict-energy-behavior-of-prosumers/discussion/499358
+- rank 39｜description：https://www.kaggle.com/c/predict-energy-behavior-of-prosumers/discussion/472598
+
 ---
 
 ## predict-student-performance-from-game-play — Predict Student Performance 深读：时长信号 × 噪声准入门槛 × 泄漏风波
@@ -7083,6 +7530,13 @@ LR+OHE 即 0.95550（4th）；无 FE 的 FM 只差 0.00009（22nd）；4th 的 8
 - 13th（Takoi，52 票）：https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/420077
 - 4th（Joel Erikanders，48 票）：https://www.kaggle.com/competitions/predict-student-performance-from-game-play/discussion/420349
 - 未收录缺口（登记备查）：24 条 write-up 标记中的其余条目（2nd/3rd/5th/6th 等）
+
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/predict-student-performance-from-game-play/discussion/420235
+- rank 8｜description：https://www.kaggle.com/c/predict-student-performance-from-game-play/discussion/420528
+- rank 10｜description：https://www.kaggle.com/c/predict-student-performance-from-game-play/discussion/420132
+- rank 14｜description：https://www.kaggle.com/c/predict-student-performance-from-game-play/discussion/420041
+- rank 44｜description：https://www.kaggle.com/c/predict-student-performance-from-game-play/discussion/420158
 
 ---
 
@@ -7233,6 +7687,16 @@ min/max/mean 历史分数等聚合特征与 `difficult_word` 类新特征都指�
 - 6th（31 票）：https://www.kaggle.com/competitions/smartphone-decimeter-2022/discussion/341226
 - 上届冠军（42 票）：https://www.kaggle.com/competitions/smartphone-decimeter-2022/discussion/322510
 
+### 外部题解（kaggle-solutions）
+- rank 11｜description：https://www.kaggle.com/c/smartphone-decimeter-2022/discussion/340698
+- rank 11｜description：https://www.kaggle.com/c/smartphone-decimeter-2022/discussion/341088
+- rank 15｜description：https://www.kaggle.com/c/smartphone-decimeter-2022/discussion/341172
+- rank 16｜description：https://www.kaggle.com/c/smartphone-decimeter-2022/discussion/340597
+- rank 27｜description：https://www.kaggle.com/c/smartphone-decimeter-2022/discussion/340693
+- rank 36｜code：https://www.kaggle.com/c/smartphone-decimeter-2022/discussion/340724
+- rank 39｜description：https://www.kaggle.com/c/smartphone-decimeter-2022/discussion/340598
+- rank 43｜description：https://www.kaggle.com/c/smartphone-decimeter-2022/discussion/340663
+
 ---
 
 ## tabular-playground-series-apr-2022 — Tabular Playground Series Apr 2022（传感器序列分类）轻量深读（Tier B）
@@ -7305,6 +7769,9 @@ test 的 subject 与 train 不相交；六坑帖把"KFold/StratifiedKFold"直接
 - 无变化则 target=0（14 票）：https://www.kaggle.com/competitions/tabular-playground-series-apr-2022/discussion/316383
 - 概率 vs 标签（12 票）：https://www.kaggle.com/competitions/tabular-playground-series-apr-2022/discussion/321000
 - 协变量偏移（10 票）：https://www.kaggle.com/competitions/tabular-playground-series-apr-2022/discussion/317778
+
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/tabular-playground-series-apr-2022/discussion/322558
 
 ---
 
@@ -7379,6 +7846,9 @@ top10 平均跳 331 位；"最好未选分数 0.59137"；公榜与私榜/CV 相�
 - 17th（6 票 / 6 评论）：https://www.kaggle.com/competitions/tabular-playground-series-aug-2022/discussion/349541
 - 公开榜过拟合陷阱（41 票 / 24 评论）：https://www.kaggle.com/competitions/tabular-playground-series-aug-2022/discussion/348767
 - Private vs Public Data（42 票 / 16 评论）：https://www.kaggle.com/competitions/tabular-playground-series-aug-2022/discussion/342403
+
+### 外部题解（kaggle-solutions）
+- rank 9｜code：https://www.kaggle.com/c/tabular-playground-series-aug-2022/discussion/349297
 
 ---
 
@@ -7620,6 +8090,9 @@ Gulshan（四列修复，0.95631→0.95673）、Samuel（负距离→0，+0.0053
 - 热帖 meme（224 票 / 153 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jan-2022/discussion/298446
 - top notebook 数据泄漏指控（11 票 / 10 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jan-2022/discussion/305266
 
+### 外部题解（kaggle-solutions）
+- rank 5｜code：https://www.kaggle.com/c/tabular-playground-series-jan-2022/discussion/304369
+
 ---
 
 ## tabular-playground-series-jul-2022 — Tabular Playground Series Jul 2022（首个无监督聚类赛）轻量深读（Tier B）
@@ -7767,6 +8240,11 @@ Kaggle 首个无监督聚类赛：给一份表格数据预测簇标签，按 ARI
 - 逐列回归框架（28 票 / 11 评论）：https://www.kaggle.com/competitions/tabular-playground-series-jun-2022/discussion/328369
 - 缺失值资源合集（23 票）：https://www.kaggle.com/competitions/tabular-playground-series-jun-2022/discussion/328366
 - MissForest / missingpy（27 票）：https://www.kaggle.com/competitions/tabular-playground-series-jun-2022/discussion/328358
+
+### 外部题解（kaggle-solutions）
+- rank 8｜description：https://www.kaggle.com/c/tabular-playground-series-jun-2022/discussion/334567
+- rank 16｜description：https://www.kaggle.com/c/tabular-playground-series-jun-2022/discussion/334358
+- rank 17｜description：https://www.kaggle.com/c/tabular-playground-series-jun-2022/discussion/334343
 
 ---
 
@@ -7985,6 +8463,10 @@ Kaggle 首个无监督聚类赛：给一份表格数据预测簇标签，按 ARI
 - Feedback Requested（77 票 / 89 评论）：https://www.kaggle.com/competitions/tabular-playground-series-nov-2021/discussion/284445
 - 三重大师（83 票 / 84 评论）：https://www.kaggle.com/competitions/tabular-playground-series-nov-2021/discussion/285092
 
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/tabular-playground-series-nov-2021/discussion/291903
+- rank 5｜description：https://www.kaggle.com/c/tabular-playground-series-nov-2021/discussion/291846
+
 ---
 
 ## tabular-playground-series-nov-2022 — 深读：TPS Nov 2022（"给你的不是特征，是 5000 个模型的预测"）
@@ -8126,6 +8608,9 @@ Kaggle 首个无监督聚类赛：给一份表格数据预测簇标签，按 ARI
 - feature22 相关（27 票 / 18 评论）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2021/discussion/275605
 - CV 忽略部分 fold（28 票 / 14 评论）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2021/discussion/280661
 - GPU LightGBM 注意点（25 票 / 13 评论）：https://www.kaggle.com/competitions/tabular-playground-series-oct-2021/discussion/275930
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/tabular-playground-series-oct-2021/discussion/284511
 
 ---
 
@@ -8355,6 +8840,16 @@ GDP、教育指数、消费者/商业信心、封锁日期、节假日被反复�
 - 数据质疑（62 票）：https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction/discussion/403470
 - 数据更新与重算（29 票）：https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction/discussion/406700
 
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/tlvmc-parkinsons-freezing-gait-prediction/discussion/417717
+- rank 5｜description：https://www.kaggle.com/c/tlvmc-parkinsons-freezing-gait-prediction/discussion/418275
+- rank 8｜description：https://www.kaggle.com/c/tlvmc-parkinsons-freezing-gait-prediction/discussion/416021
+- rank 10｜description：https://www.kaggle.com/c/tlvmc-parkinsons-freezing-gait-prediction/discussion/416513
+- rank 11｜description：https://www.kaggle.com/c/tlvmc-parkinsons-freezing-gait-prediction/discussion/418008
+- rank 12｜description：https://www.kaggle.com/c/tlvmc-parkinsons-freezing-gait-prediction/discussion/416248
+- rank 20｜description：https://www.kaggle.com/c/tlvmc-parkinsons-freezing-gait-prediction/discussion/416106
+- rank 21｜description：https://www.kaggle.com/c/tlvmc-parkinsons-freezing-gait-prediction/discussion/415975
+
 ---
 
 ## ubiquant-market-prediction — Ubiquant Market Prediction 深读：匿名特征金融赛的稳健性工程
@@ -8476,6 +8971,9 @@ Purged K-Fold + embargo（2nd）、PurgedGroupTimeSeries + TimeSeriesSplit（1st
 - 17th（Kyle Peters，23 票）：https://www.kaggle.com/competitions/ubiquant-market-prediction/discussion/338239
 - 未收录缺口（登记备查）：338236（8th）、301699（往届冠军方案索引）
 
+### 外部题解（kaggle-solutions）
+- rank 8｜description：https://www.kaggle.com/c/ubiquant-market-prediction/discussion/338236
+
 ---
 
 ## um-game-playing-strength-of-mcts-variants — UM - Game-Playing Strength of MCTS Variants 轻量深读（Tier B）
@@ -8559,6 +9057,16 @@ Purged K-Fold + embargo（2nd）、PurgedGroupTimeSeries + TimeSeriesSplit（1st
 - 单模 CV/LB 线程（68 票）：https://www.kaggle.com/competitions/um-game-playing-strength-of-mcts-variants/discussion/532617
 - 离线数据生成（59 票）：https://www.kaggle.com/competitions/um-game-playing-strength-of-mcts-variants/discussion/533088
 
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/um-game-playing-strength-of-mcts-variants/discussion/549718
+- rank 4｜description：https://www.kaggle.com/c/um-game-playing-strength-of-mcts-variants/discussion/549603
+- rank 8｜description：https://www.kaggle.com/c/um-game-playing-strength-of-mcts-variants/discussion/549616
+- rank 9｜description：https://www.kaggle.com/c/um-game-playing-strength-of-mcts-variants/discussion/549624
+- rank 10｜description：https://www.kaggle.com/c/um-game-playing-strength-of-mcts-variants/discussion/549605
+- rank 11｜description：https://www.kaggle.com/c/um-game-playing-strength-of-mcts-variants/discussion/549708
+- rank 13｜description：https://www.kaggle.com/c/um-game-playing-strength-of-mcts-variants/discussion/549781
+- rank 30｜description：https://www.kaggle.com/c/um-game-playing-strength-of-mcts-variants/discussion/549587
+
 ---
 
 ## womens-march-mania-2022 — Women's March Mania 2022 轻量深读（Tier B）
@@ -8627,5 +9135,10 @@ Purged K-Fold + embargo（2nd）、PurgedGroupTimeSeries + TimeSeriesSplit（1st
 - 6th（18 票）：https://www.kaggle.com/competitions/womens-march-mania-2022/discussion/317105
 - 40th（17 票）：https://www.kaggle.com/competitions/womens-march-mania-2022/discussion/316863
 - 538 外部数据：https://www.kaggle.com/competitions/womens-march-mania-2022/discussion/309917
+
+### 外部题解（kaggle-solutions）
+- rank 3｜code：https://www.kaggle.com/c/womens-march-mania-2022/discussion/317787
+- rank 5｜code：https://www.kaggle.com/c/womens-march-mania-2022/discussion/317961
+- rank 7｜code：https://www.kaggle.com/c/womens-march-mania-2022/discussion/318532
 
 ---

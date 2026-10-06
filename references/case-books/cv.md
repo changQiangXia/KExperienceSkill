@@ -1,6 +1,6 @@
 # 案例书：cv（52 场）
 
-> 由 KStarter 深读文档生成：每场含一句话重述、全量数字账、逐方案对照矩阵、共识/分歧与裁决全文、证据分级、悬案与失败学、图证路径与出处。
+> 由 KStarter 深读文档生成：每场含一句话重述、全量数字账、逐方案对照矩阵、共识/分歧与裁决全文、证据分级、悬案与失败学、图证路径、出处与外部题解。
 > 用途：为新比赛找结构类比时，先读本册，再回 KStarter 深读原文核对。
 
 ## UBC-OCEAN — UBC-OCEAN 轻量深读（Tier B）
@@ -78,6 +78,16 @@ PNG 非金字塔 + 元数据缺失 + 8% 分辨率错误 + 数据质量投诉（5
 - 基线（86 票）：https://www.kaggle.com/competitions/UBC-OCEAN/discussion/452165
 - PNG 格式（45 票）：https://www.kaggle.com/competitions/UBC-OCEAN/discussion/452027
 - 病理学家视角（112 票）：https://www.kaggle.com/competitions/UBC-OCEAN/discussion/445804
+
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/UBC-OCEAN/discussion/465410
+- rank 3｜description：https://www.kaggle.com/c/UBC-OCEAN/discussion/465527
+- rank 4｜description：https://www.kaggle.com/c/UBC-OCEAN/discussion/465811
+- rank 5｜description：https://www.kaggle.com/c/UBC-OCEAN/discussion/466017
+- rank 6｜description：https://www.kaggle.com/c/UBC-OCEAN/discussion/465379
+- rank 7｜description：https://www.kaggle.com/c/UBC-OCEAN/discussion/465697
+- rank 9｜description：https://www.kaggle.com/c/UBC-OCEAN/discussion/465815
+- rank 10｜description：https://www.kaggle.com/c/UBC-OCEAN/discussion/465455
 
 ---
 
@@ -158,6 +168,16 @@ encoder-decoder/CTC、CTC 分割/CutMix、RoPE、Data2vec 预训练、KD、beam 
 - Silver（98 票）：https://www.kaggle.com/competitions/asl-fingerspelling/discussion/434353
 - 上届冠军（91 票）：https://www.kaggle.com/competitions/asl-fingerspelling/discussion/409438
 
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/asl-fingerspelling/discussion/434983
+- rank 9｜description：https://www.kaggle.com/c/asl-fingerspelling/discussion/434871
+- rank 11｜description：https://www.kaggle.com/c/asl-fingerspelling/discussion/434475
+- rank 12｜description：https://www.kaggle.com/c/asl-fingerspelling/discussion/436457
+- rank 17｜description：https://www.kaggle.com/c/asl-fingerspelling/discussion/434364
+- rank 19｜description：https://www.kaggle.com/c/asl-fingerspelling/discussion/434795
+- rank 20｜description：https://www.kaggle.com/c/asl-fingerspelling/discussion/434658
+- rank 22｜description：https://www.kaggle.com/c/asl-fingerspelling/discussion/434680
+
 ---
 
 ## benetech-making-graphs-accessible — Benetech - Making Graphs Accessible 轻量深读（Tier B）
@@ -232,6 +252,15 @@ encoder-decoder/CTC、CTC 分割/CutMix、RoPE、Data2vec 预训练、KD、beam 
 - 6th（40 票）：https://www.kaggle.com/competitions/benetech-making-graphs-accessible/discussion/418466
 - Pix2Struct 训不起来（42 票 / 133 评论）：https://www.kaggle.com/competitions/benetech-making-graphs-accessible/discussion/406250
 
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/benetech-making-graphs-accessible/discussion/418604
+- rank 5｜description：https://www.kaggle.com/c/benetech-making-graphs-accessible/discussion/418477
+- rank 13｜description：https://www.kaggle.com/c/benetech-making-graphs-accessible/discussion/418321
+- rank 14｜description：https://www.kaggle.com/c/benetech-making-graphs-accessible/discussion/418323
+- rank 20｜description：https://www.kaggle.com/c/benetech-making-graphs-accessible/discussion/418389
+- rank 28｜description：https://www.kaggle.com/c/benetech-making-graphs-accessible/discussion/418705
+- rank 40｜description：https://www.kaggle.com/c/benetech-making-graphs-accessible/discussion/418331
+
 ---
 
 ## biohub-cell-tracking-during-development — Biohub - Cell Tracking During Development 轻量深读（Tier B）
@@ -304,6 +333,16 @@ encoder-decoder/CTC、CTC 分割/CutMix、RoPE、Data2vec 预训练、KD、beam 
 - 12→95 名复盘：https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/744912
 - 规则法第 7（48 票）：https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/716952
 - 分裂指标漏洞（36 票）：https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/discussion/727154
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/biohub-cell-tracking-during-development/writeups/1st-place-solution
+- rank 2｜description：https://www.kaggle.com/c/biohub-cell-tracking-during-development/writeups/2nd-place-solution
+- rank 3｜description：https://www.kaggle.com/c/biohub-cell-tracking-during-development/writeups/3rd-place-solution
+- rank 4｜description：https://www.kaggle.com/c/biohub-cell-tracking-during-development/writeups/4th-place-solution
+- rank 5｜description：https://www.kaggle.com/c/biohub-cell-tracking-during-development/writeups/5th-place-3d-u-net-transformer-linker-multi-s
+- rank 6｜description：https://www.kaggle.com/c/biohub-cell-tracking-during-development/writeups/6th-place-solution
+- rank 7｜description：https://www.kaggle.com/c/biohub-cell-tracking-during-development/writeups/7th-place-solution
+- rank 9｜description：https://www.kaggle.com/c/biohub-cell-tracking-during-development/writeups/9th-place-solution-own-detectors-public-tracker
 
 ---
 
@@ -384,6 +423,16 @@ encoder-decoder/CTC、CTC 分割/CutMix、RoPE、Data2vec 预训练、KD、beam 
 - lb0.870 实验帖（122 票）：https://www.kaggle.com/competitions/blood-vessel-segmentation/discussion/456118
 - 缺口登记：475657 的完整榜单讨论、hidden test 信息帖（43 票）、Surface DSC 帖（33 票）
 
+### 外部题解（kaggle-solutions）
+- rank 5｜description：https://www.kaggle.com/c/blood-vessel-segmentation/discussion/475288
+- rank 6｜description：https://www.kaggle.com/c/blood-vessel-segmentation/discussion/475252
+- rank 7｜description：https://www.kaggle.com/c/blood-vessel-segmentation/discussion/475964
+- rank 9｜description：https://www.kaggle.com/c/blood-vessel-segmentation/discussion/475080
+- rank 12｜description：https://www.kaggle.com/c/blood-vessel-segmentation/discussion/476457
+- rank 13｜description：https://www.kaggle.com/c/blood-vessel-segmentation/discussion/475117
+- rank 14｜description：https://www.kaggle.com/c/blood-vessel-segmentation/discussion/475260
+- rank 24｜description：https://www.kaggle.com/c/blood-vessel-segmentation/discussion/475090
+
 ---
 
 ## byu-locating-bacterial-flagellar-motors-2025 — BYU - Locating Bacterial Flagellar Motors 2025 轻量深读（Tier B）
@@ -457,6 +506,15 @@ train_labels.csv 的不一致（60 票）、负样本里存在马达样结构（
 - 20th（38 票）：https://www.kaggle.com/competitions/byu-locating-bacterial-flagellar-motors-2025/discussion/583128
 - 369th YOLO 基线（37 票）：https://www.kaggle.com/competitions/byu-locating-bacterial-flagellar-motors-2025/discussion/583133
 - 数据理解（69 票）：https://www.kaggle.com/competitions/byu-locating-bacterial-flagellar-motors-2025/discussion/567360
+
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/byu-locating-bacterial-flagellar-motors-2025/discussion/584980
+- rank 6｜description：https://www.kaggle.com/c/byu-locating-bacterial-flagellar-motors-2025/discussion/587410
+- rank 9｜description：https://www.kaggle.com/c/byu-locating-bacterial-flagellar-motors-2025/discussion/583242
+- rank 13｜description：https://www.kaggle.com/c/byu-locating-bacterial-flagellar-motors-2025/discussion/583164
+- rank 17｜description：https://www.kaggle.com/c/byu-locating-bacterial-flagellar-motors-2025/discussion/583144
+- rank 21｜description：https://www.kaggle.com/c/byu-locating-bacterial-flagellar-motors-2025/discussion/583289
+- rank 44｜description：https://www.kaggle.com/c/byu-locating-bacterial-flagellar-motors-2025/discussion/583294
 
 ---
 
@@ -535,6 +593,16 @@ train_labels.csv 的不一致（60 票）、负样本里存在马达样结构（
 - 4th（68 票）：https://www.kaggle.com/competitions/czii-cryo-et-object-identification/discussion/561401
 - 9th（51 票）：https://www.kaggle.com/competitions/czii-cryo-et-object-identification/discussion/561431
 - "卡在 benchmark 下"（98 票）：https://www.kaggle.com/competitions/czii-cryo-et-object-identification/discussion/547350
+
+### 外部题解（kaggle-solutions）
+- rank 5｜description：https://www.kaggle.com/c/czii-cryo-et-object-identification/discussion/561580
+- rank 6｜description：https://www.kaggle.com/c/czii-cryo-et-object-identification/discussion/561518
+- rank 7｜description：https://www.kaggle.com/c/czii-cryo-et-object-identification/discussion/561447
+- rank 8｜description：https://www.kaggle.com/c/czii-cryo-et-object-identification/discussion/561515
+- rank 10｜description：https://www.kaggle.com/c/czii-cryo-et-object-identification/discussion/561844
+- rank 11｜description：https://www.kaggle.com/c/czii-cryo-et-object-identification/discussion/561837
+- rank 12｜description：https://www.kaggle.com/c/czii-cryo-et-object-identification/discussion/561607
+- rank 13｜description：https://www.kaggle.com/c/czii-cryo-et-object-identification/discussion/561422
 
 ---
 
@@ -922,6 +990,16 @@ Seafile 下载脚本对新手不友好、GLC 模块不可用、加载耗时；�
 - 失败实验帖（112 票）：https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming/discussion/414344
 - 单模 CV-LB 线程（47 票）：https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming/discussion/413153
 
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/google-research-identify-contrails-reduce-global-warming/discussion/432998
+- rank 6｜description：https://www.kaggle.com/c/google-research-identify-contrails-reduce-global-warming/discussion/430581
+- rank 7｜description：https://www.kaggle.com/c/google-research-identify-contrails-reduce-global-warming/discussion/430691
+- rank 8｜description：https://www.kaggle.com/c/google-research-identify-contrails-reduce-global-warming/discussion/430543
+- rank 11｜description：https://www.kaggle.com/c/google-research-identify-contrails-reduce-global-warming/discussion/432690
+- rank 13｜description：https://www.kaggle.com/c/google-research-identify-contrails-reduce-global-warming/discussion/432254
+- rank 14｜description：https://www.kaggle.com/c/google-research-identify-contrails-reduce-global-warming/discussion/430904
+- rank 15｜description：https://www.kaggle.com/c/google-research-identify-contrails-reduce-global-warming/discussion/430483
+
 ---
 
 ## google-universal-image-embedding — Google Universal Image Embedding 轻量深读（Tier B）
@@ -997,6 +1075,16 @@ Seafile 下载脚本对新手不友好、GLC 模块不可用、加载耗时；�
 - 5th（65 票）：https://www.kaggle.com/competitions/google-universal-image-embedding/discussion/359161
 - 外部数据帖（108 票）：https://www.kaggle.com/competitions/google-universal-image-embedding/discussion/337384
 - 自定义训练集（110 票）：https://www.kaggle.com/competitions/google-universal-image-embedding/discussion/336574
+
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/google-universal-image-embedding/discussion/359401
+- rank 9｜code：https://www.kaggle.com/c/google-universal-image-embedding/discussion/359351
+- rank 10｜description：https://www.kaggle.com/c/google-universal-image-embedding/discussion/359271
+- rank 12｜description：https://www.kaggle.com/c/google-universal-image-embedding/discussion/359497
+- rank 13｜description：https://www.kaggle.com/c/google-universal-image-embedding/discussion/359341
+- rank 18｜description：https://www.kaggle.com/c/google-universal-image-embedding/discussion/359490
+- rank 25｜description：https://www.kaggle.com/c/google-universal-image-embedding/discussion/359410
+- rank 28｜description：https://www.kaggle.com/c/google-universal-image-embedding/discussion/359618
 
 ---
 
@@ -1074,6 +1162,16 @@ Seafile 下载脚本对新手不友好、GLC 模块不可用、加载耗时；�
 - 物种列修复（176 票）：https://www.kaggle.com/competitions/happy-whale-and-dolphin/discussion/305574
 - 背鳍数据集（142 票）：https://www.kaggle.com/competitions/happy-whale-and-dolphin/discussion/310153
 - 9 CV 技巧（168 票）：https://www.kaggle.com/competitions/happy-whale-and-dolphin/discussion/310105
+
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/happy-whale-and-dolphin/discussion/320502
+- rank 3｜description：https://www.kaggle.com/c/happy-whale-and-dolphin/discussion/319789
+- rank 3｜description：https://www.kaggle.com/c/happy-whale-and-dolphin/discussion/320191
+- rank 4｜description：https://www.kaggle.com/c/happy-whale-and-dolphin/discussion/320040
+- rank 6｜description：https://www.kaggle.com/c/happy-whale-and-dolphin/discussion/319829
+- rank 7｜description：https://www.kaggle.com/c/happy-whale-and-dolphin/discussion/320026
+- rank 8｜description：https://www.kaggle.com/c/happy-whale-and-dolphin/discussion/319868
+- rank 8｜description：https://www.kaggle.com/c/happy-whale-and-dolphin/discussion/319894
 
 ---
 
@@ -1356,6 +1454,16 @@ FGVC workshop 的主题包含 human-in-the-loop、machine teaching 与可解释�
 - GM 心情帖（219 票，指向 3rd）：https://www.kaggle.com/competitions/hubmap-hacking-the-human-vasculature/discussion/428296
 - 缺口登记（未收录正文）：2nd(429240)、4th(428994)、419143、**dilation 讨论(416901)**、428392(public 9th/private 295th)、412316 等
 
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/hubmap-hacking-the-human-vasculature/discussion/429240
+- rank 4｜description：https://www.kaggle.com/c/hubmap-hacking-the-human-vasculature/discussion/428994
+- rank 8｜description：https://www.kaggle.com/c/hubmap-hacking-the-human-vasculature/discussion/429352
+- rank 10｜description：https://www.kaggle.com/c/hubmap-hacking-the-human-vasculature/discussion/428301
+- rank 12｜description：https://www.kaggle.com/c/hubmap-hacking-the-human-vasculature/discussion/428319
+- rank 19｜description：https://www.kaggle.com/c/hubmap-hacking-the-human-vasculature/discussion/428327
+- rank 30｜description：https://www.kaggle.com/c/hubmap-hacking-the-human-vasculature/discussion/428372
+- rank 46｜description：https://www.kaggle.com/c/hubmap-hacking-the-human-vasculature/discussion/428644
+
 ---
 
 ## hubmap-organ-segmentation — HuBMAP + HPA - Organ Segmentation 轻量深读（Tier B）
@@ -1426,6 +1534,15 @@ host 明确点题：4th 的标题直接是"染色归一化就是全部"；3rd �
 - HPA/HuBMAP 数据质疑（78 票）：https://www.kaggle.com/competitions/hubmap-organ-segmentation/discussion/332714
 - 外部数据源（55 票）：https://www.kaggle.com/competitions/hubmap-organ-segmentation/discussion/333886
 - 1st（未入库，待补）：https://www.kaggle.com/competitions/hubmap-organ-segmentation/discussion/356201
+
+### 外部题解（kaggle-solutions）
+- rank 7｜description：https://www.kaggle.com/c/hubmap-organ-segmentation/discussion/354859
+- rank 11｜description：https://www.kaggle.com/c/hubmap-organ-segmentation/discussion/354701
+- rank 20｜description：https://www.kaggle.com/c/hubmap-organ-segmentation/discussion/354590
+- rank 25｜description：https://www.kaggle.com/c/hubmap-organ-segmentation/discussion/354744
+- rank 26｜description：https://www.kaggle.com/c/hubmap-organ-segmentation/discussion/354671
+- rank 27｜description：https://www.kaggle.com/c/hubmap-organ-segmentation/discussion/355213
+- rank 48｜description：https://www.kaggle.com/c/hubmap-organ-segmentation/discussion/355509
 
 ---
 
@@ -1504,6 +1621,16 @@ SuperGlue 的许可证不允许获奖 → 4th 专门准备"去 SuperGlue"的提�
 - 基础矩阵科普（94 票）：https://www.kaggle.com/competitions/image-matching-challenge-2022/discussion/316975
 - LoFTR 微调（70 票）：https://www.kaggle.com/competitions/image-matching-challenge-2022/discussion/320219
 
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/image-matching-challenge-2022/discussion/329540
+- rank 6｜description：https://www.kaggle.com/c/image-matching-challenge-2022/discussion/328805
+- rank 7｜description：https://www.kaggle.com/c/image-matching-challenge-2022/discussion/329015
+- rank 10｜description：https://www.kaggle.com/c/image-matching-challenge-2022/discussion/328903
+- rank 11｜description：https://www.kaggle.com/c/image-matching-challenge-2022/discussion/328887
+- rank 14｜description：https://www.kaggle.com/c/image-matching-challenge-2022/discussion/329566
+- rank 17｜description：https://www.kaggle.com/c/image-matching-challenge-2022/discussion/328803
+- rank 18｜description：https://www.kaggle.com/c/image-matching-challenge-2022/discussion/328982
+
 ---
 
 ## image-matching-challenge-2023 — Image Matching Challenge 2023 轻量深读（Tier B）
@@ -1578,6 +1705,15 @@ SuperGlue 的许可证不允许获奖 → 4th 专门准备"去 SuperGlue"的提�
 - 3rd（29 票）：https://www.kaggle.com/competitions/image-matching-challenge-2023/discussion/417191
 - 6th（29 票）：https://www.kaggle.com/competitions/image-matching-challenge-2023/discussion/417045
 - SfM 学习材料（75 票）：https://www.kaggle.com/competitions/image-matching-challenge-2023/discussion/401497
+
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/image-matching-challenge-2023/discussion/416918
+- rank 9｜description：https://www.kaggle.com/c/image-matching-challenge-2023/discussion/416842
+- rank 12｜description：https://www.kaggle.com/c/image-matching-challenge-2023/discussion/420471
+- rank 16｜description：https://www.kaggle.com/c/image-matching-challenge-2023/discussion/417002
+- rank 30｜description：https://www.kaggle.com/c/image-matching-challenge-2023/discussion/417186
+- rank 39｜description：https://www.kaggle.com/c/image-matching-challenge-2023/discussion/416847
+- rank 42｜description：https://www.kaggle.com/c/image-matching-challenge-2023/discussion/416777
 
 ---
 
@@ -1657,6 +1793,16 @@ SfM 在透明/反光物体上直接失效；1st/2nd 用"排序 + 圆周布相机
 - 5th（31 票）：https://www.kaggle.com/competitions/image-matching-challenge-2024/discussion/510603
 - 8th（58 票）：https://www.kaggle.com/competitions/image-matching-challenge-2024/discussion/509902
 
+### 外部题解（kaggle-solutions）
+- rank 6｜description：https://www.kaggle.com/c/image-matching-challenge-2024/discussion/511291
+- rank 10｜description：https://www.kaggle.com/c/image-matching-challenge-2024/discussion/515089
+- rank 12｜description：https://www.kaggle.com/c/image-matching-challenge-2024/discussion/510673
+- rank 13｜description：https://www.kaggle.com/c/image-matching-challenge-2024/discussion/510295
+- rank 16｜description：https://www.kaggle.com/c/image-matching-challenge-2024/discussion/509883
+- rank 26｜description：https://www.kaggle.com/c/image-matching-challenge-2024/discussion/509918
+- rank 39｜description：https://www.kaggle.com/c/image-matching-challenge-2024/discussion/510373
+- rank 48｜description：https://www.kaggle.com/c/image-matching-challenge-2024/discussion/511507
+
 ---
 
 ## image-matching-challenge-2025 — Image Matching Challenge 2025 轻量深读（Tier B）
@@ -1730,6 +1876,16 @@ IMC 2025 的技术分水岭是**3D 几何基础模型（MASt3R/VGGT）**：1st �
 - 理论入门（57 票）：https://www.kaggle.com/competitions/image-matching-challenge-2025/discussion/573183
 - 往届方案（42 票）：https://www.kaggle.com/competitions/image-matching-challenge-2025/discussion/571280
 - VGGT 跟踪（28 票）：https://www.kaggle.com/competitions/image-matching-challenge-2025/discussion/582968
+
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/image-matching-challenge-2025/discussion/583683
+- rank 3｜description：https://www.kaggle.com/c/image-matching-challenge-2025/discussion/583401
+- rank 5｜description：https://www.kaggle.com/c/image-matching-challenge-2025/discussion/583711
+- rank 6｜description：https://www.kaggle.com/c/image-matching-challenge-2025/discussion/583076
+- rank 7｜description：https://www.kaggle.com/c/image-matching-challenge-2025/discussion/583184
+- rank 8｜description：https://www.kaggle.com/c/image-matching-challenge-2025/discussion/582844
+- rank 9｜description：https://www.kaggle.com/c/image-matching-challenge-2025/discussion/583464
+- rank 12｜description：https://www.kaggle.com/c/image-matching-challenge-2025/discussion/583185
 
 ---
 
@@ -1873,6 +2029,16 @@ IMC 2025 的技术分水岭是**3D 几何基础模型（MASt3R/VGGT）**：1st �
 - 数据帖（296 票）：https://www.kaggle.com/competitions/isic-2024-challenge/discussion/515356
 - 增广帖（67 票）：https://www.kaggle.com/competitions/isic-2024-challenge/discussion/517141
 - 缺口登记（未收录正文）：3rd(532919) / 4th(532760) / 7th(532687) / 8th(532728) / 11th(532595) / 13th(532654) / 54th(532644) / Benchmarking(527023) / LB probing(517139) / Public1st-Private24th(532564) 等
+
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/isic-2024-challenge/discussion/532919
+- rank 4｜description：https://www.kaggle.com/c/isic-2024-challenge/discussion/532760
+- rank 5｜description：https://www.kaggle.com/c/isic-2024-challenge/discussion/533056
+- rank 6｜description：https://www.kaggle.com/c/isic-2024-challenge/discussion/532868
+- rank 7｜description：https://www.kaggle.com/c/isic-2024-challenge/discussion/532687
+- rank 8｜description：https://www.kaggle.com/c/isic-2024-challenge/discussion/532728
+- rank 10｜description：https://www.kaggle.com/c/isic-2024-challenge/discussion/533179
+- rank 11｜description：https://www.kaggle.com/c/isic-2024-challenge/discussion/532595
 
 ---
 
@@ -2024,6 +2190,13 @@ IMC 2025 的技术分水岭是**3D 几何基础模型（MASt3R/VGGT）**：1st �
 - 25th MIL（357898）：https://www.kaggle.com/competitions/mayo-clinic-strip-ai/discussion/357898
 - "数据里有信号吗"（58 票）：https://www.kaggle.com/competitions/mayo-clinic-strip-ai/discussion/336260
 
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/mayo-clinic-strip-ai/discussion/358187
+- rank 4｜description：https://www.kaggle.com/c/mayo-clinic-strip-ai/discussion/364466
+- rank 6｜description：https://www.kaggle.com/c/mayo-clinic-strip-ai/discussion/359562
+- rank 7｜description：https://www.kaggle.com/c/mayo-clinic-strip-ai/discussion/358130
+- rank 13｜description：https://www.kaggle.com/c/mayo-clinic-strip-ai/discussion/358203
+
 ---
 
 ## neurips-2023-machine-unlearning — NeurIPS 2023 Machine Unlearning 轻量深读（Tier B）
@@ -2105,6 +2278,13 @@ IMC 2025 的技术分水岭是**3D 几何基础模型（MASt3R/VGGT）**：1st �
 - 提交评分失败（14 票 / 12 评论）：https://www.kaggle.com/competitions/neurips-2023-machine-unlearning/discussion/442093
 - 少 epoch 更好（16 票 / 13 评论）：https://www.kaggle.com/competitions/neurips-2023-machine-unlearning/discussion/441318
 - 指标复现（13 票）：https://www.kaggle.com/competitions/neurips-2023-machine-unlearning/discussion/453735
+
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/neurips-2023-machine-unlearning/discussion/459200
+- rank 4｜description：https://www.kaggle.com/c/neurips-2023-machine-unlearning/discussion/459334
+- rank 5｜description：https://www.kaggle.com/c/neurips-2023-machine-unlearning/discussion/459148
+- rank 8｜description：https://www.kaggle.com/c/neurips-2023-machine-unlearning/discussion/459095
+- rank 9｜description：https://www.kaggle.com/c/neurips-2023-machine-unlearning/discussion/458715
 
 ---
 
@@ -2480,6 +2660,16 @@ ball_land 不一致、player_to_predict/frame/orientation/acceleration 等被逐
 - Model architectures（57 票 / 57 评论）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-prediction/discussion/610240
 - 在线训练/结构性泄漏（54 票）：https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-prediction/discussion/612263
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/nfl-big-data-bowl-2026-prediction/writeups/public-3rd-solution
+- rank 2｜description：https://www.kaggle.com/c/nfl-big-data-bowl-2026-prediction/writeups/2nd-place-solution
+- rank 3｜description：https://www.kaggle.com/c/nfl-big-data-bowl-2026-prediction/writeups/3rd-place-solution
+- rank 5｜description：https://www.kaggle.com/c/nfl-big-data-bowl-2026-prediction/writeups/5th-place-solution
+- rank 19｜description：https://www.kaggle.com/c/nfl-big-data-bowl-2026-prediction/writeups/th-place-solution
+- rank 23｜description：https://www.kaggle.com/c/nfl-big-data-bowl-2026-prediction/writeups/gru-solution
+- rank 24｜description：https://www.kaggle.com/c/nfl-big-data-bowl-2026-prediction/writeups/public-23rd-solution-data-augmentation
+- rank 33｜description：https://www.kaggle.com/c/nfl-big-data-bowl-2026-prediction/writeups/relembedding-architecture-and-chiral-augmentation
+
 ---
 
 ## nfl-health-and-safety-helmet-assignment — NFL Helmet Assignment 深读：检测→几何映射→配准→跟踪四段式
@@ -2608,6 +2798,16 @@ ball_land 不一致、player_to_predict/frame/orientation/acceleration 等被逐
 - 上届冠军索引（59 票）：https://www.kaggle.com/competitions/nfl-health-and-safety-helmet-assignment/discussion/263991
 - 缺口登记：3rd(285076)、4th(285007)、5th(285286) 未收录正文；1st 的 6 张图未入库
 
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/nfl-health-and-safety-helmet-assignment/discussion/285076
+- rank 4｜description：https://www.kaggle.com/c/nfl-health-and-safety-helmet-assignment/discussion/285007
+- rank 5｜description：https://www.kaggle.com/c/nfl-health-and-safety-helmet-assignment/discussion/285286
+- rank 11｜description：https://www.kaggle.com/c/nfl-health-and-safety-helmet-assignment/discussion/285156
+- rank 21｜description：https://www.kaggle.com/c/nfl-health-and-safety-helmet-assignment/discussion/285065
+- rank 22｜description：https://www.kaggle.com/c/nfl-health-and-safety-helmet-assignment/discussion/285179
+- rank 23｜description：https://www.kaggle.com/c/nfl-health-and-safety-helmet-assignment/discussion/285285
+- rank 25｜description：https://www.kaggle.com/c/nfl-health-and-safety-helmet-assignment/discussion/285153
+
 ---
 
 ## nfl-player-contact-detection — NFL Player Contact Detection 轻量深读（Tier B）
@@ -2681,6 +2881,16 @@ PG 加追踪无增益；PG 因此能用更长时序（23 vs 18 帧）。**裁决
 - 14th（391609）：https://www.kaggle.com/competitions/nfl-player-contact-detection/discussion/391609
 - 往届索引（370685）：https://www.kaggle.com/competitions/nfl-player-contact-detection/discussion/370685
 - 4th K_mat 可视化（391719）：https://www.kaggle.com/competitions/nfl-player-contact-detection/discussion/391719
+
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/nfl-player-contact-detection/discussion/392182
+- rank 4｜description：https://www.kaggle.com/c/nfl-player-contact-detection/discussion/391761
+- rank 5｜description：https://www.kaggle.com/c/nfl-player-contact-detection/discussion/392290
+- rank 9｜description：https://www.kaggle.com/c/nfl-player-contact-detection/discussion/392402
+- rank 16｜description：https://www.kaggle.com/c/nfl-player-contact-detection/discussion/391792
+- rank 18｜description：https://www.kaggle.com/c/nfl-player-contact-detection/discussion/392162
+- rank 19｜description：https://www.kaggle.com/c/nfl-player-contact-detection/discussion/394302
+- rank 41｜description：https://www.kaggle.com/c/nfl-player-contact-detection/discussion/392226
 
 ---
 
@@ -2831,6 +3041,16 @@ PG 加追踪无增益；PG 因此能用更长时序（23 vs 18 帧）。**裁决
 - Public1st/Private5th：https://www.kaggle.com/competitions/petfinder-pawpularity-score/discussion/300928
 - 18th：https://www.kaggle.com/competitions/petfinder-pawpularity-score/discussion/300942
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/petfinder-pawpularity-score/discussion/300938
+- rank 2｜code：https://www.kaggle.com/c/petfinder-pawpularity-score/discussion/300929
+- rank 3｜code：https://www.kaggle.com/c/petfinder-pawpularity-score/discussion/301044
+- rank 4｜description：https://www.kaggle.com/c/petfinder-pawpularity-score/discussion/301072
+- rank 9｜description：https://www.kaggle.com/c/petfinder-pawpularity-score/discussion/300947
+- rank 12｜code：https://www.kaggle.com/c/petfinder-pawpularity-score/discussion/301191
+- rank 13｜description：https://www.kaggle.com/c/petfinder-pawpularity-score/discussion/300969
+- rank 14｜description：https://www.kaggle.com/c/petfinder-pawpularity-score/discussion/300941
+
 ---
 
 ## physionet-ecg-image-digitization — PhysioNet ECG Image Digitization 轻量深读（Tier B）
@@ -2910,6 +3130,16 @@ PG 加追踪无增益；PG 因此能用更长时序（23 vs 18 帧）。**裁决
 - 7th（48 票）：https://www.kaggle.com/competitions/physionet-ecg-image-digitization/discussion/669548
 - 设计讨论（40 票）：https://www.kaggle.com/competitions/physionet-ecg-image-digitization/discussion/613540
 - open→secret sauce（39 票）：https://www.kaggle.com/competitions/physionet-ecg-image-digitization/discussion/624054
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/physionet-ecg-image-digitization/writeups/1st-place-solution
+- rank 2｜description：https://www.kaggle.com/c/physionet-ecg-image-digitization/writeups/2nd-place-solution
+- rank 3｜description：https://www.kaggle.com/c/physionet-ecg-image-digitization/writeups/3rd-place-solution
+- rank 4｜description：https://www.kaggle.com/c/physionet-ecg-image-digitization/writeups/4th-place-solution
+- rank 5｜description：https://www.kaggle.com/c/physionet-ecg-image-digitization/writeups/5th-place-solution
+- rank 6｜description：https://www.kaggle.com/c/physionet-ecg-image-digitization/writeups/6th-place-solution
+- rank 7｜description：https://www.kaggle.com/c/physionet-ecg-image-digitization/writeups/7th-place-solution
+- rank 8｜description：https://www.kaggle.com/c/physionet-ecg-image-digitization/writeups/8th-place-solution
 
 ---
 
@@ -3077,6 +3307,10 @@ authentic 图错报为伪造 = 1.0 直接归零；伪造图按实例 F1 且多�
 - 掩码含源+目标说明（10 票）：https://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection/discussion/613200
 - train vs supplemental 差异（7 票）：https://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection/discussion/657899
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/recodai-luc-scientific-image-forgery-detection/writeups/1st-place-solution
+- rank 29｜description：https://www.kaggle.com/c/recodai-luc-scientific-image-forgery-detection/writeups/recod-ai-luc-scientific-image-forgery-detection
+
 ---
 
 ## rsna-2022-cervical-spine-fracture-detection — RSNA 2022 颈椎骨折深读：87 例掩码撬动 2k 例粗标签的标签工程
@@ -3198,6 +3432,16 @@ authentic 图错报为伪造 = 1.0 直接归零；伪造图按实例 F1 且多�
 - 5th Speedrun（51 票）：https://www.kaggle.com/competitions/rsna-2022-cervical-spine-fracture-detection/discussion/363232
 - 缺口登记（未收录正文）：2nd(365115)、4th(364837)、8th(362669)、32nd(362593)、metric weights(340392)、3D renderings(350244)、anatomy(340439)、vertebrae detection(348241)
 
+### 外部题解（kaggle-solutions）
+- rank 2｜code：https://www.kaggle.com/c/rsna-2022-cervical-spine-fracture-detection/discussion/365115
+- rank 4｜code：https://www.kaggle.com/c/rsna-2022-cervical-spine-fracture-detection/discussion/364837
+- rank 7｜code：https://www.kaggle.com/c/rsna-2022-cervical-spine-fracture-detection/discussion/364848
+- rank 8｜code：https://www.kaggle.com/c/rsna-2022-cervical-spine-fracture-detection/discussion/362669
+- rank 10｜description：https://www.kaggle.com/c/rsna-2022-cervical-spine-fracture-detection/discussion/362986
+- rank 12｜description：https://www.kaggle.com/c/rsna-2022-cervical-spine-fracture-detection/discussion/362844
+- rank 13｜description：https://www.kaggle.com/c/rsna-2022-cervical-spine-fracture-detection/discussion/362687
+- rank 14｜description：https://www.kaggle.com/c/rsna-2022-cervical-spine-fracture-detection/discussion/362771
+
 ---
 
 ## rsna-2023-abdominal-trauma-detection — RSNA 2023 Abdominal Trauma Detection 轻量深读（Tier B）
@@ -3272,6 +3516,16 @@ authentic 图错报为伪造 = 1.0 直接归零；伪造图按实例 F1 且多�
 - 3rd（447464）：https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection/discussion/447464
 - 往届汇编（427233）：https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection/discussion/427233
 - PNG 数据（427427）：https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection/discussion/427427
+
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/rsna-2023-abdominal-trauma-detection/discussion/447848
+- rank 6｜description：https://www.kaggle.com/c/rsna-2023-abdominal-trauma-detection/discussion/448208
+- rank 7｜description：https://www.kaggle.com/c/rsna-2023-abdominal-trauma-detection/discussion/447549
+- rank 8｜description：https://www.kaggle.com/c/rsna-2023-abdominal-trauma-detection/discussion/447706
+- rank 9｜description：https://www.kaggle.com/c/rsna-2023-abdominal-trauma-detection/discussion/447506
+- rank 12｜description：https://www.kaggle.com/c/rsna-2023-abdominal-trauma-detection/discussion/447539
+- rank 14｜description：https://www.kaggle.com/c/rsna-2023-abdominal-trauma-detection/discussion/447553
+- rank 16｜description：https://www.kaggle.com/c/rsna-2023-abdominal-trauma-detection/discussion/447448
 
 ---
 
@@ -3408,6 +3662,16 @@ authentic 图错报为伪造 = 1.0 直接归零；伪造图按实例 F1 且多�
 - [placeholder] 参考论文（124 票）：https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification/discussion/519628
 - 未收录方案帖（缺口登记）：539472 / 539439 / 539486 / 539548 / 539690 / 539459 / 541279（7 条 write-up 候选，见 §8 悬案 1）
 
+### 外部题解（kaggle-solutions）
+- rank 5｜description：https://www.kaggle.com/c/rsna-2024-lumbar-spine-degenerative-classification/discussion/539472
+- rank 6｜description：https://www.kaggle.com/c/rsna-2024-lumbar-spine-degenerative-classification/discussion/541813
+- rank 7｜description：https://www.kaggle.com/c/rsna-2024-lumbar-spine-degenerative-classification/discussion/539486
+- rank 8｜description：https://www.kaggle.com/c/rsna-2024-lumbar-spine-degenerative-classification/discussion/539548
+- rank 9｜description：https://www.kaggle.com/c/rsna-2024-lumbar-spine-degenerative-classification/discussion/539690
+- rank 11｜description：https://www.kaggle.com/c/rsna-2024-lumbar-spine-degenerative-classification/discussion/539569
+- rank 12｜description：https://www.kaggle.com/c/rsna-2024-lumbar-spine-degenerative-classification/discussion/540001
+- rank 13｜description：https://www.kaggle.com/c/rsna-2024-lumbar-spine-degenerative-classification/discussion/539510
+
 ---
 
 ## rsna-breast-cancer-detection — RSNA 乳腺 X 光筛查深读：不确定指标下的选择游戏
@@ -3532,6 +3796,16 @@ authentic 图错报为伪造 = 1.0 直接归零；伪造图按实例 F1 且多�
 - 硬件实验帖：https://www.kaggle.com/competitions/rsna-breast-cancer-detection/discussion/370333
 - 未收录缺口（登记备查）：3rd/5th/7th/8th 等方案
 
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/rsna-breast-cancer-detection/discussion/391725
+- rank 5｜description：https://www.kaggle.com/c/rsna-breast-cancer-detection/discussion/391979
+- rank 7｜description：https://www.kaggle.com/c/rsna-breast-cancer-detection/discussion/391125
+- rank 8｜description：https://www.kaggle.com/c/rsna-breast-cancer-detection/discussion/391041
+- rank 10｜description：https://www.kaggle.com/c/rsna-breast-cancer-detection/discussion/391378
+- rank 16｜description：https://www.kaggle.com/c/rsna-breast-cancer-detection/discussion/391133
+- rank 18｜description：https://www.kaggle.com/c/rsna-breast-cancer-detection/discussion/390975
+- rank 19｜description：https://www.kaggle.com/c/rsna-breast-cancer-detection/discussion/391341
+
 ---
 
 ## rsna-intracranial-aneurysm-detection — RSNA Intracranial Aneurysm Detection 轻量深读（Tier B）
@@ -3608,6 +3882,16 @@ authentic 图错报为伪造 = 1.0 直接归零；伪造图按实例 F1 且多�
 - 4th（44 票）：https://www.kaggle.com/competitions/rsna-intracranial-aneurysm-detection/discussion/611893
 - 临床背景（90 票）：https://www.kaggle.com/competitions/rsna-intracranial-aneurysm-detection/discussion/591648
 
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/rsna-intracranial-aneurysm-detection/writeups/1st-place-solution
+- rank 2｜description：https://www.kaggle.com/c/rsna-intracranial-aneurysm-detection/writeups/2nd-place-solution
+- rank 3｜description：https://www.kaggle.com/c/rsna-intracranial-aneurysm-detection/writeups/3rd-place-solution
+- rank 4｜description：https://www.kaggle.com/c/rsna-intracranial-aneurysm-detection/writeups/4th-place-solution
+- rank 5｜description：https://www.kaggle.com/c/rsna-intracranial-aneurysm-detection/writeups/5th-place-solution
+- rank 6｜description：https://www.kaggle.com/c/rsna-intracranial-aneurysm-detection/writeups/6th-place-solution
+- rank 7｜description：https://www.kaggle.com/c/rsna-intracranial-aneurysm-detection/writeups/7th-place-solution
+- rank 8｜description：https://www.kaggle.com/c/rsna-intracranial-aneurysm-detection/writeups/8th-place-solution
+
 ---
 
 ## rsna-miccai-brain-tumor-radiogenomic-classification — RSNA-MICCAI Brain Tumor Radiogenomic Classification 轻量深读（Tier B）
@@ -3682,6 +3966,16 @@ authentic 图错报为伪造 = 1.0 直接归零；伪造图按实例 F1 且多�
 - DICOM→PNG（253000）：https://www.kaggle.com/competitions/rsna-miccai-brain-tumor-radiogenomic-classification/discussion/253000
 - 往届数据集（253056）：https://www.kaggle.com/competitions/rsna-miccai-brain-tumor-radiogenomic-classification/discussion/253056
 - 未收录正文：269396（作弊账号）、252843（MRI 拍摄差异）、252838（往届金牌索引）
+
+### 外部题解（kaggle-solutions）
+- rank 2｜code：https://www.kaggle.com/c/rsna-miccai-brain-tumor-radiogenomic-classification/discussion/280033
+- rank 3｜code：https://www.kaggle.com/c/rsna-miccai-brain-tumor-radiogenomic-classification/discussion/287713
+- rank 4｜code：https://www.kaggle.com/c/rsna-miccai-brain-tumor-radiogenomic-classification/discussion/280029
+- rank 5｜code：https://www.kaggle.com/c/rsna-miccai-brain-tumor-radiogenomic-classification/discussion/281911
+- rank 6｜code：https://www.kaggle.com/c/rsna-miccai-brain-tumor-radiogenomic-classification/discussion/280402
+- rank 7｜code：https://www.kaggle.com/c/rsna-miccai-brain-tumor-radiogenomic-classification/discussion/281374
+- rank 8｜code：https://www.kaggle.com/c/rsna-miccai-brain-tumor-radiogenomic-classification/discussion/280572
+- rank 9｜code：https://www.kaggle.com/c/rsna-miccai-brain-tumor-radiogenomic-classification/discussion/279826
 
 ---
 
@@ -3759,6 +4053,16 @@ astro 类标注最脏，有人整理出干净 mask 并公开（125 票）。**�
 - 5th（84 票）：https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation/discussion/298081
 - 标注噪声（174 票）：https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation/discussion/281205
 - 干净的 astro mask（125 票）：https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation/discussion/291371
+
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/sartorius-cell-instance-segmentation/discussion/298021
+- rank 4｜description：https://www.kaggle.com/c/sartorius-cell-instance-segmentation/discussion/298146
+- rank 6｜code：https://www.kaggle.com/c/sartorius-cell-instance-segmentation/discussion/297986
+- rank 7｜code：https://www.kaggle.com/c/sartorius-cell-instance-segmentation/discussion/298002
+- rank 8｜code：https://www.kaggle.com/c/sartorius-cell-instance-segmentation/discussion/297998
+- rank 9｜description：https://www.kaggle.com/c/sartorius-cell-instance-segmentation/discussion/297985
+- rank 11｜code：https://www.kaggle.com/c/sartorius-cell-instance-segmentation/discussion/298038
+- rank 22｜description：https://www.kaggle.com/c/sartorius-cell-instance-segmentation/discussion/298030
 
 ---
 
@@ -3910,6 +4214,16 @@ DiffusionDB-2M 上传、3 万对数据、SD2 生成图、ChatGPT 生成对等帖
 - 30K 图像-提示词对（102 票）：https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts/discussion/391500
 - 如何到 0.58+：https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts/discussion/398529
 
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/stable-diffusion-image-to-prompts/discussion/410798
+- rank 5｜description：https://www.kaggle.com/c/stable-diffusion-image-to-prompts/discussion/410688
+- rank 6｜description：https://www.kaggle.com/c/stable-diffusion-image-to-prompts/discussion/410768
+- rank 7｜description：https://www.kaggle.com/c/stable-diffusion-image-to-prompts/discussion/410618
+- rank 11｜description：https://www.kaggle.com/c/stable-diffusion-image-to-prompts/discussion/410611
+- rank 12｜description：https://www.kaggle.com/c/stable-diffusion-image-to-prompts/discussion/410657
+- rank 33｜description：https://www.kaggle.com/c/stable-diffusion-image-to-prompts/discussion/410610
+- rank 36｜description：https://www.kaggle.com/c/stable-diffusion-image-to-prompts/discussion/410609
+
 ---
 
 ## tensorflow-great-barrier-reef — TensorFlow Great Barrier Reef 轻量深读（Tier B）
@@ -3985,6 +4299,16 @@ DiffusionDB-2M 上传、3 万对数据、SD2 生成图、ChatGPT 生成对等帖
 - 1st Trust CV（307878）：https://www.kaggle.com/competitions/tensorflow-great-barrier-reef/discussion/307878
 - 5th Poisson（308007）：https://www.kaggle.com/competitions/tensorflow-great-barrier-reef/discussion/308007
 - YOLOv5 高分辨率（300638）：https://www.kaggle.com/competitions/tensorflow-great-barrier-reef/discussion/300638
+
+### 外部题解（kaggle-solutions）
+- rank 2｜code：https://www.kaggle.com/c/tensorflow-great-barrier-reef/discussion/307760
+- rank 4｜description：https://www.kaggle.com/c/tensorflow-great-barrier-reef/discussion/307626
+- rank 6｜description：https://www.kaggle.com/c/tensorflow-great-barrier-reef/discussion/307619
+- rank 7｜code：https://www.kaggle.com/c/tensorflow-great-barrier-reef/discussion/307786
+- rank 8｜description：https://www.kaggle.com/c/tensorflow-great-barrier-reef/discussion/307735
+- rank 9｜description：https://www.kaggle.com/c/tensorflow-great-barrier-reef/discussion/307871
+- rank 10｜description：https://www.kaggle.com/c/tensorflow-great-barrier-reef/discussion/307756
+- rank 11｜description：https://www.kaggle.com/c/tensorflow-great-barrier-reef/discussion/307718
 
 ---
 
@@ -4110,6 +4434,16 @@ MONAI：v1–v3 以旧 Dice 选模（local 0.8789→0.9108），新指标下只�
 - 3rd（45 票）：https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation/discussion/337468
 - 缺口登记（未收录正文）：2nd(337400)、322549、323921、320692、329396、326035、Incorrect masks(319963/321979)、LB could be wrong(324934)、Hausdorff usage(319215)、330336 等
 
+### 外部题解（kaggle-solutions）
+- rank 2｜description：https://www.kaggle.com/c/uw-madison-gi-tract-image-segmentation/discussion/337400
+- rank 8｜description：https://www.kaggle.com/c/uw-madison-gi-tract-image-segmentation/discussion/337359
+- rank 10｜description：https://www.kaggle.com/c/uw-madison-gi-tract-image-segmentation/discussion/337195
+- rank 11｜description：https://www.kaggle.com/c/uw-madison-gi-tract-image-segmentation/discussion/337193
+- rank 14｜description：https://www.kaggle.com/c/uw-madison-gi-tract-image-segmentation/discussion/337191
+- rank 15｜description：https://www.kaggle.com/c/uw-madison-gi-tract-image-segmentation/discussion/337189
+- rank 15｜description：https://www.kaggle.com/c/uw-madison-gi-tract-image-segmentation/discussion/337326
+- rank 17｜description：https://www.kaggle.com/c/uw-madison-gi-tract-image-segmentation/discussion/337343
+
 ---
 
 ## vesuvius-challenge-ink-detection — Vesuvius 墨迹检测深读：深度不变性 × 几何对齐 × 校准
@@ -4233,6 +4567,16 @@ MONAI：v1–v3 以旧 Dice 选模（local 0.8789→0.9108），新指标下只�
 - 自制碳化纸莎草（136 票）：https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection/discussion/407545
 - 未收录缺口（登记备查）：417430（7th）｜417536（3rd）｜417779（4th）｜417642（5th）｜417448（top solutions 讨论）
 
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/vesuvius-challenge-ink-detection/discussion/417536
+- rank 4｜description：https://www.kaggle.com/c/vesuvius-challenge-ink-detection/discussion/417779
+- rank 5｜description：https://www.kaggle.com/c/vesuvius-challenge-ink-detection/discussion/417642
+- rank 7｜description：https://www.kaggle.com/c/vesuvius-challenge-ink-detection/discussion/417430
+- rank 8｜description：https://www.kaggle.com/c/vesuvius-challenge-ink-detection/discussion/417383
+- rank 10｜description：https://www.kaggle.com/c/vesuvius-challenge-ink-detection/discussion/417363
+- rank 12｜description：https://www.kaggle.com/c/vesuvius-challenge-ink-detection/discussion/418921
+- rank 13｜description：https://www.kaggle.com/c/vesuvius-challenge-ink-detection/discussion/417444
+
 ---
 
 ## vesuvius-challenge-surface-detection — Vesuvius Challenge - Surface Detection 轻量深读（Tier B）
@@ -4309,6 +4653,16 @@ SDF 天然编码距离信息，阈值扫描可在 Surface Dice 与拓扑间平�
 - Bronze（679221）：https://www.kaggle.com/competitions/vesuvius-challenge-surface-detection/discussion/679221
 - placeholder（651532）：https://www.kaggle.com/competitions/vesuvius-challenge-surface-detection/discussion/651532
 - 3D Viewer（663144）：https://www.kaggle.com/competitions/vesuvius-challenge-surface-detection/discussion/663144
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/vesuvius-challenge-surface-detection/writeups/1st-place-solution-for-the-vesuvius-challenge-su
+- rank 2｜description：https://www.kaggle.com/c/vesuvius-challenge-surface-detection/writeups/2nd-place-solution-vesuvius-challenge-a-postproc
+- rank 3｜description：https://www.kaggle.com/c/vesuvius-challenge-surface-detection/writeups/quick-preview-of-the-3rd-place
+- rank 4｜description：https://www.kaggle.com/c/vesuvius-challenge-surface-detection/writeups/4-th-place-solution
+- rank 5｜description：https://www.kaggle.com/c/vesuvius-challenge-surface-detection/writeups/5th-place-solution
+- rank 7｜description：https://www.kaggle.com/c/vesuvius-challenge-surface-detection/writeups/7st-place-solution-for-the-vesuvius-challenge
+- rank 8｜description：https://www.kaggle.com/c/vesuvius-challenge-surface-detection/writeups/8th-place-solution
+- rank 9｜description：https://www.kaggle.com/c/vesuvius-challenge-surface-detection/writeups/9th-place-solution
 
 ---
 

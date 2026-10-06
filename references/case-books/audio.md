@@ -1,6 +1,6 @@
 # 案例书：audio（5 场）
 
-> 由 KStarter 深读文档生成：每场含一句话重述、全量数字账、逐方案对照矩阵、共识/分歧与裁决全文、证据分级、悬案与失败学、图证路径与出处。
+> 由 KStarter 深读文档生成：每场含一句话重述、全量数字账、逐方案对照矩阵、共识/分歧与裁决全文、证据分级、悬案与失败学、图证路径、出处与外部题解。
 > 用途：为新比赛找结构类比时，先读本册，再回 KStarter 深读原文核对。
 
 ## bengaliai-speech — Bengali.AI Speech Recognition 轻量深读（Tier B）
@@ -78,6 +78,16 @@
 - 5th（34 票，ensembling works）：https://www.kaggle.com/competitions/bengaliai-speech/discussion/448006
 - 44th（31 票）：https://www.kaggle.com/competitions/bengaliai-speech/discussion/450635
 - "微调是关键"（47 票）：https://www.kaggle.com/competitions/bengaliai-speech/discussion/433722
+
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/bengaliai-speech/discussion/447995
+- rank 7｜description：https://www.kaggle.com/c/bengaliai-speech/discussion/448074
+- rank 10｜description：https://www.kaggle.com/c/bengaliai-speech/discussion/448126
+- rank 11｜description：https://www.kaggle.com/c/bengaliai-speech/discussion/447986
+- rank 14｜description：https://www.kaggle.com/c/bengaliai-speech/discussion/447965
+- rank 20｜description：https://www.kaggle.com/c/bengaliai-speech/discussion/448066
+- rank 22｜description：https://www.kaggle.com/c/bengaliai-speech/discussion/448119
+- rank 23｜description：https://www.kaggle.com/c/bengaliai-speech/discussion/448343
 
 ---
 
@@ -201,6 +211,16 @@ public#1/private#2：直接用主办方 BirdNET（20/21 类重合，改 species_
 - 起点帖（51 票）：https://www.kaggle.com/competitions/birdclef-2022/discussion/308004
 - 缺口登记：307824、324124、326973、314999、309213 未收录正文
 
+### 外部题解（kaggle-solutions）
+- rank 4｜description：https://www.kaggle.com/c/birdclef-2022/discussion/326987
+- rank 5｜description：https://www.kaggle.com/c/birdclef-2022/discussion/327044
+- rank 6｜description：https://www.kaggle.com/c/birdclef-2022/discussion/327187
+- rank 7｜description：https://www.kaggle.com/c/birdclef-2022/discussion/326973
+- rank 8｜description：https://www.kaggle.com/c/birdclef-2022/discussion/327019
+- rank 9｜description：https://www.kaggle.com/c/birdclef-2022/discussion/326968
+- rank 11｜description：https://www.kaggle.com/c/birdclef-2022/discussion/326979
+- rank 13｜description：https://www.kaggle.com/c/birdclef-2022/discussion/326990
+
 ---
 
 ## birdclef-2023 — BirdCLEF 2023 轻量深读（Tier B）
@@ -276,6 +296,15 @@ Transformer（ECAPA TDNN）、更大 chunk、CQT/LEAF、彩色噪声、2021 2nd 
 - 4th（55 票）：https://www.kaggle.com/competitions/birdclef-2023/discussion/412753
 - 7th（38 票）：https://www.kaggle.com/competitions/birdclef-2023/discussion/412922
 - 10th：https://www.kaggle.com/competitions/birdclef-2023/discussion/412713
+
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/birdclef-2023/discussion/414102
+- rank 5｜description：https://www.kaggle.com/c/birdclef-2023/discussion/412903
+- rank 6｜description：https://www.kaggle.com/c/birdclef-2023/discussion/412708
+- rank 9｜description：https://www.kaggle.com/c/birdclef-2023/discussion/412794
+- rank 20｜description：https://www.kaggle.com/c/birdclef-2023/discussion/412742
+- rank 24｜description：https://www.kaggle.com/c/birdclef-2023/discussion/412996
+- rank 37｜description：https://www.kaggle.com/c/birdclef-2023/discussion/412869
 
 ---
 
@@ -414,6 +443,16 @@ Transformer（ECAPA TDNN）、更大 chunk、CQT/LEAF、彩色噪声、2021 2nd 
 - 2nd（54 票）：https://www.kaggle.com/competitions/birdclef-2025/discussion/583699
 - 缺口登记：568886、567495、570760、570402、570837、568303、567672 未收录正文
 
+### 外部题解（kaggle-solutions）
+- rank 3｜description：https://www.kaggle.com/c/birdclef-2025/discussion/583477
+- rank 4｜description：https://www.kaggle.com/c/birdclef-2025/discussion/584034
+- rank 6｜description：https://www.kaggle.com/c/birdclef-2025/discussion/583381
+- rank 7｜description：https://www.kaggle.com/c/birdclef-2025/discussion/584015
+- rank 9｜description：https://www.kaggle.com/c/birdclef-2025/discussion/583365
+- rank 10｜description：https://www.kaggle.com/c/birdclef-2025/discussion/583310
+- rank 11｜description：https://www.kaggle.com/c/birdclef-2025/discussion/583384
+- rank 12｜description：https://www.kaggle.com/c/birdclef-2025/discussion/583592
+
 ---
 
 ## birdclef-2026 — BirdCLEF 2026 轻量深读（Tier B）
@@ -489,5 +528,15 @@ Transformer（ECAPA TDNN）、更大 chunk、CQT/LEAF、彩色噪声、2021 2nd 
 - 10th（704271）：https://www.kaggle.com/competitions/birdclef-2026/discussion/704271
 - 11th（704264）：https://www.kaggle.com/competitions/birdclef-2026/discussion/704264
 - Claude 占位（681146）：https://www.kaggle.com/competitions/birdclef-2026/discussion/681146
+
+### 外部题解（kaggle-solutions）
+- rank 1｜description：https://www.kaggle.com/c/birdclef-2026/writeups/1st-place-solution-noisy-student-meets-distillati
+- rank 2｜description：https://www.kaggle.com/c/birdclef-2026/writeups/2nd-place-diverse-ensemble-with-pseudo-labeling-a
+- rank 3｜description：https://www.kaggle.com/c/birdclef-2026/writeups/3rd-place-solution
+- rank 4｜description：https://www.kaggle.com/c/birdclef-2026/writeups/4-th-place-solution
+- rank 5｜description：https://www.kaggle.com/c/birdclef-2026/writeups/5th-place-solution-both-are-all-you-need
+- rank 6｜description：https://www.kaggle.com/c/birdclef-2026/writeups/6th-place-solution
+- rank 7｜description：https://www.kaggle.com/c/birdclef-2026/writeups/2026-birdclef-7th-solution
+- rank 8｜description：https://www.kaggle.com/c/birdclef-2026/writeups/8th-place-solution
 
 ---

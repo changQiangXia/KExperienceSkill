@@ -17,9 +17,33 @@ import pathlib
 import re
 
 SKILL = pathlib.Path(__file__).resolve().parent.parent
+EXTERNAL = SKILL / "assets" / "external_solution_links.csv"
 HEADING = re.compile(r"^(#{1,4})\s+(.*)$")
 
 ORDER = ["tabular", "cv", "nlp", "science", "sim-agent", "audio", "other"]
+
+
+def rank_num(rank: str) -> int:
+    match = re.search(r"\d+", rank or "")
+    return int(match.group(0)) if match else 10**6
+
+
+def load_external_links() -> dict[str, list[dict[str, str]]]:
+    """外部题解（kaggle-solutions）：每场取未收录过的前 8 条，按排名排序。"""
+    if not EXTERNAL.exists():
+        return {}
+    grouped: dict[str, list[dict[str, str]]] = {}
+    for row in csv.DictReader(EXTERNAL.open(encoding="utf-8")):
+        if row["flag"] == "legacy_blog" or "kaggle.com" not in row["domain"] or row["already_in_skill"] == "1":
+            continue
+        grouped.setdefault(row["slug"], []).append(row)
+    out = {}
+    for slug, items in grouped.items():
+        items.sort(key=lambda r: (rank_num(r["rank"]), r["link_kind"] != "description"))
+        out[slug] = [
+            {"rank": r["rank"], "kind": r["link_kind"], "url": r["url"]} for r in items[:8]
+        ]
+    return out
 
 
 def split_sections(lines: list[str]) -> list[tuple[str, list[str]]]:
@@ -44,7 +68,7 @@ def clean_block(body: list[str]) -> str:
     return text
 
 
-def parse_case(root: pathlib.Path, slug: str, meta: dict) -> str:
+def parse_case(root: pathlib.Path, slug: str, meta: dict, external: list[dict[str, str]] | None = None) -> str:
     path = root / "analysis" / "deep" / f"{slug}.md"
     lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
     sections = split_sections(lines)
@@ -147,6 +171,11 @@ def parse_case(root: pathlib.Path, slug: str, meta: dict) -> str:
         out.append("### 出处")
         out.extend(dict.fromkeys(sources))
         out.append("")
+    if external:
+        out.append("### 外部题解（kaggle-solutions）")
+        for e in external:
+            out.append(f"- rank {e['rank']}｜{e['kind']}：{e['url']}")
+        out.append("")
     out.append("---")
     out.append("")
     return "\n".join(out)
@@ -159,6 +188,7 @@ def main() -> int:
     root = pathlib.Path(args.kstarter_root)
     index_path = SKILL / "assets" / "case_index.csv"
     index = list(csv.DictReader(index_path.open(encoding="utf-8")))
+    external = load_external_links()
 
     by_theme: dict[str, list[dict]] = {}
     for row in index:
@@ -175,12 +205,12 @@ def main() -> int:
         parts = [
             f"# 案例书：{theme}（{len(items)} 场）",
             "",
-            "> 由 KStarter 深读文档生成：每场含一句话重述、全量数字账、逐方案对照矩阵、共识/分歧与裁决全文、证据分级、悬案与失败学、图证路径与出处。",
+            "> 由 KStarter 深读文档生成：每场含一句话重述、全量数字账、逐方案对照矩阵、共识/分歧与裁决全文、证据分级、悬案与失败学、图证路径、出处与外部题解。",
             "> 用途：为新比赛找结构类比时，先读本册，再回 KStarter 深读原文核对。",
             "",
         ]
         for row in sorted(items, key=lambda r: r["slug"]):
-            parts.append(parse_case(root, row["slug"], row))
+            parts.append(parse_case(root, row["slug"], row, external.get(row["slug"])))
         (outdir / f"{theme}.md").write_text("\n".join(parts), encoding="utf-8")
         total += len(items)
         print(f"{theme}: {len(items)} cases")
