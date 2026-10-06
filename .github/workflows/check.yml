@@ -1,0 +1,22 @@
+name: check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  doctor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: pip install numpy pyyaml
+      - name: Clone KStarter (generator freshness check)
+        run: git clone --depth 1 https://github.com/changQiangXia/KStarter.git /tmp/KStarter
+        continue-on-error: true
+      - name: Doctor (refs / schema / smoke / generator freshness)
+        run: python scripts/doctor.py --kstarter-root /tmp/KStarter --generators

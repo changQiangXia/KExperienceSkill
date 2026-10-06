@@ -53,6 +53,9 @@
    与 `assets/agent_prompt_templates.md`（取证/建模/堆叠/审计模板），并按 `assets/agent_workflow_checklist.md` 过合规与验收。
 
 ```bash
+# 入口路由：给一张比赛卡，返回该读的文档/案例/技法/GM/脚本
+python scripts/recommend.py --task "tabular regression" --metric MedAE --tags "tabular,synthetic" --theme tabular
+
 # 按类型/指标找类比案例（--deep 会检索完整案例卡）
 python scripts/case_search.py --theme cv --tag segmentation --limit 5
 python scripts/case_search.py --query "MedAE 中位数 后处理" --deep
@@ -73,8 +76,22 @@ python scripts/plan_builder.py --task "tabular regression" --metric "MedAE" \
 
 # 实验与验证
 python scripts/experiment_harness.py --data train.csv --target y --strategy stratified --n-splits 5
-python scripts/oof_report.py --oof oof.csv --target y --pred base --pred2 new --metric auc
+python scripts/oof_report.py --oof oof.csv --target y --pred base --pred2 new --metric auc   # 配对 bootstrap + CI
+python scripts/oof_report.py --oof oof.csv --target y --pred base --manifest variants.csv --metric auc --fdr 0.05  # 多假设 FDR
+python scripts/lb_noise.py --metric auc --score 0.95 --n-test 100000 --prevalence 0.3     # 这个 0.0005 的领先是噪声吗？
 python scripts/submission_guard.py --submission submission.csv --sample sample_submission.csv
+
+# 预注册台账（假设 → MDE/kill → 自动判定，防事后改标准）
+python scripts/plan_tracker.py init --out runs/plan.json --competition <slug> --metric auc --baseline-cv 0.95
+python scripts/plan_tracker.py preregister --plan runs/plan.json --id H1 --claim "嵌套 TE" --mde 0.0005 --min-fold-wins 4
+python scripts/plan_tracker.py record --plan runs/plan.json --id H1 --fold-deltas "0.001,0.0008,0.0015,0.0009,0.0011"
+python scripts/plan_tracker.py judge --plan runs/plan.json
+
+# 技能自评（留一法，可当回归门禁）
+python scripts/skill_eval.py --per-theme 6
+
+# 仓库门禁（引用/schema/脚本/生成器新鲜度）
+python scripts/doctor.py
 ```
 
 ## 目录速览
@@ -98,11 +115,12 @@ references/
   people-evidence.md         选手经验层的证据分级 / 复现度双口径 / flags 说明
   people-tensions.md         12 组选手间冲突裁决（谁在什么条件下对）
   gm-generalized-process.md  前 50 GM 的可泛化流程：7 阶段主循环 + 8 领域变体 + 6 种选手原型
+  undercovered-domains.md    欠覆盖方向补强：推荐/排序、优化/黑箱、时间序列（案例+决策项+kill）
   champion-solutions.md      冠军方案索引（187 场覆盖场内，按主题 + 历史精选 + 代码/Notebook 参考）
   agent-kaggle-playbook.md   用编码 agent 打 Kaggle：决策表 / 四种拓扑 / 失败模式 / 预算 KPI
   tabular-advanced-recipes.md  表格赛高级配方：生成器取证 / 嵌套 TE / CIR+Ridge / FFT-AUC / base_margin / Fréchet / lexrank
   sim-engineering.md         模拟赛工程：加速层级 / 多实体架构 / PPO+联赛 / NF4 量化与部署兜底
-scripts/                     检索、计划、实验、校验工具（见上）；gm_claim_search.py 查 GM 断言快照；agent_audit.py 审 agent 产物
+scripts/                     检索、计划、实验、校验工具；recommend.py 入口路由；doctor.py 仓库门禁；plan_tracker.py 预注册台账；lb_noise.py 公榜噪声；skill_eval.py 自评；gm_claim_search.py 查断言；agent_audit.py 审 agent 产物
 assets/                      案例索引/案例卡/技法地图/台账/收官清单 + gm_claims_snapshot.csv（364 条）
                              / external_solution_links.csv（4768 条外链）/ people_manifest.json
                              / agent_spec_template.md（任务规格）+ agent_workflow_checklist.md（开跑/收官清单）

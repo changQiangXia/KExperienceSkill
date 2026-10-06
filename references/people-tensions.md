@@ -1,6 +1,6 @@
 # 前 50 选手经验张力（P2）
 
-> 同步自 KStarter `99501882bd14`（2026-10-04）；证据链接为 Kaggle 原文。
+> 同步自 KStarter `c13b2797e136`（2026-10-06）；证据链接为 Kaggle 原文。
 
 
 > 写法：张力 → 当前裁决 → 证据。证据为 `people/claims/gm_claims.csv` 中的断言，可经 `verify_claims.py` 回链原文。

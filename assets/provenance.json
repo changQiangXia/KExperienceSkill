@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-10-06",
+  "sources": {
+    "kstarter": {
+      "repo": "https://github.com/changQiangXia/KStarter",
+      "commit": "c13b2797e13686cf400333be627d572ffbfb7e34",
+      "role": "案例/深读/选手经验层/外部索引的主来源"
+    },
+    "kaggle-solutions": {
+      "repo": "https://github.com/faridrashidi/kaggle-solutions",
+      "commit": "dc9a449d84841cb9d03c110a4db16192c243d907",
+      "role": "外部题解链接索引（721 场 / 4768 条）",
+      "license": "MIT"
+    },
+    "kaggle-skills": {
+      "repo": "https://github.com/kei-kochiya/kaggle-skills",
+      "commit": "821fa0fdbb81ec043b2e2c841dabe8f9c280611c",
+      "role": "表格高级配方 / 模拟赛工程 / 多 LLM agent 工作流",
+      "license": "MIT"
+    }
+  },
+  "assets": {
+    "assets/case_index.csv": "kstarter",
+    "assets/case_cards.jsonl": "kstarter",
+    "references/case-books/*.md": "kstarter",
+    "references/case-index.md": "kstarter",
+    "assets/technique_case_map.csv": "kstarter",
+    "assets/gm_claims_snapshot.csv": "kstarter",
+    "assets/people_manifest.json": "kstarter",
+    "references/people-routing.md": "kstarter",
+    "references/people-evidence.md": "kstarter",
+    "references/people-tensions.md": "kstarter",
+    "references/gm-generalized-process.md": "kstarter",
+    "assets/external_solution_links.csv": "kstarter+kaggle-solutions",
+    "references/champion-solutions.md": "kstarter+kaggle-solutions",
+    "references/tabular-advanced-recipes.md": "kaggle-skills",
+    "references/sim-engineering.md": "kaggle-skills",
+    "assets/agent_prompt_templates.md": "kaggle-skills",
+    "references/agent-kaggle-playbook.md": "kstarter+kaggle-skills"
+  },
+  "notes": "派生资产由 tools/ 下生成器产出；doctor.py --generators 会校验生成器确定性与上游新鲜度；kaggle-solutions / kaggle-skills 均为 MIT，署名见 THIRD_PARTY.md。"
+}

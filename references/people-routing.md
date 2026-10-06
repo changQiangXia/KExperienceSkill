@@ -1,6 +1,6 @@
 # 按比赛类型找人（前 50 选手经验层）
 
-> 快照 2026-10-04，来源 KStarter `99501882bd14`；复现度 = 具体技法标签 × 同领域 × 独立证据单位（同队合并）；标注 `严 N` 的是技法组合级复现（同领域另一单位同时复现 ≥2 个具体技法），优先采纳。
+> 快照 2026-10-06，来源 KStarter `c13b2797e136`；复现度 = 具体技法标签 × 同领域 × 独立证据单位（同队合并）；标注 `严 N` 的是技法组合级复现（同领域另一单位同时复现 ≥2 个具体技法），优先采纳。
 > 完整断言与逐字引用见 KStarter `people/claims/gm_claims.csv`；领域 playbook 见 `analysis/people/playbooks/`。
 > 查询：`python scripts/gm_claim_search.py --domain cv --strict-units 2`。
 

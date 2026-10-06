@@ -1,0 +1,1467 @@
+{
+  "generated_at": "2026-10-06 16:30:03",
+  "n_cases": 51,
+  "n_strict": 25,
+  "n_loose": 51,
+  "per_theme": 6,
+  "strict_recall@5": 0.712,
+  "strict_recall@10": 0.75,
+  "loose_recall@5": 0.3105,
+  "loose_recall@10": 0.3977,
+  "theme_hit_rate": 0.7647,
+  "baselines": {
+    "random_recall@5": 0.125,
+    "global_top5_strict": 0.1947,
+    "global_top5_loose": 0.5925
+  },
+  "details": [
+    {
+      "slug": "playground-series-s3e25",
+      "theme": "tabular",
+      "truth_strict": [
+        "中位数样本权重",
+        "目标档位吸附"
+      ],
+      "truth_loose": [
+        "中位数样本权重",
+        "目标档位吸附",
+        "阈值后处理"
+      ],
+      "routed_top10": [
+        "isotonic 校准",
+        "单参数校准",
+        "秩融合",
+        "目标档位吸附",
+        "异质集成",
+        "多目标拆合",
+        "提交对冲",
+        "爬山权重搜索",
+        "随机目标检验",
+        "对抗验证"
+      ],
+      "strict_recall@5": 0.5,
+      "strict_recall@10": 0.5,
+      "loose_recall@5": 0.3333333333333333,
+      "loose_recall@10": 0.3333333333333333,
+      "top_theme": "tabular"
+    },
+    {
+      "slug": "playground-series-s3e14",
+      "theme": "tabular",
+      "truth_strict": [
+        "爬山权重搜索",
+        "目标档位吸附"
+      ],
+      "truth_loose": [
+        "爬山权重搜索",
+        "目标档位吸附"
+      ],
+      "routed_top10": [
+        "isotonic 校准",
+        "单参数校准",
+        "秩融合",
+        "异质集成",
+        "爬山权重搜索",
+        "目标档位吸附",
+        "多目标拆合",
+        "提交对冲",
+        "阈值后处理",
+        "中位数样本权重"
+      ],
+      "strict_recall@5": 0.5,
+      "strict_recall@10": 1.0,
+      "loose_recall@5": 0.5,
+      "loose_recall@10": 1.0,
+      "top_theme": "tabular"
+    },
+    {
+      "slug": "playground-series-s3e8",
+      "theme": "tabular",
+      "truth_strict": [
+        "分组合法性裁剪",
+        "爬山权重搜索"
+      ],
+      "truth_loose": [
+        "伪标签",
+        "分组合法性裁剪",
+        "爬山权重搜索",
+        "阈值后处理"
+      ],
+      "routed_top10": [
+        "isotonic 校准",
+        "单参数校准",
+        "秩融合",
+        "爬山权重搜索",
+        "异质集成",
+        "多目标拆合",
+        "提交对冲",
+        "阈值后处理",
+        "目标档位吸附",
+        "中位数样本权重"
+      ],
+      "strict_recall@5": 0.5,
+      "strict_recall@10": 0.5,
+      "loose_recall@5": 0.25,
+      "loose_recall@10": 0.5,
+      "top_theme": "tabular"
+    },
+    {
+      "slug": "optiver-trading-at-the-close",
+      "theme": "tabular",
+      "truth_strict": [
+        "在线学习",
+        "结构约束投影"
+      ],
+      "truth_loose": [
+        "在线学习",
+        "结构约束投影",
+        "规则基线"
+      ],
+      "routed_top10": [
+        "在线学习",
+        "阈值后处理",
+        "isotonic 校准",
+        "单参数校准",
+        "秩融合",
+        "多目标拆合",
+        "提交对冲",
+        "异质集成",
+        "时间切分/purge",
+        "爬山权重搜索"
+      ],
+      "strict_recall@5": 0.5,
+      "strict_recall@10": 0.5,
+      "loose_recall@5": 0.3333333333333333,
+      "loose_recall@10": 0.3333333333333333,
+      "top_theme": "tabular"
+    },
+    {
+      "slug": "tabular-playground-series-nov-2022",
+      "theme": "tabular",
+      "truth_strict": [
+        "isotonic 校准",
+        "单参数校准"
+      ],
+      "truth_loose": [
+        "isotonic 校准",
+        "单参数校准",
+        "阈值后处理"
+      ],
+      "routed_top10": [
+        "秩融合",
+        "异质集成",
+        "多目标拆合",
+        "提交对冲",
+        "爬山权重搜索",
+        "目标档位吸附",
+        "中位数样本权重",
+        "随机目标检验",
+        "对抗验证",
+        "频率/OOD 编码"
+      ],
+      "strict_recall@5": 0.0,
+      "strict_recall@10": 0.0,
+      "loose_recall@5": 0.0,
+      "loose_recall@10": 0.0,
+      "top_theme": "tabular"
+    },
+    {
+      "slug": "playground-series-s3e18",
+      "theme": "tabular",
+      "truth_strict": [
+        "多目标拆合",
+        "对抗验证",
+        "秩融合",
+        "频率/OOD 编码"
+      ],
+      "truth_loose": [
+        "多目标拆合",
+        "对抗验证",
+        "秩融合",
+        "频率/OOD 编码"
+      ],
+      "routed_top10": [
+        "秩融合",
+        "isotonic 校准",
+        "单参数校准",
+        "异质集成",
+        "多目标拆合",
+        "提交对冲",
+        "爬山权重搜索",
+        "目标档位吸附",
+        "中位数样本权重",
+        "随机目标检验"
+      ],
+      "strict_recall@5": 0.5,
+      "strict_recall@10": 0.5,
+      "loose_recall@5": 0.5,
+      "loose_recall@10": 0.5,
+      "top_theme": "tabular"
+    },
+    {
+      "slug": "playground-series-s3e23",
+      "theme": "tabular",
+      "truth_strict": [
+        "异质集成",
+        "爬山权重搜索",
+        "秩融合"
+      ],
+      "truth_loose": [
+        "异质集成",
+        "爬山权重搜索",
+        "秩融合",
+        "规则基线"
+      ],
+      "routed_top10": [
+        "秩融合",
+        "isotonic 校准",
+        "单参数校准",
+        "异质集成",
+        "爬山权重搜索",
+        "多目标拆合",
+        "提交对冲",
+        "目标档位吸附",
+        "中位数样本权重",
+        "随机目标检验"
+      ],
+      "strict_recall@5": 1.0,
+      "strict_recall@10": 1.0,
+      "loose_recall@5": 0.75,
+      "loose_recall@10": 0.75,
+      "top_theme": "tabular"
+    },
+    {
+      "slug": "playground-series-s3e22",
+      "theme": "tabular",
+      "truth_strict": [
+        "实体分组 CV",
+        "提交对冲",
+        "阈值后处理"
+      ],
+      "truth_loose": [
+        "实体分组 CV",
+        "提交对冲",
+        "阈值后处理"
+      ],
+      "routed_top10": [
+        "提交对冲",
+        "isotonic 校准",
+        "实体分组 CV",
+        "单参数校准",
+        "阈值后处理",
+        "秩融合",
+        "异质集成",
+        "多目标拆合",
+        "爬山权重搜索",
+        "目标档位吸附"
+      ],
+      "strict_recall@5": 1.0,
+      "strict_recall@10": 1.0,
+      "loose_recall@5": 1.0,
+      "loose_recall@10": 1.0,
+      "top_theme": "tabular"
+    },
+    {
+      "slug": "jane-street-real-time-market-data-forecasting",
+      "theme": "tabular",
+      "truth_strict": [
+        "在线学习",
+        "时间切分/purge"
+      ],
+      "truth_loose": [
+        "在线学习",
+        "时间切分/purge"
+      ],
+      "routed_top10": [
+        "时间切分/purge",
+        "在线学习",
+        "秩融合",
+        "isotonic 校准",
+        "多目标拆合",
+        "单参数校准",
+        "爬山权重搜索",
+        "阈值后处理",
+        "分组合法性裁剪",
+        "提交对冲"
+      ],
+      "strict_recall@5": 1.0,
+      "strict_recall@10": 1.0,
+      "loose_recall@5": 1.0,
+      "loose_recall@10": 1.0,
+      "top_theme": "tabular"
+    },
+    {
+      "slug": "sorghum-id-fgvc-9",
+      "theme": "cv",
+      "truth_strict": [
+        "ArcFace/subcenter",
+        "IBN/直方图域适应",
+        "伪标签",
+        "域内预训练权重",
+        "高分辨率"
+      ],
+      "truth_loose": [
+        "ArcFace/subcenter",
+        "IBN/直方图域适应",
+        "伪标签",
+        "域内预训练权重",
+        "对抗验证",
+        "高分辨率"
+      ],
+      "routed_top10": [
+        "伪标签",
+        "IBN/直方图域适应",
+        "高分辨率",
+        "ArcFace/subcenter",
+        "实体分组 CV",
+        "域内预训练权重",
+        "提交对冲",
+        "目标档位吸附",
+        "在线学习",
+        "阈值后处理"
+      ],
+      "strict_recall@5": 0.8,
+      "strict_recall@10": 1.0,
+      "loose_recall@5": 0.6666666666666666,
+      "loose_recall@10": 0.8333333333333334,
+      "top_theme": "tabular"
+    },
+    {
+      "slug": "herbarium-2022-fgvc9",
+      "theme": "cv",
+      "truth_strict": [
+        "ArcFace/subcenter",
+        "分层学习率",
+        "高分辨率"
+      ],
+      "truth_loose": [
+        "ArcFace/subcenter",
+        "分层学习率",
+        "实体分组 CV",
+        "高分辨率"
+      ],
+      "routed_top10": [
+        "ArcFace/subcenter",
+        "分层学习率",
+        "高分辨率",
+        "未知类/OSD",
+        "IBN/直方图域适应",
+        "isotonic 校准",
+        "密度分层阈值",
+        "伪标签",
+        "单参数校准",
+        "实体分组 CV"
+      ],
+      "strict_recall@5": 1.0,
+      "strict_recall@10": 1.0,
+      "loose_recall@5": 0.75,
+      "loose_recall@10": 1.0,
+      "top_theme": "tabular"
+    },
+    {
+      "slug": "hotel-id-to-combat-human-trafficking-2022-fgvc9",
+      "theme": "cv",
+      "truth_strict": [
+        "ArcFace/subcenter",
+        "IBN/直方图域适应"
+      ],
+      "truth_loose": [
+        "ArcFace/subcenter",
+        "IBN/直方图域适应",
+        "伪标签",
+        "规则基线",
+        "阈值后处理"
+      ],
+      "routed_top10": [
+        "IBN/直方图域适应",
+        "ArcFace/subcenter",
+        "伪标签",
+        "高分辨率",
+        "分层学习率",
+        "未知类/OSD",
+        "LLM 引用核验",
+        "isotonic 校准",
+        "域内预训练权重",
+        "单参数校准"
+      ],
+      "strict_recall@5": 1.0,
+      "strict_recall@10": 1.0,
+      "loose_recall@5": 0.6,
+      "loose_recall@10": 0.6,
+      "top_theme": "cv"
+    },
+    {
+      "slug": "planttraits2024",
+      "theme": "cv",
+      "truth_strict": [
+        "分层学习率",
+        "域内预训练权重",
+        "多目标拆合",
+        "身份辅助任务"
+      ],
+      "truth_loose": [
+        "分层学习率",
+        "域内预训练权重",
+        "多目标拆合",
+        "规则基线",
+        "身份辅助任务"
+      ],
+      "routed_top10": [
+        "分层学习率",
+        "多目标拆合",
+        "实体分组 CV",
+        "爬山权重搜索",
+        "时间切分/purge",
+        "域内预训练权重",
+        "随机目标检验",
+        "提交对冲",
+        "秩融合",
+        "目标档位吸附"
+      ],
+      "strict_recall@5": 0.5,
+      "strict_recall@10": 0.75,
+      "loose_recall@5": 0.4,
+      "loose_recall@10": 0.6,
+      "top_theme": "science"
+    },
+    {
+      "slug": "lux-ai-season-2-neurips-stage-2",
+      "theme": "sim-agent",
+      "truth_strict": [
+        "行动掩码/冲突取消",
+        "课程学习+热启动"
+      ],
+      "truth_loose": [
+        "多目标拆合",
+        "行动掩码/冲突取消",
+        "规则基线",
+        "课程学习+热启动"
+      ],
+      "routed_top10": [
+        "自对弈对手多样性",
+        "Agent schema/预算",
+        "行动成本模型",
+        "工具集成推理(TIR)",
+        "黑箱代理评分",
+        "大候选+投票",
+        "随机目标检验",
+        "评审闭环写作",
+        "时间切分/purge",
+        "伪标签"
+      ],
+      "strict_recall@5": 0.0,
+      "strict_recall@10": 0.0,
+      "loose_recall@5": 0.0,
+      "loose_recall@10": 0.0,
+      "top_theme": "sim-agent"
+    },
+    {
+      "slug": "maze-crawler",
+      "theme": "sim-agent",
+      "truth_strict": [
+        "自对弈对手多样性",
+        "规则基线"
+      ],
+      "truth_loose": [
+        "对抗验证",
+        "自对弈对手多样性",
+        "规则基线",
+        "阈值后处理"
+      ],
+      "routed_top10": [
+        "自对弈对手多样性",
+        "Agent schema/预算",
+        "规则基线",
+        "行动成本模型",
+        "大候选+投票",
+        "工具集成推理(TIR)",
+        "身份辅助任务",
+        "域内预训练权重",
+        "isotonic 校准",
+        "异质集成"
+      ],
+      "strict_recall@5": 1.0,
+      "strict_recall@10": 1.0,
+      "loose_recall@5": 0.5,
+      "loose_recall@10": 0.5,
+      "top_theme": "sim-agent"
+    },
+    {
+      "slug": "pokemon-tcg-ai-battle-challenge-strategy",
+      "theme": "sim-agent",
+      "truth_strict": [
+        "自对弈对手多样性",
+        "评审闭环写作"
+      ],
+      "truth_loose": [
+        "自对弈对手多样性",
+        "规则基线",
+        "评审闭环写作"
+      ],
+      "routed_top10": [
+        "自对弈对手多样性",
+        "评审闭环写作",
+        "行动成本模型",
+        "Agent schema/预算",
+        "工具集成推理(TIR)",
+        "大候选+投票",
+        "LLM 引用核验",
+        "身份辅助任务",
+        "课程学习+热启动",
+        "黑箱代理评分"
+      ],
+      "strict_recall@5": 1.0,
+      "strict_recall@10": 1.0,
+      "loose_recall@5": 0.6666666666666666,
+      "loose_recall@10": 0.6666666666666666,
+      "top_theme": "sim-agent"
+    },
+    {
+      "slug": "ai-mathematical-olympiad-prize",
+      "theme": "nlp",
+      "truth_strict": [
+        "大候选+投票",
+        "工具集成推理(TIR)"
+      ],
+      "truth_loose": [
+        "大候选+投票",
+        "工具集成推理(TIR)",
+        "规则基线"
+      ],
+      "routed_top10": [
+        "知识蒸馏",
+        "评审闭环写作",
+        "提交对冲",
+        "实体分组 CV",
+        "课程学习+热启动",
+        "行动成本模型",
+        "阈值后处理",
+        "黑箱代理评分",
+        "行动掩码/冲突取消",
+        "自对弈对手多样性"
+      ],
+      "strict_recall@5": 0.0,
+      "strict_recall@10": 0.0,
+      "loose_recall@5": 0.0,
+      "loose_recall@10": 0.0,
+      "top_theme": "nlp"
+    },
+    {
+      "slug": "birdclef-2022",
+      "theme": "audio",
+      "truth_strict": [],
+      "truth_loose": [
+        "提交对冲",
+        "阈值后处理"
+      ],
+      "routed_top10": [
+        "提交对冲",
+        "实体分组 CV",
+        "isotonic 校准",
+        "阈值后处理",
+        "未知类/OSD",
+        "单参数校准",
+        "黑箱代理评分",
+        "ArcFace/subcenter",
+        "分层学习率",
+        "高分辨率"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 1.0,
+      "loose_recall@10": 1.0,
+      "top_theme": "tabular"
+    },
+    {
+      "slug": "birdclef-2023",
+      "theme": "audio",
+      "truth_strict": [],
+      "truth_loose": [
+        "伪标签",
+        "知识蒸馏"
+      ],
+      "routed_top10": [
+        "中位数样本权重",
+        "ArcFace/subcenter",
+        "爬山权重搜索",
+        "域内预训练权重",
+        "随机目标检验",
+        "目标档位吸附",
+        "秩融合",
+        "阈值后处理",
+        "实体分组 CV",
+        "时间切分/purge"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.0,
+      "loose_recall@10": 0.0,
+      "top_theme": "audio"
+    },
+    {
+      "slug": "birdclef-2025",
+      "theme": "audio",
+      "truth_strict": [],
+      "truth_loose": [
+        "伪标签",
+        "知识蒸馏",
+        "阈值后处理"
+      ],
+      "routed_top10": [
+        "秩融合",
+        "爬山权重搜索",
+        "异质集成",
+        "ArcFace/subcenter",
+        "域内预训练权重",
+        "随机目标检验",
+        "目标档位吸附",
+        "阈值后处理",
+        "实体分组 CV",
+        "时间切分/purge"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.0,
+      "loose_recall@10": 0.3333333333333333,
+      "top_theme": "audio"
+    },
+    {
+      "slug": "birdclef-2026",
+      "theme": "audio",
+      "truth_strict": [],
+      "truth_loose": [
+        "伪标签",
+        "知识蒸馏",
+        "规则基线"
+      ],
+      "routed_top10": [
+        "秩融合",
+        "ArcFace/subcenter",
+        "爬山权重搜索",
+        "域内预训练权重",
+        "随机目标检验",
+        "目标档位吸附",
+        "阈值后处理",
+        "实体分组 CV",
+        "时间切分/purge",
+        "在线学习"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.0,
+      "loose_recall@10": 0.0,
+      "top_theme": "audio"
+    },
+    {
+      "slug": "UBC-OCEAN",
+      "theme": "cv",
+      "truth_strict": [],
+      "truth_loose": [
+        "ArcFace/subcenter",
+        "阈值后处理"
+      ],
+      "routed_top10": [
+        "实体分组 CV",
+        "提交对冲",
+        "阈值后处理",
+        "爬山权重搜索",
+        "时间切分/purge",
+        "随机目标检验",
+        "秩融合",
+        "目标档位吸附",
+        "知识蒸馏",
+        "异质集成"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.5,
+      "loose_recall@10": 0.5,
+      "top_theme": "tabular"
+    },
+    {
+      "slug": "benetech-making-graphs-accessible",
+      "theme": "cv",
+      "truth_strict": [],
+      "truth_loose": [
+        "伪标签",
+        "规则基线"
+      ],
+      "routed_top10": [
+        "时间切分/purge",
+        "在线学习",
+        "实体分组 CV",
+        "爬山权重搜索",
+        "随机目标检验",
+        "提交对冲",
+        "秩融合",
+        "目标档位吸附",
+        "知识蒸馏",
+        "异质集成"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.0,
+      "loose_recall@10": 0.0,
+      "top_theme": "cv"
+    },
+    {
+      "slug": "biohub-cell-tracking-during-development",
+      "theme": "cv",
+      "truth_strict": [],
+      "truth_loose": [
+        "伪标签",
+        "规则基线"
+      ],
+      "routed_top10": [
+        "期望错位后处理",
+        "实体分组 CV",
+        "爬山权重搜索",
+        "时间切分/purge",
+        "随机目标检验",
+        "提交对冲",
+        "秩融合",
+        "目标档位吸附",
+        "知识蒸馏",
+        "异质集成"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.0,
+      "loose_recall@10": 0.0,
+      "top_theme": "nlp"
+    },
+    {
+      "slug": "blood-vessel-segmentation",
+      "theme": "cv",
+      "truth_strict": [],
+      "truth_loose": [
+        "伪标签",
+        "提交对冲",
+        "阈值后处理"
+      ],
+      "routed_top10": [
+        "实体分组 CV",
+        "爬山权重搜索",
+        "时间切分/purge",
+        "随机目标检验",
+        "提交对冲",
+        "秩融合",
+        "目标档位吸附",
+        "知识蒸馏",
+        "异质集成",
+        "在线学习"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.3333333333333333,
+      "loose_recall@10": 0.3333333333333333,
+      "top_theme": "cv"
+    },
+    {
+      "slug": "byu-locating-bacterial-flagellar-motors-2025",
+      "theme": "cv",
+      "truth_strict": [],
+      "truth_loose": [
+        "伪标签",
+        "阈值后处理"
+      ],
+      "routed_top10": [
+        "实体分组 CV",
+        "爬山权重搜索",
+        "时间切分/purge",
+        "随机目标检验",
+        "提交对冲",
+        "秩融合",
+        "目标档位吸附",
+        "知识蒸馏",
+        "异质集成",
+        "在线学习"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.0,
+      "loose_recall@10": 0.0,
+      "top_theme": "science"
+    },
+    {
+      "slug": "fathomnet-out-of-sample-detection",
+      "theme": "cv",
+      "truth_strict": [
+        "未知类/OSD"
+      ],
+      "truth_loose": [
+        "未知类/OSD",
+        "规则基线",
+        "阈值后处理"
+      ],
+      "routed_top10": [
+        "未知类/OSD",
+        "中位数样本权重",
+        "黑箱代理评分",
+        "密度分层阈值",
+        "实体分组 CV",
+        "爬山权重搜索",
+        "时间切分/purge",
+        "随机目标检验",
+        "提交对冲",
+        "秩融合"
+      ],
+      "strict_recall@5": 1.0,
+      "strict_recall@10": 1.0,
+      "loose_recall@5": 0.3333333333333333,
+      "loose_recall@10": 0.3333333333333333,
+      "top_theme": "cv"
+    },
+    {
+      "slug": "ai-agent-security-multi-step-tool-attacks",
+      "theme": "nlp",
+      "truth_strict": [
+        "行动成本模型"
+      ],
+      "truth_loose": [
+        "工具集成推理(TIR)",
+        "行动成本模型",
+        "规则基线"
+      ],
+      "routed_top10": [
+        "自对弈对手多样性",
+        "Agent schema/预算",
+        "工具集成推理(TIR)",
+        "大候选+投票",
+        "评审闭环写作",
+        "身份辅助任务",
+        "课程学习+热启动",
+        "黑箱代理评分",
+        "域内预训练权重",
+        "行动掩码/冲突取消"
+      ],
+      "strict_recall@5": 0.0,
+      "strict_recall@10": 0.0,
+      "loose_recall@5": 0.3333333333333333,
+      "loose_recall@10": 0.3333333333333333,
+      "top_theme": "sim-agent"
+    },
+    {
+      "slug": "ai-mathematical-olympiad-progress-prize-2",
+      "theme": "nlp",
+      "truth_strict": [],
+      "truth_loose": [
+        "工具集成推理(TIR)",
+        "知识蒸馏",
+        "规则基线"
+      ],
+      "routed_top10": [
+        "工具集成推理(TIR)",
+        "大候选+投票",
+        "课程学习+热启动",
+        "阈值后处理",
+        "黑箱代理评分",
+        "提交对冲",
+        "实体分组 CV",
+        "评审闭环写作",
+        "行动掩码/冲突取消",
+        "知识蒸馏"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.3333333333333333,
+      "loose_recall@10": 0.6666666666666666,
+      "top_theme": "nlp"
+    },
+    {
+      "slug": "ai-mathematical-olympiad-progress-prize-3",
+      "theme": "nlp",
+      "truth_strict": [],
+      "truth_loose": [
+        "工具集成推理(TIR)",
+        "知识蒸馏",
+        "规则基线"
+      ],
+      "routed_top10": [
+        "工具集成推理(TIR)",
+        "大候选+投票",
+        "提交对冲",
+        "实体分组 CV",
+        "阈值后处理",
+        "评审闭环写作",
+        "知识蒸馏",
+        "在线学习",
+        "目标档位吸附",
+        "课程学习+热启动"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.3333333333333333,
+      "loose_recall@10": 0.6666666666666666,
+      "top_theme": "nlp"
+    },
+    {
+      "slug": "bigquery-ai-hackathon",
+      "theme": "nlp",
+      "truth_strict": [
+        "评审闭环写作"
+      ],
+      "truth_loose": [
+        "规则基线",
+        "评审闭环写作"
+      ],
+      "routed_top10": [
+        "评审闭环写作",
+        "工具集成推理(TIR)",
+        "课程学习+热启动",
+        "行动成本模型",
+        "黑箱代理评分",
+        "行动掩码/冲突取消",
+        "大候选+投票",
+        "自对弈对手多样性",
+        "ArcFace/subcenter",
+        "爬山权重搜索"
+      ],
+      "strict_recall@5": 1.0,
+      "strict_recall@10": 1.0,
+      "loose_recall@5": 0.5,
+      "loose_recall@10": 0.5,
+      "top_theme": "nlp"
+    },
+    {
+      "slug": "commonlit-evaluate-student-summaries",
+      "theme": "nlp",
+      "truth_strict": [],
+      "truth_loose": [
+        "伪标签",
+        "实体分组 CV"
+      ],
+      "routed_top10": [
+        "阈值后处理",
+        "ArcFace/subcenter",
+        "爬山权重搜索",
+        "域内预训练权重",
+        "随机目标检验",
+        "目标档位吸附",
+        "秩融合",
+        "实体分组 CV",
+        "时间切分/purge",
+        "在线学习"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.0,
+      "loose_recall@10": 0.5,
+      "top_theme": "nlp"
+    },
+    {
+      "slug": "deep-past-initiative-machine-translation",
+      "theme": "nlp",
+      "truth_strict": [],
+      "truth_loose": [
+        "伪标签",
+        "规则基线"
+      ],
+      "routed_top10": [
+        "ArcFace/subcenter",
+        "爬山权重搜索",
+        "域内预训练权重",
+        "随机目标检验",
+        "目标档位吸附",
+        "秩融合",
+        "阈值后处理",
+        "实体分组 CV",
+        "时间切分/purge",
+        "在线学习"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.0,
+      "loose_recall@10": 0.0,
+      "top_theme": "sim-agent"
+    },
+    {
+      "slug": "ariel-data-challenge-2024",
+      "theme": "science",
+      "truth_strict": [],
+      "truth_loose": [
+        "规则基线",
+        "阈值后处理"
+      ],
+      "routed_top10": [
+        "LLM 引用核验",
+        "时间切分/purge",
+        "黑箱代理评分",
+        "Agent schema/预算",
+        "在线学习",
+        "评审闭环写作",
+        "身份辅助任务",
+        "自对弈对手多样性",
+        "域内预训练权重",
+        "ArcFace/subcenter"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.0,
+      "loose_recall@10": 0.0,
+      "top_theme": "science"
+    },
+    {
+      "slug": "ariel-data-challenge-2025",
+      "theme": "science",
+      "truth_strict": [],
+      "truth_loose": [
+        "伪标签",
+        "阈值后处理"
+      ],
+      "routed_top10": [
+        "LLM 引用核验",
+        "时间切分/purge",
+        "在线学习",
+        "评审闭环写作",
+        "自对弈对手多样性",
+        "ArcFace/subcenter",
+        "爬山权重搜索",
+        "域内预训练权重",
+        "随机目标检验",
+        "目标档位吸附"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.0,
+      "loose_recall@10": 0.0,
+      "top_theme": "science"
+    },
+    {
+      "slug": "birdclef-2024",
+      "theme": "science",
+      "truth_strict": [],
+      "truth_loose": [
+        "伪标签",
+        "知识蒸馏"
+      ],
+      "routed_top10": [
+        "秩融合",
+        "黑箱代理评分",
+        "Agent schema/预算",
+        "身份辅助任务",
+        "域内预训练权重",
+        "ArcFace/subcenter",
+        "爬山权重搜索",
+        "随机目标检验",
+        "目标档位吸附",
+        "阈值后处理"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.0,
+      "loose_recall@10": 0.0,
+      "top_theme": "audio"
+    },
+    {
+      "slug": "csiro-biomass",
+      "theme": "science",
+      "truth_strict": [],
+      "truth_loose": [
+        "伪标签",
+        "在线学习",
+        "实体分组 CV",
+        "身份辅助任务"
+      ],
+      "routed_top10": [
+        "ArcFace/subcenter",
+        "爬山权重搜索",
+        "域内预训练权重",
+        "随机目标检验",
+        "目标档位吸附",
+        "秩融合",
+        "阈值后处理",
+        "实体分组 CV",
+        "时间切分/purge",
+        "在线学习"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.0,
+      "loose_recall@10": 0.5,
+      "top_theme": "science"
+    },
+    {
+      "slug": "leap-atmospheric-physics-ai-climsim",
+      "theme": "science",
+      "truth_strict": [],
+      "truth_loose": [
+        "伪标签",
+        "工具集成推理(TIR)",
+        "爬山权重搜索",
+        "随机目标检验"
+      ],
+      "routed_top10": [
+        "评审闭环写作",
+        "工具集成推理(TIR)",
+        "课程学习+热启动",
+        "行动成本模型",
+        "黑箱代理评分",
+        "行动掩码/冲突取消",
+        "大候选+投票",
+        "自对弈对手多样性",
+        "ArcFace/subcenter",
+        "爬山权重搜索"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.25,
+      "loose_recall@10": 0.5,
+      "top_theme": "science"
+    },
+    {
+      "slug": "leash-BELKA",
+      "theme": "science",
+      "truth_strict": [],
+      "truth_loose": [
+        "域内预训练权重",
+        "规则基线",
+        "阈值后处理"
+      ],
+      "routed_top10": [
+        "IBN/直方图域适应",
+        "ArcFace/subcenter",
+        "爬山权重搜索",
+        "域内预训练权重",
+        "随机目标检验",
+        "目标档位吸附",
+        "秩融合",
+        "阈值后处理",
+        "实体分组 CV",
+        "时间切分/purge"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.3333333333333333,
+      "loose_recall@10": 0.6666666666666666,
+      "top_theme": "nlp"
+    },
+    {
+      "slug": "ai-village-capture-the-flag-defcon31",
+      "theme": "sim-agent",
+      "truth_strict": [],
+      "truth_loose": [
+        "对抗验证",
+        "爬山权重搜索",
+        "阈值后处理",
+        "黑箱代理评分"
+      ],
+      "routed_top10": [
+        "自对弈对手多样性",
+        "黑箱代理评分",
+        "行动成本模型",
+        "Agent schema/预算",
+        "工具集成推理(TIR)",
+        "大候选+投票",
+        "结构约束投影",
+        "评审闭环写作",
+        "在线学习",
+        "身份辅助任务"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.25,
+      "loose_recall@10": 0.25,
+      "top_theme": "sim-agent"
+    },
+    {
+      "slug": "ai-village-ctf",
+      "theme": "sim-agent",
+      "truth_strict": [
+        "黑箱代理评分"
+      ],
+      "truth_loose": [
+        "对抗验证",
+        "规则基线",
+        "黑箱代理评分"
+      ],
+      "routed_top10": [
+        "自对弈对手多样性",
+        "黑箱代理评分",
+        "行动成本模型",
+        "Agent schema/预算",
+        "工具集成推理(TIR)",
+        "大候选+投票",
+        "评审闭环写作",
+        "身份辅助任务",
+        "课程学习+热启动",
+        "域内预训练权重"
+      ],
+      "strict_recall@5": 1.0,
+      "strict_recall@10": 1.0,
+      "loose_recall@5": 0.3333333333333333,
+      "loose_recall@10": 0.3333333333333333,
+      "top_theme": "sim-agent"
+    },
+    {
+      "slug": "autonomous-agent-prediction-beta",
+      "theme": "sim-agent",
+      "truth_strict": [
+        "Agent schema/预算"
+      ],
+      "truth_loose": [
+        "Agent schema/预算",
+        "规则基线"
+      ],
+      "routed_top10": [
+        "Agent schema/预算",
+        "自对弈对手多样性",
+        "行动成本模型",
+        "工具集成推理(TIR)",
+        "时间切分/purge",
+        "规则基线",
+        "大候选+投票",
+        "身份辅助任务",
+        "域内预训练权重",
+        "isotonic 校准"
+      ],
+      "strict_recall@5": 1.0,
+      "strict_recall@10": 1.0,
+      "loose_recall@5": 0.5,
+      "loose_recall@10": 1.0,
+      "top_theme": "sim-agent"
+    },
+    {
+      "slug": "fide-google-efficiency-chess-ai-challenge",
+      "theme": "sim-agent",
+      "truth_strict": [],
+      "truth_loose": [
+        "自对弈对手多样性",
+        "规则基线"
+      ],
+      "routed_top10": [
+        "自对弈对手多样性",
+        "Agent schema/预算",
+        "行动成本模型",
+        "评审闭环写作",
+        "工具集成推理(TIR)",
+        "大候选+投票",
+        "知识蒸馏",
+        "域内预训练权重",
+        "LLM 引用核验",
+        "身份辅助任务"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.5,
+      "loose_recall@10": 0.5,
+      "top_theme": "sim-agent"
+    },
+    {
+      "slug": "kore-2022",
+      "theme": "sim-agent",
+      "truth_strict": [],
+      "truth_loose": [
+        "对抗验证",
+        "规则基线"
+      ],
+      "routed_top10": [
+        "自对弈对手多样性",
+        "规则基线",
+        "Agent schema/预算",
+        "行动成本模型",
+        "大候选+投票",
+        "isotonic 校准",
+        "工具集成推理(TIR)",
+        "身份辅助任务",
+        "未知类/OSD",
+        "单参数校准"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.5,
+      "loose_recall@10": 0.5,
+      "top_theme": "sim-agent"
+    },
+    {
+      "slug": "kore-2022-beta",
+      "theme": "sim-agent",
+      "truth_strict": [
+        "规则基线"
+      ],
+      "truth_loose": [
+        "对抗验证",
+        "规则基线"
+      ],
+      "routed_top10": [
+        "自对弈对手多样性",
+        "规则基线",
+        "Agent schema/预算",
+        "isotonic 校准",
+        "单参数校准",
+        "行动成本模型",
+        "大候选+投票",
+        "工具集成推理(TIR)",
+        "身份辅助任务",
+        "未知类/OSD"
+      ],
+      "strict_recall@5": 1.0,
+      "strict_recall@10": 1.0,
+      "loose_recall@5": 0.5,
+      "loose_recall@10": 0.5,
+      "top_theme": "sim-agent"
+    },
+    {
+      "slug": "amex-default-prediction",
+      "theme": "tabular",
+      "truth_strict": [
+        "时间切分/purge"
+      ],
+      "truth_loose": [
+        "时间切分/purge",
+        "知识蒸馏"
+      ],
+      "routed_top10": [
+        "时间切分/purge",
+        "isotonic 校准",
+        "单参数校准",
+        "Agent schema/预算",
+        "秩融合",
+        "提交对冲",
+        "多目标拆合",
+        "结构约束投影",
+        "异质集成",
+        "爬山权重搜索"
+      ],
+      "strict_recall@5": 1.0,
+      "strict_recall@10": 1.0,
+      "loose_recall@5": 0.5,
+      "loose_recall@10": 0.5,
+      "top_theme": "nlp"
+    },
+    {
+      "slug": "child-mind-institute-detect-sleep-states",
+      "theme": "tabular",
+      "truth_strict": [],
+      "truth_loose": [
+        "规则基线",
+        "阈值后处理"
+      ],
+      "routed_top10": [
+        "isotonic 校准",
+        "单参数校准",
+        "未知类/OSD",
+        "秩融合",
+        "多目标拆合",
+        "密度分层阈值",
+        "结构约束投影",
+        "提交对冲",
+        "异质集成",
+        "时间切分/purge"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.0,
+      "loose_recall@10": 0.0,
+      "top_theme": "tabular"
+    },
+    {
+      "slug": "cmi-detect-behavior-with-sensor-data",
+      "theme": "tabular",
+      "truth_strict": [],
+      "truth_loose": [
+        "伪标签",
+        "规则基线"
+      ],
+      "routed_top10": [
+        "isotonic 校准",
+        "时间切分/purge",
+        "单参数校准",
+        "多目标拆合",
+        "秩融合",
+        "结构约束投影",
+        "在线学习",
+        "提交对冲",
+        "异质集成",
+        "爬山权重搜索"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.0,
+      "loose_recall@10": 0.0,
+      "top_theme": "tabular"
+    },
+    {
+      "slug": "foursquare-location-matching",
+      "theme": "tabular",
+      "truth_strict": [],
+      "truth_loose": [
+        "ArcFace/subcenter",
+        "阈值后处理"
+      ],
+      "routed_top10": [
+        "isotonic 校准",
+        "单参数校准",
+        "多目标拆合",
+        "秩融合",
+        "结构约束投影",
+        "提交对冲",
+        "异质集成",
+        "时间切分/purge",
+        "爬山权重搜索",
+        "域内预训练权重"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.0,
+      "loose_recall@10": 0.0,
+      "top_theme": "tabular"
+    },
+    {
+      "slug": "hms-harmful-brain-activity-classification",
+      "theme": "tabular",
+      "truth_strict": [],
+      "truth_loose": [
+        "伪标签",
+        "规则基线"
+      ],
+      "routed_top10": [
+        "isotonic 校准",
+        "提交对冲",
+        "单参数校准",
+        "多目标拆合",
+        "身份辅助任务",
+        "秩融合",
+        "域内预训练权重",
+        "结构约束投影",
+        "阈值后处理",
+        "未知类/OSD"
+      ],
+      "strict_recall@5": null,
+      "strict_recall@10": null,
+      "loose_recall@5": 0.0,
+      "loose_recall@10": 0.0,
+      "top_theme": "tabular"
+    },
+    {
+      "slug": "home-credit-credit-risk-model-stability",
+      "theme": "tabular",
+      "truth_strict": [
+        "提交对冲"
+      ],
+      "truth_loose": [
+        "伪标签",
+        "对抗验证",
+        "提交对冲",
+        "规则基线"
+      ],
+      "routed_top10": [
+        "提交对冲",
+        "isotonic 校准",
+        "中位数样本权重",
+        "单参数校准",
+        "多目标拆合",
+        "秩融合",
+        "时间切分/purge",
+        "结构约束投影",
+        "异质集成",
+        "爬山权重搜索"
+      ],
+      "strict_recall@5": 1.0,
+      "strict_recall@10": 1.0,
+      "loose_recall@5": 0.25,
+      "loose_recall@10": 0.25,
+      "top_theme": "tabular"
+    }
+  ]
+}

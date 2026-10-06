@@ -84,7 +84,7 @@ def main() -> int:
     parser.add_argument("--leak-threshold", type=float, default=0.99,
                         help="单特征 AUC 超过该值判 FAIL（默认 0.99）")
     parser.add_argument("--tie-warn", type=float, default=0.01,
-                        help="重复预测占比超过该值给 WARN（默认 1%）")
+                        help="重复预测占比超过该值给 WARN（默认 0.01，即 1%%）")
     args = parser.parse_args()
 
     oof_path = pathlib.Path(args.oof)

@@ -24,6 +24,18 @@ description: Kaggle 上分决策与经验迁移。面对新比赛时，从 264 �
 6. **输出 Improvement Plan**：按 `references/improvement-plan-protocol.md` 阶段 5 的模板交付；多 agent 协作按阶段 6 的角色与交接物执行。
 7. **收官保护**：提交组合/对冲、格式体检、冻结协议（`references/submission-portfolio.md`、`assets/endgame_checklist.md`、`scripts/submission_guard.py`）。
 
+## 阅读协议（token 预算 + 渐进披露）
+
+1. **0–2 分钟（路由）**：`python scripts/recommend.py --task <…> --metric <…> --tags <…> --theme <…>`；
+   只读它给出的前 2 个文档小节，不翻整本案例书。
+2. **2–10 分钟（取证据）**：`case_card.py` 读 1–2 场 top 案例；`technique_lookup.py` 查 2–3 个技法；
+   `gm_claim_search.py --strict-units 2` 查 1 组 GM 决策项。
+3. **开工前**：`plan_builder.py` 出骨架 → `plan_tracker.py` 预注册（MDE/kill）→ 再按需 grep 案例书对应小节。
+
+- 预算：首条假设前参考阅读 ≤8k tokens；完整 Improvement Plan 前 ≤25k tokens。
+- 禁止：整本读 `references/case-books/*.md`；无 slug/claim_id 的引用；跳过 `experiment-protocol.md` 直接开跑。
+- 自检：任何交付前跑 `python scripts/doctor.py`（仓库门禁）与 `python scripts/agent_audit.py`（产物审计）。
+
 ## 上分阶梯（按 expected gain / hour）
 
 1. 修验证/指标口径/提交格式 —— 最大且最便宜；
@@ -56,6 +68,9 @@ description: Kaggle 上分决策与经验迁移。面对新比赛时，从 264 �
 | 想用编码 agent 迁移脚本/跑批量实验 | 先查 `agent-kaggle-playbook.md` 的决策表与合规红线，再按 T1–T4 选拓扑 + 事务门 |
 | 表格赛要压最后一截（校准/融合/残差） | 查 `tabular-advanced-recipes.md`（CIR、FFT-AUC、base_margin、Fréchet、lexrank），先过同折对照 |
 | 模拟赛超时/吞吐/部署受限 | 查 `sim-engineering.md`（加速层级、单次多玩家前向、NF4 量化、兜底断路器） |
+| 公榜领先 0.0005，想确认是不是噪声 | `scripts/lb_noise.py` 算 SE / 名次反转概率 / MDL，再决定是否占提交 |
+| 一次试了十几条假设 | `scripts/oof_report.py --manifest variants.csv --fdr 0.05`（BH-FDR），并回到 `plan_tracker.py` 补预注册 |
+| 想量化"技能有没有变好" | `scripts/skill_eval.py`（留一法 recall@5/@10 + 基线），产物 `assets/skill_eval_latest.json` |
 
 ## 资源路由
 
@@ -86,6 +101,9 @@ description: Kaggle 上分决策与经验迁移。面对新比赛时，从 264 �
 - 模拟赛工程（加速层级与 parity / 多实体注意力 / PPO 联赛 / NF4 量化与部署兜底） → `references/sim-engineering.md`
 - agent 提示词模板（生成器逆向 / PyTorch 合成 / 爬山堆叠 / 独立审计 / 两段漏斗） → `assets/agent_prompt_templates.md`
 - agent 产物审计（长度/NaN/行序/折覆盖/折哈希/平局率/单特征泄漏烟雾测试） → `scripts/agent_audit.py`（FAIL 即禁止提交）
+- 统一入口路由（比赛卡 → 文档/案例/技法/GM/脚本） → `scripts/recommend.py`；仓库门禁 → `scripts/doctor.py`（引用/schema/脚本冒烟/生成器新鲜度）
+- 预注册台账（假设/MDE/kill 自动判定） → `scripts/plan_tracker.py`；公榜噪声/名次反转/MDL → `scripts/lb_noise.py`；技能自评 → `scripts/skill_eval.py`
+- 欠覆盖方向（推荐/排序、优化/黑箱、时间序列） → `references/undercovered-domains.md`
 - 提交 CSV 体检 → `scripts/submission_guard.py`
 - 折文件/台账生成 → `scripts/experiment_harness.py`；OOF 指标 + bootstrap CI + 配对比较 → `scripts/oof_report.py`
 - 台账/收官模板 → `assets/experiment_ledger_template.csv`、`assets/endgame_checklist.md`
